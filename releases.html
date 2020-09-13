@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Character Controller Pro - Releases</title>  
+    
+    <link rel="stylesheet" type="text/css" href="Navigation.css">
+</head>
+
+<body>
+
+    <nav class = "navigationBar">
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a class="active" href="releases.html">Releases</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> 
+    </nav>
+
+    
+
+    <div class = "navigationBody">
+        
+        <h1>Releases</h1> 
+
+        <div class="contentBox">
+            <h2 >1.1.2</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>Unstable grounded jump: The NormalMovement incorporates a new variable, useful to allow (or not) the character to jump on unstable grounds (see vertical movement parameters). By default this variable is false.</li>
+                <li>External velocity settings: More settings related to this feature, now you can choose to ignore (or not) the external velocity caused by static colliders and/or kinematic rigidbodies.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Capsule model: The capsule height didn't match the CCP Character model.</li>
+                <li>Custom input handler: It was impossible to add a custom input handler component to the CharacterBrain.</li>
+                <li>Graphics scaler offset: There wasn't a way to handle the offset of the graphics when changing the scale. 
+                    This was a problem for objects with a pivot at the center (e.g. the default Unity's capsule).</li>
+                <li>Slide (NormalMovement state): Sometimes the character went from "state grounded" to "unstable" state due to collision detection issues.</li>
+                <li>AISequenceBehaviour: There was a bug with the OnWallHit type of sequence, basically a false contact, making the character to remain in a loop (same action over and over again).</li>
+            </ul>
+        </div>
+
+        <div class="contentBox">
+            <h2 >1.1.1</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>Crouch: a "enableCrouch" toggle was added to the crouch settings (NormalMovement state).</li>
+                <li>New input system handler: A new input handler component (based on the implementation presented in the online documentation) has been added. Since managing external packages and dependencies can be difficult and sometimes buggy (at least in 2019.3), the code has been commented from top to bottom (to avoid obvious compile errors). If you have installed the new input system, you only need to uncomment the entire script and use this new component as a custom input handler. For more information about this topic, please see the instructions presented in the "How to..." section (online documentation).</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>External movement reference: A null external movement reference (CharacterStateController) was causing a null reference exception, with no warning mentioning the cause. Now it should at least print a warning in the console (without any null reference exception).</li>
+                <li>Transitions: The state machine was skipping one element of the transition queue everytime (the "for" loop was replaced with a "while").</li>
+            </ul>
+        </div>
+
+        <div class="contentBox">
+            <h2 >1.1.0</h2>
+            
+            <h4>Added</h4>
+            
+            <ul>
+            <li>Character Actor</li>
+            <ul>
+                <li>Kinematic character (no collision detection): You can enable/disable the "isKinematic" option anytime, from the CharacterActor. This will NOT transform the dynamic character into a proper kinematic character, it will just allow the character to pass through walls.</li>
+                <li>Step up/down transition: The step up/down speed can be controlled in the CharacterActor inspector. This will basically help to prevent abrupt changes to the character vertical movement (grounded).</li>
+                <li>Grounded and NotGrounded time: You can now easily get the time the character has been grounded or not.</li>
+                <li>Character Actor state: The character always had two very important flags, "grounded" and "stable". Now you can check for the "state" of the CharacterActor, which basically involves a combination of these two flags. For example: StableGrounded (Grounded && Stable), NotGrounded ( !Grounded ) and UnstableGrounded (Grounded && !Stable ).</li>
+                <li>External velocity: The velocity caused by the Physics simulation (e.g. a heavier object hitting the character) can be added to the rigidbody original velocity (called input velocity). Basically with this option you are able to handle this effect, whether you want complete control over the velocity (ignoring it), or making the character react to external impulses (for "free", without having to manually process these collisions using contacts).</li>                
+            </ul>
+
+            <li>Animation</li>
+            <ul>
+                <li>Animator: Every CharacterState has access to the Animator component. The state machine will find and "link" the component automatically (it does not need to be in the same object).</li>
+                <li>Root motion: Enable/Disable root motion from within the state anytime. Basically the position and rotation of the character will be controlled by the animation clip.</li> 
+                <li>IK support: A new virtual method (UpdateIK) is dedicated to modify the IK behaviour (a "linked" version of the OnAnimatorIK message).</li> 
+                <li>New "Demo character": A new fully animated 3D "Humanoid" character, replacing the old one.</li>                 
+            </ul>
+
+            <li>Actions</li>
+            <ul>
+                <li>Character Action Asset: Create your custom actions using the editor (ScriptableObject).</li> 
+                <li>AI Behaviours: The AI logic is now separated from the CharacterBrain component, meaning that you can add your custom behaviours. The asset includes the same behaviours as before (Follow and Sequence) and a new one (Wander).</li>    
+
+            </ul>
+
+            <li>States</li>
+            <ul>
+                <li>Ledge hanging state.</li>
+                <li>Ladder climbing state.</li> 
+                <li></li>
+                <li>Run input mode (hold or toggle) for the NormalMovement state.</li>
+                <li>Crouch input mode (hold or toggle) for the NormalMovement state (now with a proper model animation).</li>
+                <li>Coyote time for the NormalMovement state.</li>
+                <li>Speed limit + Acceleration/Deceleration settings. Now you can control these settings separately for planar and vertical movement (this is fully compatible with the materials settings).</li>
+                               
+            </ul>
+
+            <li>Camera</li>
+            <ul>
+                <li>First person mode (Camera3D): The Camera3D now has the first person mode, as well as a hideBody option to hide the character mesh (widely used in first person characters).</li> 
+                <li>Input handler for the camera: The Camera3D now uses an input handler as the main input gathering method.</li>
+            </ul>
+
+        </ul>
+
+            <h4>Changes</h4>
+            <ul>
+                <li>Demo content: Most of the example components (previously in the Implementation part) have been moved to the Demo (e.g. states, scriptable objects, camera scripts, materials, etc ). Hopefully this will make much more clear what's part of the controller/system, and what's optional content.</li>
+                <li>Character hierarchy: Most of the character components (ignoring CharacterActor and CharacterBody) can be placed anywhere within the character hierarchy (character object). This will allow you to organize your content better (if you want to).</li>
+                <li>Instant changes: The character will process all the important changes (in position, rotation, grounded state, etc) instantly. For example, after you use "ForceNotGrounded", the character grounded state will be false.</li>
+                <li>Vertical Alignment: The "Gravity" settings has been changed to "Vertical Alignment" settings (since this functionality has nothing to do with gravity itself).</li>
+                <li>State "Name" property: This property has been removed. In order to refer to a particular state, use the GetState method from the CharacterStateController component.</li>
+                <li>MaterialsController: The materials are no longer a part of the state controller, since this component wasn't really needed for the state machine (see the "Demo content" from above). Instead, now there is a MaterialController component available for you to use. See the "Environment" child object (any character from the demo scenes).</li>
+                <li>Material acceleration/deceleration: The "control" parameter has been replaced with acceleration and deceleration (just to avoid confusion).</li>
+                <li>CharacterGraphics: This component is no longer required for the graphics object. Instead, it has been splitted into two more extra graphics-related components (optional).</li>
+            </ul>
+            
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Abrupt deceleration (NormalMovement state): The character was abruptly decelerating after a jump.</li>
+                <li>Multi-State transitions: The FSM was not able to check multiple potential states at once.</li>
+                <li>CharacterAction phase: It was possible to modify the "phase" of the action (e.g. a button action could be "pressed" and "released" at the same time). Now you can only get/set the value of a particular action.</li>
+            </ul>
+        </div>
+
+
+
+        <div class="contentBox">
+            <h2 >1.0.5</h2>
+
+            <h4>Changes</h4>
+            <ul>
+                <li>Input data: the camera now responds to "Camera Horizontal", "Camera Vertical" and "Camera Zoom" inputs.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Scene error: "[Physics.PhysX] QuickHullConvexHullLib ...". This was caused by a plane mesh with a convex MeshCollider on it.</li>
+            </ul>
+        </div>
+
+        <div class="contentBox">
+            <h2 >1.0.4</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>Scene Controller events: Now it's possible to listen to events from the scene controller (OnSimulationStart, OnSimulationEnd, OnCharacterSimulationStart and OnCharacterSimulationEnd)</li>
+                <li>Multi-triggers: This means that the character is able to recognize more than one trigger at the same time, allowing to interesting gameplay mechanics.</li>
+                <li>Invert axis: Now the "InputAxes" component allows to invert the horizontal and/or vertical axis.</li>  
+                <li>Interact: A new input axis ("Interact") has been added.</li> 
+                <li>Camera inputs: "cameraHorizontalAxis", "cameraVerticalAxis" and "cameraZoomAxis" have been added to the input data.</li>               
+                <li>Character Actor: IgnoreLayer and IgnoreLayerMask methods.</li>
+            </ul>
+
+            <h4>Changes</h4>
+            <ul>
+                <li>The scene controller now must be added to the scene. Just drag and drop the "Scene Controller" prefab into the scene, done.</li>
+                <li>The "3D Scene" scene has been modified (multiple triggers).</li>
+                <li>The "Mobile Scene" scene has been modified.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Import errors: Due to some prefab missing references a bunch of errors were shown on the console when importing the package.</li>
+                <li>Character Actions: The character was resetting the actions incorrectly when there were two or more "FixedUpdate" calls between "Update" calls. This was causing the character to stop moving when the framerate was really low.</li>
+                <li>Not grounded jump: The character wasn't reseting the available jumps count.</li>
+                <li>Material vs trigger: When entering a non-material trigger the character was resetting its material data (default material).</li>
+                <li>Camera 3D: The camera was looking at a wrong target position.</li>
+            </ul>
+        </div>
+        
+        <div class="contentBox">
+            <h2 >1.0.3</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>CharacterActorBehaviour: The character actor component now runs its own "behaviour" before anything else (ensuring a correct execution order). The CharacterStateController has been converted into a CharacterActorBehaviour.</li>
+                <li>Contacts: The PhysicsComponent now is capable of collecting all the contacts (in a frame) from the OnCollisionEnter and OnCollisionStay callbacks.</li>
+                <li>Collision response contacts: The CharacterActor now contains a list of contacts that come from OnCollisionEnter callbacks, due to dynamic rigidbodies that use the "Contact Rigidbodies" tag. This is used to create the external velocity in the NormalMovement state.</li>
+                <li>Max. Rigidbody response velocity: The response velocity now can be clamped to a maximum value.</li>
+                <li>Debug Gizmos toggle: The CharacterActor allows to show/hide the gizmos.</li>                
+            </ul>
+
+            <h4>Changes</h4>
+            <ul>
+                <li>Character Graphics: This component does not require any external reference anymore (it will automatically get all the children).</li>
+                <li>The "Performance" scene has been re-designed.</li>
+                <li>Jump variables names: some of the jump-related variable names (NormalMovement component) has been changed.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Jump: The character was unable to jump when the "Jump cancellation mode" was disabled.</li>
+                <li>Dash: The character was unable to react to collisions during the Dash state.</li>
+            </ul>
+        </div>
+
+        <!--  -------------------------------------------------  -->
+        
+        <div class="contentBox">
+            <h2 >1.0.2</h2>
+
+            
+            <h4>Added</h4>
+            <ul>
+                <li>Animator: new play "Transition" and "PlayState" modes. Now the states can be use either by playing them directly (Animator.Play) or by using triggers/transitions.</li>
+                <li>CharacterAnimation: the animation component is now using FixedUpdate rather than Update to handle the states.</li>
+                <li>CharacterActor: new "TargetPosition" public property.</li>
+                <li>CharacterActor: new "RigidbodyVelocity" public property.</li>
+                <li>CharacterActor: new "RigidbodyStaticVelocity" public property.</li>
+                <li>Camera3D: position interpolation is now divided into "planar" (the plane formed by the character up direction) and "up". Both interpolations can be configured separately.</li>
+                <li>CharacterGraphics: rotation offset. This basically will offset the orientation of the graphics object.</li>
+                <li>CharacterGraphics: "Rotation" and "Scale" facing direction modes.</li>
+                <li>Character Actor and Kinematic Actor: Enable/Disable options. Now both, characters and kinematic actors, can be enabled/disabled at any time (using the classic checkbox from the inspector). These actions will freeze/unfreeze the rigidbody.</li>
+            </ul>
+
+            <h4>Changes</h4>
+                
+            <ul>
+                <li>3D Scene: it has been modified a little.</li>
+                <li>Demo Character: the default Demo character model has been completely replaced with a humanoid model.</li>
+                <li>Crouch: it is called "Shrink" now, since it's more appropriate.</li>
+                <li>Arrow modifier: it is called "Gravity modifier", since it's more appropriate.</li>
+                <li>CharacterAnimation: now it uses hashes rather than strings.</li>
+                <li>CharacterActor: the character will use the graphics object forward as the desired forward direction, rather than transform.forward (for3D) and transform.right (for 2D).</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+                
+            <ul>
+                <li>CharacterParticles: the CharacterAnimation caused an error when the CharacterParticles component was disabled (due to a missing "PlayFootstep" method).</li>
+                <li>Crouch: the character didn't change its size when standing on steep slopes.</li>
+                <li>Step handling: now the step up action should be much more smoother than before.</li>
+                <li>Gravity modifiers: incorrect facing direction when the character entered a gravity modifier.</li>
+            </ul>
+        </div>
+
+        <!--  -------------------------------------------------  -->
+              
+        
+        <div class="contentBox">
+            <h2>1.0.1</h2>
+            
+            <h4>Added</h4>
+            <ul>
+                <li>RigidbodyComponent component.</li>
+                <li>ColliderComponent component.</li>
+                <li>PhysicsComponent component.</li>
+                <li>CharacterBody component.</li>
+                <li>New "Sphere" and "Circle" body types (CharacterBody component).</li>
+                <li>A new "useGravity" toggle for the NormalMovement component.</li>
+                <li>A new scene called "Performance".</li>
+            </ul>
+            <h4>Changes</h4>
+
+            <ul>
+                <li>The CharacterMotor2D and CharacterMotor3D components were replaced by the CharacterActor component.</li>
+                <li>The ActionBasedPlatform2D and ActionBasedPlatform3D components were replaced by the ActionBasedPlatform component.</li>
+                <li>The NodeBasedPlatform2D and NodeBasedPlatform3D components were replaced by the NodeBasedPlatform component.</li>
+                <li>The KinematicSceneController was replaced by the SceneController. Now the SceneController is responsible for updating the characters and the kinematic actors.</li>
+                <li>The kinematic platforms and the cameras are now kinematic actors.</li>
+            </ul>
+
+            <h4>Fixed</h4>
+        
+            <ul>
+                <li>A bug with the vertical not grounded movement (CharacterMotor). This was making the character to slowly descend (depending on the skinWidth value) even if the vertical velocity was zero.</li>
+            </ul>
+        </div>
+
+        <!--  -------------------------------------------------  -->
+        
+        
+        <div class="contentBox">
+            <h2>1.0.0</h2>
+            <p>First release.</p>
+        </div>
+    
+    </div>
+
+        
+
+</body>
+</html>

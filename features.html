@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Character Controller Pro - Features</title>  
+    
+    <link rel="stylesheet" type="text/css" href="Navigation.css">
+</head>
+
+<body>
+
+    <nav class = "navigationBar">
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a class="active" href="features.html">Features</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="releases.html">Releases</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> 
+    </nav>
+
+    <div class = "navigationBody">
+        
+        <h1>Features</h1>
+
+        <h2>Version 1.1.0</h2>
+
+        <hr></hr>
+        <span style="display:block; height:25px;"></span>
+        
+        <div class="contentBox">
+            <h3>Core</h3>
+
+            <ul>            
+                <li>Rigidbody based.
+                <li>Capsule/Sphere body.
+                <li>2D & 3D physics.
+                <li>2D & 3D movement.
+                <li>The character can walk over anything above a certain "step offset" (the transition speed can be adjusted).
+                <li>The character can walk over any slope (you can set the "slope limit" angle).
+                <li>The character can resize at runtime.
+                <li>Moving/Rotating kinematic platforms support.
+                <li>Collision information (ground normal, slope angle, edge detection, wall angle, etc.).
+                <li>Collision events.
+                <li>The character can be rotated (vertical alignment).
+            </ul> 
+        </div>
+
+
+        <div class="contentBox">
+            <h3>Implementation</h3>
+
+            <ul>
+                <li>State controller implemented as a finite state machine (FSM).
+                <li>Create your custom states for your character.                
+                <li>Action-based movement (for the Human and the AI).
+                <li>Create your custom AI behaviour components for your AI character.
+                <li>Input detection for:</li>
+                <ul>
+                    <li>Desktop (using the Unity's Input manager).
+                    <li>Mobile (using the Unity's UI system).
+                    <li>Custom solution (to be implemented by you).
+                </ul>
+                <li>Animation support (using Mecanim) for each state. <strong>One Animator controller per state</strong>.
+            </ul>
+    </div> 
+
+    <div class="contentBox">
+        <h3>Demo</h3>
+
+        <h4>Character</h4>
+        <ul>
+            <li>Walk and Run.
+            <li>Crouch.
+            <li>Jumps: Variable height, multiple, coyote time.
+            <li>Ground and air control.            
+            <li>Material properties (Customize the amount of movement control for the different surfaces and volumes).            
+            <li>Dash.
+            <li>JetPack.
+            <li>Ladder climbing.</li>
+            <li>Ledge hanging.</li>
+        </ul>
+
+        <h4>Platforms</h4>
+        <ul>
+            <li>Moving/Rotating Platform Controller.
+        </ul>
+
+        
+        <h4>Camera</h4>
+        <ul>
+            <li>2D Camera.
+            <li>3D Camera (First/Third person).
+        </ul>
+    </div>
+
+        <div class="contentBox">
+                <h3>Additional</h3>
+
+                <ul>
+                    <li>Online documentation.
+                    <li>API reference (included in the package).
+                    <li>C# code available.
+                    <li>Tooltips.
+                </ul>
+            </div>        
+        </ul>
+
+    
+        
+    
+    </div>
+
+        
+
+</body>
+</html>

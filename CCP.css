@@ -1,0 +1,47 @@
+html 
+{
+    background: #1b0025;
+    color: #d3d3d3    
+}
+
+.presentationTitle
+{    
+    text-shadow: rgb(54, 54, 54) 2px 2px 20px;    
+}
+
+#horizontalSeparatorTitle
+{
+    color: white;
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+}
+
+#horizontalSeparator
+{
+    background-color: #1a1a1a;
+    /* background-image: linear-gradient( to right, #dbdbdb, #ececec); */
+    box-shadow: 5px 5px 10px black;   
+}
+
+#horizontalSeparatorSub
+{
+    background-color: #1a1a1a;
+    box-shadow: 5px 5px 10px black;
+}
+
+.contentBox
+{   
+    
+    background-color: #222222;
+    background-image: linear-gradient( to right , #0e0e0e, #222222);
+    box-shadow: 5px 5px 15px black;
+}
+
+#imgNoAlpha > img
+{
+    background: rgb(37, 37, 37);
+}
+
+
+
+
