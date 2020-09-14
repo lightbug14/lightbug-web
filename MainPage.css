@@ -1,0 +1,114 @@
+
+html 
+{  
+  background: #111111;
+  color: #ffffff;
+  /* font-family: "lucida sans", serif;  */
+
+}
+
+body
+{
+    margin: 40px;    
+}
+
+
+/* h1 , h2 , h3 , h4 , h5
+{
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+a
+{
+  text-decoration: none;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  color: rgb(255, 94, 0);
+  
+}
+
+a:hover
+{
+  color: rgb(255, 166, 0);
+  transition: all 250ms linear;  
+}
+
+
+ul
+{
+  list-style-type: square;
+}
+
+
+.contentBox
+{       
+    background-color: #a9a6aa;
+    background-image: linear-gradient( to right , #c4c4c4, #d4d4d4);
+    border-radius: 10px;
+    border-style: outset;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 5px 5px 15px;
+    margin: 10px 10px 10px 0px;
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); */
+}
+
+.contentBox p , .tip p
+{       
+  text-align: left;  
+}
+
+.tip
+{       
+    background-color: #1f1f1f;
+    background-image: linear-gradient( to right , #1f1f1f, #111111);
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 0px;
+}
+
+/* .assetElement a
+{
+    border-color: #ffffff00;
+}
+
+.assetElement a:hover
+{
+    border-color: #ffffff54;
+} */
+
+.assetElement
+{       
+    background-color: #1f1f1f;
+    background-image: linear-gradient( to right , #1f1f1f, #242424);
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 0px;
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+.assetElement h2
+{ 
+    text-align: center;   
+    
+}
+
+.assetElement img
+{ 
+    border-radius: 10px; 
+    border-style: solid;     
+    
+}
+
+.assetGrid
+{
+    display: grid; 
+    grid-template-columns: max-content max-content;
+    gap: 20px;
+}
