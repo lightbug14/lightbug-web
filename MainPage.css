@@ -1,8 +1,8 @@
 
 html 
 {  
-  background: #111111;
-  color: #ffffff;
+  background: #131313;
+  color: #bebebe;
   /* font-family: "lucida sans", serif;  */
 
 }
@@ -13,10 +13,11 @@ body
 }
 
 
-/* h1 , h2 , h3 , h4 , h5
+h1 , h2
 {
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-} */
+  color: #d8d8d8;
+  text-align: center;
+}
 
 a
 {
