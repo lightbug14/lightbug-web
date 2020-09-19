@@ -28,7 +28,6 @@
         <span style="display:block; height:25px;"></span>
 
 
-
 <h3>What is a Character Controller?</h3>
 
 <p>
@@ -47,11 +46,27 @@ Currently it only supports an upright capsule based character. This basically me
 Yes, CCP supports 2D and 3D Physics, as well as 2D and 3D movement.
 </p>
 
-<h3>What do you mean by a "dynamic" character?</h3>
+<h3>What do you mean by a "dynamic" character controller?</h3>
 
 <p>
-In the simulated physics world (especially with Character Controllers),  there are kinematic and dynamic rigidbodies (each one having its own advantages and disadvantages). CCP uses a dynamic approach to physics, this means that the character is built upon a dynamic rigidbody working with Unity's Physics. The movement is performed by modifying the velocity of the rigidbody directly.
+In the simulated physics world there are kinematic and dynamic rigidbodies (each one having its own advantages and disadvantages). CCP uses a dynamic approach to physics, this means that the character is built upon a dynamic rigidbody working with Unity's Physics. The movement is performed by modifying the velocity of the rigidbody directly.
 </p>
+
+<h3>If this is a "dynamic" character controller, Does that mean i can use it as a normal rigidbody?</h3>
+
+<p>
+    Yes and no, it depends. Making this character controller 100% compatible with the Physics API is my own personal goal, i would love to have that in my asset. Unfortunately, Unity does not provide many tools for physics programmers in this regard (only OnTriggerXXX and OnCollisionXXX), so most of the things we use are tricks to get a perfect balance between control and compatibility.
+</p>
+
+<h3>Can I apply forces to my character?</h3>
+
+<p>
+    The character controller <strong> understand only about velocity changes (<em>Rigidbody.velocity</em> or <em>Rigidbody2D.velocity</em>)</strong>. Applying forces to a rigidbody does not change any of its internal properties, so forces cannot be applied to this specific character controller (at least using <em>AddForce</em>, <em>AddExplosionForce</em>, or similar).
+</p>
+    <p>
+        The relation between velocity and force is pretty simple (just a formula), so, if you want to apply that same force to the character it should be easy to achieve.
+    </p>
+
 
 <h3>What type of games can i make with CCP?</h3>
 
@@ -62,8 +77,23 @@ Any game that requires a physics based capsule shaped character. A RTS game, a 2
 <h3>Why the package is divided in "Core" and "Implementation"?</h3>
 
 <p>
-The reason behind this decision is extensibility. The full package is defined as Core + implementation. The implementation is built upon the core, so, if you want to re-implement this part, or removing it for complete, you just need to delete one folder and you are good to go. It also serves as a good way to define the scope of each part.
+The reason behind this decision is extensibility. The entire asset is designed with layers. The Core consists of the character controller (and some other important components), and it is the main layer. The implementation use this "Core" in some way, but at the same time it is designed in layers as well.
+
+If you don't like the implementation you can just delete that from your project, and use only the Core.
 </p>
+
+<h3>Why is there a "Demo" folder included? What is this?</h3>
+
+<p>
+The Demo part includes all the example assets and components used by the demo scenes (from materials to character states). This also involves gameplay logic, meaning that what you play in the demo is just my own movement math. It is important to note that this is just one way of doing things, the character controller helps you to achieve that, the result you get will depend on your own movement math, something unique to each game. I would highly recommend you to get this right, since this is not related with the character controller itself.
+</p>
+
+<h3>I want to make a mario-like controller, Can this be achieved with this asset?</h3>
+
+<p>
+Achieved? Yes, although the asset does not come with anything like this, meaning that you'll need to code it. By default the asset comes with the movement logic you experience in the demo. Any custom movement logic can be created/extended by you using the character state logic (from the "Implementation"). All the character states found in the demo are provided as examples.
+</p>
+
 
 
 <h3>Can i create a character using any arbitrary scale?</h3>
@@ -72,11 +102,15 @@ The reason behind this decision is extensibility. The full package is defined as
 No, CCP currently supports only <1,1,1> scale. If you need to scale your character you should scale the graphics object (what you actually see on screen, the renderer component), then modify the character body size to fit the graphics.
 </p>
 
+
+
 <h3>My character consists of a big alien spider that has a weird shape (a composition of colliders), each leg must be procedurally animated and should react to the environment in a particular way. Can this asset handle that?</h3>
 
 <p>
-It won't (like 99.9% sure). If that was the case this asset would be called "Super Alien Spider Controller Pro". This package is oriented to what most developers need, the capsule character being the most common case, vastly used for a humanoid character (or whatever you want to put inside).
+It won't. This package is oriented to what most developers need, being the capsule character the most common scenario.
 </p>
+
+
 
 <h3>So, Why should I consider to buy this asset?</h3>
 
@@ -94,8 +128,13 @@ There are a couple of reasons why, here are some of them:
 
 <h3>So, Why should I consider not to buy this asset?</h3>
 
+<ul>
+    <li>You want your character to use <strong>ragdoll-based physics</strong> (e.g. the game "Human fall flat"). This does not means you can't use ragdolls in your game, it just means that the character physics (movement) are not based on ragdolls.</li>
+    <li>You want a 100% compatible physics character (remember <a href="#1">this</a>).</li>
+</ul>
+
 <p>
-If you have in mind a very specific character (e.g. the alien spider), or maybe you are experimenting with the character physics in your own unique way to create your unique game (maybe this is what you need, who knows), in this case i can't guarantee this package is for you. If you want to be 100% percent sure please contact with me, i will tell you honestly is this is for you or not.
+If you have in mind a very specific character , or maybe , in this case i can't guarantee this package is for you. If you want to be 100% percent sure please contact with me, i will tell you honestly is this is for you or not.
 </p>
 
     
