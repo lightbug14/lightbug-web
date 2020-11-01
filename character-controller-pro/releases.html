@@ -27,6 +27,28 @@
         <h1>Releases</h1> 
 
         <div class="contentBox">
+            <h2 >1.1.4</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>Rigidbody component: AddForce and AddExplosiveForce now change the velocity of the rigidbody (useful for characters).</li>                
+                <li>Size lerp speed: The body size can be set to change smoothly from size A to size B (e.g. crouch from NormalMovement).</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Rigidbody component: it wasn't possible to set the angular velocity of a dynamic rigidbody.</li>
+                <li>Root motion: root motion for dynamic characters was not working as expected.</li>
+                <li>Triggers: When the trigger was destroyed the PhysicsComponent wasn't removing it from the list.</li>
+                <li>AnimatorLink: This component wasn't automatically added to the Animator gameObject.</li>
+                <li>Default RuntimeAnimatorController: The Animator default RuntimeAnimatorController was set to null, even if there was a controller asigned to it.</li>
+                <li>Grahpics scaler: The offset was not being considered by the local scale.</li>
+                <li>DeflectVector (Utilities): This utility wasn't maintaining the vector magnitude (maintainMagnitude = true).</li>
+                <li>Edge componesation: This feature wasn't working properly with "step up" movement.</li>
+            </ul>
+        </div>
+
+        <div class="contentBox">
             <h2 >1.1.3</h2>
 
             <h4>Added</h4>
