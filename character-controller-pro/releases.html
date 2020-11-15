@@ -27,12 +27,37 @@
         <h1>Releases</h1> 
 
         <div class="contentBox">
+            <h2 >1.1.5</h2>
+
+            <h4>Added</h4>
+            <ul>
+                <li>Assembly Definition: Now the entire asset is wrapped inside an assembly definition (file: <strong>com.lightbug.character-controller-pro</strong>). The advantage of doing this is that all the CCP C# code will be separated from the predefined Assembly-CSharp.dll assembly.</li>  
+                <li>Jump: "canJump" public boolean.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>
+                <li>Most of the NormalMovement properties are now public..</li>                
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>RuntimeAnimatorController: There was a problem with the transition and the runtime animator controller assignment.</li>
+            </ul>
+        </div>
+
+        <div class="contentBox">
             <h2 >1.1.4</h2>
 
             <h4>Added</h4>
             <ul>
                 <li>Rigidbody component: AddForce and AddExplosiveForce now change the velocity of the rigidbody (useful for characters).</li>                
                 <li>Size lerp speed: The body size can be set to change smoothly from size A to size B (e.g. crouch from NormalMovement).</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>
+                <li>Character Actor OnEnable/OnDisable: The character does not change the rigidbody constraints anymore in OnEnable/OnDisable. If you need to do that the best way to do it is by manually set that via code (more freedom).</li>                
             </ul>
 
             <h4>Fixed</h4>                
