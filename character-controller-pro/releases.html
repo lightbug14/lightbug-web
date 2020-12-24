@@ -26,26 +26,26 @@
         
         <h1>Releases</h1> 
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(255, 128, 0);border-width: 5px;">
             <h2 >1.2.0</h2>
 
             <h4>Added</h4>
             <ul>
-                <li>Unstable movement improvement: A lot of changes have been introduced in order to produce a better result when the character is unstable.</li>
+                
                 <li>New "Character Scene" scene.</li>                
-                <li>Support for dynamic ground movement.</li>  
-                <li>Support for vanilla rigidbodies movement.</li>  
+                <li>Support for kinematic and dynamic ground using the RigidbodyComponent component.</li>  
+                <li>Support for vanilla rigidbodies as moving ground.</li>  
                 <li>"Constraint rotation" option. With this enabled you can toggle on and off this constraint, allowing the character to freely rotate in any direction. This constraint was formerlly known as "vertical alignment".</li>
                 <li>"Prevent bad steps" option. This is useful to prevent the character from stepping over unstable surfaces.</li>
                 <li>"Slide on walls" option. This can be used to prevent the character from sliding on walls.</li>
                 <li>New "WallSlide" state. This component contains all the logic responsible for sliding and climbing on walls.</li>
                 <li>New "RopeClimbing" state. This is a more retro-styled climbing ability (found on older games like Rune).</li>
                 <li>"Pre-Grounded" and "Post-grounded" jump: Now the jump action can be triggered before or after touching the ground (vastly used in platformers) .</li>
-                <li>Timers for all the "Bool" actions: They now expose some very useful timers such as ActiveTime, InactiveTime, StartedElapsedTime, etc.</li>
+                <li>"BoolAction" timers: These kind of actions now expose some very useful timers such as ActiveTime, InactiveTime, StartedElapsedTime, etc.</li>
                 <li>Graphics root controller: This component handles the visual behaviour of the graphics root (called "Graphics" in the demo scenes).</li>
-                <li>Character and camera nested prefabs: Drag and drop one prefab in order to add a character 3D (2D) and a camera 3D (2D) into the scene.</li>
-                <li>"Can push rigidbodies" option.</li>
-                <li>"Stable/Unstable post simulation velocity" option. This allows you to choose re-assign the velocity of the character after the simulation is done. You can select between "input velocity", "pre simulation velocity" and "post simulation velocity".</li>
+                <li>Character and camera nested prefabs: Now it is possible to drag and drop one prefab in order to add a character 3D (2D) and a camera 3D (2D) at the same time.</li>
+                <li>"Can push rigidbodies" option allows you to determine if the character should be able to push other rigidbodies. Additionally, there is a layermask associated with this feature that acts as a filter.</li>
+                <li>"Stable/Unstable post simulation velocity" option. This allows you to re-assign the velocity of the character after the simulation is done. You can select between "input velocity", "pre simulation velocity" and "post simulation velocity" (default).</li>
             </ul>
 
             <h4>Changed</h4>                
@@ -55,24 +55,24 @@
                 <li>Vertical alignment direction has been changed to "constraint up direction".</li>
                 <li>Jump release action has been changed. The velocity is now reduce when the jump needs to be canceled.</li>
                 <li>3D animated model "CCP Character" has been "separated" into separated FBX files. This can be useful to modify independent animations without compromising the entire FBX file. By default the character uses the "CCP Character (model)" mesh, which is just a 3D humanoid without any animation.</li>
-                <li>Animation names have been changed from "Armature|XXX" to "XXX". This eliminates a very common error related to the asset store package validator (although this shouldn't be a problem for the user).</li>
+                <li>Animation clip names have been changed from "Armature|XXX" to "XXX". This eliminates a very common error related to the asset store package validator (although this shouldn't be a problem for the user).</li>
             </ul>
 
             <h4>Deprecated</h4>  
             <ul>
                 <li>The SceneController component has been removed since it is no longer needed by characters and platforms. The update process now relies entirely on FixedUpdate.</li>     
-                <li>The tags and layer profile asset has been removed. The character automatically match the collision matrix (defined in the Physics settings) with the obstacles.</li>    
+                <li>The tags and layer profile asset has been removed. The character valid layers are those represented by the collision matrix (Physics settings).</li>    
             </ul>
 
             <h4>Fixed</h4>                
-            <ul>
+            <ul>                
                 <li>Unstable movement in terrain: The character didn't slide properly when interacting with a terrain (especially when dealing with "bad steps"), producing all sort of strange movements when dealing.</li>
                 <li>Garbage generated: Some data structures were generating garbage under certain conditions.</li>
                 <li>Slide movement in "NormalMovement": The character was falling slowly when the slope was too steep (wrong behaviour).</li>
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.1.5</h2>
 
             <h4>Added</h4>
@@ -92,7 +92,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;">
             <h2 >1.1.4</h2>
 
             <h4>Added</h4>
@@ -119,7 +119,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.1.3</h2>
 
             <h4>Added</h4>
@@ -141,7 +141,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.1.2</h2>
 
             <h4>Added</h4>
@@ -161,7 +161,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.1.1</h2>
 
             <h4>Added</h4>
@@ -177,7 +177,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(255, 128, 0);border-width: 5px;">
             <h2 >1.1.0</h2>
             
             <h4>Added</h4>
@@ -249,7 +249,7 @@
 
 
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.0.5</h2>
 
             <h4>Changes</h4>
@@ -263,7 +263,7 @@
             </ul>
         </div>
 
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;">
             <h2 >1.0.4</h2>
 
             <h4>Added</h4>
@@ -293,7 +293,7 @@
             </ul>
         </div>
         
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;">
             <h2 >1.0.3</h2>
 
             <h4>Added</h4>
@@ -321,7 +321,7 @@
 
         <!--  -------------------------------------------------  -->
         
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;" >
             <h2 >1.0.2</h2>
 
             
@@ -362,7 +362,7 @@
         <!--  -------------------------------------------------  -->
               
         
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;">
             <h2>1.0.1</h2>
             
             <h4>Added</h4>
@@ -395,7 +395,7 @@
         <!--  -------------------------------------------------  -->
         
         
-        <div class="contentBox">
+        <div class="contentBox" style= "border-color: rgb(0, 148, 0);border-width: 5px;">
             <h2>1.0.0</h2>
             <p>First release.</p>
         </div>
