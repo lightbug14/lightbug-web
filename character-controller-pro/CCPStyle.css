@@ -105,12 +105,38 @@ ul
 
 .tip
 {       
-    background-color: #a9a6aa;
-    background-image: linear-gradient( to right , #c4c4c4, #d4d4d4);
-    border-radius: 10px;
-    border-style: dashed;
-    border-width: thin;
-    border-color: rgba(0, 0, 0, 0.4);
-    padding: 5px 5px 5px 5px;
-    margin: 10px 10px 10px 0px;
+  background-color: #a9a6aa;
+  background-image: linear-gradient( to right , #c4c4c4, #d4d4d4);
+  border-radius: 10px;
+  border-style: dashed;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 0px;
 }
+
+/* .collapsible
+{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+} */
+
+
+
+/* .content 
+{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} */
+
+
+
