@@ -24,8 +24,6 @@
         
         <h1>Features</h1>
 
-        <h2>Version 1.1.2</h2>
-
         <hr></hr>
         <span style="display:block; height:25px;"></span>
         
@@ -33,17 +31,19 @@
             <h3>Core</h3>
 
             <ul>            
-                <li>Rigidbody based.
-                <li>Capsule/Sphere body.
+                <li>Rigidbody based (dynamic rigidbody).
+                <li>Precise control (like a kinematic rigidbody).
+                <li>Capsule body.
                 <li>2D & 3D physics.
                 <li>2D & 3D movement.
-                <li>The character can walk over anything above a certain "step offset" (the transition speed can be adjusted).
+                <li>Smooth step up and step down (a.k.a ground snapping).
                 <li>The character can walk over any slope (you can set the "slope limit" angle).
-                <li>The character can resize at runtime.
+                <li>The character can be resized at runtime.
                 <li>Moving/Rotating kinematic platforms support.
+                <li>Moving/Rotating dynamic platforms support.
                 <li>Collision information (ground normal, slope angle, edge detection, wall angle, etc.).
                 <li>Collision events.
-                <li>The character can be rotated (vertical alignment).
+                <li>The character can be rotated in any direction.
             </ul> 
         </div>
 
@@ -53,16 +53,18 @@
 
             <ul>
                 <li>State controller implemented as a finite state machine (FSM).
-                <li>Create your custom states for your character.                
-                <li>Action-based movement (for the Human and the AI).
-                <li>Create your custom AI behaviour components for your AI character.
+                <li>Create your custom states for your character.             
+                <li>Action-based movement (for the Human and the AI), not tied to any input system.
+                
                 <li>Input detection for:</li>
-                <ul>
-                    <li>Desktop (using the Unity's Input manager).
-                    <li>Mobile (using the Unity's UI system).
-                    <li>Custom solution (to be implemented by you).
-                </ul>
-                <li>Animation support (using Mecanim) for each state. By default the demo uses one Animator controller per state.
+                    <ul>
+                        <li>Desktop (using the Unity's Input manager).
+                        <li>Mobile (using the Unity's UI system).
+                        <li>Custom solution (to be implemented by you).
+                    </ul>
+                <li>Create your custom AI behaviour components for your AI character.</li>
+                <li>Animation support for each state (optional).
+                <li>Root motion support.
             </ul>
     </div> 
 
@@ -73,13 +75,15 @@
         <ul>
             <li>Walk and Run.
             <li>Crouch.
-            <li>Jumps: Variable height, multiple, coyote time.
-            <li>Ground and air control.            
+            <li>Jump: Variable height (cancel on release), multiple jumps (infinite), coyote time, and more.
+            <li>Ground and air control (acceleration and deceleration).            
             <li>Material properties (Customize the amount of movement control for the different surfaces and volumes).            
             <li>Dash.
             <li>JetPack.
             <li>Ladder climbing.</li>
             <li>Ledge hanging.</li>
+            <li>Wall slide/climb.</li>
+            <li>Rope climbing (retro style).</li>
         </ul>
 
         <h4>Platforms</h4>
@@ -99,8 +103,8 @@
                 <h3>Additional</h3>
 
                 <ul>
-                    <li>Online documentation.
-                    <li>API reference (included in the package).
+                    <li>Documentation (online).
+                    <li>API reference (online).
                     <li>C# code available.
                     <li>Tooltips.
                 </ul>

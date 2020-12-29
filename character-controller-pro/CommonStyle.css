@@ -22,7 +22,7 @@
 
 #safe
 {
-  background-color: rgb(23, 199, 0);
+  background-color: rgb(22, 185, 0);
   color: rgb(22, 22, 22);
 }
 
@@ -39,6 +39,18 @@
 }
 
 #risk:hover
+{  
+    border-color: rgb(0, 0, 0);
+    border: solid;
+}
+
+#danger
+{
+  background-color: rgb(255, 0, 0);
+  color: rgb(235, 235, 235);
+}
+
+#danger:hover
 {  
     border-color: rgb(0, 0, 0);
     border: solid;
