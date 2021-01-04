@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.1.3</span>
+   &#160;<span id="projectnumber">1.2.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state-members.html">List of all members</a>  </div>
@@ -105,20 +106,19 @@ Inheritance diagram for Lightbug.CharacterControllerPro.Implementation.Character
  <div class="center">
   <img src="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.png" usemap="#Lightbug.CharacterControllerPro.Implementation.CharacterState_map" alt=""/>
   <map id="Lightbug.CharacterControllerPro.Implementation.CharacterState_map" name="Lightbug.CharacterControllerPro.Implementation.CharacterState_map">
-<area href="interface_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_i_updatable.html" title="Interface used for objects that need to be updated in a frame by frame basis." alt="Lightbug.CharacterControllerPro.Implementation.IUpdatable" shape="rect" coords="955,0,1327,24"/>
+<area href="interface_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_i_updatable.html" title="Interface used for objects that need to be updated in a frame by frame basis." alt="Lightbug.CharacterControllerPro.Implementation.IUpdatable" shape="rect" coords="1337,0,1709,24"/>
 <area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html" alt="Lightbug.CharacterControllerPro.Demo.Dash" shape="rect" coords="0,112,372,136"/>
 <area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html" alt="Lightbug.CharacterControllerPro.Demo.JetPack" shape="rect" coords="382,112,754,136"/>
 <area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html" alt="Lightbug.CharacterControllerPro.Demo.LadderClimbing" shape="rect" coords="764,112,1136,136"/>
 <area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html" alt="Lightbug.CharacterControllerPro.Demo.LedgeHanging" shape="rect" coords="1146,112,1518,136"/>
 <area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html" alt="Lightbug.CharacterControllerPro.Demo.NormalMovement" shape="rect" coords="1528,112,1900,136"/>
+<area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html" alt="Lightbug.CharacterControllerPro.Demo.RopeClimbing" shape="rect" coords="1910,112,2282,136"/>
+<area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html" alt="Lightbug.CharacterControllerPro.Demo.WallSlide" shape="rect" coords="2292,112,2664,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4650a031d56863264a2e9f10482386b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#ad4650a031d56863264a2e9f10482386b">Initialize</a> ()</td></tr>
-<tr class="memdesc:ad4650a031d56863264a2e9f10482386b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This initialization method is called by the state controller, after everything else is initialized.  <a href="#ad4650a031d56863264a2e9f10482386b">More...</a><br /></td></tr>
-<tr class="separator:ad4650a031d56863264a2e9f10482386b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48273208b1187cad8f303e9eda62be3d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a48273208b1187cad8f303e9eda62be3d">EnterBehaviour</a> (float dt, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html">CharacterState</a> fromState)</td></tr>
 <tr class="memdesc:a48273208b1187cad8f303e9eda62be3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method runs once when the state has entered the state machine.  <a href="#a48273208b1187cad8f303e9eda62be3d">More...</a><br /></td></tr>
 <tr class="separator:a48273208b1187cad8f303e9eda62be3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,20 +147,29 @@ Public Member Functions</h2></td></tr>
 virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetInfo</b> ()</td></tr>
 <tr class="separator:ac1decba2757594508aa9b910a4beacd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0afc6d2a5f9c3b441382bbd83042c361"><td class="memItemLeft" align="right" valign="top">RuntimeAnimatorController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a0afc6d2a5f9c3b441382bbd83042c361">RuntimeAnimatorController</a> =&gt; runtimeAnimatorController</td></tr>
+<tr class="memdesc:a0afc6d2a5f9c3b441382bbd83042c361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state runtime animator controller.  <a href="#a0afc6d2a5f9c3b441382bbd83042c361">More...</a><br /></td></tr>
+<tr class="separator:a0afc6d2a5f9c3b441382bbd83042c361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9643d9e46ac7df214918898ee85b7ad2"><td class="memItemLeft" align="right" valign="top"><a id="a9643d9e46ac7df214918898ee85b7ad2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>OverrideAnimatorController</b> =&gt; overrideAnimatorController</td></tr>
+<tr class="separator:a9643d9e46ac7df214918898ee85b7ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a83e4a568d338f1623c07d16a9bf01cc5"><td class="memItemLeft" align="right" valign="top"><a id="a83e4a568d338f1623c07d16a9bf01cc5"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
 <tr class="separator:a83e4a568d338f1623c07d16a9bf01cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d779285b737d6e4d6f2ac85161e2086"><td class="memItemLeft" align="right" valign="top"><a id="a1d779285b737d6e4d6f2ac85161e2086"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a1d779285b737d6e4d6f2ac85161e2086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:acfe01446c0d5694dbea4dd542d4834e8"><td class="memItemLeft" align="right" valign="top"><a id="acfe01446c0d5694dbea4dd542d4834e8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code> [get]</code></td></tr>
+<tr class="memitem:acfe01446c0d5694dbea4dd542d4834e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#acfe01446c0d5694dbea4dd542d4834e8">StateNameHash</a><code> [get]</code></td></tr>
+<tr class="memdesc:acfe01446c0d5694dbea4dd542d4834e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the hash value (Animator) associated with this state, based on its name.  <a href="#acfe01446c0d5694dbea4dd542d4834e8">More...</a><br /></td></tr>
 <tr class="separator:acfe01446c0d5694dbea4dd542d4834e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0afc6d2a5f9c3b441382bbd83042c361"><td class="memItemLeft" align="right" valign="top">RuntimeAnimatorController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a0afc6d2a5f9c3b441382bbd83042c361">RuntimeAnimatorController</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0afc6d2a5f9c3b441382bbd83042c361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state runtime animator controller.  <a href="#a0afc6d2a5f9c3b441382bbd83042c361">More...</a><br /></td></tr>
-<tr class="separator:a0afc6d2a5f9c3b441382bbd83042c361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a6cf86acd44da2c953793f3fa22caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html">CharacterActor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a05a6cf86acd44da2c953793f3fa22caa">CharacterActor</a><code> [get]</code></td></tr>
 <tr class="memdesc:a05a6cf86acd44da2c953793f3fa22caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the CharacterActor component of the gameObject.  <a href="#a05a6cf86acd44da2c953793f3fa22caa">More...</a><br /></td></tr>
 <tr class="separator:a05a6cf86acd44da2c953793f3fa22caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,7 +209,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>Checks if the required conditions to enter this state are true. If so the state machine will automatically change the current state to the desired one. </p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a111d7299af6c616a1be04e3824972a9a">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a9884d7fcae8446fab3978cc135c1738e">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#af0317679163dc5d5c7aeff8d8270673f">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a111d7299af6c616a1be04e3824972a9a">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a9884d7fcae8446fab3978cc135c1738e">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#af0317679163dc5d5c7aeff8d8270673f">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#ac2157e3d7428b254722366fee010ddda">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#aa2dfbec698b074cb4babe7bcc94a6aeb">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>.</p>
 
 </div>
 </div>
@@ -229,7 +238,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>Checks if the required conditions to exit this state are true. If so it returns the desired state (null otherwise). After this the state machine will proceed to evaluate the "enter transition" condition on the target state. </p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a882eff68c0fde58d53ef3e61a996efd4">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a5b3ac8191507f373165bca573a61bfa8">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#ac0ae3fc6a8b368796106f5be34ca2caf">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#abae3b7073561b353e82b9cdee042c485">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#a0618489e7a023b169ff635eb96725e47">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a882eff68c0fde58d53ef3e61a996efd4">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a5b3ac8191507f373165bca573a61bfa8">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#ac0ae3fc6a8b368796106f5be34ca2caf">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#abae3b7073561b353e82b9cdee042c485">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a67b8bf1e4fdee7491feec43e7073bacb">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#a7080b959bbcc9ffbbe278fad5b51f837">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#a0618489e7a023b169ff635eb96725e47">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
 
 </div>
 </div>
@@ -269,7 +278,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>This method runs once when the state has entered the state machine. </p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a013962d0465e88d80709632acefe8759">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a4c9f22220796184beccc2d8866b154fd">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#ac09f506723f7cbbd8331b1a3cd87e342">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#ac4a6010ed56235259f31fd92abe36b94">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#adac7b40b6c2424826399215d3a39fafd">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a013962d0465e88d80709632acefe8759">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#ac09f506723f7cbbd8331b1a3cd87e342">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a4c9f22220796184beccc2d8866b154fd">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a9c932dd4bf3c74a0165ede364b117b9d">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#ac4a6010ed56235259f31fd92abe36b94">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#a1e8a2308f5a4460dad51264a71617cc0">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#adac7b40b6c2424826399215d3a39fafd">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
 
 </div>
 </div>
@@ -309,36 +318,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>This method runs once when the state has exited the state machine. </p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a59f0f499622dc49b6ce0880eb29f25b7">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#aca684912a77f1d72296b03c152f9e744">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#abe28ef6dd7b2b551f7bfa391240ae3b7">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
-
-</div>
-</div>
-<a id="ad4650a031d56863264a2e9f10482386b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4650a031d56863264a2e9f10482386b">&#9670;&nbsp;</a></span>Initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Lightbug.CharacterControllerPro.Implementation.CharacterState.Initialize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This initialization method is called by the state controller, after everything else is initialized. </p>
-
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#a1c1a2e804ce3b839c254f7e79486a8b2">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a122874f035ab84cae275629999eb2c66">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#aca684912a77f1d72296b03c152f9e744">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a59f0f499622dc49b6ce0880eb29f25b7">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a97761f046c12108bfc6f164aacfb4433">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#ac13eb807dc2ad47f6f063005e51975d5">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#abe28ef6dd7b2b551f7bfa391240ae3b7">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
 
 </div>
 </div>
@@ -370,7 +350,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>Implements <a class="el" href="interface_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_i_updatable.html">Lightbug.CharacterControllerPro.Implementation.IUpdatable</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a08856bcf3f4e7a3820dc5ab9534c0336">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a8826cdba494eef04771552001dd0eb03">Lightbug.CharacterControllerPro.Demo.Dash</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a08856bcf3f4e7a3820dc5ab9534c0336">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a8826cdba494eef04771552001dd0eb03">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a0245992e9ee1b1462078a23e6edc8107">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#ad20b3492b32f26ba79096442d3ea206a">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>.</p>
 
 </div>
 </div>
@@ -432,7 +412,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>Implements <a class="el" href="interface_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_i_updatable.html">Lightbug.CharacterControllerPro.Implementation.IUpdatable</a>.</p>
 
-<p>Implemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a92003522b0eb7e8cd1efea6785d25f85">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#a7943ae69575b3ecce28e1c56a682fa3e">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#ac316f9ef4c534f6ba9aee11fa176ca0c">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a267b60b507d2c27b721009d793fc3909">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#a016fb631b425a6b7db3c936967c9fe51">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
+<p>Implemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a92003522b0eb7e8cd1efea6785d25f85">Lightbug.CharacterControllerPro.Demo.NormalMovement</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#a7943ae69575b3ecce28e1c56a682fa3e">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#ac316f9ef4c534f6ba9aee11fa176ca0c">Lightbug.CharacterControllerPro.Demo.Dash</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a267b60b507d2c27b721009d793fc3909">Lightbug.CharacterControllerPro.Demo.LedgeHanging</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a7d9ca2a586e254470523ab89874f6cb9">Lightbug.CharacterControllerPro.Demo.WallSlide</a>, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html#a6f4c5109ca55f5fce64fe1234c2dabbf">Lightbug.CharacterControllerPro.Demo.RopeClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#a016fb631b425a6b7db3c936967c9fe51">Lightbug.CharacterControllerPro.Demo.JetPack</a>.</p>
 
 </div>
 </div>
@@ -462,7 +442,24 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 <p>This methods runs after getting all the ik positions, rotations and their respective weights. Use it to modify the ik data of the humanoid rig. </p>
 
-<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#a5003dacff6d1813088626f3dae5b2b3a">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>.</p>
+<p>Reimplemented in <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#a5003dacff6d1813088626f3dae5b2b3a">Lightbug.CharacterControllerPro.Demo.LadderClimbing</a>, and <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#aa6e93fd5eb5eb23271b2f883ff8eafa5">Lightbug.CharacterControllerPro.Demo.WallSlide</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0afc6d2a5f9c3b441382bbd83042c361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0afc6d2a5f9c3b441382bbd83042c361">&#9670;&nbsp;</a></span>RuntimeAnimatorController</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RuntimeAnimatorController Lightbug.CharacterControllerPro.Implementation.CharacterState.RuntimeAnimatorController =&gt; runtimeAnimatorController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the state runtime animator controller. </p>
 
 </div>
 </div>
@@ -539,8 +536,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 
 </div>
 </div>
-<a id="a0afc6d2a5f9c3b441382bbd83042c361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0afc6d2a5f9c3b441382bbd83042c361">&#9670;&nbsp;</a></span>RuntimeAnimatorController</h2>
+<a id="acfe01446c0d5694dbea4dd542d4834e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe01446c0d5694dbea4dd542d4834e8">&#9670;&nbsp;</a></span>StateNameHash</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -549,7 +546,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RuntimeAnimatorController Lightbug.CharacterControllerPro.Implementation.CharacterState.RuntimeAnimatorController</td>
+          <td class="memname">int Lightbug.CharacterControllerPro.Implementation.CharacterState.StateNameHash</td>
         </tr>
       </table>
   </td>
@@ -559,12 +556,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>StateNameHash</b><code
 </table>
 </div><div class="memdoc">
 
-<p>Gets the state runtime animator controller. </p>
+<p>Gets the hash value (Animator) associated with this state, based on its name. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro 19_3/Assets/Character Controller Pro/Implementation/Scripts/Character/States/CharacterState.cs</li>
+<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Implementation/Scripts/Character/States/CharacterState.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -50,9 +50,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html#abe28ef6dd7b2b551f7bfa391240ae3b7",
-"class_lightbug_1_1_utilities_1_1_capsule_collider_component2_d.html#acd848156a44ac643c2976f6055e2dbb2",
-"struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#a3b638a862d3307d562ee013d6311406e"
+"class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#ac316f9ef4c534f6ba9aee11fa176ca0c",
+"class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a82ef0e42155007d972f9b6d8745e122c",
+"interface_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_i_updatable.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

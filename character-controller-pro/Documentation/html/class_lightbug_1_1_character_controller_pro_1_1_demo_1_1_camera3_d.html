@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.1.3</span>
+   &#160;<span id="projectnumber">1.2.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -88,7 +88,9 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbug.CharacterControllerPro.Demo.Camera3D Class Reference</div>  </div>
@@ -101,14 +103,69 @@ Inheritance diagram for Lightbug.CharacterControllerPro.Demo.Camera3D:</div>
   <img src="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a2286778d2ba4b54bbe8fcbc9037d9ab2"><td class="memItemLeft" align="right" valign="top"><a id="a2286778d2ba4b54bbe8fcbc9037d9ab2"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CameraMode</b> { <b>FirstPerson</b>, 
+<b>ThirdPerson</b>
+ }</td></tr>
+<tr class="separator:a2286778d2ba4b54bbe8fcbc9037d9ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abac62f2b2d95198b1481bfb9d5ba6865"><td class="memItemLeft" align="right" valign="top"><a id="abac62f2b2d95198b1481bfb9d5ba6865"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ToggleCameraMode</b> ()</td></tr>
 <tr class="separator:abac62f2b2d95198b1481bfb9d5ba6865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad0737651d85776a16b55e0f29baf6acb"><td class="memItemLeft" align="right" valign="top"><a id="ad0737651d85776a16b55e0f29baf6acb"></a>
+CameraMode&#160;</td><td class="memItemRight" valign="bottom"><b>cameraMode</b> = CameraMode.ThirdPerson</td></tr>
+<tr class="separator:ad0737651d85776a16b55e0f29baf6acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e729ce0422629e983fb305dfb41f1a"><td class="memItemLeft" align="right" valign="top"><a id="a28e729ce0422629e983fb305dfb41f1a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>hideBody</b> = true</td></tr>
+<tr class="separator:a28e729ce0422629e983fb305dfb41f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c86c540892da939ae7fbae78da869c"><td class="memItemLeft" align="right" valign="top"><a id="a95c86c540892da939ae7fbae78da869c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>updatePitch</b> = true</td></tr>
+<tr class="separator:a95c86c540892da939ae7fbae78da869c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227d50824b3a8ee32e016894a3785c95"><td class="memItemLeft" align="right" valign="top"><a id="a227d50824b3a8ee32e016894a3785c95"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>pitchSpeed</b> = 180f</td></tr>
+<tr class="separator:a227d50824b3a8ee32e016894a3785c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefb0891e7418283feaea5516b7d216b"><td class="memItemLeft" align="right" valign="top"><a id="adefb0891e7418283feaea5516b7d216b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxPitchAngle</b> = 80f</td></tr>
+<tr class="separator:adefb0891e7418283feaea5516b7d216b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c06332a280a8a24e293c1be85bd970d"><td class="memItemLeft" align="right" valign="top"><a id="a2c06332a280a8a24e293c1be85bd970d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>updateYaw</b> = true</td></tr>
+<tr class="separator:a2c06332a280a8a24e293c1be85bd970d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9549b304ef083412b5cc51cde2d3185b"><td class="memItemLeft" align="right" valign="top"><a id="a9549b304ef083412b5cc51cde2d3185b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>yawSpeed</b> = 180f</td></tr>
+<tr class="separator:a9549b304ef083412b5cc51cde2d3185b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a369d7c86df2c0ab051224807b28b3d"><td class="memItemLeft" align="right" valign="top"><a id="a2a369d7c86df2c0ab051224807b28b3d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>updateZoom</b> = true</td></tr>
+<tr class="separator:a2a369d7c86df2c0ab051224807b28b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7a6044fde8727fcc0b7a5c300e1c86"><td class="memItemLeft" align="right" valign="top"><a id="aff7a6044fde8727fcc0b7a5c300e1c86"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>zoomInOutSpeed</b> = 40f</td></tr>
+<tr class="separator:aff7a6044fde8727fcc0b7a5c300e1c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33021ee1240362b084aa3dadfe025a32"><td class="memItemLeft" align="right" valign="top"><a id="a33021ee1240362b084aa3dadfe025a32"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>zoomInOutLerpSpeed</b> = 5f</td></tr>
+<tr class="separator:a33021ee1240362b084aa3dadfe025a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b35f46d01fdc2eb5560d7ac9994a059"><td class="memItemLeft" align="right" valign="top"><a id="a3b35f46d01fdc2eb5560d7ac9994a059"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>minZoom</b> = 2f</td></tr>
+<tr class="separator:a3b35f46d01fdc2eb5560d7ac9994a059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1650f92a3b32ff84253bae799c40033"><td class="memItemLeft" align="right" valign="top"><a id="aa1650f92a3b32ff84253bae799c40033"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxZoom</b> = 12f</td></tr>
+<tr class="separator:aa1650f92a3b32ff84253bae799c40033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b8241616892aee286afdc805e77de86"><td class="memItemLeft" align="right" valign="top"><a id="a4b8241616892aee286afdc805e77de86"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>collisionDetection</b> = true</td></tr>
+<tr class="separator:a4b8241616892aee286afdc805e77de86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939d505819b5450469a1e861fcc77045"><td class="memItemLeft" align="right" valign="top"><a id="a939d505819b5450469a1e861fcc77045"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>collisionAffectsZoom</b> = false</td></tr>
+<tr class="separator:a939d505819b5450469a1e861fcc77045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a317709010e806d9ad00fc7cb633b3"><td class="memItemLeft" align="right" valign="top"><a id="a08a317709010e806d9ad00fc7cb633b3"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>detectionRadius</b> = 0.5f</td></tr>
+<tr class="separator:a08a317709010e806d9ad00fc7cb633b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro 19_3/Assets/Character Controller Pro/Demo/Scripts/Camera/Camera3D.cs</li>
+<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Demo/Scripts/Camera/Camera3D.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

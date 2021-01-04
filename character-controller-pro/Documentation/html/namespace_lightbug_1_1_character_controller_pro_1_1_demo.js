@@ -32,8 +32,11 @@ var namespace_lightbug_1_1_character_controller_pro_1_1_demo =
     [ "ParticleSystemPooler", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_particle_system_pooler.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_particle_system_pooler" ],
     [ "PerformanceDemoManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_demo_manager.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_demo_manager" ],
     [ "PlanarMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters" ],
+    [ "Platform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform" ],
     [ "PlatformNode", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform_node.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform_node" ],
     [ "RigidbodyModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rigidbody_modifier.html", null ],
+    [ "Rope", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope" ],
+    [ "RopeClimbing", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing" ],
     [ "RotationAction", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rotation_action.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rotation_action" ],
     [ "Surface", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface" ],
     [ "SurfacePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface_physics_properties.html", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface_physics_properties" ],
@@ -42,5 +45,6 @@ var namespace_lightbug_1_1_character_controller_pro_1_1_demo =
     [ "VerticalDirectionModifier3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier3_d.html", null ],
     [ "VerticalMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters" ],
     [ "Volume", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume" ],
-    [ "VolumePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties.html", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties" ]
+    [ "VolumePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties.html", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties" ],
+    [ "WallSlide", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide" ]
 ];

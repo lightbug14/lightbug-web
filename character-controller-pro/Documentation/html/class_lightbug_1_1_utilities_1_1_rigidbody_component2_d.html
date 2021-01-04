@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.1.3</span>
+   &#160;<span id="projectnumber">1.2.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_utilities_1_1_rigid
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_utilities_1_1_rigid
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of a <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is an encapsulation of the Rigidbody and Rigidbody2D components, containing the most c...">RigidbodyComponent</a> for 2D rigidbodies.  
+<p>An implementation of a <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is a wrapper for the Rigidbody and Rigidbody2D components, containing not only the mos...">RigidbodyComponent</a> for 2D rigidbodies.  
  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Lightbug.Utilities.RigidbodyComponent2D:</div>
@@ -105,7 +106,7 @@ Inheritance diagram for Lightbug.Utilities.RigidbodyComponent2D:</div>
  <div class="center">
   <img src="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.png" usemap="#Lightbug.Utilities.RigidbodyComponent2D_map" alt=""/>
   <map id="Lightbug.Utilities.RigidbodyComponent2D_map" name="Lightbug.Utilities.RigidbodyComponent2D_map">
-<area href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is an encapsulation of the Rigidbody and Rigidbody2D components, containing the most c..." alt="Lightbug.Utilities.RigidbodyComponent" shape="rect" coords="0,56,242,80"/>
+<area href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is a wrapper for the Rigidbody and Rigidbody2D components, containing not only the mos..." alt="Lightbug.Utilities.RigidbodyComponent" shape="rect" coords="0,56,242,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -114,18 +115,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:accf78c509a50c1cdf70353b9eccc1360"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#accf78c509a50c1cdf70353b9eccc1360">Interpolate</a> (Vector3 position)</td></tr>
 <tr class="memdesc:accf78c509a50c1cdf70353b9eccc1360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolates the rigidbody position (equivalent to MovePosition).  <a href="#accf78c509a50c1cdf70353b9eccc1360">More...</a><br /></td></tr>
 <tr class="separator:accf78c509a50c1cdf70353b9eccc1360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfcede025329030e6e672164556b20d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#aabfcede025329030e6e672164556b20d">Interpolate</a> (Vector3 position, Quaternion rotation)</td></tr>
-<tr class="memdesc:aabfcede025329030e6e672164556b20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolates the rigidbody position and rotation (equivalent to MovePosition and MoveRotation).  <a href="#aabfcede025329030e6e672164556b20d">More...</a><br /></td></tr>
-<tr class="separator:aabfcede025329030e6e672164556b20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52782faf0174c2d6def0b16143578fe3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a52782faf0174c2d6def0b16143578fe3">SetPositionAndRotation</a> (Vector3 position, Quaternion rotation)</td></tr>
-<tr class="memdesc:a52782faf0174c2d6def0b16143578fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rigidbody position and rotation.  <a href="#a52782faf0174c2d6def0b16143578fe3">More...</a><br /></td></tr>
-<tr class="separator:a52782faf0174c2d6def0b16143578fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a93476ee6381937f5a1e633f72b6505"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a0a93476ee6381937f5a1e633f72b6505">Interpolate</a> (Quaternion rotation)</td></tr>
+<tr class="memdesc:a0a93476ee6381937f5a1e633f72b6505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolates the rigidbody rotation (equivalent to MoveRotation).  <a href="#a0a93476ee6381937f5a1e633f72b6505">More...</a><br /></td></tr>
+<tr class="separator:a0a93476ee6381937f5a1e633f72b6505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61645aa2f304c731acdc55001d39896d"><td class="memItemLeft" align="right" valign="top">override Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a61645aa2f304c731acdc55001d39896d">GetPointVelocity</a> (Vector3 point)</td></tr>
 <tr class="memdesc:a61645aa2f304c731acdc55001d39896d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody velocity at a specific point in space.  <a href="#a61645aa2f304c731acdc55001d39896d">More...</a><br /></td></tr>
 <tr class="separator:a61645aa2f304c731acdc55001d39896d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177fd4abd1a76029924f10e8175158e3"><td class="memItemLeft" align="right" valign="top"><a id="a177fd4abd1a76029924f10e8175158e3"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>AddForceToRigidbody</b> (Vector3 force, ForceMode forceMode=ForceMode.Force)</td></tr>
 <tr class="separator:a177fd4abd1a76029924f10e8175158e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9dc272dfb5c8627c00911f273299e82"><td class="memItemLeft" align="right" valign="top"><a id="ac9dc272dfb5c8627c00911f273299e82"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>AddExplosionForceToRigidbody</b> (float explosionForce, Vector3 explosionPosition, float explosionRadius, float upwardsModifier=0)</td></tr>
+<tr class="separator:ac9dc272dfb5c8627c00911f273299e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">Lightbug.Utilities.RigidbodyComponent</a></td></tr>
+<tr class="memitem:a355ca2401c17cbc851031a35a392a845 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a355ca2401c17cbc851031a35a392a845">SetPositionAndRotation</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:a355ca2401c17cbc851031a35a392a845 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rigidbody position and rotation.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a355ca2401c17cbc851031a35a392a845">More...</a><br /></td></tr>
+<tr class="separator:a355ca2401c17cbc851031a35a392a845 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ed4b695df0c198f48e52802146e4ae inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a08ed4b695df0c198f48e52802146e4ae">Interpolate</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:a08ed4b695df0c198f48e52802146e4ae inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolates the rigidbody position and rotation (equivalent to MovePosition and MoveRotation).  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a08ed4b695df0c198f48e52802146e4ae">More...</a><br /></td></tr>
+<tr class="separator:a08ed4b695df0c198f48e52802146e4ae inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad926ec65a4a0c176c74cc6e00cb46b93 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ad926ec65a4a0c176c74cc6e00cb46b93">Move</a> (Vector3 position)</td></tr>
+<tr class="memdesc:ad926ec65a4a0c176c74cc6e00cb46b93 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically moves the rigidbody based on its type. If the rigidbody is kinematic MovePosition will be used. If the rigidbody is dynamic the velocity will be set.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ad926ec65a4a0c176c74cc6e00cb46b93">More...</a><br /></td></tr>
+<tr class="separator:ad926ec65a4a0c176c74cc6e00cb46b93 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e13908acd208b8b2d954e818357715e inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e13908acd208b8b2d954e818357715e">Rotate</a> (Quaternion rotation)</td></tr>
+<tr class="memdesc:a6e13908acd208b8b2d954e818357715e inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically rotates the rigidbody based on its type. If the rigidbody is kinematic MoveRotation will be used. If the rigidbody is dynamic the angular velocity will be set.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e13908acd208b8b2d954e818357715e">More...</a><br /></td></tr>
+<tr class="separator:a6e13908acd208b8b2d954e818357715e inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452330580082f6f15a65de848ab48ac3 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a452330580082f6f15a65de848ab48ac3">MoveAndRotate</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:a452330580082f6f15a65de848ab48ac3 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses both Move and Rotate method.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a452330580082f6f15a65de848ab48ac3">More...</a><br /></td></tr>
+<tr class="separator:a452330580082f6f15a65de848ab48ac3 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0800340c46cea50fef30f41d79f58617 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a0800340c46cea50fef30f41d79f58617">AddForce</a> (Vector3 force, bool ignoreMass=false)</td></tr>
+<tr class="memdesc:a0800340c46cea50fef30f41d79f58617 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a velocity vector to the rigidbody (simulating AddForce) calculated from a force value.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a0800340c46cea50fef30f41d79f58617">More...</a><br /></td></tr>
+<tr class="separator:a0800340c46cea50fef30f41d79f58617 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a783d2d43037d7324eef127517a8f7f09 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a783d2d43037d7324eef127517a8f7f09">AddExplosionForce</a> (float explosionForce, Vector3 explosionPosition, float explosionRadius, float upwardsModifier=0f)</td></tr>
+<tr class="memdesc:a783d2d43037d7324eef127517a8f7f09 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a velocity vector to the rigidbody (simulating AddExplosionForce) calculated from a force value.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a783d2d43037d7324eef127517a8f7f09">More...</a><br /></td></tr>
+<tr class="separator:a783d2d43037d7324eef127517a8f7f09 inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e00b4ed4510211b5adc51a2096c366f inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e00b4ed4510211b5adc51a2096c366f">AddTorque</a> (Vector3 torque, bool ignoreMass=false)</td></tr>
+<tr class="memdesc:a6e00b4ed4510211b5adc51a2096c366f inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an angular velocity vector to the rigidbody (simulating AddTorque) calculated from a torque value.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e00b4ed4510211b5adc51a2096c366f">More...</a><br /></td></tr>
+<tr class="separator:a6e00b4ed4510211b5adc51a2096c366f inherit pub_methods_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -133,14 +159,27 @@ Protected Member Functions</h2></td></tr>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
 <tr class="separator:aa8ae49240cedfa17dc074394a1238d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad68ef2d4604ff766861d49acf0202011"><td class="memItemLeft" align="right" valign="top"><a id="ad68ef2d4604ff766861d49acf0202011"></a>
+override bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingContinuousCollisionDetection</b> =&gt; rigidbody.collisionDetectionMode &gt; 0</td></tr>
+<tr class="separator:ad68ef2d4604ff766861d49acf0202011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_lightbug_1_1_utilities_1_1_rigidbody_component')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">Lightbug.Utilities.RigidbodyComponent</a></td></tr>
+<tr class="memitem:a26027221c11535898365badeb4f6f543 inherit pro_attribs_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a26027221c11535898365badeb4f6f543"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>previousContinuousCollisionDetection</b> = false</td></tr>
+<tr class="separator:a26027221c11535898365badeb4f6f543 inherit pro_attribs_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a28fc87a55163a11c7622962d82225214"><td class="memItemLeft" align="right" valign="top"><a id="a28fc87a55163a11c7622962d82225214"></a>
 override float&#160;</td><td class="memItemRight" valign="bottom"><b>Mass</b><code> [get, set]</code></td></tr>
 <tr class="separator:a28fc87a55163a11c7622962d82225214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a505a7db8cfe71888094dc053f0361855"><td class="memItemLeft" align="right" valign="top"><a id="a505a7db8cfe71888094dc053f0361855"></a>
-override float&#160;</td><td class="memItemRight" valign="bottom"><b>Drag</b><code> [get, set]</code></td></tr>
-<tr class="separator:a505a7db8cfe71888094dc053f0361855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa461ddd2da6a4094416561f9f32e9ad9"><td class="memItemLeft" align="right" valign="top"><a id="aa461ddd2da6a4094416561f9f32e9ad9"></a>
+override float&#160;</td><td class="memItemRight" valign="bottom"><b>LinearDrag</b><code> [get, set]</code></td></tr>
+<tr class="separator:aa461ddd2da6a4094416561f9f32e9ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720dcb5b1dcfbc655c85de61513cb0cd"><td class="memItemLeft" align="right" valign="top"><a id="a720dcb5b1dcfbc655c85de61513cb0cd"></a>
+override float&#160;</td><td class="memItemRight" valign="bottom"><b>AngularDrag</b><code> [get, set]</code></td></tr>
+<tr class="separator:a720dcb5b1dcfbc655c85de61513cb0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a803d9c035fba9f13c53e8d033e35ca80"><td class="memItemLeft" align="right" valign="top"><a id="a803d9c035fba9f13c53e8d033e35ca80"></a>
 override bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsKinematic</b><code> [get, set]</code></td></tr>
 <tr class="separator:a803d9c035fba9f13c53e8d033e35ca80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,9 +211,12 @@ override Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngularVe
 <tr class="memitem:ad433187c6fd900c30fd67576d9bc2c84 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="ad433187c6fd900c30fd67576d9bc2c84"></a>
 abstract float&#160;</td><td class="memItemRight" valign="bottom"><b>Mass</b><code> [get, set]</code></td></tr>
 <tr class="separator:ad433187c6fd900c30fd67576d9bc2c84 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb3f9ef1451fffb8260e6baeeaa0e8f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="afcb3f9ef1451fffb8260e6baeeaa0e8f"></a>
-abstract float&#160;</td><td class="memItemRight" valign="bottom"><b>Drag</b><code> [get, set]</code></td></tr>
-<tr class="separator:afcb3f9ef1451fffb8260e6baeeaa0e8f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430f8c13cea813646c41b1dea8e0a3c6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a430f8c13cea813646c41b1dea8e0a3c6"></a>
+abstract float&#160;</td><td class="memItemRight" valign="bottom"><b>LinearDrag</b><code> [get, set]</code></td></tr>
+<tr class="separator:a430f8c13cea813646c41b1dea8e0a3c6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c61ecd20a017d3f626545ba4e2ef8df inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a3c61ecd20a017d3f626545ba4e2ef8df"></a>
+abstract float&#160;</td><td class="memItemRight" valign="bottom"><b>AngularDrag</b><code> [get, set]</code></td></tr>
+<tr class="separator:a3c61ecd20a017d3f626545ba4e2ef8df inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265c8c157ef5bf67f42f7a932e1e11e5 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a265c8c157ef5bf67f42f7a932e1e11e5"></a>
 abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsKinematic</b><code> [get, set]</code></td></tr>
 <tr class="separator:a265c8c157ef5bf67f42f7a932e1e11e5 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,6 +232,9 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>ContinuousCo
 <tr class="memitem:ac8aaee5edaf32d54e59ffa17987cc9e6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="ac8aaee5edaf32d54e59ffa17987cc9e6"></a>
 abstract RigidbodyConstraints&#160;</td><td class="memItemRight" valign="bottom"><b>Constraints</b><code> [get, set]</code></td></tr>
 <tr class="separator:ac8aaee5edaf32d54e59ffa17987cc9e6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4835ae540e40bf3216728e34d61a0e60 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a4835ae540e40bf3216728e34d61a0e60"></a>
+abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingContinuousCollisionDetection</b><code> [get]</code></td></tr>
+<tr class="separator:a4835ae540e40bf3216728e34d61a0e60 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad6860adabaf4bc501a216fa40fccf6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a1ad6860adabaf4bc501a216fa40fccf6">Up</a><code> [get]</code></td></tr>
 <tr class="separator:a1ad6860adabaf4bc501a216fa40fccf6 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ec38ef4727c8b1a058a5a83b71f83cf inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6ec38ef4727c8b1a058a5a83b71f83cf">Forward</a><code> [get]</code></td></tr>
@@ -204,15 +249,21 @@ abstract RigidbodyConstraints&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="memitem:a3be5bd39753b6d467d7fae1a53bb8822 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">abstract Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a3be5bd39753b6d467d7fae1a53bb8822">Rotation</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a3be5bd39753b6d467d7fae1a53bb8822 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody rotation.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a3be5bd39753b6d467d7fae1a53bb8822">More...</a><br /></td></tr>
 <tr class="separator:a3be5bd39753b6d467d7fae1a53bb8822 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af987264a62e1899cdd58912941ea4b3f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="af987264a62e1899cdd58912941ea4b3f"></a>
-abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Velocity</b><code> [get, set]</code></td></tr>
+<tr class="memitem:af987264a62e1899cdd58912941ea4b3f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f">Velocity</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af987264a62e1899cdd58912941ea4b3f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody linear velocity.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f">More...</a><br /></td></tr>
 <tr class="separator:af987264a62e1899cdd58912941ea4b3f inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7bf05fb59011e11e5a919a6be6d3bf inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top"><a id="a2e7bf05fb59011e11e5a919a6be6d3bf"></a>
-abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngularVelocity</b><code> [get, set]</code></td></tr>
+<tr class="memitem:a2e7bf05fb59011e11e5a919a6be6d3bf inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a2e7bf05fb59011e11e5a919a6be6d3bf">AngularVelocity</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2e7bf05fb59011e11e5a919a6be6d3bf inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody angular velocity.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a2e7bf05fb59011e11e5a919a6be6d3bf">More...</a><br /></td></tr>
 <tr class="separator:a2e7bf05fb59011e11e5a919a6be6d3bf inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae482d65a765b2306c52c842f46dcc7a0 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ae482d65a765b2306c52c842f46dcc7a0">DesiredPosition</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ae482d65a765b2306c52c842f46dcc7a0 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the desired position. This value is being updated after either an Interpolate call or a Velocity change.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ae482d65a765b2306c52c842f46dcc7a0">More...</a><br /></td></tr>
+<tr class="separator:ae482d65a765b2306c52c842f46dcc7a0 inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add42d83b7dc5f5a1ccba5750dcb5bdce inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#add42d83b7dc5f5a1ccba5750dcb5bdce">DesiredRotation</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:add42d83b7dc5f5a1ccba5750dcb5bdce inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the desired rotation. This value is being updated after either an Interpolate call or a AngularVelocity change.  <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#add42d83b7dc5f5a1ccba5750dcb5bdce">More...</a><br /></td></tr>
+<tr class="separator:add42d83b7dc5f5a1ccba5750dcb5bdce inherit properties_class_lightbug_1_1_utilities_1_1_rigidbody_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of a <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is an encapsulation of the Rigidbody and Rigidbody2D components, containing the most c...">RigidbodyComponent</a> for 2D rigidbodies. </p>
+<div class="textblock"><p>An implementation of a <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html" title="This component is a wrapper for the Rigidbody and Rigidbody2D components, containing not only the mos...">RigidbodyComponent</a> for 2D rigidbodies. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a61645aa2f304c731acdc55001d39896d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61645aa2f304c731acdc55001d39896d">&#9670;&nbsp;</a></span>GetPointVelocity()</h2>
@@ -269,19 +320,13 @@ abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngularVe
 </div><div class="memdoc">
 
 <p>Interpolates the rigidbody position (equivalent to MovePosition). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">position</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 
 <p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a8ce1ef45bdbc549d8257d38d363d2e00">Lightbug.Utilities.RigidbodyComponent</a>.</p>
 
 </div>
 </div>
-<a id="aabfcede025329030e6e672164556b20d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabfcede025329030e6e672164556b20d">&#9670;&nbsp;</a></span>Interpolate() <span class="overload">[2/2]</span></h2>
+<a id="a0a93476ee6381937f5a1e633f72b6505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a93476ee6381937f5a1e633f72b6505">&#9670;&nbsp;</a></span>Interpolate() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,19 +337,9 @@ abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngularVe
         <tr>
           <td class="memname">override void Lightbug.Utilities.RigidbodyComponent2D.Interpolate </td>
           <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">Quaternion&#160;</td>
-          <td class="paramname"><em>rotation</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>rotation</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -314,54 +349,14 @@ abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngularVe
 </table>
 </div><div class="memdoc">
 
-<p>Interpolates the rigidbody position and rotation (equivalent to MovePosition and MoveRotation). </p>
+<p>Interpolates the rigidbody rotation (equivalent to MoveRotation). </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a663840d25d07f454c5f61fbb17723d0d">Lightbug.Utilities.RigidbodyComponent</a>.</p>
-
-</div>
-</div>
-<a id="a52782faf0174c2d6def0b16143578fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52782faf0174c2d6def0b16143578fe3">&#9670;&nbsp;</a></span>SetPositionAndRotation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void Lightbug.Utilities.RigidbodyComponent2D.SetPositionAndRotation </td>
-          <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Quaternion&#160;</td>
-          <td class="paramname"><em>rotation</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the rigidbody position and rotation. </p>
-
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a59407afc6efb2909caa0d029f82f970b">Lightbug.Utilities.RigidbodyComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af5033b62b4c1bddf28d9b4abf9a9d76b">Lightbug.Utilities.RigidbodyComponent</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro 19_3/Assets/Character Controller Pro/Utilities/Scripts/RigidbodyComponent2D.cs</li>
+<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Utilities/Scripts/RigidbodyComponent2D.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

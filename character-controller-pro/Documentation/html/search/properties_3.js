@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['defaultbodysize',['DefaultBodySize',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aee7c5fc8935ef7eaf3a5c3bde2062d56',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['dynamicgroundlayermask',['DynamicGroundLayerMask',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a56d59c2185965607c84bef8d6edd109c',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['dynamicgroundpointvelocity',['DynamicGroundPointVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf43c3bdbe2c16409b91c5ea03593d02',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['dynamicrigidbodieslayermask',['DynamicRigidbodiesLayerMask',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a68f72894d3b581cf5ee508064d52077e',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['desiredposition',['DesiredPosition',['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ae482d65a765b2306c52c842f46dcc7a0',1,'Lightbug::Utilities::RigidbodyComponent']]],
+  ['desiredrotation',['DesiredRotation',['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#add42d83b7dc5f5a1ccba5750dcb5bdce',1,'Lightbug::Utilities::RigidbodyComponent']]],
+  ['detected',['Detected',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#a6523c8236e8c18f69271c488993d1938',1,'Lightbug::CharacterControllerPro::Implementation::Vector2Action']]],
+  ['down',['Down',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#a175eb4745c97d5e039b6683057763fea',1,'Lightbug::CharacterControllerPro::Implementation::Vector2Action']]],
+  ['dynamicgroundpointvelocity',['DynamicGroundPointVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf43c3bdbe2c16409b91c5ea03593d02',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
 ];

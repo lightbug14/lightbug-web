@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hitcollidersbufferlength',['HitCollidersBufferLength',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a38322061fa038a56b3867a6f75f90663',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
+  ['gameobject',['gameObject',['../struct_lightbug_1_1_utilities_1_1_contact.html#a8a83aba31c67cd7bc7fd896d48cd2107',1,'Lightbug.Utilities.Contact.gameObject()'],['../struct_lightbug_1_1_utilities_1_1_trigger.html#afe21e0f668e929626858b74841687043',1,'Lightbug.Utilities.Trigger.gameObject()']]],
+  ['groundcheckdistance',['GroundCheckDistance',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac3fa528d1b0537399eabe5b80fac711e',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['groundpredictiondistance',['GroundPredictionDistance',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0d9c720784a300a5ea0d6b5b600e8679',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
 ];

@@ -7,7 +7,6 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform
     ] ],
     [ "Awake", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#a9abe6722f2a05cfe54d4f9c14473d264", null ],
     [ "ToString", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#a8a14a89c46d3450f1dd863320e608d6e", null ],
-    [ "UpdateKinematicActor", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#a2703fc8009b214edb6cc0f0f195ebadf", null ],
     [ "move", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#a10e38d36b592ec57e27647769a78aa29", null ],
     [ "positiveSequenceDirection", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#a999d3046034b3e959a0bb819a6483914", null ],
     [ "rotate", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html#ae6c8f555b6309852268dc48780770d33", null ],

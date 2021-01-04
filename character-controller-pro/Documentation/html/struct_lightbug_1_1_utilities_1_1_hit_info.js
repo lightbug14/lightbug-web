@@ -11,5 +11,6 @@ var struct_lightbug_1_1_utilities_1_1_hit_info =
     [ "rigidbody3D", "struct_lightbug_1_1_utilities_1_1_hit_info.html#aa690052307ff6d4de829e96d1cee06df", null ],
     [ "transform", "struct_lightbug_1_1_utilities_1_1_hit_info.html#a96f7ad09bc93a62738078d30330e98e6", null ],
     [ "Is2D", "struct_lightbug_1_1_utilities_1_1_hit_info.html#a566b9ffa9675d252140139a624f431b2", null ],
+    [ "IsKinematicRigidbody", "struct_lightbug_1_1_utilities_1_1_hit_info.html#ad0f3316f8e1a6ddb2314699fb6d536e8", null ],
     [ "IsRigidbody", "struct_lightbug_1_1_utilities_1_1_hit_info.html#ad08a8fb975300163dbb574b55d64b04d", null ]
 ];

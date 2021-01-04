@@ -8,6 +8,11 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement =
     [ "HandleSize", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a8dda30333b08c3847cbf8376447ffef7", null ],
     [ "HandleVelocity", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#aac2b079c96ffeeb60f4f7fd1aa2b3423", null ],
     [ "PostUpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a08856bcf3f4e7a3820dc5ab9534c0336", null ],
+    [ "ProcessGravity", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a92cab31aa7fe4cb70b5c1bac767211d8", null ],
+    [ "ProcessJump", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a2852fc2690439cf5270b7d70c390e605", null ],
+    [ "ProcessPlanarMovement", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#ac0010a5f9c2ca346dbd0afa329e38b28", null ],
+    [ "SetJumpDirection", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a3151fcf51977f86abc948df0b866669c", null ],
+    [ "Start", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a4c32e90e982236b110866570f8e4cac4", null ],
     [ "UpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a92003522b0eb7e8cd1efea6785d25f85", null ],
     [ "crouchParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a0d5021c96f499485abd04f39e8b6fb89", null ],
     [ "lookingDirectionParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#ae26a8ece82e028db90eed6d539f028b7", null ],
@@ -15,7 +20,7 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement =
     [ "verticalMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#ad5c9bb9b0b8eeb84617ec8fa45f24387", null ],
     [ "FollowExternalReference", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a3b7883f72866b120bf35bc640d6cf281", null ],
     [ "UseGravity", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a767170fe004452ec9a2fc90deacb0e67", null ],
-    [ "OnGroundedJumpPerformed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#afd0b1137343b6fe71c92b43640452eac", null ],
+    [ "OnGroundedJumpPerformed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a7956c295b08985590bb96c208879a692", null ],
     [ "OnJumpPerformed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a0b8cc67aee6c89b0193c1b3a095a7d38", null ],
     [ "OnNotGroundedJumpPerformed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a797e76647a8de61ab0d18423f87ba66b", null ]
 ];

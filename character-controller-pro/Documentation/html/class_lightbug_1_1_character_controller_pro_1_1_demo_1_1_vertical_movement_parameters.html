@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.1.3</span>
+   &#160;<span id="projectnumber">1.2.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -104,10 +104,6 @@ Public Types</h2></td></tr>
 <b>GroundNormal</b>
  }</td></tr>
 <tr class="separator:af9a011b81329f31b911e8bb3ed4b0197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabb0600f2367466b01fae521f263c8f6"><td class="memItemLeft" align="right" valign="top"><a id="aabb0600f2367466b01fae521f263c8f6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>JumpReleaseAction</b> { <b>Disabled</b>, 
-<b>StopJumping</b>
- }</td></tr>
-<tr class="separator:aabb0600f2367466b01fae521f263c8f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -120,36 +116,42 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad5990b2137696527f9e05004cfe813e9"><td class="memItemLeft" align="right" valign="top"><a id="ad5990b2137696527f9e05004cfe813e9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useGravity</b> = true</td></tr>
 <tr class="separator:ad5990b2137696527f9e05004cfe813e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5675861387eb9fc44328f6e57a4c4fb9"><td class="memItemLeft" align="right" valign="top"><a id="a5675861387eb9fc44328f6e57a4c4fb9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canJump</b> = true</td></tr>
+<tr class="separator:a5675861387eb9fc44328f6e57a4c4fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b106fdfa37dad1c58c8934cfe39546"><td class="memItemLeft" align="right" valign="top"><a id="ac5b106fdfa37dad1c58c8934cfe39546"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexHeight</b> = 1f</td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexHeight</b> = 2.25f</td></tr>
 <tr class="separator:ac5b106fdfa37dad1c58c8934cfe39546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1667b6e81533857ce736a633c74ecfa7"><td class="memItemLeft" align="right" valign="top"><a id="a1667b6e81533857ce736a633c74ecfa7"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexDuration</b> = 0.3f</td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexDuration</b> = 0.5f</td></tr>
 <tr class="separator:a1667b6e81533857ce736a633c74ecfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d00ce353ea6f9352512388b94c05be"><td class="memItemLeft" align="right" valign="top"><a id="ae9d00ce353ea6f9352512388b94c05be"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>cancelJumpOnRelease</b> = true</td></tr>
+<tr class="separator:ae9d00ce353ea6f9352512388b94c05be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59adf281f3925327c017c42f769b9bb0"><td class="memItemLeft" align="right" valign="top"><a id="a59adf281f3925327c017c42f769b9bb0"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>cancelJumpMultiplier</b> = 0.5f</td></tr>
+<tr class="separator:a59adf281f3925327c017c42f769b9bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f1e8e3541e3b02b7f3f2b380a28f05"><td class="memItemLeft" align="right" valign="top"><a id="ab5f1e8e3541e3b02b7f3f2b380a28f05"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>cancelJumpMinTime</b> = 0.1f</td></tr>
+<tr class="separator:ab5f1e8e3541e3b02b7f3f2b380a28f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2efcd3a8560b024a8abd7fcdd0a3ec32"><td class="memItemLeft" align="right" valign="top"><a id="a2efcd3a8560b024a8abd7fcdd0a3ec32"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>cancelJumpMaxTime</b> = 0.3f</td></tr>
+<tr class="separator:a2efcd3a8560b024a8abd7fcdd0a3ec32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb513524282b8d6ab50c2d1e142f6f91"><td class="memItemLeft" align="right" valign="top"><a id="acb513524282b8d6ab50c2d1e142f6f91"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>preGroundedJumpTime</b> = 0.2f</td></tr>
+<tr class="separator:acb513524282b8d6ab50c2d1e142f6f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a216e3f4ed2828dd985b416c7e2def15d"><td class="memItemLeft" align="right" valign="top"><a id="a216e3f4ed2828dd985b416c7e2def15d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>postGroundedJumpTime</b> = 0.1f</td></tr>
+<tr class="separator:a216e3f4ed2828dd985b416c7e2def15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0425801b5ed2b95fb98e267ce1e7ace2"><td class="memItemLeft" align="right" valign="top"><a id="a0425801b5ed2b95fb98e267ce1e7ace2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>availableNotGroundedJumps</b> = 1</td></tr>
 <tr class="separator:a0425801b5ed2b95fb98e267ce1e7ace2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a6eef64866aef2be3dee2e289f95c1"><td class="memItemLeft" align="right" valign="top"><a id="a75a6eef64866aef2be3dee2e289f95c1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>canJumpOnUnstableGround</b> = false</td></tr>
 <tr class="separator:a75a6eef64866aef2be3dee2e289f95c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a214cec71c533d643f7dd3f8e3397758a"><td class="memItemLeft" align="right" valign="top"><a id="a214cec71c533d643f7dd3f8e3397758a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>coyoteTime</b> = 0.1f</td></tr>
-<tr class="separator:a214cec71c533d643f7dd3f8e3397758a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad90983856cdaae5921ff8a87eb415cd4"><td class="memItemLeft" align="right" valign="top"><a id="ad90983856cdaae5921ff8a87eb415cd4"></a>
-UnstableJumpMode&#160;</td><td class="memItemRight" valign="bottom"><b>unstableJumpMode</b> = UnstableJumpMode.GroundNormal</td></tr>
-<tr class="separator:ad90983856cdaae5921ff8a87eb415cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac380f871384cc16381b49dc43cfcb67e"><td class="memItemLeft" align="right" valign="top"><a id="ac380f871384cc16381b49dc43cfcb67e"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpIntertiaMultiplier</b> = 0.5f</td></tr>
-<tr class="separator:ac380f871384cc16381b49dc43cfcb67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3039ea19e54fbf6d2124dbf9fa47954d"><td class="memItemLeft" align="right" valign="top"><a id="a3039ea19e54fbf6d2124dbf9fa47954d"></a>
-JumpReleaseAction&#160;</td><td class="memItemRight" valign="bottom"><b>jumpReleaseAction</b> = JumpReleaseAction.StopJumping</td></tr>
-<tr class="separator:a3039ea19e54fbf6d2124dbf9fa47954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a983db25beead6d400e5e6d618aa94f38"><td class="memItemLeft" align="right" valign="top"><a id="a983db25beead6d400e5e6d618aa94f38"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>constantJumpDuration</b> = 0.2f</td></tr>
-<tr class="separator:a983db25beead6d400e5e6d618aa94f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27fe3943c9cd87980fefcc0752e39980"><td class="memItemLeft" align="right" valign="top"><a id="a27fe3943c9cd87980fefcc0752e39980"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>jumpPadTag</b> = &quot;JumpPad&quot;</td></tr>
-<tr class="separator:a27fe3943c9cd87980fefcc0752e39980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536ede705bccafe2caf1de7b158f448a"><td class="memItemLeft" align="right" valign="top"><a id="a536ede705bccafe2caf1de7b158f448a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpInertiaMultiplier</b> = 0.5f</td></tr>
+<tr class="separator:a536ede705bccafe2caf1de7b158f448a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -161,7 +163,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>JumpSpeed</b><code> 
 <tr class="separator:ab6bab8116111729d3642b58851e98edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro 19_3/Assets/Character Controller Pro/Demo/Scripts/States/NormalMovementExtras.cs</li>
+<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Demo/Scripts/States/NormalMovementExtras.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

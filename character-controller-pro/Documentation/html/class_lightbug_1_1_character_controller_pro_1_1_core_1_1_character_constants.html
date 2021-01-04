@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.1.3</span>
+   &#160;<span id="projectnumber">1.2.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -107,14 +107,11 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a9a46994cada652cd6422551219d03f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast distance used for the raycasts in the edge detection algorithm.  <a href="#a9a46994cada652cd6422551219d03f3e">More...</a><br /></td></tr>
 <tr class="separator:a9a46994cada652cd6422551219d03f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c316cffb0f0418387258738dbb5a9b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac5c316cffb0f0418387258738dbb5a9b">SkinWidth</a> = 0.01f</td></tr>
-<tr class="memdesc:ac5c316cffb0f0418387258738dbb5a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance between the collider and the inner  <a href="#ac5c316cffb0f0418387258738dbb5a9b">More...</a><br /></td></tr>
+<tr class="memdesc:ac5c316cffb0f0418387258738dbb5a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Space between the collider and the collision shape (used by the physics queries).  <a href="#ac5c316cffb0f0418387258738dbb5a9b">More...</a><br /></td></tr>
 <tr class="separator:ac5c316cffb0f0418387258738dbb5a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00c04e955a3be74f31916c2bf44f49f4"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a00c04e955a3be74f31916c2bf44f49f4">ColliderMinBottomOffset</a> = 0.02f</td></tr>
+<tr class="memitem:a00c04e955a3be74f31916c2bf44f49f4"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a00c04e955a3be74f31916c2bf44f49f4">ColliderMinBottomOffset</a> = 0.1f</td></tr>
 <tr class="memdesc:a00c04e955a3be74f31916c2bf44f49f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum offset applied to the bottom of the capsule (upwards) to avoid contact with the ground.  <a href="#a00c04e955a3be74f31916c2bf44f49f4">More...</a><br /></td></tr>
 <tr class="separator:a00c04e955a3be74f31916c2bf44f49f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e671dc02de5f4d4d59ec40fe2017add"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a3e671dc02de5f4d4d59ec40fe2017add">MinMovementAmount</a> = 0.001f</td></tr>
-<tr class="memdesc:a3e671dc02de5f4d4d59ec40fe2017add"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum amount of movement tolerated. Any displacement magnitude less that this amount will not be calculated, hence not movement will be produced.  <a href="#a3e671dc02de5f4d4d59ec40fe2017add">More...</a><br /></td></tr>
-<tr class="separator:a3e671dc02de5f4d4d59ec40fe2017add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9d22e0a5aa2ae180094d85a38976181"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa9d22e0a5aa2ae180094d85a38976181">MinEdgeAngle</a> = 0.5f</td></tr>
 <tr class="memdesc:aa9d22e0a5aa2ae180094d85a38976181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum angle between upper and lower normals (from the edge detector) that defines an edge.  <a href="#aa9d22e0a5aa2ae180094d85a38976181">More...</a><br /></td></tr>
 <tr class="separator:aa9d22e0a5aa2ae180094d85a38976181"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,29 +125,29 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ad069af28c6ac892be12dd57c9c6d6297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum angle between upper and lower normals (from the edge detector) that defines a step.  <a href="#ad069af28c6ac892be12dd57c9c6d6297">More...</a><br /></td></tr>
 <tr class="separator:ad069af28c6ac892be12dd57c9c6d6297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3fa528d1b0537399eabe5b80fac711e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac3fa528d1b0537399eabe5b80fac711e">GroundCheckDistance</a> = 0.1f</td></tr>
-<tr class="memdesc:ac3fa528d1b0537399eabe5b80fac711e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base distance used for ground probing. The effective ground probing distance will be the maxmimum between this value and "step down distance".  <a href="#ac3fa528d1b0537399eabe5b80fac711e">More...</a><br /></td></tr>
+<tr class="memdesc:ac3fa528d1b0537399eabe5b80fac711e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base distance used for ground probing.  <a href="#ac3fa528d1b0537399eabe5b80fac711e">More...</a><br /></td></tr>
 <tr class="separator:ac3fa528d1b0537399eabe5b80fac711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31cb381297d0cf3187e5c58c65e529a9"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a31cb381297d0cf3187e5c58c65e529a9">MaxWallDetectionTolerance</a> = 5f</td></tr>
-<tr class="memdesc:a31cb381297d0cf3187e5c58c65e529a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance measured in degrees (0 ± MaxWallDetectionTolerance) used to determine if the character is colliding directly towards a wall .  <a href="#a31cb381297d0cf3187e5c58c65e529a9">More...</a><br /></td></tr>
-<tr class="separator:a31cb381297d0cf3187e5c58c65e529a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a7dc29e9aed07e299b2292ae97c3867"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a3a7dc29e9aed07e299b2292ae97c3867">StableGroundCheckDistance</a> = 1f</td></tr>
+<tr class="memdesc:a3a7dc29e9aed07e299b2292ae97c3867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base distance used for stable ground probing.  <a href="#a3a7dc29e9aed07e299b2292ae97c3867">More...</a><br /></td></tr>
+<tr class="separator:a3a7dc29e9aed07e299b2292ae97c3867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad6e610c50d72fef72c108ff71e7db9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0ad6e610c50d72fef72c108ff71e7db9">MaxSlideIterations</a> = 3</td></tr>
-<tr class="memdesc:a0ad6e610c50d72fef72c108ff71e7db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations available for the collide and slide algorithm. This is used in some cases to allow the loop to end.  <a href="#a0ad6e610c50d72fef72c108ff71e7db9">More...</a><br /></td></tr>
+<tr class="memdesc:a0ad6e610c50d72fef72c108ff71e7db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations available for the collide and slide algorithm. This becomes useful for ending the loop.  <a href="#a0ad6e610c50d72fef72c108ff71e7db9">More...</a><br /></td></tr>
 <tr class="separator:a0ad6e610c50d72fef72c108ff71e7db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dabe692042c6885e2eacfae788a34f3"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a4dabe692042c6885e2eacfae788a34f3">MinStepUpDifference</a> = 0.001f</td></tr>
-<tr class="memdesc:a4dabe692042c6885e2eacfae788a34f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the "step up" movement has been calculated, if the difference in magnitude between the resulting position and the initial position is greater than this value, the step up process with be successful.  <a href="#a4dabe692042c6885e2eacfae788a34f3">More...</a><br /></td></tr>
-<tr class="separator:a4dabe692042c6885e2eacfae788a34f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f5ab5c314f4cd101c1a26fd38171fd"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a12f5ab5c314f4cd101c1a26fd38171fd">StepExtraMovement</a> = 0.1f</td></tr>
-<tr class="memdesc:a12f5ab5c314f4cd101c1a26fd38171fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extra distance added to the original displacement when performing a step up. If the character has problems climbing steps try to increase this value. A high value will produce a more noticeable effect, which is no good.  <a href="#a12f5ab5c314f4cd101c1a26fd38171fd">More...</a><br /></td></tr>
-<tr class="separator:a12f5ab5c314f4cd101c1a26fd38171fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38322061fa038a56b3867a6f75f90663"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a38322061fa038a56b3867a6f75f90663">HitCollidersBufferLength</a> = 10</td></tr>
 <tr class="memdesc:a38322061fa038a56b3867a6f75f90663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length used for the collision info containers. These are arrays used for storing the information gathered from the physics queries, collision messages, etc.  <a href="#a38322061fa038a56b3867a6f75f90663">More...</a><br /></td></tr>
 <tr class="separator:a38322061fa038a56b3867a6f75f90663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07655e12584e96d8cb39ef572923152e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a07655e12584e96d8cb39ef572923152e">ExternalVelocitiesBufferLength</a> = 10</td></tr>
-<tr class="memdesc:a07655e12584e96d8cb39ef572923152e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length used for the external velocites array.  <a href="#a07655e12584e96d8cb39ef572923152e">More...</a><br /></td></tr>
-<tr class="separator:a07655e12584e96d8cb39ef572923152e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa040c38b74808a41f35e2ae34647a916"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa040c38b74808a41f35e2ae34647a916">DefaultGravity</a> = 9.8f</td></tr>
 <tr class="memdesc:aa040c38b74808a41f35e2ae34647a916"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default gravity value used by the weight function.  <a href="#aa040c38b74808a41f35e2ae34647a916">More...</a><br /></td></tr>
 <tr class="separator:aa040c38b74808a41f35e2ae34647a916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ae595ae6cc3bb2db6e2d38b446f3f3d75">MinHeadContactAngle</a> = 100f</td></tr>
+<tr class="memdesc:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees.  <a href="#ae595ae6cc3bb2db6e2d38b446f3f3d75">More...</a><br /></td></tr>
+<tr class="separator:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad734a0ca9641985440a97e5ae7938281"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad734a0ca9641985440a97e5ae7938281">WallContactAngleTolerance</a> = 10f</td></tr>
+<tr class="memdesc:ad734a0ca9641985440a97e5ae7938281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance value considered when choosing the "wall contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from 90 - "WallContactAngleTolerance" to 90 degrees.  <a href="#ad734a0ca9641985440a97e5ae7938281">More...</a><br /></td></tr>
+<tr class="separator:ad734a0ca9641985440a97e5ae7938281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9c720784a300a5ea0d6b5b600e8679"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0d9c720784a300a5ea0d6b5b600e8679">GroundPredictionDistance</a> = 10f</td></tr>
+<tr class="memdesc:a0d9c720784a300a5ea0d6b5b600e8679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance use to predict the ground below the character.  <a href="#a0d9c720784a300a5ea0d6b5b600e8679">More...</a><br /></td></tr>
+<tr class="separator:a0d9c720784a300a5ea0d6b5b600e8679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class contain all the constants used for collision detection, steps detection, ground probing, etc. All the values were carefully chosen, this means that it is not recommended to modify these values at all, however if you need to do it do so at your own risk (make a backup before). </p>
@@ -162,7 +159,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.ColliderMinBottomOffset = 0.02f</td>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.ColliderMinBottomOffset = 0.1f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,22 +216,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a07655e12584e96d8cb39ef572923152e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07655e12584e96d8cb39ef572923152e">&#9670;&nbsp;</a></span>ExternalVelocitiesBufferLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int Lightbug.CharacterControllerPro.Core.CharacterConstants.ExternalVelocitiesBufferLength = 10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Length used for the external velocites array. </p>
-
-</div>
-</div>
 <a id="ac3fa528d1b0537399eabe5b80fac711e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3fa528d1b0537399eabe5b80fac711e">&#9670;&nbsp;</a></span>GroundCheckDistance</h2>
 
@@ -247,7 +228,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Base distance used for ground probing. The effective ground probing distance will be the maxmimum between this value and "step down distance". </p>
+<p>Base distance used for ground probing. </p>
+
+</div>
+</div>
+<a id="a0d9c720784a300a5ea0d6b5b600e8679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9c720784a300a5ea0d6b5b600e8679">&#9670;&nbsp;</a></span>GroundPredictionDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.GroundPredictionDistance = 10f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Distance use to predict the ground below the character. </p>
 
 </div>
 </div>
@@ -295,7 +292,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximum number of iterations available for the collide and slide algorithm. This is used in some cases to allow the loop to end. </p>
+<p>Maximum number of iterations available for the collide and slide algorithm. This becomes useful for ending the loop. </p>
 
 </div>
 </div>
@@ -315,22 +312,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a31cb381297d0cf3187e5c58c65e529a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31cb381297d0cf3187e5c58c65e529a9">&#9670;&nbsp;</a></span>MaxWallDetectionTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MaxWallDetectionTolerance = 5f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tolerance measured in degrees (0 ± MaxWallDetectionTolerance) used to determine if the character is colliding directly towards a wall . </p>
-
-</div>
-</div>
 <a id="aa9d22e0a5aa2ae180094d85a38976181"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9d22e0a5aa2ae180094d85a38976181">&#9670;&nbsp;</a></span>MinEdgeAngle</h2>
 
@@ -347,19 +328,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e671dc02de5f4d4d59ec40fe2017add"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e671dc02de5f4d4d59ec40fe2017add">&#9670;&nbsp;</a></span>MinMovementAmount</h2>
+<a id="ae595ae6cc3bb2db6e2d38b446f3f3d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae595ae6cc3bb2db6e2d38b446f3f3d75">&#9670;&nbsp;</a></span>MinHeadContactAngle</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MinMovementAmount = 0.001f</td>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MinHeadContactAngle = 100f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Minimum amount of movement tolerated. Any displacement magnitude less that this amount will not be calculated, hence not movement will be produced. </p>
+<p>Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees. </p>
 
 </div>
 </div>
@@ -379,22 +360,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4dabe692042c6885e2eacfae788a34f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dabe692042c6885e2eacfae788a34f3">&#9670;&nbsp;</a></span>MinStepUpDifference</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MinStepUpDifference = 0.001f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>After the "step up" movement has been calculated, if the difference in magnitude between the resulting position and the initial position is greater than this value, the step up process with be successful. </p>
-
-</div>
-</div>
 <a id="ac5c316cffb0f0418387258738dbb5a9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5c316cffb0f0418387258738dbb5a9b">&#9670;&nbsp;</a></span>SkinWidth</h2>
 
@@ -407,28 +372,44 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Distance between the collider and the inner </p>
+<p>Space between the collider and the collision shape (used by the physics queries). </p>
 
 </div>
 </div>
-<a id="a12f5ab5c314f4cd101c1a26fd38171fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12f5ab5c314f4cd101c1a26fd38171fd">&#9670;&nbsp;</a></span>StepExtraMovement</h2>
+<a id="a3a7dc29e9aed07e299b2292ae97c3867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a7dc29e9aed07e299b2292ae97c3867">&#9670;&nbsp;</a></span>StableGroundCheckDistance</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.StepExtraMovement = 0.1f</td>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.StableGroundCheckDistance = 1f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The extra distance added to the original displacement when performing a step up. If the character has problems climbing steps try to increase this value. A high value will produce a more noticeable effect, which is no good. </p>
+<p>Base distance used for stable ground probing. </p>
+
+</div>
+</div>
+<a id="ad734a0ca9641985440a97e5ae7938281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad734a0ca9641985440a97e5ae7938281">&#9670;&nbsp;</a></span>WallContactAngleTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.WallContactAngleTolerance = 10f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tolerance value considered when choosing the "wall contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from 90 - "WallContactAngleTolerance" to 90 degrees. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro 19_3/Assets/Character Controller Pro/Core/Scripts/Character/CharacterConstants.cs</li>
+<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Core/Scripts/Character/CharacterConstants.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

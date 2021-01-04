@@ -4,14 +4,15 @@ var hierarchy =
     [ "Lightbug.CharacterControllerPro.Implementation.CharacterActions", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.CharacterAIAction", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_a_i_action.html", null ],
     [ "Lightbug.CharacterControllerPro.Core.CharacterCollisionInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html", null ],
+    [ "Lightbug.CharacterControllerPro.Core.CharacterCollisions", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collisions.html", null ],
     [ "Lightbug.CharacterControllerPro.Core.CharacterConstants", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.CharacterReferenceObject", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_reference_object.html", null ],
     [ "Lightbug.CharacterControllerPro.Core.CollisionInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html", null ],
     [ "Lightbug.Utilities.Contact", "struct_lightbug_1_1_utilities_1_1_contact.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.CrouchParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_crouch_parameters.html", null ],
-    [ "Lightbug.CharacterControllerPro.Core.DynamicGroundInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_dynamic_ground_info.html", null ],
     [ "Lightbug.CharacterControllerPro.Implementation.FloatAction", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_float_action.html", null ],
     [ "Lightbug.Utilities.HitInfo", "struct_lightbug_1_1_utilities_1_1_hit_info.html", null ],
+    [ "Lightbug.Utilities.HitInfoFilter", "struct_lightbug_1_1_utilities_1_1_hit_info_filter.html", null ],
     [ "IDragHandler", null, [
       [ "Lightbug.CharacterControllerPro.Implementation.InputAxes", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_input_axes.html", null ]
     ] ],
@@ -40,28 +41,21 @@ var hierarchy =
         [ "Lightbug.CharacterControllerPro.Demo.JetPack", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jet_pack.html", null ],
         [ "Lightbug.CharacterControllerPro.Demo.LadderClimbing", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html", null ],
         [ "Lightbug.CharacterControllerPro.Demo.LedgeHanging", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html", null ],
-        [ "Lightbug.CharacterControllerPro.Demo.NormalMovement", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html", null ]
+        [ "Lightbug.CharacterControllerPro.Demo.NormalMovement", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html", null ],
+        [ "Lightbug.CharacterControllerPro.Demo.RopeClimbing", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html", null ],
+        [ "Lightbug.CharacterControllerPro.Demo.WallSlide", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html", null ]
       ] ]
     ] ],
     [ "Lightbug.CharacterControllerPro.Demo.LookingDirectionParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_looking_direction_parameters.html", null ],
     [ "MonoBehaviour", null, [
       [ "Lightbug.CharacterControllerPro.Core.CharacterActor", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html", null ],
-      [ "Lightbug.CharacterControllerPro.Core.CharacterActorBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor_behaviour.html", [
-        [ "Lightbug.CharacterControllerPro.Implementation.CharacterStateController", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html", null ]
-      ] ],
       [ "Lightbug.CharacterControllerPro.Core.CharacterBody", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html", null ],
       [ "Lightbug.CharacterControllerPro.Core.CharacterDebug", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_debug.html", null ],
       [ "Lightbug.CharacterControllerPro.Core.CharacterGraphics", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_graphics.html", [
         [ "Lightbug.CharacterControllerPro.Core.CharacterGraphics2DRotator", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_graphics2_d_rotator.html", null ],
+        [ "Lightbug.CharacterControllerPro.Core.CharacterGraphicsRootController", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_graphics_root_controller.html", null ],
         [ "Lightbug.CharacterControllerPro.Core.CharacterGraphicsScaler", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_graphics_scaler.html", null ]
       ] ],
-      [ "Lightbug.CharacterControllerPro.Core.KinematicActor", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_kinematic_actor.html", [
-        [ "Lightbug.CharacterControllerPro.Core.KinematicPlatform", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_kinematic_platform.html", [
-          [ "Lightbug.CharacterControllerPro.Demo.ActionBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_action_based_platform.html", null ],
-          [ "Lightbug.CharacterControllerPro.Demo.NodeBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html", null ]
-        ] ]
-      ] ],
-      [ "Lightbug.CharacterControllerPro.Core.SceneController", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_scene_controller.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.AddTorque", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_add_torque.html", [
         [ "Lightbug.CharacterControllerPro.Demo.AddTorque2D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_add_torque2_d.html", null ],
         [ "Lightbug.CharacterControllerPro.Demo.AddTorque3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_add_torque3_d.html", null ]
@@ -77,7 +71,12 @@ var hierarchy =
       [ "Lightbug.CharacterControllerPro.Demo.MaterialController", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_material_controller.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.MenuButton", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_menu_button.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.PerformanceDemoManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_demo_manager.html", null ],
+      [ "Lightbug.CharacterControllerPro.Demo.Platform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform.html", [
+        [ "Lightbug.CharacterControllerPro.Demo.ActionBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_action_based_platform.html", null ],
+        [ "Lightbug.CharacterControllerPro.Demo.NodeBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html", null ]
+      ] ],
       [ "Lightbug.CharacterControllerPro.Demo.RigidbodyModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rigidbody_modifier.html", null ],
+      [ "Lightbug.CharacterControllerPro.Demo.Rope", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.VerticalDirectionModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier.html", [
         [ "Lightbug.CharacterControllerPro.Demo.VerticalDirectionModifier2D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier2_d.html", null ],
         [ "Lightbug.CharacterControllerPro.Demo.VerticalDirectionModifier3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier3_d.html", null ]
@@ -90,6 +89,7 @@ var hierarchy =
       ] ],
       [ "Lightbug.CharacterControllerPro.Implementation.CharacterBrain", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_brain.html", null ],
       [ "Lightbug.CharacterControllerPro.Implementation.CharacterState", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html", null ],
+      [ "Lightbug.CharacterControllerPro.Implementation.CharacterStateController", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html", null ],
       [ "Lightbug.CharacterControllerPro.Implementation.InputAxes", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_input_axes.html", null ],
       [ "Lightbug.CharacterControllerPro.Implementation.InputButton", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_input_button.html", null ],
       [ "Lightbug.CharacterControllerPro.Implementation.InputHandler", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_input_handler.html", [
@@ -115,20 +115,21 @@ var hierarchy =
         [ "Lightbug.Utilities.RigidbodyComponent3D", "class_lightbug_1_1_utilities_1_1_rigidbody_component3_d.html", null ]
       ] ]
     ] ],
-    [ "Lightbug.CharacterControllerPro.Demo.PlanarMovementParameters.Motion", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_motion.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.MovementAction", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_movement_action.html", null ],
     [ "Lightbug.CharacterControllerPro.Implementation.MovementReferenceParameters", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html", null ],
-    [ "Lightbug.Utilities.OrthonormalReference", "struct_lightbug_1_1_utilities_1_1_orthonormal_reference.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.ParticleSystemPooler", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_particle_system_pooler.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.PlanarMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters.html", null ],
+    [ "Lightbug.CharacterControllerPro.Demo.PlanarMovementParameters.PlanarMovementProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.PlatformNode", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform_node.html", null ],
     [ "PropertyAttribute", null, [
+      [ "Lightbug.Utilities.ConditionAttribute", "class_lightbug_1_1_utilities_1_1_condition_attribute.html", null ],
       [ "Lightbug.Utilities.CustomClassDrawer", "class_lightbug_1_1_utilities_1_1_custom_class_drawer.html", null ],
-      [ "Lightbug.Utilities.Range_NoSliderAttribute", "class_lightbug_1_1_utilities_1_1_range___no_slider_attribute.html", null ]
+      [ "Lightbug.Utilities.CustomHeaderAttribute", "class_lightbug_1_1_utilities_1_1_custom_header_attribute.html", null ],
+      [ "Lightbug.Utilities.HelpBoxAttribute", "class_lightbug_1_1_utilities_1_1_help_box_attribute.html", null ]
     ] ],
+    [ "Lightbug.CharacterControllerPro.Core.RayArrayInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_ray_array_info.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.RotationAction", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rotation_action.html", null ],
     [ "ScriptableObject", null, [
-      [ "Lightbug.CharacterControllerPro.Core.CharacterTagsAndLayersProfile", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_tags_and_layers_profile.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.MaterialsProperties", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_materials_properties.html", null ],
       [ "Lightbug.CharacterControllerPro.Implementation.CharacterActionsAsset", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions_asset.html", null ]
     ] ],

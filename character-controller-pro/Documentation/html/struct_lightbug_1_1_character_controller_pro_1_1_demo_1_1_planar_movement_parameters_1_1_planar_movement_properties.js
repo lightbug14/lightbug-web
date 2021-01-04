@@ -1,0 +1,6 @@
+var struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties =
+[
+    [ "PlanarMovementProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html#a4127130cfdd727c917aa15669c750183", null ],
+    [ "acceleration", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html#a4e0226156c52dbccb962d2539054eed1", null ],
+    [ "deceleration", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html#ae3e8fa765d9ca88759c448d2396bed4e", null ]
+];
