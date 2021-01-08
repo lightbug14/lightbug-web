@@ -48,6 +48,23 @@
             <ul>
             </ul>
         </div> -->
+        
+        <button type = "button" class="release" id="safe">1.2.2</button>
+        <div class="foldout-content">
+
+            <h4>Changed</h4>                
+            <ul>     
+                <li>Protected fields (demo): Most of the private variables associated with Demo states are now protected.</li>
+                <li>Rope Climbing animation: The blend tree was replaced with three states (up, down and idle) in order to get better results.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>Ledge hanging animation: The idle animation was missing (Animator state).</li>
+                <li>CharacterState "Initialize" method: There was a problem with the execution orden of this method (not specified). It has been replaced with "Start".</li>
+            </ul>
+
+        </div>
 
         <button type = "button" class="release" id="safe">1.2.1</button>
         <div class="foldout-content">
