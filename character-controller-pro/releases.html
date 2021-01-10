@@ -67,6 +67,7 @@
             <h4>Fixed</h4>                
             <ul>     
                 <li>Force Grounded: The character was not using the "force grounded" functionality in some cases.</li>
+                <li>Dynamic ground velocity: In some cases the dynamic ground velocity was not reset properly.</li>
                 <li>Ledge hanging animation: The idle animation was missing (Animator state).</li>
                 <li>CharacterState "Initialize" method: There was a problem with the execution orden of this method (not specified). It has been replaced with "Start".</li>
                 <li>Rope component: This component was not defined inside a namespace.</li>
@@ -122,7 +123,8 @@
             <h4>Deprecated</h4>  
             <ul>
                 <li>The SceneController component has been removed since it is no longer needed by characters and platforms. The update process now relies entirely on FixedUpdate.</li>     
-                <li>The tags and layer profile asset has been removed. The character valid layers are those represented by the collision matrix (Physics settings).</li>    
+                <li>The tags and layer profile asset has been removed. The character valid layers are those represented by the collision matrix (Physics settings).</li> 
+                <li>Sphere body: This is exactly the same as using a capsule shape with diameter = height.</li>   
             </ul>
 
             <h4>Fixed</h4>                
