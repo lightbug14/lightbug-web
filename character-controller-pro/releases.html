@@ -52,9 +52,15 @@
         <button type = "button" class="release" id="safe">1.2.2</button>
         <div class="foldout-content">
 
-            <h4>Changed</h4>                
+            <h4>Added</h4>                
             <ul>     
-                <li>Protected fields (demo): Most of the private variables associated with Demo states are now protected.</li>
+                <li>Camera 3D: The camera collision system can filter dynamic and kinematic rigidbodies.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>CharacterActor fields (Core): Most of the serialized variables are now public (e.g. slopeLimit, stepUpDistance, etc.).</li>
+                <li>Demo states fields (demo): Most of the private variables associated with Demo states are now protected.</li>
                 <li>Rope Climbing animation: The blend tree was replaced with three states (up, down and idle) in order to get better results.</li>
             </ul>
                                     
@@ -64,6 +70,7 @@
                 <li>Ledge hanging animation: The idle animation was missing (Animator state).</li>
                 <li>CharacterState "Initialize" method: There was a problem with the execution orden of this method (not specified). It has been replaced with "Start".</li>
                 <li>Rope component: This component was not defined inside a namespace.</li>
+                <li>Dash: "Force not grounded" sometimes triggered grounded state (depending on the collision). This has been fixed by replacing "ForceNotGrounded" with "always not grounded".</li>
             </ul>
 
         </div>
