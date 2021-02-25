@@ -49,6 +49,47 @@
             </ul>
         </div> -->
         
+        <button type = "button" class="release" id="risk">1.3.0</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>Custom interpolation: Characters don't use Unity's default interpolation anymore (Rigidbody and Rigidbody2D). Instead, a custom implementation of has been introduced for them. This shouldn't be noticeable for the user.</li>
+                <li>One way platforms support: The character can use 2D and/or 3D one way platforms. These platforms must be contained in a specific user-defined layer mask.</li>
+                <li>Dynamic ground improvements (CharacterActor): The character should is able to react to any kind of moving platform, no matter if it is kinematic or dynamic, scripted or animated.</li>
+                <li>Dynamic ground velocity (CharacterActor): Some limits have been introduced regarding dynamic ground-based movement. Now it is possible to use the ground velocity and influence the character (e.g. jumping while on top of a moving platform, this will (if it is supported by the character) add the ground velocity to the character)</li>
+                <li>"Zero gravity" scene.</li>
+                <li>"ZeroGravity" character state (used in "Zero gravity" scene).</li>   
+                <li>Pitch and Roll float actions: Two new actions were added to the character actions.</li>             
+                <li>Edge angle property (CharacterActor): The user now has access to the main collision struct.</li>
+                <li>Character collision info (CharacterActor): The user now has access to the main collision struct.</li>
+                <li>Root motion position and rotation update (CharacterStateController): Normally root motion updates both position and rotation values. Now, the user can select if one or the other should be ignored or not separately.</li>
+                <li>"canRun" (NormalMovement): This public variable enables/disables running.</li>
+                <li>Looking direction speed (NormalMovement): Now it is possible to configure the rotation speed of the character.</li>
+                <li>Looking direction modes (NormalMovement): user can select how the looking direction should behave by selecting one of the two modes, "Input" and "Velocity". These modes are separated, one for each CharacterActor state (StableGrounded, UnstableGrounded and NotGrounded)</li>
+                <li>Jump down (NormalMovement): The character can jump down from one way platforms by pressing combining the "crouch" + "jump" actions.</li>
+                
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>Not grounded rotation: Rotation of a "not grounded" character uses the center as the pivot, instead of the rigidbody position (feet).</li>
+                <li>Assembly definition (terrain reference): CCP's assembly definition file now contains a new reference associated with Unity's terrain module. This also means that the asset now is able ignore all the terrain related functionality if needed (for example, if the user decides to disable this module).</li>
+                <li>PlanarMovementParameters (NormalMovement): PlanarMovementProperties structs from this class (speed, acceleration and deceleration values) have been replaced with public variables. For those using playmaker, this should be enough to access and/or modify that data.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>Domain reload: Re-compiling scripts while being in play mode should not thrown any null reference anymore.</li>
+                <li>Rotator 2D scale mode: This mode (facing direction mode) was working only if the character forward = Vector2.right/left.</li>
+                <li>Yaw rotation: Sometimes rotation changes weren't applied correctly, especially when the character needed to face the opposite direction (180 degrees).</li>
+                <li>Not grounded physics interactions (CharacterActor): The character wasn't interacting properly with rigidbodies while being not grounded.</li>
+                <li>Dash animation: The rotation of the character was wrong.</li>
+            </ul>
+
+        </div>
+
+
         <button type = "button" class="release" id="safe">1.2.2</button>
         <div class="foldout-content">
 
