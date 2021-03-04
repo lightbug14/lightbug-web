@@ -48,6 +48,33 @@
             <ul>
             </ul>
         </div> -->
+
+        <button type = "button" class="release" id="safe">1.3.1</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>PhysicsActor and PhysicsActorSync classes.</li>
+                <li>Frame rate menu: The demo now contains a frame rate-related menu with different settings.</li>                
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>Root motion properties has been moved over to the CharacterActor component. They can still be accessed from the state controller.</li>
+                <li>The AnimatorLink component now belongs to the Core namespace.</li>
+                <li>Character rotation pivot: The rotation pivot automatically changes, depending on the grounded state. If the character is grounded, then the pivot is the bottom center (sphere). Otherwise, the pivot corresponds to the center of the capsule.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>CharacterState: The starting character state (CharacterStateController) wasn't ignored if it was disabled (monobehaviour).</li>
+                <li>The body height wasn't being limited by the character properties (inspector).</li>
+                <li>Root motion movement/rotation wasn't being applied on top of dynamic platforms.</li>
+                <li>Interpolation (actor) and actions (brain) wasn't working properly with low frame rates.</li>
+                <li>Ground detection wasn't working as expected with non-convex colliders. This should have improved compared to previous versions.</li>
+            </ul>
+
+        </div>
         
         <button type = "button" class="release" id="risk">1.3.0</button>
         <div class="foldout-content">
