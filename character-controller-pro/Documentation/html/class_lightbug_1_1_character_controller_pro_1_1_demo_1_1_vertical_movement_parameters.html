@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -107,9 +107,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac20f1e5027103ac8256e40bfcc54c2fa"><td class="memItemLeft" align="right" valign="top"><a id="ac20f1e5027103ac8256e40bfcc54c2fa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateParameters</b> (float positiveGravityMultiplier)</td></tr>
-<tr class="separator:ac20f1e5027103ac8256e40bfcc54c2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf46b92cfbaa319d733915ad5f212cbf"><td class="memItemLeft" align="right" valign="top"><a id="adf46b92cfbaa319d733915ad5f212cbf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateParameters</b> ()</td></tr>
+<tr class="separator:adf46b92cfbaa319d733915ad5f212cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -149,9 +149,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>availableNotGroundedJu
 <tr class="memitem:a75a6eef64866aef2be3dee2e289f95c1"><td class="memItemLeft" align="right" valign="top"><a id="a75a6eef64866aef2be3dee2e289f95c1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>canJumpOnUnstableGround</b> = false</td></tr>
 <tr class="separator:a75a6eef64866aef2be3dee2e289f95c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536ede705bccafe2caf1de7b158f448a"><td class="memItemLeft" align="right" valign="top"><a id="a536ede705bccafe2caf1de7b158f448a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpInertiaMultiplier</b> = 0.5f</td></tr>
-<tr class="separator:a536ede705bccafe2caf1de7b158f448a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f278ae3fed8cae102a13d39ece7e823"><td class="memItemLeft" align="right" valign="top"><a id="a9f278ae3fed8cae102a13d39ece7e823"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canJumpDown</b> = true</td></tr>
+<tr class="separator:a9f278ae3fed8cae102a13d39ece7e823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745f2eae82a148d4495e55b6456602e3"><td class="memItemLeft" align="right" valign="top"><a id="a745f2eae82a148d4495e55b6456602e3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>filterByTag</b> = false</td></tr>
+<tr class="separator:a745f2eae82a148d4495e55b6456602e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e518b273be597e143fc6a1744c3edf8"><td class="memItemLeft" align="right" valign="top"><a id="a4e518b273be597e143fc6a1744c3edf8"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>jumpDownTag</b> = &quot;JumpDown&quot;</td></tr>
+<tr class="separator:a4e518b273be597e143fc6a1744c3edf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f239389f0688bb72aac8d7da5901d70"><td class="memItemLeft" align="right" valign="top"><a id="a9f239389f0688bb72aac8d7da5901d70"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpDownDistance</b> = 0.05f</td></tr>
+<tr class="separator:a9f239389f0688bb72aac8d7da5901d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac862ad8df59129193af9d8460fd048ff"><td class="memItemLeft" align="right" valign="top"><a id="ac862ad8df59129193af9d8460fd048ff"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpDownVerticalVelocity</b> = 0.5f</td></tr>
+<tr class="separator:ac862ad8df59129193af9d8460fd048ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>

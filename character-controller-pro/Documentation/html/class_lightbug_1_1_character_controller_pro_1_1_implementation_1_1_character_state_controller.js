@@ -14,6 +14,8 @@ var class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character
     [ "MovementReferenceMode", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#ae45227177fd675d546c3f483423a97d6", null ],
     [ "MovementReferenceRight", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a6e679e588461dcfb9ffbfe6bc4926df4", null ],
     [ "PreviousState", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a117bc3f3936645997a63dfbb94cff94a", null ],
+    [ "UpdateRootPosition", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a2bc2ffae426657966e439d3556ddef15", null ],
+    [ "UpdateRootRotation", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a35c01296b4039c33405f15a61b2f6822", null ],
     [ "UseRootMotion", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#abf574a144a89e16509e8c02f0e2434a3", null ],
     [ "OnStateChange", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a67421145e74a16509a5dea1cb158bf35", null ]
 ];

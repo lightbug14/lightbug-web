@@ -6,6 +6,8 @@ var struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collisio
     [ "ResetWallInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#aa0dd0b01c052e0cad1552c37080cacad", null ],
     [ "SetGroundInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#ad9c6761ecf09857475aade1f8ec81757", null ],
     [ "SetGroundInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#a0d98de69663cad43d2e5d30245df79fc", null ],
+    [ "SetHeadInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#af98c6226b4bfd545a4bbf91aac52f2a1", null ],
+    [ "SetWallInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#a2fa2f62e7cf9827f5c72714d88ae36e3", null ],
     [ "edgeAngle", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#a40bf0ec51cd18bd9b84d65000a2f38e9", null ],
     [ "groundCollider2D", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#a80268422a9497b5c1014ba30491024af", null ],
     [ "groundCollider3D", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html#a83b5cd5c520bf953f07f23e4a6070356", null ],

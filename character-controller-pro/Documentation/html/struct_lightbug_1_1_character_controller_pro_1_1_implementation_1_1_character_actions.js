@@ -11,5 +11,7 @@ var struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_characte
     [ "jetPack", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#ac24e7804ba2f1601e76624e4dc7ac29b", null ],
     [ "jump", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#a7c5d17ac82a5eb04531069548a8847bb", null ],
     [ "movement", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#ab0736a10c5d150d90a68cc8254889479", null ],
+    [ "pitch", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#ada8dec9348c064ee825a69db9a766104", null ],
+    [ "roll", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#a6a71d6da952736445c4aee1c99d533f1", null ],
     [ "run", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html#ab41182afbdf767b8a9cbec74314814c1", null ]
 ];

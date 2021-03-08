@@ -6,6 +6,7 @@ var class_lightbug_1_1_utilities_1_1_rigidbody_component2_d =
     [ "GetPointVelocity", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a61645aa2f304c731acdc55001d39896d", null ],
     [ "Interpolate", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#accf78c509a50c1cdf70353b9eccc1360", null ],
     [ "Interpolate", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a0a93476ee6381937f5a1e633f72b6505", null ],
+    [ "Is2D", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#af9c2a5cf79bc405f270db4f38326a25d", null ],
     [ "IsUsingContinuousCollisionDetection", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#ad68ef2d4604ff766861d49acf0202011", null ],
     [ "AngularDrag", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a720dcb5b1dcfbc655c85de61513cb0cd", null ],
     [ "AngularVelocity", "class_lightbug_1_1_utilities_1_1_rigidbody_component2_d.html#a5d2d9d3e81b968eb2e7c977f5dfbea9b", null ],

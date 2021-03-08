@@ -4,6 +4,7 @@ var searchData=
   ['camera3d',['Camera3D',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['capsulecollidercomponent2d',['CapsuleColliderComponent2D',['../class_lightbug_1_1_utilities_1_1_capsule_collider_component2_d.html',1,'Lightbug::Utilities']]],
   ['capsulecollidercomponent3d',['CapsuleColliderComponent3D',['../class_lightbug_1_1_utilities_1_1_capsule_collider_component3_d.html',1,'Lightbug::Utilities']]],
+  ['changetargetframerate',['ChangeTargetFrameRate',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_change_target_frame_rate.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['characteractions',['CharacterActions',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
   ['characteractionsasset',['CharacterActionsAsset',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions_asset.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
   ['characteractor',['CharacterActor',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html',1,'Lightbug::CharacterControllerPro::Core']]],
@@ -31,5 +32,6 @@ var searchData=
   ['contact',['Contact',['../struct_lightbug_1_1_utilities_1_1_contact.html',1,'Lightbug::Utilities']]],
   ['crouchparameters',['CrouchParameters',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_crouch_parameters.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['customclassdrawer',['CustomClassDrawer',['../class_lightbug_1_1_utilities_1_1_custom_class_drawer.html',1,'Lightbug::Utilities']]],
-  ['customheaderattribute',['CustomHeaderAttribute',['../class_lightbug_1_1_utilities_1_1_custom_header_attribute.html',1,'Lightbug::Utilities']]]
+  ['customheaderattribute',['CustomHeaderAttribute',['../class_lightbug_1_1_utilities_1_1_custom_header_attribute.html',1,'Lightbug::Utilities']]],
+  ['customsimulatedobject',['CustomSimulatedObject',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_custom_simulated_object.html',1,'Lightbug::CharacterControllerPro::Core']]]
 ];

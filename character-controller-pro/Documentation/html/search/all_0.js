@@ -11,7 +11,8 @@ var searchData=
   ['aisequencebehaviour',['AISequenceBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_a_i_sequence_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['aiwanderbehaviour',['AIWanderBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_a_i_wander_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['angularvelocity',['AngularVelocity',['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a2e7bf05fb59011e11e5a919a6be6d3bf',1,'Lightbug::Utilities::RigidbodyComponent']]],
-  ['animator',['Animator',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af727adb470b75d6527beff3f0afc7f86',1,'Lightbug::CharacterControllerPro::Implementation::CharacterStateController']]],
-  ['animatorlink',['AnimatorLink',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_animator_link.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
+  ['animationspeed',['AnimationSpeed',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_animation_speed.html',1,'Lightbug::CharacterControllerPro::Demo']]],
+  ['animator',['Animator',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b',1,'Lightbug.CharacterControllerPro.Core.PhysicsActor.Animator()'],['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af727adb470b75d6527beff3f0afc7f86',1,'Lightbug.CharacterControllerPro.Implementation.CharacterStateController.Animator()']]],
+  ['animatorlink',['AnimatorLink',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_animator_link.html',1,'Lightbug::CharacterControllerPro::Core']]],
   ['applyweight',['ApplyWeight',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad97b7ebbf10f1bec4e2c9ff17e01758e',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
 ];

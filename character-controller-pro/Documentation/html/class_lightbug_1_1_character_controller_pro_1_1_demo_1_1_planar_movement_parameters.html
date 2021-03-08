@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -109,18 +109,30 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>baseSpeedLimit</b> =
 <tr class="memitem:a030691861007405b775c84da943ea01b"><td class="memItemLeft" align="right" valign="top"><a id="a030691861007405b775c84da943ea01b"></a>
 InputMode&#160;</td><td class="memItemRight" valign="bottom"><b>runInputMode</b> = InputMode.Hold</td></tr>
 <tr class="separator:a030691861007405b775c84da943ea01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408d4e3135b127858dbf7a87e4729364"><td class="memItemLeft" align="right" valign="top"><a id="a408d4e3135b127858dbf7a87e4729364"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canRun</b> = true</td></tr>
+<tr class="separator:a408d4e3135b127858dbf7a87e4729364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af77bfd5221669c11b25122543def54a4"><td class="memItemLeft" align="right" valign="top"><a id="af77bfd5221669c11b25122543def54a4"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>boostSpeedLimit</b> = 10f</td></tr>
 <tr class="separator:af77bfd5221669c11b25122543def54a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a875036250a01df19958db02115059a33"><td class="memItemLeft" align="right" valign="top"><a id="a875036250a01df19958db02115059a33"></a>
-<a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><b>stableMovement</b> = new <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>( 50f , 40f )</td></tr>
-<tr class="separator:a875036250a01df19958db02115059a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9860b6025c2778386a5fd1da2dec7e91"><td class="memItemLeft" align="right" valign="top"><a id="a9860b6025c2778386a5fd1da2dec7e91"></a>
-<a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unstableGroundedMovement</b> = new <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>( 10f , 2f )</td></tr>
-<tr class="separator:a9860b6025c2778386a5fd1da2dec7e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d926a224646a01b643ce9ef440c9c9"><td class="memItemLeft" align="right" valign="top"><a id="ad1d926a224646a01b643ce9ef440c9c9"></a>
-<a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><b>notGroundedMovement</b> = new <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters_1_1_planar_movement_properties.html">PlanarMovementProperties</a>( 10f , 5f )</td></tr>
-<tr class="separator:ad1d926a224646a01b643ce9ef440c9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cd850ef86bfdbe4d1196f0b6124acc"><td class="memItemLeft" align="right" valign="top"><a id="a81cd850ef86bfdbe4d1196f0b6124acc"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>stableGroundedAcceleration</b> = 50f</td></tr>
+<tr class="separator:a81cd850ef86bfdbe4d1196f0b6124acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1921391622b318b31e9e5ae0c23adb23"><td class="memItemLeft" align="right" valign="top"><a id="a1921391622b318b31e9e5ae0c23adb23"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>stableGroundedDeceleration</b> = 40f</td></tr>
+<tr class="separator:a1921391622b318b31e9e5ae0c23adb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8751446f8ce46011827bb968b4bc4869"><td class="memItemLeft" align="right" valign="top"><a id="a8751446f8ce46011827bb968b4bc4869"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>unstableGroundedAcceleration</b> = 10f</td></tr>
+<tr class="separator:a8751446f8ce46011827bb968b4bc4869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaecff829a5ac075a8332187a62cba78a"><td class="memItemLeft" align="right" valign="top"><a id="aaecff829a5ac075a8332187a62cba78a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>unstableGroundedDeceleration</b> = 2f</td></tr>
+<tr class="separator:aaecff829a5ac075a8332187a62cba78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45126e7b7d39b594e3aabd5eb96c6dbc"><td class="memItemLeft" align="right" valign="top"><a id="a45126e7b7d39b594e3aabd5eb96c6dbc"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>notGroundedAcceleration</b> = 10f</td></tr>
+<tr class="separator:a45126e7b7d39b594e3aabd5eb96c6dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc591eab64990a061db8d6864d52f483"><td class="memItemLeft" align="right" valign="top"><a id="abc591eab64990a061db8d6864d52f483"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>notGroundedDeceleration</b> = 2f</td></tr>
+<tr class="separator:abc591eab64990a061db8d6864d52f483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Demo/Scripts/States/NormalMovementExtras.cs</li>

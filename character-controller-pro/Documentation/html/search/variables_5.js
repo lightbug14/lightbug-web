@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['gameobject',['gameObject',['../struct_lightbug_1_1_utilities_1_1_contact.html#a8a83aba31c67cd7bc7fd896d48cd2107',1,'Lightbug.Utilities.Contact.gameObject()'],['../struct_lightbug_1_1_utilities_1_1_trigger.html#afe21e0f668e929626858b74841687043',1,'Lightbug.Utilities.Trigger.gameObject()']]],
-  ['groundcheckdistance',['GroundCheckDistance',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac3fa528d1b0537399eabe5b80fac711e',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
-  ['groundpredictiondistance',['GroundPredictionDistance',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0d9c720784a300a5ea0d6b5b600e8679',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
+  ['firstcontact',['firstContact',['../struct_lightbug_1_1_utilities_1_1_contact.html#a9b43fa423f2ad50bca24c638e9bc2ba1',1,'Lightbug.Utilities.Contact.firstContact()'],['../struct_lightbug_1_1_utilities_1_1_trigger.html#a471bee3a7b2e8fa0d33edbd9d82b5f0b',1,'Lightbug.Utilities.Trigger.firstContact()']]]
 ];

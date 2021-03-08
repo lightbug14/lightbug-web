@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbug.CharacterControllerPro.Demo.RopeClimbing Class Reference</div>  </div>
@@ -130,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a5f2f187f2446f399f433b0944a8edf57">PreUpdateBehaviour</a> (float dt)</td></tr>
 <tr class="memdesc:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">This methods runs before the main Update method.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a5f2f187f2446f399f433b0944a8edf57">More...</a><br /></td></tr>
 <tr class="separator:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a6936cff990166d6af997f61c1d6e7733"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>PostCharacterUpdate</b> (float dt)</td></tr>
+<tr class="separator:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a313535a92c8cec141cdeb6866751c00a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a313535a92c8cec141cdeb6866751c00a">UpdateIK</a> (int layerIndex)</td></tr>
 <tr class="memdesc:a313535a92c8cec141cdeb6866751c00a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">This methods runs after getting all the ik positions, rotations and their respective weights. Use it to modify the ik data of the humanoid rig.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a313535a92c8cec141cdeb6866751c00a">More...</a><br /></td></tr>
 <tr class="separator:a313535a92c8cec141cdeb6866751c00a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +150,42 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()
 <tr class="memitem:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a1d779285b737d6e4d6f2ac85161e2086"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
 <tr class="separator:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a890314317062e0f90981a118d7d4377f"><td class="memItemLeft" align="right" valign="top"><a id="a890314317062e0f90981a118d7d4377f"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>climbSpeed</b> = 3f</td></tr>
+<tr class="separator:a890314317062e0f90981a118d7d4377f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a17209877c4062939576d91e798e832"><td class="memItemLeft" align="right" valign="top"><a id="a3a17209877c4062939576d91e798e832"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>angularSpeed</b> = 120f</td></tr>
+<tr class="separator:a3a17209877c4062939576d91e798e832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1543255ba9eda635ffcf36c4256ef841"><td class="memItemLeft" align="right" valign="top"><a id="a1543255ba9eda635ffcf36c4256ef841"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpVelocity</b> = 10f</td></tr>
+<tr class="separator:a1543255ba9eda635ffcf36c4256ef841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c105882848b1ce4904ab14cc612bc6f"><td class="memItemLeft" align="right" valign="top"><a id="a7c105882848b1ce4904ab14cc612bc6f"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>verticalAcceleration</b> = 10f</td></tr>
+<tr class="separator:a7c105882848b1ce4904ab14cc612bc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed64d3688454527c1203f25035b88b2b"><td class="memItemLeft" align="right" valign="top"><a id="aed64d3688454527c1203f25035b88b2b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>angularAcceleration</b> = 10f</td></tr>
+<tr class="separator:aed64d3688454527c1203f25035b88b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5ced4195a51c7db728613e234a119a"><td class="memItemLeft" align="right" valign="top"><a id="adb5ced4195a51c7db728613e234a119a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>forwardOffset</b> = -0.25f</td></tr>
+<tr class="separator:adb5ced4195a51c7db728613e234a119a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552e846a191291935563f0cf7efeee2d"><td class="memItemLeft" align="right" valign="top"><a id="a552e846a191291935563f0cf7efeee2d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>verticalVelocityParameter</b> = &quot;VerticalVelocity&quot;</td></tr>
+<tr class="separator:a552e846a191291935563f0cf7efeee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda4a66f8e3cbdcda534b82b96ea3918"><td class="memItemLeft" align="right" valign="top"><a id="abda4a66f8e3cbdcda534b82b96ea3918"></a>
+<a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html">Rope</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentRope</b> = null</td></tr>
+<tr class="separator:abda4a66f8e3cbdcda534b82b96ea3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50700096f3381baa37c1367896250722"><td class="memItemLeft" align="right" valign="top"><a id="a50700096f3381baa37c1367896250722"></a>
+Dictionary&lt; Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html">Rope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ropes</b> = new Dictionary&lt;Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html">Rope</a>&gt;()</td></tr>
+<tr class="separator:a50700096f3381baa37c1367896250722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119868147d4e7bf8c2f0437f3c6f07de"><td class="memItemLeft" align="right" valign="top"><a id="a119868147d4e7bf8c2f0437f3c6f07de"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>verticalVelocity</b> = default( Vector3 )</td></tr>
+<tr class="separator:a119868147d4e7bf8c2f0437f3c6f07de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbecdc76724db2c3f25e635171885da"><td class="memItemLeft" align="right" valign="top"><a id="adbbecdc76724db2c3f25e635171885da"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>angularVelocity</b> = default( Vector3 )</td></tr>
+<tr class="separator:adbbecdc76724db2c3f25e635171885da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

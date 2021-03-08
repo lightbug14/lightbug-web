@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 : <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a2e7bf05fb59011e11e5a919a6be6d3bf">Lightbug.Utilities.RigidbodyComponent</a>
 </li>
 <li>Animator
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af727adb470b75d6527beff3f0afc7f86">Lightbug.CharacterControllerPro.Implementation.CharacterStateController</a>
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b">Lightbug.CharacterControllerPro.Core.PhysicsActor</a>
 </li>
 </ul>
 
@@ -145,8 +145,12 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 <li>ColliderComponent
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html#ab6953dbdb75cb5bae694c74c6497cb97">Lightbug.CharacterControllerPro.Core.CharacterBody</a>
 </li>
+<li>CollisionLayerMask
+: <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588">Lightbug.Utilities.PhysicsComponent</a>
+</li>
 <li>Contacts
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad022ad33a7844470eb79f9bdd607e735">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+, <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870">Lightbug.Utilities.PhysicsComponent</a>
 </li>
 <li>CurrentState
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7cd04b29f48d3b9cf2c25770fac17b93">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
@@ -165,20 +169,11 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
-<li>DesiredPosition
-: <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ae482d65a765b2306c52c842f46dcc7a0">Lightbug.Utilities.RigidbodyComponent</a>
-</li>
-<li>DesiredRotation
-: <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#add42d83b7dc5f5a1ccba5750dcb5bdce">Lightbug.Utilities.RigidbodyComponent</a>
-</li>
 <li>Detected
 : <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#a6523c8236e8c18f69271c488993d1938">Lightbug.CharacterControllerPro.Implementation.Vector2Action</a>
 </li>
 <li>Down
 : <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#a175eb4745c97d5e039b6683057763fea">Lightbug.CharacterControllerPro.Implementation.Vector2Action</a>
-</li>
-<li>DynamicGroundPointVelocity
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf43c3bdbe2c16409b91c5ea03593d02">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
 </ul>
 
@@ -199,45 +194,17 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>GroundCollider2D
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8b0f34fddb20d7995a3b56aecbbd9307">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>GroundCollider3D
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acc62400549b670c4efa656c1f630fa53">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>GroundContactNormal
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a1f39c8bfe37f10fb03b5c525a082d504">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>GroundContactPoint
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a698468ad33d7ddad24bf3e12d882cee7">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>GroundObject
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+<li>GroundPosition
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b24d1b9a2f92a7eb1d9c344769a6390">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
 <li>GroundRigidbodyComponent
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af5b0c7647eadd04bacf6dec194933aba">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
-<li>GroundSlopeAngle
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab0c31a6e6e99047dd2cf1a63ce130ec4">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+<li>GroundRotation
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad5769d97454c8c7e510188d154530770">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
-<li>GroundStableNormal
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af4959e4262ccbc847f1a135e37b03746">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>GroundTransform
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8eac465099c6cf6a86b6446b09c9a571">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-</ul>
-
-
-<h3><a id="index_h"></a>- h -</h3><ul>
-<li>HeadAngle
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a25be034f3f81c5ff68728602b463db51">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>HeadCollision
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aecd4b2d7ec027ed032165cd6fdc3359b">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>HeadContact
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a509fc104ebce700c5264fce76f4e2f4a">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+<li>GroundVelocity
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
 </ul>
 
@@ -266,18 +233,6 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>IsGroundARigidbody
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a333d24592c950b14ea603ecf78370594">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>IsGrounded
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>IsOnEdge
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a0f59ac87a9e182db8736feb6ce3767ed">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>IsOnUnstableGround
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab4c8e15732bdee48f46d5898ee90ddca">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>IsStable
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
 </ul>
 
@@ -331,6 +286,9 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 <li>PreSimulationVelocity
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a36fa5dc3c2a06470d5a3cb0ee9659edd">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
+<li>PreviousGroundVelocity
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+</li>
 <li>PreviousState
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a3a45da42333ca3b20cf893a31ff510c8">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 , <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a117bc3f3936645997a63dfbb94cff94a">Lightbug.CharacterControllerPro.Implementation.CharacterStateController</a>
@@ -346,6 +304,7 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>RigidbodyComponent
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html#a9b32413b6e4b38fa63905f08db77dc42">Lightbug.CharacterControllerPro.Core.CharacterBody</a>
+, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a7dc8747a0a581cf16d30a48cc29eccba">Lightbug.CharacterControllerPro.Core.PhysicsActor</a>
 , <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform.html#a154941b88d19dbad3c7eea704eceb27c">Lightbug.CharacterControllerPro.Demo.Platform</a>
 </li>
 <li>Rotation
@@ -356,6 +315,9 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>StableProbeGroundVelocity
+: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf3d769624c991f9b98cef91f6ce7fc5">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+</li>
 <li>StableVelocity
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad06974520b0cbd9003fa07f1d576148b">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>
@@ -380,6 +342,7 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>Triggers
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7a72e994581ec53e556bda9ca64af422">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
+, <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712">Lightbug.Utilities.PhysicsComponent</a>
 </li>
 </ul>
 
@@ -408,15 +371,6 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
-<li>WallAngle
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#abc53ae37808188ded03a7131d49399db">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>WallCollision
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acf691828cbdaf36a7423655caa9d7260">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
-<li>WallContact
-: <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b5bb5f16c394d609357580fba31c7d3">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
-</li>
 <li>WasGrounded
 : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a144df98be92fb124131a54d01af51eac">Lightbug.CharacterControllerPro.Core.CharacterActor</a>
 </li>

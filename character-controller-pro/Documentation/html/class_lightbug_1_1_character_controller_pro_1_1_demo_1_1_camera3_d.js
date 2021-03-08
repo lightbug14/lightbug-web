@@ -8,6 +8,8 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d =
     [ "cameraMode", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#ad0737651d85776a16b55e0f29baf6acb", null ],
     [ "collisionAffectsZoom", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#a939d505819b5450469a1e861fcc77045", null ],
     [ "collisionDetection", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#a4b8241616892aee286afdc805e77de86", null ],
+    [ "considerDynamicRigidbodies", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#af11123af18894653a777145c12473831", null ],
+    [ "considerKinematicRigidbodies", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#a97d5882e87d2705fa25078ed922b8f40", null ],
     [ "detectionRadius", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#a08a317709010e806d9ad00fc7cb633b3", null ],
     [ "hideBody", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#a28e729ce0422629e983fb305dfb41f1a", null ],
     [ "maxPitchAngle", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html#adefb0891e7418283feaea5516b7d216b", null ],

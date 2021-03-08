@@ -7,5 +7,6 @@ var searchData=
   ['aifollowbehaviour',['AIFollowBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_a_i_follow_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['aisequencebehaviour',['AISequenceBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_a_i_sequence_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['aiwanderbehaviour',['AIWanderBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_a_i_wander_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['animatorlink',['AnimatorLink',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_animator_link.html',1,'Lightbug::CharacterControllerPro::Implementation']]]
+  ['animationspeed',['AnimationSpeed',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_animation_speed.html',1,'Lightbug::CharacterControllerPro::Demo']]],
+  ['animatorlink',['AnimatorLink',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_animator_link.html',1,'Lightbug::CharacterControllerPro::Core']]]
 ];

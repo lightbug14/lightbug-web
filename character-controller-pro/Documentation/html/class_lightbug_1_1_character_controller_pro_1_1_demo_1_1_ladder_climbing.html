@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -88,8 +88,10 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -107,6 +109,13 @@ Inheritance diagram for Lightbug.CharacterControllerPro.Demo.LadderClimbing:</di
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a027034753a50c37477be94fc930e79dc"><td class="memItemLeft" align="right" valign="top"><a id="a027034753a50c37477be94fc930e79dc"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LadderClimbState</b> { <b>Entering</b>, 
+<b>AnimationBased</b>
+ }</td></tr>
+<tr class="separator:a027034753a50c37477be94fc930e79dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abae3b7073561b353e82b9cdee042c485"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html#abae3b7073561b353e82b9cdee042c485">CheckExitTransition</a> ()</td></tr>
@@ -134,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a713a3dc0bdfea551986bac4ba259885a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a713a3dc0bdfea551986bac4ba259885a">PostUpdateBehaviour</a> (float dt)</td></tr>
 <tr class="memdesc:a713a3dc0bdfea551986bac4ba259885a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">This methods runs after the main Update method.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a713a3dc0bdfea551986bac4ba259885a">More...</a><br /></td></tr>
 <tr class="separator:a713a3dc0bdfea551986bac4ba259885a inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a6936cff990166d6af997f61c1d6e7733"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>PostCharacterUpdate</b> (float dt)</td></tr>
+<tr class="separator:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1decba2757594508aa9b910a4beacd2 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="ac1decba2757594508aa9b910a4beacd2"></a>
 virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetInfo</b> ()</td></tr>
 <tr class="separator:ac1decba2757594508aa9b910a4beacd2 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +158,72 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()
 <tr class="memitem:a493a895df8e8876fe78183a1cbf68279"><td class="memItemLeft" align="right" valign="top"><a id="a493a895df8e8876fe78183a1cbf68279"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
 <tr class="separator:a493a895df8e8876fe78183a1cbf68279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aaf6c9b9f4456c8e539d835ba317c2231"><td class="memItemLeft" align="right" valign="top"><a id="aaf6c9b9f4456c8e539d835ba317c2231"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useIKOffsetValues</b> = false</td></tr>
+<tr class="separator:aaf6c9b9f4456c8e539d835ba317c2231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935ddf02f763afcab194783361ba6fea"><td class="memItemLeft" align="right" valign="top"><a id="a935ddf02f763afcab194783361ba6fea"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>rightFootOffset</b> = Vector3.zero</td></tr>
+<tr class="separator:a935ddf02f763afcab194783361ba6fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d41d8394a4bdde4f915bd2bd34c2a2"><td class="memItemLeft" align="right" valign="top"><a id="a44d41d8394a4bdde4f915bd2bd34c2a2"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>leftFootOffset</b> = Vector3.zero</td></tr>
+<tr class="separator:a44d41d8394a4bdde4f915bd2bd34c2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cb17d2712afac1865c70b137b38b27"><td class="memItemLeft" align="right" valign="top"><a id="ae1cb17d2712afac1865c70b137b38b27"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>rightHandOffset</b> = Vector3.zero</td></tr>
+<tr class="separator:ae1cb17d2712afac1865c70b137b38b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8d13fbc568d17f933380fab8a78e6d"><td class="memItemLeft" align="right" valign="top"><a id="a8f8d13fbc568d17f933380fab8a78e6d"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>leftHandOffset</b> = Vector3.zero</td></tr>
+<tr class="separator:a8f8d13fbc568d17f933380fab8a78e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c385b33d578f845c5728c1d642fa408"><td class="memItemLeft" align="right" valign="top"><a id="a0c385b33d578f845c5728c1d642fa408"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useInteractAction</b> = true</td></tr>
+<tr class="separator:a0c385b33d578f845c5728c1d642fa408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9cf74e509144273642c192c9eaf56c"><td class="memItemLeft" align="right" valign="top"><a id="a2e9cf74e509144273642c192c9eaf56c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>filterByAngle</b> = true</td></tr>
+<tr class="separator:a2e9cf74e509144273642c192c9eaf56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74a08f04c8c51d7356f8d3641c1e839"><td class="memItemLeft" align="right" valign="top"><a id="ae74a08f04c8c51d7356f8d3641c1e839"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxAngle</b> = 70f</td></tr>
+<tr class="separator:ae74a08f04c8c51d7356f8d3641c1e839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5b1433783ba6de4197b5b43199fd48"><td class="memItemLeft" align="right" valign="top"><a id="a7f5b1433783ba6de4197b5b43199fd48"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>bottomDownParameter</b> = &quot;BottomDown&quot;</td></tr>
+<tr class="separator:a7f5b1433783ba6de4197b5b43199fd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173ae3cb4b49f1a15631c4aed73b1d5c"><td class="memItemLeft" align="right" valign="top"><a id="a173ae3cb4b49f1a15631c4aed73b1d5c"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>bottomUpParameter</b> = &quot;BottomUp&quot;</td></tr>
+<tr class="separator:a173ae3cb4b49f1a15631c4aed73b1d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1dac0ee51ef3bb4a726a2677d91bd8"><td class="memItemLeft" align="right" valign="top"><a id="a3d1dac0ee51ef3bb4a726a2677d91bd8"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>topDownParameter</b> = &quot;TopDown&quot;</td></tr>
+<tr class="separator:a3d1dac0ee51ef3bb4a726a2677d91bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b576e21df9f1aa63a388dd3c66a19d"><td class="memItemLeft" align="right" valign="top"><a id="a88b576e21df9f1aa63a388dd3c66a19d"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>topUpParameter</b> = &quot;TopUp&quot;</td></tr>
+<tr class="separator:a88b576e21df9f1aa63a388dd3c66a19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae532d815dccec435bbac1f5238357ba7"><td class="memItemLeft" align="right" valign="top"><a id="ae532d815dccec435bbac1f5238357ba7"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>upParameter</b> = &quot;Up&quot;</td></tr>
+<tr class="separator:ae532d815dccec435bbac1f5238357ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9274bd1f1d60c2f605b850b75302dbb"><td class="memItemLeft" align="right" valign="top"><a id="aa9274bd1f1d60c2f605b850b75302dbb"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>downParameter</b> = &quot;Down&quot;</td></tr>
+<tr class="separator:aa9274bd1f1d60c2f605b850b75302dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd5317634c13f373ea2306689d0fdd0"><td class="memItemLeft" align="right" valign="top"><a id="a7fd5317634c13f373ea2306689d0fdd0"></a>
+Dictionary&lt; Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder.html">Ladder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ladders</b> = new Dictionary&lt;Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder.html">Ladder</a>&gt;()</td></tr>
+<tr class="separator:a7fd5317634c13f373ea2306689d0fdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb51bd706b29a1cf3ba58d5fe9484d92"><td class="memItemLeft" align="right" valign="top"><a id="afb51bd706b29a1cf3ba58d5fe9484d92"></a>
+LadderClimbState&#160;</td><td class="memItemRight" valign="bottom"><b>state</b></td></tr>
+<tr class="separator:afb51bd706b29a1cf3ba58d5fe9484d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae791fa922a573c3bb7b933a70dabdd3e"><td class="memItemLeft" align="right" valign="top"><a id="ae791fa922a573c3bb7b933a70dabdd3e"></a>
+<a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder.html">Ladder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentLadder</b> = null</td></tr>
+<tr class="separator:ae791fa922a573c3bb7b933a70dabdd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cbbe3702a8fc64e80f8121fcd0fea2"><td class="memItemLeft" align="right" valign="top"><a id="a11cbbe3702a8fc64e80f8121fcd0fea2"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>targetPosition</b> = Vector3.zero</td></tr>
+<tr class="separator:a11cbbe3702a8fc64e80f8121fcd0fea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fbf0f6b6f2d4dd1fb24fdb46a08db54"><td class="memItemLeft" align="right" valign="top"><a id="a1fbf0f6b6f2d4dd1fb24fdb46a08db54"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>currentClimbingAnimation</b> = 0</td></tr>
+<tr class="separator:a1fbf0f6b6f2d4dd1fb24fdb46a08db54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5f5b64bd3da9e30c9cf896a556e535"><td class="memItemLeft" align="right" valign="top"><a id="a6e5f5b64bd3da9e30c9cf896a556e535"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>forceExit</b> = false</td></tr>
+<tr class="separator:a6e5f5b64bd3da9e30c9cf896a556e535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28007f4301f5d2065883da71be3c9c6"><td class="memItemLeft" align="right" valign="top"><a id="ab28007f4301f5d2065883da71be3c9c6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isBottom</b> = false</td></tr>
+<tr class="separator:ab28007f4301f5d2065883da71be3c9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>

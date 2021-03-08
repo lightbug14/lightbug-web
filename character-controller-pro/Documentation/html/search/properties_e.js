@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['top',['Top',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7b611450547e76aadd461d2d1e0ca518',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['topcenter',['TopCenter',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#abb282b4207b4d7e30f25a6ff3ff6393b',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['triggers',['Triggers',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7a72e994581ec53e556bda9ca64af422',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['up',['Up',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522',1,'Lightbug.CharacterControllerPro.Core.CharacterActor.Up()'],['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#aef6e536281510f13ed28f6e51a3485b7',1,'Lightbug.CharacterControllerPro.Implementation.Vector2Action.Up()'],['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a1ad6860adabaf4bc501a216fa40fccf6',1,'Lightbug.Utilities.RigidbodyComponent.Up()']]],
+  ['usegravity',['UseGravity',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_normal_movement.html#a767170fe004452ec9a2fc90deacb0e67',1,'Lightbug::CharacterControllerPro::Demo::NormalMovement']]]
 ];

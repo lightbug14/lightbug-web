@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.2.1</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
@@ -106,13 +107,27 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 Inheritance diagram for Lightbug.CharacterControllerPro.Core.CharacterActor:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.png" alt=""/>
- </div></div>
+  <img src="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.png" usemap="#Lightbug.CharacterControllerPro.Core.CharacterActor_map" alt=""/>
+  <map id="Lightbug.CharacterControllerPro.Core.CharacterActor_map" name="Lightbug.CharacterControllerPro.Core.CharacterActor_map">
+<area href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html" title="A physics actor represents a custom 2D/3D interpolated rigidbody." alt="Lightbug.CharacterControllerPro.Core.PhysicsActor" shape="rect" coords="0,56,321,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a431bfdb748d45a35983126867aed5875"><td class="memItemLeft" align="right" valign="top"><a id="a431bfdb748d45a35983126867aed5875"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CharacterVelocityMode</b> { <b>UseInputVelocity</b>, 
+<b>UsePreSimulationVelocity</b>, 
+<b>UsePostSimulationVelocity</b>
+ }</td></tr>
+<tr class="separator:a431bfdb748d45a35983126867aed5875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab7351e3a2822d419e6e027e190e4d16d"><td class="memItemLeft" align="right" valign="top"><a id="ab7351e3a2822d419e6e027e190e4d16d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnValidate</b> ()</td></tr>
+<tr class="separator:ab7351e3a2822d419e6e027e190e4d16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69b499407f1ce1ad65e09169cb14ae66"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a69b499407f1ce1ad65e09169cb14ae66">ToString</a> ()</td></tr>
-<tr class="memdesc:a69b499407f1ce1ad65e09169cb14ae66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a concatenated string containing all the current collision information.  <a href="#a69b499407f1ce1ad65e09169cb14ae66">More...</a><br /></td></tr>
+<tr class="memdesc:a69b499407f1ce1ad65e09169cb14ae66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a concatenated string containing all the current collision information.  <a href="#a69b499407f1ce1ad65e09169cb14ae66">More...</a><br /></td></tr>
 <tr class="separator:a69b499407f1ce1ad65e09169cb14ae66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac05b12dc188c27810409a8d1fd08efa2"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ac05b12dc188c27810409a8d1fd08efa2">GetCenter</a> (Vector3 position)</td></tr>
 <tr class="memdesc:ac05b12dc188c27810409a8d1fd08efa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the center of the collision shape.  <a href="#ac05b12dc188c27810409a8d1fd08efa2">More...</a><br /></td></tr>
@@ -141,6 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cb759663a737392e7ff1de948068b3f"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9cb759663a737392e7ff1de948068b3f">GetBottomCenterToTopCenter</a> (Vector2 bodySize)</td></tr>
 <tr class="memdesc:a9cb759663a737392e7ff1de948068b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the a vector that goes from the bottom center to the top center (topCenter - bottomCenter).  <a href="#a9cb759663a737392e7ff1de948068b3f">More...</a><br /></td></tr>
 <tr class="separator:a9cb759663a737392e7ff1de948068b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ade9dd833f90bd079fcef50a059f1d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a2ade9dd833f90bd079fcef50a059f1d4">SetYaw</a> (float angle)</td></tr>
+<tr class="memdesc:a2ade9dd833f90bd079fcef50a059f1d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the character doing yaw rotation (around its vertical axis).  <a href="#a2ade9dd833f90bd079fcef50a059f1d4">More...</a><br /></td></tr>
+<tr class="separator:a2ade9dd833f90bd079fcef50a059f1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8fd41d9f0d2823e5acf79fae4da73eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad8fd41d9f0d2823e5acf79fae4da73eb">Teleport</a> (Transform reference)</td></tr>
 <tr class="memdesc:ad8fd41d9f0d2823e5acf79fae4da73eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the teleportation position and rotation using an external Transform reference. The character will move/rotate internally using its own internal logic.  <a href="#ad8fd41d9f0d2823e5acf79fae4da73eb">More...</a><br /></td></tr>
 <tr class="separator:ad8fd41d9f0d2823e5acf79fae4da73eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,14 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a149b01fa54b6b911800a96524e609507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the teleportation position. The character will move/rotate internally using its own internal logic.  <a href="#a149b01fa54b6b911800a96524e609507">More...</a><br /></td></tr>
 <tr class="separator:a149b01fa54b6b911800a96524e609507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab62407aae38cc32d5f3ee0ce1b2398b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab62407aae38cc32d5f3ee0ce1b2398b7">Move</a> (Vector3 position)</td></tr>
-<tr class="memdesc:ab62407aae38cc32d5f3ee0ce1b2398b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually. Do not confuse this function with the Unity's Character Controller "Move" function.  <a href="#ab62407aae38cc32d5f3ee0ce1b2398b7">More...</a><br /></td></tr>
+<tr class="memdesc:ab62407aae38cc32d5f3ee0ce1b2398b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually.  <a href="#ab62407aae38cc32d5f3ee0ce1b2398b7">More...</a><br /></td></tr>
 <tr class="separator:ab62407aae38cc32d5f3ee0ce1b2398b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac79b352f5f16380fe33786379dbc3f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ac79b352f5f16380fe33786379dbc3f1d">Rotate</a> (Quaternion rotation)</td></tr>
-<tr class="memdesc:ac79b352f5f16380fe33786379dbc3f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually. Do not confuse this function with the Unity's Character Controller "Move" function.  <a href="#ac79b352f5f16380fe33786379dbc3f1d">More...</a><br /></td></tr>
-<tr class="separator:ac79b352f5f16380fe33786379dbc3f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75aa6f53da05a327f75321cf9faec8db"><td class="memItemLeft" align="right" valign="top"><a id="a75aa6f53da05a327f75321cf9faec8db"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetReferenceRigidbody</b> (Transform target)</td></tr>
-<tr class="separator:a75aa6f53da05a327f75321cf9faec8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a300a025f61a651cb6ca48602fd06836e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a300a025f61a651cb6ca48602fd06836e">SetBodySize</a> (Vector2 size)</td></tr>
 <tr class="memdesc:a300a025f61a651cb6ca48602fd06836e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the new character size fits in place. If this check is valid then the real size of the character is changed.  <a href="#a300a025f61a651cb6ca48602fd06836e">More...</a><br /></td></tr>
 <tr class="separator:a300a025f61a651cb6ca48602fd06836e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,24 +180,43 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetReferenceRigidbody
 <tr class="memitem:a87cba7d6dc93c83727f39e2312f4d4f2"><td class="memItemLeft" align="right" valign="top"><a id="a87cba7d6dc93c83727f39e2312f4d4f2"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>GetGroundSlopeNormal</b> (<a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html">CollisionInfo</a> collisionInfo)</td></tr>
 <tr class="separator:a87cba7d6dc93c83727f39e2312f4d4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9897f8bbbc9ba49b19431c807bd4f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab9897f8bbbc9ba49b19431c807bd4f6e">ForceNotGrounded</a> (int ignoreGroundContactFrames=3)</td></tr>
-<tr class="memdesc:ab9897f8bbbc9ba49b19431c807bd4f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces the character to abandon the grounded state (isGrounded = false).  <a href="#ab9897f8bbbc9ba49b19431c807bd4f6e">More...</a><br /></td></tr>
-<tr class="separator:ab9897f8bbbc9ba49b19431c807bd4f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23d80844799728e48790fc68e6a02bfd"><td class="memItemLeft" align="right" valign="top"><a id="a23d80844799728e48790fc68e6a02bfd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckVelocityProjection</b> (ref Vector3 displacement)</td></tr>
-<tr class="separator:a23d80844799728e48790fc68e6a02bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e8df983d0f0ef92aa4047f2365ea75d"><td class="memItemLeft" align="right" valign="top"><a id="a9e8df983d0f0ef92aa4047f2365ea75d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CollideAndSlide</b> (ref Vector3 position, Vector3 displacement, bool useFullBody)</td></tr>
-<tr class="separator:a9e8df983d0f0ef92aa4047f2365ea75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad90adf289dc1a2db5dd2570dc19f09d2"><td class="memItemLeft" align="right" valign="top"><a id="ad90adf289dc1a2db5dd2570dc19f09d2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CollideAndSlideUnstable</b> (ref Vector3 position, Vector3 displacement)</td></tr>
-<tr class="separator:ad90adf289dc1a2db5dd2570dc19f09d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bc0c2a71974c521c1ceadb4ad64f73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a13bc0c2a71974c521c1ceadb4ad64f73">ForceNotGrounded</a> (float groundVelocityInfluenceMultiplier=1f, int ignoreGroundContactFrames=3)</td></tr>
+<tr class="memdesc:a13bc0c2a71974c521c1ceadb4ad64f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces the character to abandon the grounded state (isGrounded = false).  <a href="#a13bc0c2a71974c521c1ceadb4ad64f73">More...</a><br /></td></tr>
+<tr class="separator:a13bc0c2a71974c521c1ceadb4ad64f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html">Lightbug.CharacterControllerPro.Core.PhysicsActor</a></td></tr>
+<tr class="memitem:a46657b2eab0ce0e71a5363a8abc5832c inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a46657b2eab0ce0e71a5363a8abc5832c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SyncBody</b> ()</td></tr>
+<tr class="separator:a46657b2eab0ce0e71a5363a8abc5832c inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c31ab4bb119e1fccdb03a942ccd5fdb inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a6c31ab4bb119e1fccdb03a942ccd5fdb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetIKWeights</b> ()</td></tr>
+<tr class="separator:a6c31ab4bb119e1fccdb03a942ccd5fdb inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6940dbba8da1c28c1b008b4a762162 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a3d6940dbba8da1c28c1b008b4a762162"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetInterpolationPosition</b> ()</td></tr>
+<tr class="separator:a3d6940dbba8da1c28c1b008b4a762162 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a427b27d21dc548a0a901c29e6c9860 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a2a427b27d21dc548a0a901c29e6c9860"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetInterpolationRotation</b> ()</td></tr>
+<tr class="separator:a2a427b27d21dc548a0a901c29e6c9860 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:aaa1ddc0de28385b9e7f39008c1408a01"><td class="memItemLeft" align="right" valign="top"><a id="aaa1ddc0de28385b9e7f39008c1408a01"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>oneWayPlatformsLayerMask</b> = 0</td></tr>
+<tr class="separator:aaa1ddc0de28385b9e7f39008c1408a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3614a688da68ba49b1565ef8ec7fce"><td class="memItemLeft" align="right" valign="top"><a id="a0c3614a688da68ba49b1565ef8ec7fce"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>alwaysNotGrounded</b> = false</td></tr>
 <tr class="separator:a0c3614a688da68ba49b1565ef8ec7fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae273ad617564165ffdef71792bcb29d9"><td class="memItemLeft" align="right" valign="top"><a id="ae273ad617564165ffdef71792bcb29d9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>forceGroundedAtStart</b> = true</td></tr>
+<tr class="separator:ae273ad617564165ffdef71792bcb29d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f76fb6115d856ba7efad0e45df9d6d"><td class="memItemLeft" align="right" valign="top"><a id="ac3f76fb6115d856ba7efad0e45df9d6d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>slopeLimit</b> = 55f</td></tr>
+<tr class="separator:ac3f76fb6115d856ba7efad0e45df9d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bb7dd0dce089416314cacdb45f7c13"><td class="memItemLeft" align="right" valign="top"><a id="aa5bb7dd0dce089416314cacdb45f7c13"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>stepUpDistance</b> = 0.5f</td></tr>
+<tr class="separator:aa5bb7dd0dce089416314cacdb45f7c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb83b8c4cb6fa6880f2ca02f86bbb8b"><td class="memItemLeft" align="right" valign="top"><a id="adcb83b8c4cb6fa6880f2ca02f86bbb8b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>stepDownDistance</b> = 0.5f</td></tr>
+<tr class="separator:adcb83b8c4cb6fa6880f2ca02f86bbb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b58d8417e6e8b8b79b6038d55bf097"><td class="memItemLeft" align="right" valign="top"><a id="a73b58d8417e6e8b8b79b6038d55bf097"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>edgeCompensation</b> = false</td></tr>
 <tr class="separator:a73b58d8417e6e8b8b79b6038d55bf097"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,15 +226,27 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>preventBadSteps</b> =
 <tr class="memitem:a71acf7ab92e6a35f028496cbbc2d0966"><td class="memItemLeft" align="right" valign="top"><a id="a71acf7ab92e6a35f028496cbbc2d0966"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>supportDynamicGround</b> = true</td></tr>
 <tr class="separator:a71acf7ab92e6a35f028496cbbc2d0966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12f562597aadc1b53f6d77460e2c052"><td class="memItemLeft" align="right" valign="top"><a id="aa12f562597aadc1b53f6d77460e2c052"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>supportRigidbodyComponent</b> = true</td></tr>
-<tr class="separator:aa12f562597aadc1b53f6d77460e2c052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad198d5c46d354c1c8bb9bd6891f86a54"><td class="memItemLeft" align="right" valign="top"><a id="ad198d5c46d354c1c8bb9bd6891f86a54"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>supportVanillaRigidbodies</b> = true</td></tr>
-<tr class="separator:ad198d5c46d354c1c8bb9bd6891f86a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c702461df4e68825c23ef0200583e4"><td class="memItemLeft" align="right" valign="top"><a id="a76c702461df4e68825c23ef0200583e4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>rotateForwardDirection</b> = true</td></tr>
 <tr class="separator:a76c702461df4e68825c23ef0200583e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bb67bdb241712383f39b0afa1adb731"><td class="memItemLeft" align="right" valign="top"><a id="a2bb67bdb241712383f39b0afa1adb731"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxGroundVelocityChange</b> = 30f</td></tr>
+<tr class="separator:a2bb67bdb241712383f39b0afa1adb731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af42c87727d6f74fae5dd4d335edb2a8a"><td class="memItemLeft" align="right" valign="top"><a id="af42c87727d6f74fae5dd4d335edb2a8a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxForceNotGroundedGroundVelocity</b> = 10f</td></tr>
+<tr class="separator:af42c87727d6f74fae5dd4d335edb2a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389426a6641c2dd14dd997e7d8f06847"><td class="memItemLeft" align="right" valign="top"><a id="a389426a6641c2dd14dd997e7d8f06847"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>slideOnWalls</b> = true</td></tr>
+<tr class="separator:a389426a6641c2dd14dd997e7d8f06847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af565cb385966cd6d660fea3af17e5fea"><td class="memItemLeft" align="right" valign="top"><a id="af565cb385966cd6d660fea3af17e5fea"></a>
+CharacterVelocityMode&#160;</td><td class="memItemRight" valign="bottom"><b>stablePostSimulationVelocity</b> = CharacterVelocityMode.UsePostSimulationVelocity</td></tr>
+<tr class="separator:af565cb385966cd6d660fea3af17e5fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc19890e926a75a3c99d4994a0f3340b"><td class="memItemLeft" align="right" valign="top"><a id="adc19890e926a75a3c99d4994a0f3340b"></a>
+CharacterVelocityMode&#160;</td><td class="memItemRight" valign="bottom"><b>unstablePostSimulationVelocity</b> = CharacterVelocityMode.UsePostSimulationVelocity</td></tr>
+<tr class="separator:adc19890e926a75a3c99d4994a0f3340b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7dd3cd857c66ebedd4153486b07e84"><td class="memItemLeft" align="right" valign="top"><a id="a6e7dd3cd857c66ebedd4153486b07e84"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>sizeLerpSpeed</b> = 8f</td></tr>
+<tr class="separator:a6e7dd3cd857c66ebedd4153486b07e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63b0bf75a1f5fe13fefed8a0a1712956"><td class="memItemLeft" align="right" valign="top"><a id="a63b0bf75a1f5fe13fefed8a0a1712956"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>constraintRotation</b> = true</td></tr>
 <tr class="separator:a63b0bf75a1f5fe13fefed8a0a1712956"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,66 +259,172 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>upDirectionRefer
 <tr class="memitem:aa8b27158bd1329893f1d54102c33e0af"><td class="memItemLeft" align="right" valign="top"><a id="aa8b27158bd1329893f1d54102c33e0af"></a>
 VerticalAlignmentSettings.VerticalReferenceMode&#160;</td><td class="memItemRight" valign="bottom"><b>upDirectionReferenceMode</b> = VerticalAlignmentSettings.VerticalReferenceMode.Away</td></tr>
 <tr class="separator:aa8b27158bd1329893f1d54102c33e0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c6eda9a04c6dc1141abb3b9664ee566"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9c6eda9a04c6dc1141abb3b9664ee566">Is2D</a> =&gt; CharacterBody.Is2D</td></tr>
+<tr class="memitem:adb14d79d418a9870971c05dbf38c79e7"><td class="memItemLeft" align="right" valign="top"><a id="adb14d79d418a9870971c05dbf38c79e7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canPushDynamicRigidbodies</b> = true</td></tr>
+<tr class="separator:adb14d79d418a9870971c05dbf38c79e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59e121d16efb196cc3c8e9aaeca65e2"><td class="memItemLeft" align="right" valign="top"><a id="ae59e121d16efb196cc3c8e9aaeca65e2"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>pushableRigidbodyLayerMask</b> = -1</td></tr>
+<tr class="separator:ae59e121d16efb196cc3c8e9aaeca65e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8527b2d3fae269bc164d5377c879f3d2"><td class="memItemLeft" align="right" valign="top"><a id="a8527b2d3fae269bc164d5377c879f3d2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>applyWeightToGround</b> = true</td></tr>
+<tr class="separator:a8527b2d3fae269bc164d5377c879f3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c77b9f04b5fd7834399991f50f8d8e2"><td class="memItemLeft" align="right" valign="top"><a id="a8c77b9f04b5fd7834399991f50f8d8e2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>weightGravity</b> = <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa040c38b74808a41f35e2ae34647a916">CharacterConstants.DefaultGravity</a></td></tr>
+<tr class="separator:a8c77b9f04b5fd7834399991f50f8d8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6eda9a04c6dc1141abb3b9664ee566"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9c6eda9a04c6dc1141abb3b9664ee566">Is2D</a> =&gt; RigidbodyComponent.Is2D</td></tr>
 <tr class="memdesc:a9c6eda9a04c6dc1141abb3b9664ee566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html" title="This class contains all the character body properties, such as width, height, body shape,...">CharacterBody</a> component associated with this character actor.  <a href="#a9c6eda9a04c6dc1141abb3b9664ee566">More...</a><br /></td></tr>
 <tr class="separator:a9c6eda9a04c6dc1141abb3b9664ee566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c08296006f0f852cf59b1566b88d3fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a3c08296006f0f852cf59b1566b88d3fd">RigidbodyComponent</a> =&gt; CharacterBody.RigidbodyComponent</td></tr>
-<tr class="memdesc:a3c08296006f0f852cf59b1566b88d3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the RigidbodyComponent component associated with the character.  <a href="#a3c08296006f0f852cf59b1566b88d3fd">More...</a><br /></td></tr>
-<tr class="separator:a3c08296006f0f852cf59b1566b88d3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f3b5e7a32953c7bafcc4a07dc19aec"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab9f3b5e7a32953c7bafcc4a07dc19aec">RigidbodyComponent</a> =&gt; CharacterBody.RigidbodyComponent</td></tr>
+<tr class="memdesc:ab9f3b5e7a32953c7bafcc4a07dc19aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the RigidbodyComponent component associated with the character.  <a href="#ab9f3b5e7a32953c7bafcc4a07dc19aec">More...</a><br /></td></tr>
+<tr class="separator:ab9f3b5e7a32953c7bafcc4a07dc19aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d7c28bc89b355c43378071da5a50b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lightbug_1_1_utilities_1_1_collider_component.html">ColliderComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8d7c28bc89b355c43378071da5a50b4c">ColliderComponent</a> =&gt; CharacterBody.ColliderComponent</td></tr>
 <tr class="memdesc:a8d7c28bc89b355c43378071da5a50b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ColliderComponent component associated with the character.  <a href="#a8d7c28bc89b355c43378071da5a50b4c">More...</a><br /></td></tr>
 <tr class="separator:a8d7c28bc89b355c43378071da5a50b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71843f99116551dc90d7e1015650f7ac"><td class="memItemLeft" align="right" valign="top"><a id="a71843f99116551dc90d7e1015650f7ac"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>ObstaclesLayerMask</b> =&gt; PhysicsComponent.CollisionLayerMask | oneWayPlatformsLayerMask</td></tr>
+<tr class="separator:a71843f99116551dc90d7e1015650f7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f12ffe9f5d1f05f91e4f1fe4cd2491"><td class="memItemLeft" align="right" valign="top"><a id="a42f12ffe9f5d1f05f91e4f1fe4cd2491"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>ObstaclesWithoutOWPLayerMask</b> =&gt; PhysicsComponent.CollisionLayerMask &amp; ~( oneWayPlatformsLayerMask )</td></tr>
+<tr class="separator:a42f12ffe9f5d1f05f91e4f1fe4cd2491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f59ac87a9e182db8736feb6ce3767ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a0f59ac87a9e182db8736feb6ce3767ed">IsOnEdge</a> =&gt;characterCollisionInfo.isOnEdge</td></tr>
+<tr class="memdesc:a0f59ac87a9e182db8736feb6ce3767ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the character is standing on an edge.  <a href="#a0f59ac87a9e182db8736feb6ce3767ed">More...</a><br /></td></tr>
+<tr class="separator:a0f59ac87a9e182db8736feb6ce3767ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02710dc73edb21fcc745d1615ed453a2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a02710dc73edb21fcc745d1615ed453a2">EdgeAngle</a> =&gt; characterCollisionInfo.edgeAngle</td></tr>
+<tr class="memdesc:a02710dc73edb21fcc745d1615ed453a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between the both sides of the edge.  <a href="#a02710dc73edb21fcc745d1615ed453a2">More...</a><br /></td></tr>
+<tr class="separator:a02710dc73edb21fcc745d1615ed453a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71b0b4e6c728092219be73ece05fc74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a> =&gt; characterCollisionInfo.groundObject != null</td></tr>
+<tr class="memdesc:af71b0b4e6c728092219be73ece05fc74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the grounded state, true if the ground object is not null, false otherwise.  <a href="#af71b0b4e6c728092219be73ece05fc74">More...</a><br /></td></tr>
+<tr class="separator:af71b0b4e6c728092219be73ece05fc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab0c31a6e6e99047dd2cf1a63ce130ec4">GroundSlopeAngle</a> =&gt; characterCollisionInfo.groundSlopeAngle</td></tr>
+<tr class="memdesc:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the up vector and the stable normal.  <a href="#ab0c31a6e6e99047dd2cf1a63ce130ec4">More...</a><br /></td></tr>
+<tr class="separator:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698468ad33d7ddad24bf3e12d882cee7"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a698468ad33d7ddad24bf3e12d882cee7">GroundContactPoint</a> =&gt; characterCollisionInfo.groundContactPoint</td></tr>
+<tr class="memdesc:a698468ad33d7ddad24bf3e12d882cee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the contact point obtained directly from the ground test (sphere cast).  <a href="#a698468ad33d7ddad24bf3e12d882cee7">More...</a><br /></td></tr>
+<tr class="separator:a698468ad33d7ddad24bf3e12d882cee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f39c8bfe37f10fb03b5c525a082d504"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a1f39c8bfe37f10fb03b5c525a082d504">GroundContactNormal</a> =&gt; characterCollisionInfo.groundContactNormal</td></tr>
+<tr class="memdesc:a1f39c8bfe37f10fb03b5c525a082d504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the normal vector obtained directly from the ground test (sphere cast).  <a href="#a1f39c8bfe37f10fb03b5c525a082d504">More...</a><br /></td></tr>
+<tr class="separator:a1f39c8bfe37f10fb03b5c525a082d504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c8d80946225929e766371a9c2e21dc0"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7c8d80946225929e766371a9c2e21dc0">GroundStableNormal</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f">IsStable</a> ? characterCollisionInfo.groundStableNormal : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522">Up</a></td></tr>
+<tr class="memdesc:a7c8d80946225929e766371a9c2e21dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the normal vector used to determine stability. This may or may not be the normal obtained from the ground test.  <a href="#a7c8d80946225929e766371a9c2e21dc0">More...</a><br /></td></tr>
+<tr class="separator:a7c8d80946225929e766371a9c2e21dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12986fa198d93f55e1132e48d784a5df"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df">GroundObject</a> =&gt; characterCollisionInfo.groundObject</td></tr>
+<tr class="memdesc:a12986fa198d93f55e1132e48d784a5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the GameObject component of the current ground.  <a href="#a12986fa198d93f55e1132e48d784a5df">More...</a><br /></td></tr>
+<tr class="separator:a12986fa198d93f55e1132e48d784a5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eac465099c6cf6a86b6446b09c9a571"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8eac465099c6cf6a86b6446b09c9a571">GroundTransform</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df">GroundObject</a> != null ? GroundObject.transform : null</td></tr>
+<tr class="memdesc:a8eac465099c6cf6a86b6446b09c9a571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Transform component of the current ground.  <a href="#a8eac465099c6cf6a86b6446b09c9a571">More...</a><br /></td></tr>
+<tr class="separator:a8eac465099c6cf6a86b6446b09c9a571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8b0f34fddb20d7995a3b56aecbbd9307">GroundCollider2D</a> =&gt; characterCollisionInfo.groundCollider2D</td></tr>
+<tr class="memdesc:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider2D component of the current ground.  <a href="#a8b0f34fddb20d7995a3b56aecbbd9307">More...</a><br /></td></tr>
+<tr class="separator:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc62400549b670c4efa656c1f630fa53"><td class="memItemLeft" align="right" valign="top">Collider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acc62400549b670c4efa656c1f630fa53">GroundCollider3D</a> =&gt; characterCollisionInfo.groundCollider3D</td></tr>
+<tr class="memdesc:acc62400549b670c4efa656c1f630fa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider3D component of the current ground.  <a href="#acc62400549b670c4efa656c1f630fa53">More...</a><br /></td></tr>
+<tr class="separator:acc62400549b670c4efa656c1f630fa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf691828cbdaf36a7423655caa9d7260"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acf691828cbdaf36a7423655caa9d7260">WallCollision</a> =&gt; characterCollisionInfo.wallCollision</td></tr>
+<tr class="memdesc:acf691828cbdaf36a7423655caa9d7260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the wall collision flag, true if the character hit a wall, false otherwise.  <a href="#acf691828cbdaf36a7423655caa9d7260">More...</a><br /></td></tr>
+<tr class="separator:acf691828cbdaf36a7423655caa9d7260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc53ae37808188ded03a7131d49399db"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#abc53ae37808188ded03a7131d49399db">WallAngle</a> =&gt; characterCollisionInfo.wallAngle</td></tr>
+<tr class="memdesc:abc53ae37808188ded03a7131d49399db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the contact normal (wall collision) and the Up direction.  <a href="#abc53ae37808188ded03a7131d49399db">More...</a><br /></td></tr>
+<tr class="separator:abc53ae37808188ded03a7131d49399db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5bb5f16c394d609357580fba31c7d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b5bb5f16c394d609357580fba31c7d3">WallContact</a> =&gt; characterCollisionInfo.wallContact</td></tr>
+<tr class="memdesc:a5b5bb5f16c394d609357580fba31c7d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current contact (wall collision).  <a href="#a5b5bb5f16c394d609357580fba31c7d3">More...</a><br /></td></tr>
+<tr class="separator:a5b5bb5f16c394d609357580fba31c7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aecd4b2d7ec027ed032165cd6fdc3359b">HeadCollision</a> =&gt; characterCollisionInfo.headCollision</td></tr>
+<tr class="memdesc:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the head collision flag, true if the character hits something with its head, false otherwise.  <a href="#aecd4b2d7ec027ed032165cd6fdc3359b">More...</a><br /></td></tr>
+<tr class="separator:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25be034f3f81c5ff68728602b463db51"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a25be034f3f81c5ff68728602b463db51">HeadAngle</a> =&gt; characterCollisionInfo.headAngle</td></tr>
+<tr class="memdesc:a25be034f3f81c5ff68728602b463db51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the contact normal (head collision) and the Up direction.  <a href="#a25be034f3f81c5ff68728602b463db51">More...</a><br /></td></tr>
+<tr class="separator:a25be034f3f81c5ff68728602b463db51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509fc104ebce700c5264fce76f4e2f4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a509fc104ebce700c5264fce76f4e2f4a">HeadContact</a> =&gt; characterCollisionInfo.headContact</td></tr>
+<tr class="memdesc:a509fc104ebce700c5264fce76f4e2f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current contact (head collision).  <a href="#a509fc104ebce700c5264fce76f4e2f4a">More...</a><br /></td></tr>
+<tr class="separator:a509fc104ebce700c5264fce76f4e2f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f">IsStable</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a> &amp;&amp; characterCollisionInfo.groundSlopeAngle &lt;= slopeLimit</td></tr>
+<tr class="memdesc:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current stability state of the character. Stability is equal to "grounded + slope angle &lt;= slope limit".  <a href="#a5a9d96fdb3bb273be790b5f3ca00f97f">More...</a><br /></td></tr>
+<tr class="separator:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c8e15732bdee48f46d5898ee90ddca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab4c8e15732bdee48f46d5898ee90ddca">IsOnUnstableGround</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a> &amp;&amp; characterCollisionInfo.groundSlopeAngle &gt; slopeLimit</td></tr>
+<tr class="memdesc:ab4c8e15732bdee48f46d5898ee90ddca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the character is grounded onto an unstable ground, false otherwise.  <a href="#ab4c8e15732bdee48f46d5898ee90ddca">More...</a><br /></td></tr>
+<tr class="separator:ab4c8e15732bdee48f46d5898ee90ddca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf43c3bdbe2c16409b91c5ea03593d02">DynamicGroundPointVelocity</a></td></tr>
+<tr class="memdesc:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the point velocity (Rigidbody API) of the ground using the character position.  <a href="#aaf43c3bdbe2c16409b91c5ea03593d02">More...</a><br /></td></tr>
+<tr class="separator:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4adc552bbd419d3c8b292582b353638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html">CharacterCollisionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aa4adc552bbd419d3c8b292582b353638">CharacterCollisionInfo</a> =&gt; characterCollisionInfo</td></tr>
+<tr class="memdesc:aa4adc552bbd419d3c8b292582b353638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a structure with all the information regarding character collisions. Most of the character properties (e.g. IsGrounded, IsStable, GroundObject, and so on) can be obtained from this structure.  <a href="#aa4adc552bbd419d3c8b292582b353638">More...</a><br /></td></tr>
+<tr class="separator:aa4adc552bbd419d3c8b292582b353638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7c5fc8935ef7eaf3a5c3bde2062d56"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aee7c5fc8935ef7eaf3a5c3bde2062d56">DefaultBodySize</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html#a7d14fb21c61e1623b9f69e3c36e6098e">CharacterBody.BodySize</a></td></tr>
 <tr class="memdesc:aee7c5fc8935ef7eaf3a5c3bde2062d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current body size (width and height).  <a href="#aee7c5fc8935ef7eaf3a5c3bde2062d56">More...</a><br /></td></tr>
 <tr class="separator:aee7c5fc8935ef7eaf3a5c3bde2062d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3959fd72c7db4959addd6dfa431f1136"><td class="memItemLeft" align="right" valign="top"><a id="a3959fd72c7db4959addd6dfa431f1136"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>SlopeLimit</b> =&gt; slopeLimit</td></tr>
-<tr class="separator:a3959fd72c7db4959addd6dfa431f1136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ca2b6495f75d0c54b5a7b70e57a0558"><td class="memItemLeft" align="right" valign="top"><a id="a1ca2b6495f75d0c54b5a7b70e57a0558"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsOnTerrain</b> =&gt; CurrentTerrain != null</td></tr>
-<tr class="separator:a1ca2b6495f75d0c54b5a7b70e57a0558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb397995b2b3f403eb2212ae43ea218b"><td class="memItemLeft" align="right" valign="top"><a id="acb397995b2b3f403eb2212ae43ea218b"></a>
+<a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collisions.html">CharacterCollisions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CharacterCollisions</b> =&gt; characterCollisions</td></tr>
+<tr class="separator:acb397995b2b3f403eb2212ae43ea218b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c181dd64e1bd380c58f90b6292d75a"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ae4c181dd64e1bd380c58f90b6292d75a">WallContacts</a> =&gt; wallContacts</td></tr>
+<tr class="memdesc:ae4c181dd64e1bd380c58f90b6292d75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a lits of all the contacts involved with wall collision events.  <a href="#ae4c181dd64e1bd380c58f90b6292d75a">More...</a><br /></td></tr>
+<tr class="separator:ae4c181dd64e1bd380c58f90b6292d75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe70b54f3a467b2af1cf6716a41239c6"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#afe70b54f3a467b2af1cf6716a41239c6">HeadContacts</a> =&gt; headContacts</td></tr>
+<tr class="memdesc:afe70b54f3a467b2af1cf6716a41239c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a lits of all the contacts involved with head collision events.  <a href="#afe70b54f3a467b2af1cf6716a41239c6">More...</a><br /></td></tr>
+<tr class="separator:afe70b54f3a467b2af1cf6716a41239c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c9733fcd728155039ef17cba02ab77"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a90c9733fcd728155039ef17cba02ab77">GroundDeltaVelocity</a> =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> - <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">PreviousGroundVelocity</a></td></tr>
+<tr class="memdesc:a90c9733fcd728155039ef17cba02ab77"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ground change in velocity (current velocity - previous velocity).  <a href="#a90c9733fcd728155039ef17cba02ab77">More...</a><br /></td></tr>
+<tr class="separator:a90c9733fcd728155039ef17cba02ab77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02be07c3aa439f291ceb29ff4028bbb2"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a02be07c3aa439f291ceb29ff4028bbb2">GroundAcceleration</a> =&gt; ( <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> - <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">PreviousGroundVelocity</a> ) / Time.fixedDeltaTime</td></tr>
+<tr class="memdesc:a02be07c3aa439f291ceb29ff4028bbb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ground acceleration (GroundDeltaVelocity / dt).  <a href="#a02be07c3aa439f291ceb29ff4028bbb2">More...</a><br /></td></tr>
+<tr class="separator:a02be07c3aa439f291ceb29ff4028bbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c10d5902c465771c75355d294d77d10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5c10d5902c465771c75355d294d77d10">IsGroundAscending</a> =&gt; transform.InverseTransformVectorUnscaled( Vector3.Project( <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> * Time.deltaTime , <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522">Up</a> ) ).y &gt; 0</td></tr>
+<tr class="memdesc:a5c10d5902c465771c75355d294d77d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ground vertical displacement (moving ground) is positive.  <a href="#a5c10d5902c465771c75355d294d77d10">More...</a><br /></td></tr>
+<tr class="separator:a5c10d5902c465771c75355d294d77d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b4d54193793f1fd7cb1dfc0270bdccd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8b4d54193793f1fd7cb1dfc0270bdccd">IsGroundAOneWayPlatform</a> =&gt; CustomUtilities.BelongsToLayerMask( GroundObject.layer , oneWayPlatformsLayerMask )</td></tr>
+<tr class="memdesc:a8b4d54193793f1fd7cb1dfc0270bdccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current ground layer is considered as a one way platform.  <a href="#a8b4d54193793f1fd7cb1dfc0270bdccd">More...</a><br /></td></tr>
+<tr class="separator:a8b4d54193793f1fd7cb1dfc0270bdccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html">Lightbug.CharacterControllerPro.Core.PhysicsActor</a></td></tr>
+<tr class="memitem:affedac438cc9c39dff33a43be8179370 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="affedac438cc9c39dff33a43be8179370"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>interpolateActor</b> = true</td></tr>
+<tr class="separator:affedac438cc9c39dff33a43be8179370 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3645d70dc02338da14a05305e0d7a9 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a3d3645d70dc02338da14a05305e0d7a9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useContinuousCollisionDetection</b> = true</td></tr>
+<tr class="separator:a3d3645d70dc02338da14a05305e0d7a9 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab001926247a163ad0858b0412f23725a inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="ab001926247a163ad0858b0412f23725a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseRootMotion</b> = false</td></tr>
+<tr class="separator:ab001926247a163ad0858b0412f23725a inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbe25edd2166ca1b7f57832d305c260 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a8bbe25edd2166ca1b7f57832d305c260"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateRootPosition</b> = true</td></tr>
+<tr class="separator:a8bbe25edd2166ca1b7f57832d305c260 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91db33bd7b54b51a9828af652e66fd20 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a91db33bd7b54b51a9828af652e66fd20"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateRootRotation</b> = true</td></tr>
+<tr class="separator:a91db33bd7b54b51a9828af652e66fd20 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab418f58aed6ba99ea3d8a422c2bd9782"><td class="memItemLeft" align="right" valign="top"><a id="ab418f58aed6ba99ea3d8a422c2bd9782"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="separator:ab418f58aed6ba99ea3d8a422c2bd9782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb1a468c6289fa55432c31aa6c512a5"><td class="memItemLeft" align="right" valign="top"><a id="a7fb1a468c6289fa55432c31aa6c512a5"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="separator:a7fb1a468c6289fa55432c31aa6c512a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeae6f5feb78cdac7f04401c535f18acd"><td class="memItemLeft" align="right" valign="top"><a id="aeae6f5feb78cdac7f04401c535f18acd"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
-<tr class="separator:aeae6f5feb78cdac7f04401c535f18acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026a6c6b080df1aae982bb47ce88beb9"><td class="memItemLeft" align="right" valign="top"><a id="a026a6c6b080df1aae982bb47ce88beb9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
-<tr class="separator:a026a6c6b080df1aae982bb47ce88beb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb99a9d8b91d4083a0f71227a956f72"><td class="memItemLeft" align="right" valign="top"><a id="afbb99a9d8b91d4083a0f71227a956f72"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:afbb99a9d8b91d4083a0f71227a956f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810715469b8f1cf2cf584ba7d1236cd5"><td class="memItemLeft" align="right" valign="top"><a id="a810715469b8f1cf2cf584ba7d1236cd5"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a810715469b8f1cf2cf584ba7d1236cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6fb8cdefb552616e7f13affb1b2e81"><td class="memItemLeft" align="right" valign="top"><a id="aac6fb8cdefb552616e7f13affb1b2e81"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="separator:aac6fb8cdefb552616e7f13affb1b2e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c83b853432b187c7c803909b1b59379"><td class="memItemLeft" align="right" valign="top"><a id="a7c83b853432b187c7c803909b1b59379"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="separator:a7c83b853432b187c7c803909b1b59379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad97b7ebbf10f1bec4e2c9ff17e01758e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad97b7ebbf10f1bec4e2c9ff17e01758e">ApplyWeight</a> (Vector3 contactPoint)</td></tr>
 <tr class="memdesc:ad97b7ebbf10f1bec4e2c9ff17e01758e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a force at the ground contact point, in the direction of the weight (mass times gravity).  <a href="#ad97b7ebbf10f1bec4e2c9ff17e01758e">More...</a><br /></td></tr>
 <tr class="separator:ad97b7ebbf10f1bec4e2c9ff17e01758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fc815b1e3c398d527bec4b7e39aaa42"><td class="memItemLeft" align="right" valign="top"><a id="a1fc815b1e3c398d527bec4b7e39aaa42"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceRigidbodyDisplacement</b> (Vector3 position, <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a> referenceRigidbody)</td></tr>
-<tr class="separator:a1fc815b1e3c398d527bec4b7e39aaa42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c77a6b76c91e7c2590f9cc9cb0a4d10"><td class="memItemLeft" align="right" valign="top"><a id="a5c77a6b76c91e7c2590f9cc9cb0a4d10"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceRigidbodyDisplacement</b> (Vector3 position, Rigidbody referenceRigidbody, float dt)</td></tr>
-<tr class="separator:a5c77a6b76c91e7c2590f9cc9cb0a4d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9dccf4c83ce564d269793702e05cba"><td class="memItemLeft" align="right" valign="top"><a id="a3b9dccf4c83ce564d269793702e05cba"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceRigidbodyDisplacement</b> (Vector3 position, Rigidbody2D referenceRigidbody, float dt)</td></tr>
-<tr class="separator:a3b9dccf4c83ce564d269793702e05cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1462f51fc1c3fe351266584b6ed7a001"><td class="memItemLeft" align="right" valign="top"><a id="a1462f51fc1c3fe351266584b6ed7a001"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceRigidbodyDisplacement</b> (Vector3 characterPosition, Vector3 groundPointVelocity, Vector3 groundPosition, float dt)</td></tr>
-<tr class="separator:a1462f51fc1c3fe351266584b6ed7a001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ce12aed51d88b57ebfecad6000a436"><td class="memItemLeft" align="right" valign="top"><a id="a57ce12aed51d88b57ebfecad6000a436"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>PreSimulationUpdate</b> (float dt)</td></tr>
+<tr class="separator:a57ce12aed51d88b57ebfecad6000a436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a48d00916ba1ed8080dd3884c49475"><td class="memItemLeft" align="right" valign="top"><a id="a46a48d00916ba1ed8080dd3884c49475"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>PostSimulationUpdate</b> (float dt)</td></tr>
+<tr class="separator:a46a48d00916ba1ed8080dd3884c49475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8df983d0f0ef92aa4047f2365ea75d"><td class="memItemLeft" align="right" valign="top"><a id="a9e8df983d0f0ef92aa4047f2365ea75d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CollideAndSlide</b> (ref Vector3 position, Vector3 displacement, bool useFullBody)</td></tr>
+<tr class="separator:a9e8df983d0f0ef92aa4047f2365ea75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75d5a6a6026f5185fcf92c99f6589f2"><td class="memItemLeft" align="right" valign="top"><a id="aa75d5a6a6026f5185fcf92c99f6589f2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckOneWayPlatform</b> (<a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html">CollisionInfo</a> collisionInfo)</td></tr>
+<tr class="separator:aa75d5a6a6026f5185fcf92c99f6589f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad90adf289dc1a2db5dd2570dc19f09d2"><td class="memItemLeft" align="right" valign="top"><a id="ad90adf289dc1a2db5dd2570dc19f09d2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CollideAndSlideUnstable</b> (ref Vector3 position, Vector3 displacement)</td></tr>
+<tr class="separator:ad90adf289dc1a2db5dd2570dc19f09d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ac3f76fb6115d856ba7efad0e45df9d6d"><td class="memItemLeft" align="right" valign="top"><a id="ac3f76fb6115d856ba7efad0e45df9d6d"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>slopeLimit</b> = 60f</td></tr>
-<tr class="separator:ac3f76fb6115d856ba7efad0e45df9d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5bb7dd0dce089416314cacdb45f7c13"><td class="memItemLeft" align="right" valign="top"><a id="aa5bb7dd0dce089416314cacdb45f7c13"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>stepUpDistance</b> = 0.5f</td></tr>
-<tr class="separator:aa5bb7dd0dce089416314cacdb45f7c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcb83b8c4cb6fa6880f2ca02f86bbb8b"><td class="memItemLeft" align="right" valign="top"><a id="adcb83b8c4cb6fa6880f2ca02f86bbb8b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>stepDownDistance</b> = 0.5f</td></tr>
-<tr class="separator:adcb83b8c4cb6fa6880f2ca02f86bbb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd83984d2135c5dbb43d9fa30136415"><td class="memItemLeft" align="right" valign="top"><a id="a9dd83984d2135c5dbb43d9fa30136415"></a>
 <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html">CharacterCollisionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>characterCollisionInfo</b> = new <a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html">CharacterCollisionInfo</a>()</td></tr>
 <tr class="separator:a9dd83984d2135c5dbb43d9fa30136415"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,60 +446,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>StepOffset</b><code>
 <tr class="memitem:a3a45da42333ca3b20cf893a31ff510c8"><td class="memItemLeft" align="right" valign="top">CharacterActorState?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a3a45da42333ca3b20cf893a31ff510c8">PreviousState</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3a45da42333ca3b20cf893a31ff510c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the character actor state from the previous frame.  <a href="#a3a45da42333ca3b20cf893a31ff510c8">More...</a><br /></td></tr>
 <tr class="separator:a3a45da42333ca3b20cf893a31ff510c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f59ac87a9e182db8736feb6ce3767ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a0f59ac87a9e182db8736feb6ce3767ed">IsOnEdge</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0f59ac87a9e182db8736feb6ce3767ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the character is standing on an edge.  <a href="#a0f59ac87a9e182db8736feb6ce3767ed">More...</a><br /></td></tr>
-<tr class="separator:a0f59ac87a9e182db8736feb6ce3767ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af71b0b4e6c728092219be73ece05fc74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a><code> [get]</code></td></tr>
-<tr class="memdesc:af71b0b4e6c728092219be73ece05fc74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the grounded state, true if the ground object is not null, false otherwise.  <a href="#af71b0b4e6c728092219be73ece05fc74">More...</a><br /></td></tr>
-<tr class="separator:af71b0b4e6c728092219be73ece05fc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab0c31a6e6e99047dd2cf1a63ce130ec4">GroundSlopeAngle</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the up vector and the stable normal.  <a href="#ab0c31a6e6e99047dd2cf1a63ce130ec4">More...</a><br /></td></tr>
-<tr class="separator:ab0c31a6e6e99047dd2cf1a63ce130ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a698468ad33d7ddad24bf3e12d882cee7"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a698468ad33d7ddad24bf3e12d882cee7">GroundContactPoint</a><code> [get]</code></td></tr>
-<tr class="memdesc:a698468ad33d7ddad24bf3e12d882cee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the contact point obtained directly from the ground test (sphere cast).  <a href="#a698468ad33d7ddad24bf3e12d882cee7">More...</a><br /></td></tr>
-<tr class="separator:a698468ad33d7ddad24bf3e12d882cee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f39c8bfe37f10fb03b5c525a082d504"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a1f39c8bfe37f10fb03b5c525a082d504">GroundContactNormal</a><code> [get]</code></td></tr>
-<tr class="memdesc:a1f39c8bfe37f10fb03b5c525a082d504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the normal vector obtained directly from the ground test (sphere cast).  <a href="#a1f39c8bfe37f10fb03b5c525a082d504">More...</a><br /></td></tr>
-<tr class="separator:a1f39c8bfe37f10fb03b5c525a082d504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4959e4262ccbc847f1a135e37b03746"><td class="memItemLeft" align="right" valign="top">Vector3?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af4959e4262ccbc847f1a135e37b03746">GroundStableNormal</a><code> [get]</code></td></tr>
-<tr class="memdesc:af4959e4262ccbc847f1a135e37b03746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the normal vector used to determine stability. This may or may not be the normal obtained from the ground test.  <a href="#af4959e4262ccbc847f1a135e37b03746">More...</a><br /></td></tr>
-<tr class="separator:af4959e4262ccbc847f1a135e37b03746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12986fa198d93f55e1132e48d784a5df"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df">GroundObject</a><code> [get]</code></td></tr>
-<tr class="memdesc:a12986fa198d93f55e1132e48d784a5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the GameObject component of the current ground.  <a href="#a12986fa198d93f55e1132e48d784a5df">More...</a><br /></td></tr>
-<tr class="separator:a12986fa198d93f55e1132e48d784a5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eac465099c6cf6a86b6446b09c9a571"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8eac465099c6cf6a86b6446b09c9a571">GroundTransform</a><code> [get]</code></td></tr>
-<tr class="memdesc:a8eac465099c6cf6a86b6446b09c9a571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Transform component of the current ground.  <a href="#a8eac465099c6cf6a86b6446b09c9a571">More...</a><br /></td></tr>
-<tr class="separator:a8eac465099c6cf6a86b6446b09c9a571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="memItemLeft" align="right" valign="top">Collider2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8b0f34fddb20d7995a3b56aecbbd9307">GroundCollider2D</a><code> [get]</code></td></tr>
-<tr class="memdesc:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider2D component of the current ground.  <a href="#a8b0f34fddb20d7995a3b56aecbbd9307">More...</a><br /></td></tr>
-<tr class="separator:a8b0f34fddb20d7995a3b56aecbbd9307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc62400549b670c4efa656c1f630fa53"><td class="memItemLeft" align="right" valign="top">Collider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acc62400549b670c4efa656c1f630fa53">GroundCollider3D</a><code> [get]</code></td></tr>
-<tr class="memdesc:acc62400549b670c4efa656c1f630fa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider3D component of the current ground.  <a href="#acc62400549b670c4efa656c1f630fa53">More...</a><br /></td></tr>
-<tr class="separator:acc62400549b670c4efa656c1f630fa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf691828cbdaf36a7423655caa9d7260"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acf691828cbdaf36a7423655caa9d7260">WallCollision</a><code> [get]</code></td></tr>
-<tr class="memdesc:acf691828cbdaf36a7423655caa9d7260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the wall collision flag, true if the character hit a wall, false otherwise.  <a href="#acf691828cbdaf36a7423655caa9d7260">More...</a><br /></td></tr>
-<tr class="separator:acf691828cbdaf36a7423655caa9d7260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc53ae37808188ded03a7131d49399db"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#abc53ae37808188ded03a7131d49399db">WallAngle</a><code> [get]</code></td></tr>
-<tr class="memdesc:abc53ae37808188ded03a7131d49399db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the contact normal (wall collision) and the Up direction.  <a href="#abc53ae37808188ded03a7131d49399db">More...</a><br /></td></tr>
-<tr class="separator:abc53ae37808188ded03a7131d49399db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b5bb5f16c394d609357580fba31c7d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b5bb5f16c394d609357580fba31c7d3">WallContact</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5b5bb5f16c394d609357580fba31c7d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current contact (wall collision).  <a href="#a5b5bb5f16c394d609357580fba31c7d3">More...</a><br /></td></tr>
-<tr class="separator:a5b5bb5f16c394d609357580fba31c7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aecd4b2d7ec027ed032165cd6fdc3359b">HeadCollision</a><code> [get]</code></td></tr>
-<tr class="memdesc:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the head collision flag, true if the character hits something with its head, false otherwise.  <a href="#aecd4b2d7ec027ed032165cd6fdc3359b">More...</a><br /></td></tr>
-<tr class="separator:aecd4b2d7ec027ed032165cd6fdc3359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25be034f3f81c5ff68728602b463db51"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a25be034f3f81c5ff68728602b463db51">HeadAngle</a><code> [get]</code></td></tr>
-<tr class="memdesc:a25be034f3f81c5ff68728602b463db51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle between the contact normal (head collision) and the Up direction.  <a href="#a25be034f3f81c5ff68728602b463db51">More...</a><br /></td></tr>
-<tr class="separator:a25be034f3f81c5ff68728602b463db51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a509fc104ebce700c5264fce76f4e2f4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a509fc104ebce700c5264fce76f4e2f4a">HeadContact</a><code> [get]</code></td></tr>
-<tr class="memdesc:a509fc104ebce700c5264fce76f4e2f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current contact (head collision).  <a href="#a509fc104ebce700c5264fce76f4e2f4a">More...</a><br /></td></tr>
-<tr class="separator:a509fc104ebce700c5264fce76f4e2f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f">IsStable</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current stability state of the character. Stability is equal to "grounded + slope angle &lt;= slope limit".  <a href="#a5a9d96fdb3bb273be790b5f3ca00f97f">More...</a><br /></td></tr>
-<tr class="separator:a5a9d96fdb3bb273be790b5f3ca00f97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4c8e15732bdee48f46d5898ee90ddca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab4c8e15732bdee48f46d5898ee90ddca">IsOnUnstableGround</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab4c8e15732bdee48f46d5898ee90ddca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the character is grounded onto an unstable ground, false otherwise.  <a href="#ab4c8e15732bdee48f46d5898ee90ddca">More...</a><br /></td></tr>
-<tr class="separator:ab4c8e15732bdee48f46d5898ee90ddca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a144df98be92fb124131a54d01af51eac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a144df98be92fb124131a54d01af51eac">WasGrounded</a><code> [get]</code></td></tr>
 <tr class="memdesc:a144df98be92fb124131a54d01af51eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the previous grounded state.  <a href="#a144df98be92fb124131a54d01af51eac">More...</a><br /></td></tr>
 <tr class="separator:a144df98be92fb124131a54d01af51eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,50 +455,53 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>StepOffset</b><code>
 <tr class="memitem:af5b0c7647eadd04bacf6dec194933aba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af5b0c7647eadd04bacf6dec194933aba">GroundRigidbodyComponent</a><code> [get]</code></td></tr>
 <tr class="memdesc:af5b0c7647eadd04bacf6dec194933aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the RigidbodyComponent component from the ground.  <a href="#af5b0c7647eadd04bacf6dec194933aba">More...</a><br /></td></tr>
 <tr class="separator:af5b0c7647eadd04bacf6dec194933aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b24d1b9a2f92a7eb1d9c344769a6390"><td class="memItemLeft" align="right" valign="top">Vector3?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b24d1b9a2f92a7eb1d9c344769a6390">GroundPosition</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5b24d1b9a2f92a7eb1d9c344769a6390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ground rigidbody position.  <a href="#a5b24d1b9a2f92a7eb1d9c344769a6390">More...</a><br /></td></tr>
+<tr class="separator:a5b24d1b9a2f92a7eb1d9c344769a6390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5769d97454c8c7e510188d154530770"><td class="memItemLeft" align="right" valign="top">Quaternion?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad5769d97454c8c7e510188d154530770">GroundRotation</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad5769d97454c8c7e510188d154530770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ground rigidbody rotation.  <a href="#ad5769d97454c8c7e510188d154530770">More...</a><br /></td></tr>
+<tr class="separator:ad5769d97454c8c7e510188d154530770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333d24592c950b14ea603ecf78370594"><td class="memItemLeft" align="right" valign="top">bool?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a333d24592c950b14ea603ecf78370594">IsGroundARigidbody</a><code> [get]</code></td></tr>
 <tr class="memdesc:a333d24592c950b14ea603ecf78370594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current ground is a Rigidbody (2D or 3D), false otherwise.  <a href="#a333d24592c950b14ea603ecf78370594">More...</a><br /></td></tr>
 <tr class="separator:a333d24592c950b14ea603ecf78370594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a530a015c1fa27668604836f39507d34d"><td class="memItemLeft" align="right" valign="top">bool?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a530a015c1fa27668604836f39507d34d">IsGroundAKinematicRigidbody</a><code> [get]</code></td></tr>
 <tr class="memdesc:a530a015c1fa27668604836f39507d34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current ground is a kinematic Rigidbody (2D or 3D), false otherwise.  <a href="#a530a015c1fa27668604836f39507d34d">More...</a><br /></td></tr>
 <tr class="separator:a530a015c1fa27668604836f39507d34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf43c3bdbe2c16409b91c5ea03593d02">DynamicGroundPointVelocity</a><code> [get]</code></td></tr>
-<tr class="memdesc:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current ground is a kinematic Rigidbody (2D or 3D), false otherwise.  <a href="#aaf43c3bdbe2c16409b91c5ea03593d02">More...</a><br /></td></tr>
-<tr class="separator:aaf43c3bdbe2c16409b91c5ea03593d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf17091574cb42c845bdcfee53d61a0f"><td class="memItemLeft" align="right" valign="top"><a id="acf17091574cb42c845bdcfee53d61a0f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GroundedTime</b><code> [get]</code></td></tr>
 <tr class="separator:acf17091574cb42c845bdcfee53d61a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b6c93f675a2210c3ed20850205e9f66"><td class="memItemLeft" align="right" valign="top"><a id="a0b6c93f675a2210c3ed20850205e9f66"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>NotGroundedTime</b><code> [get]</code></td></tr>
 <tr class="separator:a0b6c93f675a2210c3ed20850205e9f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfd0064603676c8067c7ff9123f44dfc"><td class="memItemLeft" align="right" valign="top"><a id="acfd0064603676c8067c7ff9123f44dfc"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>StableGroundedTime</b><code> [get]</code></td></tr>
-<tr class="separator:acfd0064603676c8067c7ff9123f44dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcbbbd43ccc4ae0628fadf545d7e8210"><td class="memItemLeft" align="right" valign="top"><a id="afcbbbd43ccc4ae0628fadf545d7e8210"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>UnstableGroundedTime</b><code> [get]</code></td></tr>
-<tr class="separator:afcbbbd43ccc4ae0628fadf545d7e8210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c4bdfd3e32c8c9b51c2c500dfc8d0d"><td class="memItemLeft" align="right" valign="top"><a id="ac8c4bdfd3e32c8c9b51c2c500dfc8d0d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>StableElapsedTime</b><code> [get]</code></td></tr>
+<tr class="separator:ac8c4bdfd3e32c8c9b51c2c500dfc8d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3634d225a21daa5993a19623f8916f09"><td class="memItemLeft" align="right" valign="top"><a id="a3634d225a21daa5993a19623f8916f09"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>UnstableElapsedTime</b><code> [get]</code></td></tr>
+<tr class="separator:a3634d225a21daa5993a19623f8916f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5923bd9581198547668a090693e400c6"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5923bd9581198547668a090693e400c6">BodySize</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5923bd9581198547668a090693e400c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current body size (width and height).  <a href="#a5923bd9581198547668a090693e400c6">More...</a><br /></td></tr>
 <tr class="separator:a5923bd9581198547668a090693e400c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeaf9593395abd57769ec6a8c64e1e7c"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#adeaf9593395abd57769ec6a8c64e1e7c">Velocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:adeaf9593395abd57769ec6a8c64e1e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody velocity.  <a href="#adeaf9593395abd57769ec6a8c64e1e7c">More...</a><br /></td></tr>
+<tr class="memdesc:adeaf9593395abd57769ec6a8c64e1e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody velocity.  <a href="#adeaf9593395abd57769ec6a8c64e1e7c">More...</a><br /></td></tr>
 <tr class="separator:adeaf9593395abd57769ec6a8c64e1e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bbd4e6b51933131490d6eb3bad18777"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5bbd4e6b51933131490d6eb3bad18777">PlanarVelocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a5bbd4e6b51933131490d6eb3bad18777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody velocity projected onto a plane formed by its up direction.  <a href="#a5bbd4e6b51933131490d6eb3bad18777">More...</a><br /></td></tr>
+<tr class="memdesc:a5bbd4e6b51933131490d6eb3bad18777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody velocity projected onto a plane formed by its up direction.  <a href="#a5bbd4e6b51933131490d6eb3bad18777">More...</a><br /></td></tr>
 <tr class="separator:a5bbd4e6b51933131490d6eb3bad18777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefe204f3505f9c1491c04121a7abb99"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaefe204f3505f9c1491c04121a7abb99">VerticalVelocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aaefe204f3505f9c1491c04121a7abb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody velocity projected onto its up direction.  <a href="#aaefe204f3505f9c1491c04121a7abb99">More...</a><br /></td></tr>
+<tr class="memdesc:aaefe204f3505f9c1491c04121a7abb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody velocity projected onto its up direction.  <a href="#aaefe204f3505f9c1491c04121a7abb99">More...</a><br /></td></tr>
 <tr class="separator:aaefe204f3505f9c1491c04121a7abb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad06974520b0cbd9003fa07f1d576148b"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad06974520b0cbd9003fa07f1d576148b">StableVelocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ad06974520b0cbd9003fa07f1d576148b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody velocity projected onto a plane formed by its up direction.  <a href="#ad06974520b0cbd9003fa07f1d576148b">More...</a><br /></td></tr>
+<tr class="memdesc:ad06974520b0cbd9003fa07f1d576148b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody velocity projected onto a plane formed by its up direction.  <a href="#ad06974520b0cbd9003fa07f1d576148b">More...</a><br /></td></tr>
 <tr class="separator:ad06974520b0cbd9003fa07f1d576148b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a205f5ca9ba2d65f4f33ce6b910c733b9"><td class="memItemLeft" align="right" valign="top"><a id="a205f5ca9ba2d65f4f33ce6b910c733b9"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>LastGroundedVelocity</b><code> [get]</code></td></tr>
 <tr class="separator:a205f5ca9ba2d65f4f33ce6b910c733b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03463abdb16dcb6a59dc42c07f7dc02b"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a03463abdb16dcb6a59dc42c07f7dc02b">LocalVelocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a03463abdb16dcb6a59dc42c07f7dc02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody local velocity.  <a href="#a03463abdb16dcb6a59dc42c07f7dc02b">More...</a><br /></td></tr>
+<tr class="memdesc:a03463abdb16dcb6a59dc42c07f7dc02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody local velocity.  <a href="#a03463abdb16dcb6a59dc42c07f7dc02b">More...</a><br /></td></tr>
 <tr class="separator:a03463abdb16dcb6a59dc42c07f7dc02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47100b4e2e8fd1c29d01def89c44f9fe"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a47100b4e2e8fd1c29d01def89c44f9fe">LocalPlanarVelocity</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a47100b4e2e8fd1c29d01def89c44f9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody local planar velocity.  <a href="#a47100b4e2e8fd1c29d01def89c44f9fe">More...</a><br /></td></tr>
+<tr class="memdesc:a47100b4e2e8fd1c29d01def89c44f9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the rigidbody local planar velocity.  <a href="#a47100b4e2e8fd1c29d01def89c44f9fe">More...</a><br /></td></tr>
 <tr class="separator:a47100b4e2e8fd1c29d01def89c44f9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99976020f1b9dab71cdb8426b4c617ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a99976020f1b9dab71cdb8426b4c617ea">IsFalling</a><code> [get]</code></td></tr>
 <tr class="memdesc:a99976020f1b9dab71cdb8426b4c617ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the character local vertical velocity is less than zero.  <a href="#a99976020f1b9dab71cdb8426b4c617ea">More...</a><br /></td></tr>
@@ -430,16 +528,16 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>LastGroundedVeloci
 <tr class="memdesc:a460c70bc59d4a617ec9c6c65573d8fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the center of the collision shape.  <a href="#a460c70bc59d4a617ec9c6c65573d8fbf">More...</a><br /></td></tr>
 <tr class="separator:a460c70bc59d4a617ec9c6c65573d8fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c325a4dcaaeeb96342dd926a6d91157"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5c325a4dcaaeeb96342dd926a6d91157">Position</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a5c325a4dcaaeeb96342dd926a6d91157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current rigidbody position.  <a href="#a5c325a4dcaaeeb96342dd926a6d91157">More...</a><br /></td></tr>
+<tr class="memdesc:a5c325a4dcaaeeb96342dd926a6d91157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the current rigidbody position. This action will produce an "interpolation reset", meaning that (visually) the object will move instantly to the target.  <a href="#a5c325a4dcaaeeb96342dd926a6d91157">More...</a><br /></td></tr>
 <tr class="separator:a5c325a4dcaaeeb96342dd926a6d91157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e0eaa189eca4266a90b762a439beac"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a70e0eaa189eca4266a90b762a439beac">Rotation</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a70e0eaa189eca4266a90b762a439beac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current rigidbody rotation.  <a href="#a70e0eaa189eca4266a90b762a439beac">More...</a><br /></td></tr>
+<tr class="memdesc:a70e0eaa189eca4266a90b762a439beac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the current rigidbody rotation. This action will produce an "interpolation reset", meaning that (visually) the object will rotate instantly to the target.  <a href="#a70e0eaa189eca4266a90b762a439beac">More...</a><br /></td></tr>
 <tr class="separator:a70e0eaa189eca4266a90b762a439beac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07a485e0ce62a27edb74370d07a36522"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522">Up</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a07a485e0ce62a27edb74370d07a36522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current up direction based on the rigidbody rotation (not necessarily transform.up).  <a href="#a07a485e0ce62a27edb74370d07a36522">More...</a><br /></td></tr>
+<tr class="memdesc:a07a485e0ce62a27edb74370d07a36522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the current up direction based on the rigidbody rotation (not necessarily transform.up).  <a href="#a07a485e0ce62a27edb74370d07a36522">More...</a><br /></td></tr>
 <tr class="separator:a07a485e0ce62a27edb74370d07a36522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a293d687247b9a03bf0ed64454c266169"><td class="memItemLeft" align="right" valign="top">Vector3?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a293d687247b9a03bf0ed64454c266169">Forward</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a293d687247b9a03bf0ed64454c266169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current forward direction based on the rigidbody rotation (not necessarily transform.forward).  <a href="#a293d687247b9a03bf0ed64454c266169">More...</a><br /></td></tr>
+<tr class="memdesc:a293d687247b9a03bf0ed64454c266169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/Sets the current forward direction based on the rigidbody rotation (not necessarily transform.forward).  <a href="#a293d687247b9a03bf0ed64454c266169">More...</a><br /></td></tr>
 <tr class="separator:a293d687247b9a03bf0ed64454c266169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada479a94b75558fd36ac917d1bfa52f2"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ada479a94b75558fd36ac917d1bfa52f2">Right</a><code> [get]</code></td></tr>
 <tr class="memdesc:ada479a94b75558fd36ac917d1bfa52f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current up direction based on the rigidbody rotation (not necessarily transform.right).  <a href="#ada479a94b75558fd36ac917d1bfa52f2">More...</a><br /></td></tr>
@@ -468,18 +566,28 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsKinematic</b><code>
 <tr class="memitem:a6bf12481f0e904041837c47ff601c7fe"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a6bf12481f0e904041837c47ff601c7fe">ExternalVelocity</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6bf12481f0e904041837c47ff601c7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the difference between the post-simulation velocity (after the physics simulation) and the pre-simulation velocity (just before the physics simulation). This value is useful to detect any external response due to the physics simulation, such as hits coming from other rigidbodies.  <a href="#a6bf12481f0e904041837c47ff601c7fe">More...</a><br /></td></tr>
 <tr class="separator:a6bf12481f0e904041837c47ff601c7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa76eec15cdc036033511fde615fdc393"><td class="memItemLeft" align="right" valign="top"><a id="aa76eec15cdc036033511fde615fdc393"></a>
-Vector3?&#160;</td><td class="memItemRight" valign="bottom"><b>GroundVelocity</b><code> [get]</code></td></tr>
-<tr class="separator:aa76eec15cdc036033511fde615fdc393"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaa6260f0bfa22f5c83180c3eb404008"><td class="memItemLeft" align="right" valign="top"><a id="abaa6260f0bfa22f5c83180c3eb404008"></a>
-Terrain&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentTerrain</b><code> [get]</code></td></tr>
-<tr class="separator:abaa6260f0bfa22f5c83180c3eb404008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9888f89f80fa10d69213da6d6cba4ac4"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9888f89f80fa10d69213da6d6cba4ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the velocity of the ground (rigidbody).  <a href="#a9888f89f80fa10d69213da6d6cba4ac4">More...</a><br /></td></tr>
+<tr class="separator:a9888f89f80fa10d69213da6d6cba4ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271f21fff7bbfa1e6244c06156418946"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">PreviousGroundVelocity</a><code> [get]</code></td></tr>
+<tr class="memdesc:a271f21fff7bbfa1e6244c06156418946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the previous velocity of the ground (rigidbody).  <a href="#a271f21fff7bbfa1e6244c06156418946">More...</a><br /></td></tr>
+<tr class="separator:a271f21fff7bbfa1e6244c06156418946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf3d769624c991f9b98cef91f6ce7fc5"><td class="memItemLeft" align="right" valign="top">Vector3?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaf3d769624c991f9b98cef91f6ce7fc5">StableProbeGroundVelocity</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaf3d769624c991f9b98cef91f6ce7fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The character velocity calculated when performing the ground check algorithm.  <a href="#aaf3d769624c991f9b98cef91f6ce7fc5">More...</a><br /></td></tr>
+<tr class="separator:aaf3d769624c991f9b98cef91f6ce7fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7cb8914f7f2dd53b8cb0f16bbcbccac"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ae7cb8914f7f2dd53b8cb0f16bbcbccac">PredictedGround</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae7cb8914f7f2dd53b8cb0f16bbcbccac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the object below the character (only valid if the character is falling). The maximum prediction distance is defined by the constant "GroundPredictionDistance".  <a href="#ae7cb8914f7f2dd53b8cb0f16bbcbccac">More...</a><br /></td></tr>
 <tr class="separator:ae7cb8914f7f2dd53b8cb0f16bbcbccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2746e25378c4e30c5352ac20e21daf7a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a2746e25378c4e30c5352ac20e21daf7a">PredictedGroundDistance</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2746e25378c4e30c5352ac20e21daf7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the distance to the "PredictedGround".  <a href="#a2746e25378c4e30c5352ac20e21daf7a">More...</a><br /></td></tr>
 <tr class="separator:a2746e25378c4e30c5352ac20e21daf7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td colspan="2" onclick="javascript:toggleInherit('properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html">Lightbug.CharacterControllerPro.Core.PhysicsActor</a></td></tr>
+<tr class="memitem:a7dc8747a0a581cf16d30a48cc29eccba inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a7dc8747a0a581cf16d30a48cc29eccba">RigidbodyComponent</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7dc8747a0a581cf16d30a48cc29eccba inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the RigidbodyComponent component associated with the character.  <a href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a7dc8747a0a581cf16d30a48cc29eccba">More...</a><br /></td></tr>
+<tr class="separator:a7dc8747a0a581cf16d30a48cc29eccba inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d03dded94061ad441c99cdfec53026b inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b">Animator</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2d03dded94061ad441c99cdfec53026b inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Animator component associated with the state controller.  <a href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b">More...</a><br /></td></tr>
+<tr class="separator:a2d03dded94061ad441c99cdfec53026b inherit properties_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
@@ -498,6 +606,16 @@ Events</h2></td></tr>
 <tr class="memitem:a88e675ed3d25451f2f8538ec996a8c53"><td class="memItemLeft" align="right" valign="top">System.Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a88e675ed3d25451f2f8538ec996a8c53">OnGroundedStateExit</a></td></tr>
 <tr class="memdesc:a88e675ed3d25451f2f8538ec996a8c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is called when the character exits the grounded state.  <a href="#a88e675ed3d25451f2f8538ec996a8c53">More...</a><br /></td></tr>
 <tr class="separator:a88e675ed3d25451f2f8538ec996a8c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td colspan="2" onclick="javascript:toggleInherit('events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html">Lightbug.CharacterControllerPro.Core.PhysicsActor</a></td></tr>
+<tr class="memitem:a6d256ecbb03441e838bc6ba6c959895f inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a6d256ecbb03441e838bc6ba6c959895f"></a>
+System.Action&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnPreSimulation</b></td></tr>
+<tr class="separator:a6d256ecbb03441e838bc6ba6c959895f inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022a1efc8252766ea0a51e0b38c1dfc1 inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a022a1efc8252766ea0a51e0b38c1dfc1"></a>
+System.Action&lt; Vector3, Quaternion &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnAnimatorMoveEvent</b></td></tr>
+<tr class="separator:a022a1efc8252766ea0a51e0b38c1dfc1 inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021ea949c129a340540c499e6cf92a75 inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memItemLeft" align="right" valign="top"><a id="a021ea949c129a340540c499e6cf92a75"></a>
+System.Action&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnAnimatorIKEvent</b></td></tr>
+<tr class="separator:a021ea949c129a340540c499e6cf92a75 inherit events_class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a character actor. It contains all the character information, collision flags, collision events, and so on. It also responsible for the execution order of everything related to the character, such as movement, rotation, teleportation, rigidbodies interactions, body size, etc. Since the character can be 2D or 3D, this abstract class must be implemented in the two formats, one for 2D and one for 3D. </p>
@@ -557,8 +675,8 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9897f8bbbc9ba49b19431c807bd4f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9897f8bbbc9ba49b19431c807bd4f6e">&#9670;&nbsp;</a></span>ForceNotGrounded()</h2>
+<a id="a13bc0c2a71974c521c1ceadb4ad64f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13bc0c2a71974c521c1ceadb4ad64f73">&#9670;&nbsp;</a></span>ForceNotGrounded()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,9 +687,19 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">void Lightbug.CharacterControllerPro.Core.CharacterActor.ForceNotGrounded </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ignoreGroundContactFrames</em> = <code>3</code></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>groundVelocityInfluenceMultiplier</em> = <code>1f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ignoreGroundContactFrames</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -583,8 +711,9 @@ Events</h2></td></tr>
 
 <p>Forces the character to abandon the grounded state (isGrounded = false). </p>
 <p>TIP: This is useful when making the character jump. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>/// </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">groundVelocityInfluenceMultiplier</td><td>How much of the velocity coming from the ground should be applied to the character (multiplier).</td></tr>
     <tr><td class="paramname">ignoreGroundContactFrames</td><td>The number of FixedUpdate frames to consume in order to prevent the character to re-enter grounded state right after a ForceNotGrounded call. For example, if this number is three (default) then the character will be able to enter grounded state after four frames since the original call.</td></tr>
   </table>
   </dd>
@@ -897,35 +1026,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually. Do not confuse this function with the Unity's Character Controller "Move" function. </p>
-
-</div>
-</div>
-<a id="ac79b352f5f16380fe33786379dbc3f1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac79b352f5f16380fe33786379dbc3f1d">&#9670;&nbsp;</a></span>Rotate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Lightbug.CharacterControllerPro.Core.CharacterActor.Rotate </td>
-          <td>(</td>
-          <td class="paramtype">Quaternion&#160;</td>
-          <td class="paramname"><em>rotation</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually. Do not confuse this function with the Unity's Character Controller "Move" function. </p>
+<p>Sets the rigidbody velocity based on a target position. The same can be achieved by setting the velocity value manually. </p>
 
 </div>
 </div>
@@ -954,6 +1055,40 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks if the new character size fits in place. If this check is valid then the real size of the character is changed. </p>
+
+</div>
+</div>
+<a id="a2ade9dd833f90bd079fcef50a059f1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ade9dd833f90bd079fcef50a059f1d4">&#9670;&nbsp;</a></span>SetYaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lightbug.CharacterControllerPro.Core.CharacterActor.SetYaw </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rotates the character doing yaw rotation (around its vertical axis). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>The angle in degrees.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1074,11 +1209,27 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets a concatenated string containing all the current collision information. </p>
+<p>Returns a concatenated string containing all the current collision information. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4adc552bbd419d3c8b292582b353638"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4adc552bbd419d3c8b292582b353638">&#9670;&nbsp;</a></span>CharacterCollisionInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collision_info.html">CharacterCollisionInfo</a> Lightbug.CharacterControllerPro.Core.CharacterActor.CharacterCollisionInfo =&gt; characterCollisionInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a structure with all the information regarding character collisions. Most of the character properties (e.g. IsGrounded, IsStable, GroundObject, and so on) can be obtained from this structure. </p>
+
+</div>
+</div>
 <a id="a8d7c28bc89b355c43378071da5a50b4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d7c28bc89b355c43378071da5a50b4c">&#9670;&nbsp;</a></span>ColliderComponent</h2>
 
@@ -1111,6 +1262,262 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="aaf43c3bdbe2c16409b91c5ea03593d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf43c3bdbe2c16409b91c5ea03593d02">&#9670;&nbsp;</a></span>DynamicGroundPointVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.DynamicGroundPointVelocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=&gt; <a class="code" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9c6eda9a04c6dc1141abb3b9664ee566">Is2D</a> ? </div><div class="line">        (Vector3)characterCollisionInfo.groundRigidbody2D.GetPointVelocity( <a class="code" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5c325a4dcaaeeb96342dd926a6d91157">Position</a> ) : </div><div class="line">        characterCollisionInfo.groundRigidbody3D.GetPointVelocity( <a class="code" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5c325a4dcaaeeb96342dd926a6d91157">Position</a> )</div></div><!-- fragment -->
+<p>Returns the point velocity (Rigidbody API) of the ground using the character position. </p>
+
+</div>
+</div>
+<a id="a02710dc73edb21fcc745d1615ed453a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02710dc73edb21fcc745d1615ed453a2">&#9670;&nbsp;</a></span>EdgeAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.EdgeAngle =&gt; characterCollisionInfo.edgeAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the angle between the both sides of the edge. </p>
+
+</div>
+</div>
+<a id="a02be07c3aa439f291ceb29ff4028bbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02be07c3aa439f291ceb29ff4028bbb2">&#9670;&nbsp;</a></span>GroundAcceleration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundAcceleration =&gt; ( <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> - <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">PreviousGroundVelocity</a> ) / Time.fixedDeltaTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The ground acceleration (GroundDeltaVelocity / dt). </p>
+
+</div>
+</div>
+<a id="a8b0f34fddb20d7995a3b56aecbbd9307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0f34fddb20d7995a3b56aecbbd9307">&#9670;&nbsp;</a></span>GroundCollider2D</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider2D Lightbug.CharacterControllerPro.Core.CharacterActor.GroundCollider2D =&gt; characterCollisionInfo.groundCollider2D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Collider2D component of the current ground. </p>
+
+</div>
+</div>
+<a id="acc62400549b670c4efa656c1f630fa53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc62400549b670c4efa656c1f630fa53">&#9670;&nbsp;</a></span>GroundCollider3D</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider Lightbug.CharacterControllerPro.Core.CharacterActor.GroundCollider3D =&gt; characterCollisionInfo.groundCollider3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Collider3D component of the current ground. </p>
+
+</div>
+</div>
+<a id="a1f39c8bfe37f10fb03b5c525a082d504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f39c8bfe37f10fb03b5c525a082d504">&#9670;&nbsp;</a></span>GroundContactNormal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundContactNormal =&gt; characterCollisionInfo.groundContactNormal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the normal vector obtained directly from the ground test (sphere cast). </p>
+
+</div>
+</div>
+<a id="a698468ad33d7ddad24bf3e12d882cee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698468ad33d7ddad24bf3e12d882cee7">&#9670;&nbsp;</a></span>GroundContactPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundContactPoint =&gt; characterCollisionInfo.groundContactPoint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the contact point obtained directly from the ground test (sphere cast). </p>
+
+</div>
+</div>
+<a id="a90c9733fcd728155039ef17cba02ab77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90c9733fcd728155039ef17cba02ab77">&#9670;&nbsp;</a></span>GroundDeltaVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundDeltaVelocity =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> - <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a271f21fff7bbfa1e6244c06156418946">PreviousGroundVelocity</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The ground change in velocity (current velocity - previous velocity). </p>
+
+</div>
+</div>
+<a id="a12986fa198d93f55e1132e48d784a5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12986fa198d93f55e1132e48d784a5df">&#9670;&nbsp;</a></span>GroundObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Lightbug.CharacterControllerPro.Core.CharacterActor.GroundObject =&gt; characterCollisionInfo.groundObject</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the GameObject component of the current ground. </p>
+
+</div>
+</div>
+<a id="ab0c31a6e6e99047dd2cf1a63ce130ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c31a6e6e99047dd2cf1a63ce130ec4">&#9670;&nbsp;</a></span>GroundSlopeAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.GroundSlopeAngle =&gt; characterCollisionInfo.groundSlopeAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the angle between the up vector and the stable normal. </p>
+
+</div>
+</div>
+<a id="a7c8d80946225929e766371a9c2e21dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c8d80946225929e766371a9c2e21dc0">&#9670;&nbsp;</a></span>GroundStableNormal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundStableNormal =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f">IsStable</a> ? characterCollisionInfo.groundStableNormal : <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522">Up</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the normal vector used to determine stability. This may or may not be the normal obtained from the ground test. </p>
+
+</div>
+</div>
+<a id="a8eac465099c6cf6a86b6446b09c9a571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eac465099c6cf6a86b6446b09c9a571">&#9670;&nbsp;</a></span>GroundTransform</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Lightbug.CharacterControllerPro.Core.CharacterActor.GroundTransform =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df">GroundObject</a> != null ? GroundObject.transform : null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Transform component of the current ground. </p>
+
+</div>
+</div>
+<a id="a25be034f3f81c5ff68728602b463db51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25be034f3f81c5ff68728602b463db51">&#9670;&nbsp;</a></span>HeadAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.HeadAngle =&gt; characterCollisionInfo.headAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the angle between the contact normal (head collision) and the Up direction. </p>
+
+</div>
+</div>
+<a id="aecd4b2d7ec027ed032165cd6fdc3359b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd4b2d7ec027ed032165cd6fdc3359b">&#9670;&nbsp;</a></span>HeadCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.HeadCollision =&gt; characterCollisionInfo.headCollision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the head collision flag, true if the character hits something with its head, false otherwise. </p>
+
+</div>
+</div>
+<a id="a509fc104ebce700c5264fce76f4e2f4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509fc104ebce700c5264fce76f4e2f4a">&#9670;&nbsp;</a></span>HeadContact</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> Lightbug.CharacterControllerPro.Core.CharacterActor.HeadContact =&gt; characterCollisionInfo.headContact</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current contact (head collision). </p>
+
+</div>
+</div>
+<a id="afe70b54f3a467b2af1cf6716a41239c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe70b54f3a467b2af1cf6716a41239c6">&#9670;&nbsp;</a></span>HeadContacts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&gt; Lightbug.CharacterControllerPro.Core.CharacterActor.HeadContacts =&gt; headContacts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a lits of all the contacts involved with head collision events. </p>
+
+</div>
+</div>
 <a id="a9c6eda9a04c6dc1141abb3b9664ee566"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c6eda9a04c6dc1141abb3b9664ee566">&#9670;&nbsp;</a></span>Is2D</h2>
 
@@ -1118,7 +1525,7 @@ Events</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.Is2D =&gt; CharacterBody.Is2D</td>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.Is2D =&gt; RigidbodyComponent.Is2D</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1127,19 +1534,179 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c08296006f0f852cf59b1566b88d3fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c08296006f0f852cf59b1566b88d3fd">&#9670;&nbsp;</a></span>RigidbodyComponent</h2>
+<a id="a8b4d54193793f1fd7cb1dfc0270bdccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4d54193793f1fd7cb1dfc0270bdccd">&#9670;&nbsp;</a></span>IsGroundAOneWayPlatform</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a> Lightbug.CharacterControllerPro.Core.CharacterActor.RigidbodyComponent =&gt; CharacterBody.RigidbodyComponent</td>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsGroundAOneWayPlatform =&gt; CustomUtilities.BelongsToLayerMask( GroundObject.layer , oneWayPlatformsLayerMask )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the current ground layer is considered as a one way platform. </p>
+
+</div>
+</div>
+<a id="a5c10d5902c465771c75355d294d77d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c10d5902c465771c75355d294d77d10">&#9670;&nbsp;</a></span>IsGroundAscending</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsGroundAscending =&gt; transform.InverseTransformVectorUnscaled( Vector3.Project( <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4">GroundVelocity</a> * Time.deltaTime , <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a07a485e0ce62a27edb74370d07a36522">Up</a> ) ).y &gt; 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the ground vertical displacement (moving ground) is positive. </p>
+
+</div>
+</div>
+<a id="af71b0b4e6c728092219be73ece05fc74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71b0b4e6c728092219be73ece05fc74">&#9670;&nbsp;</a></span>IsGrounded</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsGrounded =&gt; characterCollisionInfo.groundObject != null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the grounded state, true if the ground object is not null, false otherwise. </p>
+
+</div>
+</div>
+<a id="a0f59ac87a9e182db8736feb6ce3767ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f59ac87a9e182db8736feb6ce3767ed">&#9670;&nbsp;</a></span>IsOnEdge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsOnEdge =&gt;characterCollisionInfo.isOnEdge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the character is standing on an edge. </p>
+
+</div>
+</div>
+<a id="ab4c8e15732bdee48f46d5898ee90ddca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c8e15732bdee48f46d5898ee90ddca">&#9670;&nbsp;</a></span>IsOnUnstableGround</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsOnUnstableGround =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a> &amp;&amp; characterCollisionInfo.groundSlopeAngle &gt; slopeLimit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the character is grounded onto an unstable ground, false otherwise. </p>
+
+</div>
+</div>
+<a id="a5a9d96fdb3bb273be790b5f3ca00f97f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9d96fdb3bb273be790b5f3ca00f97f">&#9670;&nbsp;</a></span>IsStable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsStable =&gt; <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af71b0b4e6c728092219be73ece05fc74">IsGrounded</a> &amp;&amp; characterCollisionInfo.groundSlopeAngle &lt;= slopeLimit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current stability state of the character. Stability is equal to "grounded + slope angle &lt;= slope limit". </p>
+
+</div>
+</div>
+<a id="ab9f3b5e7a32953c7bafcc4a07dc19aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f3b5e7a32953c7bafcc4a07dc19aec">&#9670;&nbsp;</a></span>RigidbodyComponent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a> Lightbug.CharacterControllerPro.Core.CharacterActor.RigidbodyComponent =&gt; CharacterBody.RigidbodyComponent</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Gets the RigidbodyComponent component associated with the character. </p>
+
+</div>
+</div>
+<a id="abc53ae37808188ded03a7131d49399db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc53ae37808188ded03a7131d49399db">&#9670;&nbsp;</a></span>WallAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.WallAngle =&gt; characterCollisionInfo.wallAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the angle between the contact normal (wall collision) and the Up direction. </p>
+
+</div>
+</div>
+<a id="acf691828cbdaf36a7423655caa9d7260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf691828cbdaf36a7423655caa9d7260">&#9670;&nbsp;</a></span>WallCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.WallCollision =&gt; characterCollisionInfo.wallCollision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the wall collision flag, true if the character hit a wall, false otherwise. </p>
+
+</div>
+</div>
+<a id="a5b5bb5f16c394d609357580fba31c7d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5bb5f16c394d609357580fba31c7d3">&#9670;&nbsp;</a></span>WallContact</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> Lightbug.CharacterControllerPro.Core.CharacterActor.WallContact =&gt; characterCollisionInfo.wallContact</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current contact (wall collision). </p>
+
+</div>
+</div>
+<a id="ae4c181dd64e1bd380c58f90b6292d75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4c181dd64e1bd380c58f90b6292d75a">&#9670;&nbsp;</a></span>WallContacts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&gt; Lightbug.CharacterControllerPro.Core.CharacterActor.WallContacts =&gt; wallContacts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a lits of all the contacts involved with wall collision events. </p>
 
 </div>
 </div>
@@ -1336,30 +1903,6 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="aaf43c3bdbe2c16409b91c5ea03593d02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf43c3bdbe2c16409b91c5ea03593d02">&#9670;&nbsp;</a></span>DynamicGroundPointVelocity</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.DynamicGroundPointVelocity</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if the current ground is a kinematic Rigidbody (2D or 3D), false otherwise. </p>
-
-</div>
-</div>
 <a id="a6bf12481f0e904041837c47ff601c7fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bf12481f0e904041837c47ff601c7fe">&#9670;&nbsp;</a></span>ExternalVelocity</h2>
 
@@ -1404,12 +1947,12 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the current forward direction based on the rigidbody rotation (not necessarily transform.forward). </p>
+<p>Gets/Sets the current forward direction based on the rigidbody rotation (not necessarily transform.forward). </p>
 
 </div>
 </div>
-<a id="a8b0f34fddb20d7995a3b56aecbbd9307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b0f34fddb20d7995a3b56aecbbd9307">&#9670;&nbsp;</a></span>GroundCollider2D</h2>
+<a id="a5b24d1b9a2f92a7eb1d9c344769a6390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b24d1b9a2f92a7eb1d9c344769a6390">&#9670;&nbsp;</a></span>GroundPosition</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1418,7 +1961,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Collider2D Lightbug.CharacterControllerPro.Core.CharacterActor.GroundCollider2D</td>
+          <td class="memname">Vector3? Lightbug.CharacterControllerPro.Core.CharacterActor.GroundPosition</td>
         </tr>
       </table>
   </td>
@@ -1428,103 +1971,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the Collider2D component of the current ground. </p>
-
-</div>
-</div>
-<a id="acc62400549b670c4efa656c1f630fa53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc62400549b670c4efa656c1f630fa53">&#9670;&nbsp;</a></span>GroundCollider3D</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Collider Lightbug.CharacterControllerPro.Core.CharacterActor.GroundCollider3D</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the Collider3D component of the current ground. </p>
-
-</div>
-</div>
-<a id="a1f39c8bfe37f10fb03b5c525a082d504"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f39c8bfe37f10fb03b5c525a082d504">&#9670;&nbsp;</a></span>GroundContactNormal</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundContactNormal</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the normal vector obtained directly from the ground test (sphere cast). </p>
-
-</div>
-</div>
-<a id="a698468ad33d7ddad24bf3e12d882cee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a698468ad33d7ddad24bf3e12d882cee7">&#9670;&nbsp;</a></span>GroundContactPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundContactPoint</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the contact point obtained directly from the ground test (sphere cast). </p>
-
-</div>
-</div>
-<a id="a12986fa198d93f55e1132e48d784a5df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12986fa198d93f55e1132e48d784a5df">&#9670;&nbsp;</a></span>GroundObject</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GameObject Lightbug.CharacterControllerPro.Core.CharacterActor.GroundObject</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the GameObject component of the current ground. </p>
+<p>Gets the ground rigidbody position. </p>
 
 </div>
 </div>
@@ -1552,8 +1999,8 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0c31a6e6e99047dd2cf1a63ce130ec4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0c31a6e6e99047dd2cf1a63ce130ec4">&#9670;&nbsp;</a></span>GroundSlopeAngle</h2>
+<a id="ad5769d97454c8c7e510188d154530770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5769d97454c8c7e510188d154530770">&#9670;&nbsp;</a></span>GroundRotation</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1562,7 +2009,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.GroundSlopeAngle</td>
+          <td class="memname">Quaternion? Lightbug.CharacterControllerPro.Core.CharacterActor.GroundRotation</td>
         </tr>
       </table>
   </td>
@@ -1572,12 +2019,12 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the angle between the up vector and the stable normal. </p>
+<p>Gets the ground rigidbody rotation. </p>
 
 </div>
 </div>
-<a id="af4959e4262ccbc847f1a135e37b03746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4959e4262ccbc847f1a135e37b03746">&#9670;&nbsp;</a></span>GroundStableNormal</h2>
+<a id="a9888f89f80fa10d69213da6d6cba4ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9888f89f80fa10d69213da6d6cba4ac4">&#9670;&nbsp;</a></span>GroundVelocity</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1586,7 +2033,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Vector3? Lightbug.CharacterControllerPro.Core.CharacterActor.GroundStableNormal</td>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.GroundVelocity</td>
         </tr>
       </table>
   </td>
@@ -1596,103 +2043,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the normal vector used to determine stability. This may or may not be the normal obtained from the ground test. </p>
-
-</div>
-</div>
-<a id="a8eac465099c6cf6a86b6446b09c9a571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eac465099c6cf6a86b6446b09c9a571">&#9670;&nbsp;</a></span>GroundTransform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Transform Lightbug.CharacterControllerPro.Core.CharacterActor.GroundTransform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the Transform component of the current ground. </p>
-
-</div>
-</div>
-<a id="a25be034f3f81c5ff68728602b463db51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25be034f3f81c5ff68728602b463db51">&#9670;&nbsp;</a></span>HeadAngle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.HeadAngle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the angle between the contact normal (head collision) and the Up direction. </p>
-
-</div>
-</div>
-<a id="aecd4b2d7ec027ed032165cd6fdc3359b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecd4b2d7ec027ed032165cd6fdc3359b">&#9670;&nbsp;</a></span>HeadCollision</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.HeadCollision</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the head collision flag, true if the character hits something with its head, false otherwise. </p>
-
-</div>
-</div>
-<a id="a509fc104ebce700c5264fce76f4e2f4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a509fc104ebce700c5264fce76f4e2f4a">&#9670;&nbsp;</a></span>HeadContact</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> Lightbug.CharacterControllerPro.Core.CharacterActor.HeadContact</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the current contact (head collision). </p>
+<p>Gets the velocity of the ground (rigidbody). </p>
 
 </div>
 </div>
@@ -1816,102 +2167,6 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="af71b0b4e6c728092219be73ece05fc74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af71b0b4e6c728092219be73ece05fc74">&#9670;&nbsp;</a></span>IsGrounded</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsGrounded</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the grounded state, true if the ground object is not null, false otherwise. </p>
-
-</div>
-</div>
-<a id="a0f59ac87a9e182db8736feb6ce3767ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f59ac87a9e182db8736feb6ce3767ed">&#9670;&nbsp;</a></span>IsOnEdge</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsOnEdge</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if the character is standing on an edge. </p>
-
-</div>
-</div>
-<a id="ab4c8e15732bdee48f46d5898ee90ddca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4c8e15732bdee48f46d5898ee90ddca">&#9670;&nbsp;</a></span>IsOnUnstableGround</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsOnUnstableGround</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if the character is grounded onto an unstable ground, false otherwise. </p>
-
-</div>
-</div>
-<a id="a5a9d96fdb3bb273be790b5f3ca00f97f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9d96fdb3bb273be790b5f3ca00f97f">&#9670;&nbsp;</a></span>IsStable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.IsStable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the current stability state of the character. Stability is equal to "grounded + slope angle &lt;= slope limit". </p>
-
-</div>
-</div>
 <a id="a47100b4e2e8fd1c29d01def89c44f9fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47100b4e2e8fd1c29d01def89c44f9fe">&#9670;&nbsp;</a></span>LocalPlanarVelocity</h2>
 
@@ -1932,7 +2187,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody local planar velocity. </p>
+<p>Gets/Sets the rigidbody local planar velocity. </p>
 
 </div>
 </div>
@@ -1956,7 +2211,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody local velocity. </p>
+<p>Gets/Sets the rigidbody local velocity. </p>
 
 </div>
 </div>
@@ -2028,7 +2283,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody velocity projected onto a plane formed by its up direction. </p>
+<p>Gets/Sets the rigidbody velocity projected onto a plane formed by its up direction. </p>
 
 </div>
 </div>
@@ -2052,7 +2307,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the current rigidbody position. </p>
+<p>Gets/Sets the current rigidbody position. This action will produce an "interpolation reset", meaning that (visually) the object will move instantly to the target. </p>
 
 </div>
 </div>
@@ -2152,6 +2407,30 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a271f21fff7bbfa1e6244c06156418946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271f21fff7bbfa1e6244c06156418946">&#9670;&nbsp;</a></span>PreviousGroundVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Lightbug.CharacterControllerPro.Core.CharacterActor.PreviousGroundVelocity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the previous velocity of the ground (rigidbody). </p>
+
+</div>
+</div>
 <a id="a3a45da42333ca3b20cf893a31ff510c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a45da42333ca3b20cf893a31ff510c8">&#9670;&nbsp;</a></span>PreviousState</h2>
 
@@ -2220,7 +2499,31 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the current rigidbody rotation. </p>
+<p>Gets/Sets the current rigidbody rotation. This action will produce an "interpolation reset", meaning that (visually) the object will rotate instantly to the target. </p>
+
+</div>
+</div>
+<a id="aaf3d769624c991f9b98cef91f6ce7fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3d769624c991f9b98cef91f6ce7fc5">&#9670;&nbsp;</a></span>StableProbeGroundVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3? Lightbug.CharacterControllerPro.Core.CharacterActor.StableProbeGroundVelocity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The character velocity calculated when performing the ground check algorithm. </p>
 
 </div>
 </div>
@@ -2244,7 +2547,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody velocity projected onto a plane formed by its up direction. </p>
+<p>Gets/Sets the rigidbody velocity projected onto a plane formed by its up direction. </p>
 
 </div>
 </div>
@@ -2340,7 +2643,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the current up direction based on the rigidbody rotation (not necessarily transform.up). </p>
+<p>Gets/Sets the current up direction based on the rigidbody rotation (not necessarily transform.up). </p>
 
 </div>
 </div>
@@ -2364,7 +2667,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody velocity. </p>
+<p>Gets/Sets the rigidbody velocity. </p>
 
 </div>
 </div>
@@ -2388,79 +2691,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the rigidbody velocity projected onto its up direction. </p>
-
-</div>
-</div>
-<a id="abc53ae37808188ded03a7131d49399db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc53ae37808188ded03a7131d49399db">&#9670;&nbsp;</a></span>WallAngle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Lightbug.CharacterControllerPro.Core.CharacterActor.WallAngle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the angle between the contact normal (wall collision) and the Up direction. </p>
-
-</div>
-</div>
-<a id="acf691828cbdaf36a7423655caa9d7260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf691828cbdaf36a7423655caa9d7260">&#9670;&nbsp;</a></span>WallCollision</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Lightbug.CharacterControllerPro.Core.CharacterActor.WallCollision</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the wall collision flag, true if the character hit a wall, false otherwise. </p>
-
-</div>
-</div>
-<a id="a5b5bb5f16c394d609357580fba31c7d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b5bb5f16c394d609357580fba31c7d3">&#9670;&nbsp;</a></span>WallContact</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> Lightbug.CharacterControllerPro.Core.CharacterActor.WallContact</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the current contact (wall collision). </p>
+<p>Gets/Sets the rigidbody velocity projected onto its up direction. </p>
 
 </div>
 </div>
