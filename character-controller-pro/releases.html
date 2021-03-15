@@ -49,6 +49,31 @@
             </ul>
         </div> -->
 
+        <button type = "button" class="release" id="safe">1.3.2</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>OnPreSimulation event (PhysicsActor): This event is called prior to the physics simulation.</li>
+                <li>PreCharacterSimulation method (CharacterState): This method is called by the state controller, based on the OnPreSimulation event.</li>
+                <li>OnBodyTypeChange event (RigidbodyComponent): This event is called every time the rigidbody type changes.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>Jump and gravity "auto calculate" (NormalMovement): By disabling the "autoCalculate" boolean variable it is possible to set the jump speed and gravity values separately. Otherwise, the jump and gravity will be calculated based on the apex height and duration of the jump (just like before).</li>
+                <li>CharacterState animation parameters: Some animation-related parameters were moved from PostUpdateBehaviour to PreCharacterSimulation. This ensures the velocity represented on screen is the one calculated by the CharacterActor, and not by a particular state (execution order). Example: a 2D character stops (visually) right away after hitting an unstable slope.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>Tilemap collision: The character wasn't able to detect a tilemap obstacle (static rigidbody type) due to a bug associated with the IsKinematic property.</li>
+                <li>LadderClimbing: There was a problem while entering the ladder trigger with the "useInteractAction" disabled. This bug was caused by the physics system calling OnTriggerExit + OnTriggerEnter every time the body was changed from kinematic to dynamic (and viceversa).</li>
+                <li>Dynamic rigidbody detection: In some cases, the character wasn't detecting the ground (dynamic rigidbody), causing the character to be unstable for a short period of time.</li>
+            </ul>
+
+        </div>
+
         <button type = "button" class="release" id="safe">1.3.1</button>
         <div class="foldout-content">
 
