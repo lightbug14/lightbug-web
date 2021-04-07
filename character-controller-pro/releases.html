@@ -48,6 +48,26 @@
             <ul>
             </ul>
         </div> -->
+        <button type = "button" class="release" id="safe">1.3.3</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>Root motion extra settings: Now it is possible to select how the root position/rotation is going to be applied.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>Animator update mode: "Animate physics" update mode is required by the physics actor in order to produce correct results (especially with root motion).</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>Root motion: Enabling the CharacterActor component was causing the actor to reset to its previous position/rotation.</li>
+                <li>PhysicsActor sync update: interpolation was still working even when the character actor was disabled. </li>
+            </ul>
+
+        </div>
 
         <button type = "button" class="release" id="safe">1.3.2</button>
         <div class="foldout-content">
