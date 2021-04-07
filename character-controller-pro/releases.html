@@ -54,17 +54,18 @@
             <h4>Added</h4>                
             <ul>     
                 <li>Root motion extra settings: Now it is possible to select how the root position/rotation is going to be applied.</li>
+                <li>"SetRootMotion" methods (CharacterActor).</li>
             </ul>
 
             <h4>Changed</h4>                
             <ul>    
-                <li>Animator update mode: "Animate physics" update mode is required by the physics actor in order to produce correct results (especially with root motion).</li>
+                <li>Animator update mode: "Animate physics" update mode is now required by the physics actor in order to produce correct results (especially with root motion).</li>
             </ul>
                                     
             <h4>Fixed</h4>                
             <ul>     
                 <li>Root motion: Enabling the CharacterActor component was causing the actor to reset to its previous position/rotation.</li>
-                <li>PhysicsActor sync update: interpolation was still working even when the character actor was disabled. </li>
+                <li>PhysicsActor sync update: the custom interpolation algorithm was still working even when the character actor was disabled.</li>
             </ul>
 
         </div>
