@@ -48,6 +48,37 @@
             <ul>
             </ul>
         </div> -->
+        
+        <button type = "button" class="release" id="safe">1.3.4</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>Ground trigger: A simple ground trigger (automatically attached to the character object) has been added. This will allow you to receive OnTriggerXXX events, 
+                    very useful is you want to define (for example) a jump pad.</li>
+                <li>OnNewGround event.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>    
+                <li>Ground detection: The ground detection algorithm now runs after the simulation, which means better results overall.</li>
+                <li>Contacts: The character "ground contact" is now part of the "Contacts" list.</li>
+                <li>Looking direction modes (NormalMovement): Now it is possible to change between looking direction "modes" (movement, external reference or target).
+                    This replaced the old "follow external reference" property.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>     
+                <li>Missing labels in the inspector (Unity 2020.3 or higher): There was an issue associated with the "condition" attribute, causing labels to dissapear.</li>
+                <li>Edge calculation: There was a bug related to the edge calculation (CharacterCollisions.cs).</li>
+                <li>Dynamic platform interaction: it was possible to be on top of a dynamic (non-kinematic rigidbody) platform and interact with it, causing all sorts of issues. 
+                    Now, if the affected rigidbody is part of the ground (e.g. compound collider), then it will be treated as a static obstacle.</li>
+                <li>Camera collision: collision detection didn't support multiple hits.</li>
+            </ul>
+
+        </div>
+        
+        
         <button type = "button" class="release" id="safe">1.3.3</button>
         <div class="foldout-content">
 
