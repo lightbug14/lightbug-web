@@ -59,7 +59,7 @@
                     You can go back to the old way by setting this to true.</li>
                 <li>A few public fields have been added in order to allow the character to inherit the current ground velocity (planar and vertical velocity). 
                     These variables consist of thresholds and multipliers.</li>
-                <li>New CharacterDetector abstract component. This is just a simple helper component that can detect characters, allowing you to implement custom behaviours on top (derived components). Use it if you want to use OnTriggerXXX methods associated with character actors.
+                <li>New CharacterDetector abstract component. This is just a simple helper component that can detect multiple characters, allowing you to implement custom behaviours on top (derived components). Use it if you want to use OnTriggerXXX methods associated with character actors (e.g. jump pads, conveyor belts, etc.).
                 </li>
                 <li>JumpPad component (derived from CharacterDetector).</li>
                 <li>AddForce "impulse" mode to RigidbodyComponent.</li>
@@ -83,7 +83,7 @@
                 <li>Some fields affected by the Condition attribute weren't behaving as expected, especially when multiple attributes were present (e.g. Condition + Range attributes). 
                     This is now handled by the OnValidate callback.</li>
                 <li>CharacterDebug component was causing trouble associated with the execution order of things.</li>
-                <li>CharacterActionsAsset creation process was assuming that the root directory was always located at "Assets/Character Controller Pro/...". Now this process should automatically detect the target file (CharacterActions.cs.</li>
+                <li>CharacterActionsAsset creation process was assuming that the root directory was always located at "Assets/Character Controller Pro/...". Now this process should automatically detect the target file (CharacterActions.cs).</li>
             </ul>
 
         </div>
