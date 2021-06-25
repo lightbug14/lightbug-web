@@ -80,11 +80,11 @@
                 <li>Action based platforms were causing a really fast spring effect (2 frames) when reaching the target destination.</li>
                 <li>Ground contact wasn't correctly added to the contacts list.</li>
                 <li>2D Rigidbody detection wasn't working as expected (e.g. preving the character from pushing rigidbodies).</li>
-                <li>Overlap checks (2and 3D) weren't updating the hits number (causing random issues).</li>
+                <li>Overlap checks (2D and 3D) weren't updating the hits number (causing random issues).</li>
                 <li>Some fields affected by the Condition attribute weren't behaving as expected, especially when multiple attributes were present (e.g. Condition + Range attributes). 
                     This is now handled by the OnValidate callback.</li>
                 <li>CharacterDebug component was causing trouble associated with the execution order of things.</li>
-                <li>CharacterActionsAsset creation process was assuming that the root directory was always located at "Assets/Character Controller Pro/...". Now this process should automatically detect the target file (CharacterActions.cs).</li>
+                <li>CharacterActionsAsset creation process was assuming that the root directory was always located at "Assets/Character Controller Pro/...". Now this process should automatically detect the target file (CharacterActions.cs), allowing you to move the asset folder if needed.</li>
             </ul>
 
         </div>
