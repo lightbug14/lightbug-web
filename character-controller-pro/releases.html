@@ -30,24 +30,31 @@
         
         <h1>Releases</h1> 
 
-        <!-- <button type = "button" class="release" id="danger">2.0.0</button>
+        <button type = "button" class="release" id="safe">1.3.6</button>
         <div class="foldout-content">
-            <h4>Added</h4>
-            <ul>
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>New "useStableEdgeWhenLanding" field (CharacterActor). See the associated tooltip for more information.</li>
+                <li>Custom vector math functions added to the utilities namespace. This helps to achieve an increase in performance.</li>
             </ul>
 
             <h4>Changed</h4>                
-            <ul>
+            <ul>   
+                <li>Most of the vector math operations have been replaced with the custom vector math functions (Core, Demo and Implementation).</li>
+                <li>The (new) input system has been removed from the package. The recommended way to put this file into your project is by downloading it via the online documentation.</li> 
+                <li>The MaterialController component is no longer a requirement (optional) for the demo states.</li>
+                <li>The Performance scene has been changed.</li>
             </ul>
-
-            <h4>Deprecated</h4>  
-            <ul>
-            </ul>
-
+                                    
             <h4>Fixed</h4>                
-            <ul>
+            <ul>                
+                <li>Vertical displacement from the CharacterGraphicsRootController component was improved. The current version is a mix between the old version (1.3.4) and the one from last release (1.3.5), finding a balance smoothness and ground detection in general.</li>
+                <li>The collision layer mask (from PhysicsComponent) update process has been modified. The reason behind this is to prevent multiple (and unnecessary) math operations per frame. This should improve performance quite a bit.</li>
+                <li>Jump pads now includes the OnTriggerStay callback as well.</li>
             </ul>
-        </div> -->
+
+        </div>
         
         <button type = "button" class="release" id="safe">1.3.5</button>
         <div class="foldout-content">
