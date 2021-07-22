@@ -1,6 +1,7 @@
 var searchData=
 [
   ['particlesystempooler',['ParticleSystemPooler',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_particle_system_pooler.html',1,'Lightbug::CharacterControllerPro::Demo']]],
+  ['performancecharacterbehaviour',['PerformanceCharacterBehaviour',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_character_behaviour.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['performancedemomanager',['PerformanceDemoManager',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_demo_manager.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['physicsactor',['PhysicsActor',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html',1,'Lightbug::CharacterControllerPro::Core']]],
   ['physicsactorsync',['PhysicsActorSync',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor_sync.html',1,'Lightbug::CharacterControllerPro::Core']]],

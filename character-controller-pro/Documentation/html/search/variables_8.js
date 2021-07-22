@@ -9,6 +9,5 @@ var searchData=
   ['iskinematicrigidbody',['isKinematicRigidbody',['../struct_lightbug_1_1_utilities_1_1_contact.html#abc2f93e6ab5fa2f8d67a8cefc503f173',1,'Lightbug::Utilities::Contact']]],
   ['isonedge',['IsOnEdge',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a0f59ac87a9e182db8736feb6ce3767ed',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
   ['isonunstableground',['IsOnUnstableGround',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab4c8e15732bdee48f46d5898ee90ddca',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['isrigidbody',['isRigidbody',['../struct_lightbug_1_1_utilities_1_1_contact.html#abf42c406200de71062e4be995305b7db',1,'Lightbug::Utilities::Contact']]],
-  ['isstable',['IsStable',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['isrigidbody',['isRigidbody',['../struct_lightbug_1_1_utilities_1_1_contact.html#abf42c406200de71062e4be995305b7db',1,'Lightbug::Utilities::Contact']]]
 ];

@@ -2,7 +2,7 @@ var class_lightbug_1_1_utilities_1_1_rigidbody_component =
 [
     [ "AddExplosionForce", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a783d2d43037d7324eef127517a8f7f09", null ],
     [ "AddExplosionForceToRigidbody", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#aa93bdd231dce670096dc9ef81a335ea2", null ],
-    [ "AddForce", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a0800340c46cea50fef30f41d79f58617", null ],
+    [ "AddForce", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ac78f7eb51db0c3b619c8a9351d05f146", null ],
     [ "AddForceToRigidbody", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#aa93d6d152dbc69eee380c281a7dc9c45", null ],
     [ "AddTorque", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e00b4ed4510211b5adc51a2096c366f", null ],
     [ "Awake", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a4459ff3e1028871fdc6fc6f779e98bb5", null ],
@@ -12,6 +12,7 @@ var class_lightbug_1_1_utilities_1_1_rigidbody_component =
     [ "Interpolate", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a08ed4b695df0c198f48e52802146e4ae", null ],
     [ "Move", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ad926ec65a4a0c176c74cc6e00cb46b93", null ],
     [ "MoveAndRotate", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a452330580082f6f15a65de848ab48ac3", null ],
+    [ "OnBodyTypeChangeInternal", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a70cfdf885daf5eb995de123e1dab5277", null ],
     [ "Rotate", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6e13908acd208b8b2d954e818357715e", null ],
     [ "SetPositionAndRotation", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a355ca2401c17cbc851031a35a392a845", null ],
     [ "previousContinuousCollisionDetection", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a26027221c11535898365badeb4f6f543", null ],
@@ -31,5 +32,6 @@ var class_lightbug_1_1_utilities_1_1_rigidbody_component =
     [ "Up", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a1ad6860adabaf4bc501a216fa40fccf6", null ],
     [ "UseGravity", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a345724a7cff966e7e98e3d641d8b8aaa", null ],
     [ "UseInterpolation", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a10dc8db707b45169ef8e7454a6f1e706", null ],
-    [ "Velocity", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f", null ]
+    [ "Velocity", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f", null ],
+    [ "OnBodyTypeChange", "class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a5802e952d3fb8b93e706b2db686b0021", null ]
 ];

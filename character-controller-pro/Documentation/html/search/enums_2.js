@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['movementreferencemode',['MovementReferenceMode',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller_1_1_movement_reference_parameters.html#a41c41e283ea3d90d40fc4f62505f0178',1,'Lightbug::CharacterControllerPro::Implementation::CharacterStateController::MovementReferenceParameters']]]
+  ['rootmotionrotationtype',['RootMotionRotationType',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#af39e71556f090d66c3b2e4a81100c33e',1,'Lightbug::CharacterControllerPro::Core::PhysicsActor']]],
+  ['rootmotionvelocitytype',['RootMotionVelocityType',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a28cd876bf8b1b8c4cf82d19e65d35b72',1,'Lightbug::CharacterControllerPro::Core::PhysicsActor']]]
 ];

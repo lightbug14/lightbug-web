@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['overlapcapsule',['OverlapCapsule',['../class_lightbug_1_1_utilities_1_1_physics_component.html#aaa0e160a2b62527fc545061599ea56a7',1,'Lightbug.Utilities.PhysicsComponent.OverlapCapsule()'],['../class_lightbug_1_1_utilities_1_1_physics_component2_d.html#aee1a85dc331d0a27d5d818aef4b87ec1',1,'Lightbug.Utilities.PhysicsComponent2D.OverlapCapsule()'],['../class_lightbug_1_1_utilities_1_1_physics_component3_d.html#aafef14e66bea8aa508357d01bd639f3e',1,'Lightbug.Utilities.PhysicsComponent3D.OverlapCapsule()']]],
-  ['overlapsphere',['OverlapSphere',['../class_lightbug_1_1_utilities_1_1_physics_component.html#a6e2ae95acfaad2f57c9509f6317d5807',1,'Lightbug.Utilities.PhysicsComponent.OverlapSphere()'],['../class_lightbug_1_1_utilities_1_1_physics_component2_d.html#a14e03097053070de2a2ead822d35af77',1,'Lightbug.Utilities.PhysicsComponent2D.OverlapSphere()'],['../class_lightbug_1_1_utilities_1_1_physics_component3_d.html#adc0e87e6dbade6bb3235a14b1ecaa9cc',1,'Lightbug.Utilities.PhysicsComponent3D.OverlapSphere()']]]
+  ['move',['Move',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab62407aae38cc32d5f3ee0ce1b2398b7',1,'Lightbug.CharacterControllerPro.Core.CharacterActor.Move()'],['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ad926ec65a4a0c176c74cc6e00cb46b93',1,'Lightbug.Utilities.RigidbodyComponent.Move()']]],
+  ['moveandrotate',['MoveAndRotate',['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a452330580082f6f15a65de848ab48ac3',1,'Lightbug::Utilities::RigidbodyComponent']]]
 ];

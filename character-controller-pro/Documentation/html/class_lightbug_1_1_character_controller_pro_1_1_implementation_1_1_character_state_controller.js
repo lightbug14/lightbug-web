@@ -1,6 +1,8 @@
 var class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller =
 [
+    [ "EnqueueTransition", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a8c0463be885d3da40d2a68bca196cb99", null ],
     [ "EnqueueTransition< T >", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#abdc01f0f3a97bb89b6d35425f6de6182", null ],
+    [ "EnqueueTransitionToPreviousState", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a61c8c71affc961701c058401aa4ae7d2", null ],
     [ "GetState", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a70b8d0952216c43f6a3505996ddb03a3", null ],
     [ "GetState< T >", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a76d1e1d5aa6a03bbf3b0cc77691a5a87", null ],
     [ "ResetIKWeights", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#acb69cd09b39a7059ec9ef79938ece390", null ],

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.6</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -100,7 +100,13 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a356018e16b22dab68c027c03f0662eac"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a356018e16b22dab68c027c03f0662eac">EdgeRaysSeparation</a> = 0.02f</td></tr>
+<tr class="memitem:a192647173d0b541aec0c58bdaac244fc"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a192647173d0b541aec0c58bdaac244fc">GroundTriggerOffset</a> = 0.05f</td></tr>
+<tr class="memdesc:a192647173d0b541aec0c58bdaac244fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset (towards the ground) applied to the ground trigger.  <a href="#a192647173d0b541aec0c58bdaac244fc">More...</a><br /></td></tr>
+<tr class="separator:a192647173d0b541aec0c58bdaac244fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad286f2304a2c2c0ef8a67df0042b6322"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad286f2304a2c2c0ef8a67df0042b6322">MaxUnstableGroundContactTime</a> = 0.25f</td></tr>
+<tr class="memdesc:ad286f2304a2c2c0ef8a67df0042b6322"><td class="mdescLeft">&#160;</td><td class="mdescRight">This value represents the time (in seconds) that a jumping character can remain unstable while touching the ground. This becomes useful to prevent the character to be stuck in this unstable state for too long.  <a href="#ad286f2304a2c2c0ef8a67df0042b6322">More...</a><br /></td></tr>
+<tr class="separator:ad286f2304a2c2c0ef8a67df0042b6322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356018e16b22dab68c027c03f0662eac"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a356018e16b22dab68c027c03f0662eac">EdgeRaysSeparation</a> = 0.005f</td></tr>
 <tr class="memdesc:a356018e16b22dab68c027c03f0662eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance between the origins of the upper and lower edge detection rays.  <a href="#a356018e16b22dab68c027c03f0662eac">More...</a><br /></td></tr>
 <tr class="separator:a356018e16b22dab68c027c03f0662eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a46994cada652cd6422551219d03f3e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a9a46994cada652cd6422551219d03f3e">EdgeRaysCastDistance</a> = 2f</td></tr>
@@ -127,21 +133,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac3fa528d1b0537399eabe5b80fac711e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac3fa528d1b0537399eabe5b80fac711e">GroundCheckDistance</a> = 0.1f</td></tr>
 <tr class="memdesc:ac3fa528d1b0537399eabe5b80fac711e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base distance used for ground probing.  <a href="#ac3fa528d1b0537399eabe5b80fac711e">More...</a><br /></td></tr>
 <tr class="separator:ac3fa528d1b0537399eabe5b80fac711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7dc29e9aed07e299b2292ae97c3867"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a3a7dc29e9aed07e299b2292ae97c3867">StableGroundCheckDistance</a> = 1f</td></tr>
-<tr class="memdesc:a3a7dc29e9aed07e299b2292ae97c3867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base distance used for stable ground probing.  <a href="#a3a7dc29e9aed07e299b2292ae97c3867">More...</a><br /></td></tr>
-<tr class="separator:a3a7dc29e9aed07e299b2292ae97c3867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad6e610c50d72fef72c108ff71e7db9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0ad6e610c50d72fef72c108ff71e7db9">MaxSlideIterations</a> = 3</td></tr>
-<tr class="memdesc:a0ad6e610c50d72fef72c108ff71e7db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations available for the collide and slide algorithm. This becomes useful for ending the loop.  <a href="#a0ad6e610c50d72fef72c108ff71e7db9">More...</a><br /></td></tr>
+<tr class="memdesc:a0ad6e610c50d72fef72c108ff71e7db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations available for the collide and slide algorithm.  <a href="#a0ad6e610c50d72fef72c108ff71e7db9">More...</a><br /></td></tr>
 <tr class="separator:a0ad6e610c50d72fef72c108ff71e7db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38322061fa038a56b3867a6f75f90663"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a38322061fa038a56b3867a6f75f90663">HitCollidersBufferLength</a> = 10</td></tr>
-<tr class="memdesc:a38322061fa038a56b3867a6f75f90663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length used for the collision info containers. These are arrays used for storing the information gathered from the physics queries, collision messages, etc.  <a href="#a38322061fa038a56b3867a6f75f90663">More...</a><br /></td></tr>
-<tr class="separator:a38322061fa038a56b3867a6f75f90663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8aea13ef52d90423ad7ccf6e91015e0"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#af8aea13ef52d90423ad7ccf6e91015e0">MaxPostSimulationSlideIterations</a> = 2</td></tr>
+<tr class="memdesc:af8aea13ef52d90423ad7ccf6e91015e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations available for the collide and slide algorithm used after the simulation (dynamic ground processing).  <a href="#af8aea13ef52d90423ad7ccf6e91015e0">More...</a><br /></td></tr>
+<tr class="separator:af8aea13ef52d90423ad7ccf6e91015e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa040c38b74808a41f35e2ae34647a916"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa040c38b74808a41f35e2ae34647a916">DefaultGravity</a> = 9.8f</td></tr>
 <tr class="memdesc:aa040c38b74808a41f35e2ae34647a916"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default gravity value used by the weight function.  <a href="#aa040c38b74808a41f35e2ae34647a916">More...</a><br /></td></tr>
 <tr class="separator:aa040c38b74808a41f35e2ae34647a916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ae595ae6cc3bb2db6e2d38b446f3f3d75">MinHeadContactAngle</a> = 100f</td></tr>
-<tr class="memdesc:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees.  <a href="#ae595ae6cc3bb2db6e2d38b446f3f3d75">More...</a><br /></td></tr>
-<tr class="separator:ae595ae6cc3bb2db6e2d38b446f3f3d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba82a973aaa9f9e41c6986a2e9a99af"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a6ba82a973aaa9f9e41c6986a2e9a99af">HeadContactMinAngle</a> = 100f</td></tr>
+<tr class="memdesc:a6ba82a973aaa9f9e41c6986a2e9a99af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees.  <a href="#a6ba82a973aaa9f9e41c6986a2e9a99af">More...</a><br /></td></tr>
+<tr class="separator:a6ba82a973aaa9f9e41c6986a2e9a99af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad734a0ca9641985440a97e5ae7938281"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad734a0ca9641985440a97e5ae7938281">WallContactAngleTolerance</a> = 10f</td></tr>
 <tr class="memdesc:ad734a0ca9641985440a97e5ae7938281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance value considered when choosing the "wall contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from 90 - "WallContactAngleTolerance" to 90 degrees.  <a href="#ad734a0ca9641985440a97e5ae7938281">More...</a><br /></td></tr>
 <tr class="separator:ad734a0ca9641985440a97e5ae7938281"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +210,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.EdgeRaysSeparation = 0.02f</td>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.EdgeRaysSeparation = 0.005f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,19 +251,35 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a38322061fa038a56b3867a6f75f90663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38322061fa038a56b3867a6f75f90663">&#9670;&nbsp;</a></span>HitCollidersBufferLength</h2>
+<a id="a192647173d0b541aec0c58bdaac244fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192647173d0b541aec0c58bdaac244fc">&#9670;&nbsp;</a></span>GroundTriggerOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int Lightbug.CharacterControllerPro.Core.CharacterConstants.HitCollidersBufferLength = 10</td>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.GroundTriggerOffset = 0.05f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Length used for the collision info containers. These are arrays used for storing the information gathered from the physics queries, collision messages, etc. </p>
+<p>Offset (towards the ground) applied to the ground trigger. </p>
+
+</div>
+</div>
+<a id="a6ba82a973aaa9f9e41c6986a2e9a99af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba82a973aaa9f9e41c6986a2e9a99af">&#9670;&nbsp;</a></span>HeadContactMinAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.HeadContactMinAngle = 100f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees. </p>
 
 </div>
 </div>
@@ -280,6 +299,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af8aea13ef52d90423ad7ccf6e91015e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8aea13ef52d90423ad7ccf6e91015e0">&#9670;&nbsp;</a></span>MaxPostSimulationSlideIterations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Lightbug.CharacterControllerPro.Core.CharacterConstants.MaxPostSimulationSlideIterations = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum number of iterations available for the collide and slide algorithm used after the simulation (dynamic ground processing). </p>
+
+</div>
+</div>
 <a id="a0ad6e610c50d72fef72c108ff71e7db9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ad6e610c50d72fef72c108ff71e7db9">&#9670;&nbsp;</a></span>MaxSlideIterations</h2>
 
@@ -292,7 +327,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximum number of iterations available for the collide and slide algorithm. This becomes useful for ending the loop. </p>
+<p>Maximum number of iterations available for the collide and slide algorithm. </p>
 
 </div>
 </div>
@@ -312,6 +347,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad286f2304a2c2c0ef8a67df0042b6322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad286f2304a2c2c0ef8a67df0042b6322">&#9670;&nbsp;</a></span>MaxUnstableGroundContactTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MaxUnstableGroundContactTime = 0.25f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This value represents the time (in seconds) that a jumping character can remain unstable while touching the ground. This becomes useful to prevent the character to be stuck in this unstable state for too long. </p>
+
+</div>
+</div>
 <a id="aa9d22e0a5aa2ae180094d85a38976181"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9d22e0a5aa2ae180094d85a38976181">&#9670;&nbsp;</a></span>MinEdgeAngle</h2>
 
@@ -325,22 +376,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Minimum angle between upper and lower normals (from the edge detector) that defines an edge. </p>
-
-</div>
-</div>
-<a id="ae595ae6cc3bb2db6e2d38b446f3f3d75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae595ae6cc3bb2db6e2d38b446f3f3d75">&#9670;&nbsp;</a></span>MinHeadContactAngle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.MinHeadContactAngle = 100f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Minimum angle value considered when choosing the "head contact". The angle is measured between the contact normal and the "Up" vector. The valid range goes from "MinHeadContactAngle" to 180 degrees. </p>
 
 </div>
 </div>
@@ -376,22 +411,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a7dc29e9aed07e299b2292ae97c3867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a7dc29e9aed07e299b2292ae97c3867">&#9670;&nbsp;</a></span>StableGroundCheckDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float Lightbug.CharacterControllerPro.Core.CharacterConstants.StableGroundCheckDistance = 1f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Base distance used for stable ground probing. </p>
-
-</div>
-</div>
 <a id="ad734a0ca9641985440a97e5ae7938281"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad734a0ca9641985440a97e5ae7938281">&#9670;&nbsp;</a></span>WallContactAngleTolerance</h2>
 
@@ -409,7 +428,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Core/Scripts/Character/CharacterConstants.cs</li>
+<li>C:/Unity/Projects/character-controller-pro/Assets/Character Controller Pro/Core/Scripts/Character/CharacterConstants.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -70,17 +70,23 @@ var hierarchy =
       [ "Lightbug.CharacterControllerPro.Demo.Camera2D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera2_d.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.Camera3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.ChangeTargetFrameRate", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_change_target_frame_rate.html", null ],
+      [ "Lightbug.CharacterControllerPro.Demo.CharacterDetector", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_detector.html", [
+        [ "Lightbug.CharacterControllerPro.Demo.JumpPad", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jump_pad.html", null ]
+      ] ],
       [ "Lightbug.CharacterControllerPro.Demo.CharacterParticles", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_particles.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.DemoSceneManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_demo_scene_manager.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.FpsCounter", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_fps_counter.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.Ladder", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder.html", null ],
+      [ "Lightbug.CharacterControllerPro.Demo.LineRendererUtility", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_line_renderer_utility.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.LookAtTarget", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_look_at_target.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.MainMenuManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_main_menu_manager.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.MaterialController", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_material_controller.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.MenuButton", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_menu_button.html", null ],
+      [ "Lightbug.CharacterControllerPro.Demo.PerformanceCharacterBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_character_behaviour.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.PerformanceDemoManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_performance_demo_manager.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.Platform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform.html", [
         [ "Lightbug.CharacterControllerPro.Demo.ActionBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_action_based_platform.html", null ],
+        [ "Lightbug.CharacterControllerPro.Demo.ConveyorBeltPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_conveyor_belt_platform.html", null ],
         [ "Lightbug.CharacterControllerPro.Demo.NodeBasedPlatform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_node_based_platform.html", null ]
       ] ],
       [ "Lightbug.CharacterControllerPro.Demo.RigidbodyModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rigidbody_modifier.html", null ],
@@ -105,10 +111,12 @@ var hierarchy =
       ] ],
       [ "Lightbug.Utilities.ColliderComponent", "class_lightbug_1_1_utilities_1_1_collider_component.html", [
         [ "Lightbug.Utilities.ColliderComponent2D", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html", [
+          [ "Lightbug.Utilities.BoxColliderComponent2D", "class_lightbug_1_1_utilities_1_1_box_collider_component2_d.html", null ],
           [ "Lightbug.Utilities.CapsuleColliderComponent2D", "class_lightbug_1_1_utilities_1_1_capsule_collider_component2_d.html", null ],
           [ "Lightbug.Utilities.SphereColliderComponent2D", "class_lightbug_1_1_utilities_1_1_sphere_collider_component2_d.html", null ]
         ] ],
         [ "Lightbug.Utilities.ColliderComponent3D", "class_lightbug_1_1_utilities_1_1_collider_component3_d.html", [
+          [ "Lightbug.Utilities.BoxColliderComponent3D", "class_lightbug_1_1_utilities_1_1_box_collider_component3_d.html", null ],
           [ "Lightbug.Utilities.CapsuleColliderComponent3D", "class_lightbug_1_1_utilities_1_1_capsule_collider_component3_d.html", null ],
           [ "Lightbug.Utilities.SphereColliderComponent3D", "class_lightbug_1_1_utilities_1_1_sphere_collider_component3_d.html", null ]
         ] ]

@@ -1,6 +1,7 @@
 var class_lightbug_1_1_utilities_1_1_physics_component =
 [
     [ "Awake", "class_lightbug_1_1_utilities_1_1_physics_component.html#a398991aa86ef5a737e47da8b6ee2f62c", null ],
+    [ "BoxCast", "class_lightbug_1_1_utilities_1_1_physics_component.html#ad927dbba13b912962c96588d7378033d", null ],
     [ "CapsuleCast", "class_lightbug_1_1_utilities_1_1_physics_component.html#a3b15aa88ab6bb955d8724eb0d72fde89", null ],
     [ "ClearContacts", "class_lightbug_1_1_utilities_1_1_physics_component.html#a00fd7280c7600020e8afd0c550f0804b", null ],
     [ "GetClosestHit", "class_lightbug_1_1_utilities_1_1_physics_component.html#a31de93271f9a53f5a8a098908db8fa0d", null ],
@@ -13,7 +14,10 @@ var class_lightbug_1_1_utilities_1_1_physics_component =
     [ "OverlapSphere", "class_lightbug_1_1_utilities_1_1_physics_component.html#a6e2ae95acfaad2f57c9509f6317d5807", null ],
     [ "Raycast", "class_lightbug_1_1_utilities_1_1_physics_component.html#a8f5e0db658bd02990ebb0ceae540c4ec", null ],
     [ "SphereCast", "class_lightbug_1_1_utilities_1_1_physics_component.html#af27e8e693d6ec747205441440f736169", null ],
+    [ "Start", "class_lightbug_1_1_utilities_1_1_physics_component.html#ad1ed4f653e40c1b6b952ad8343c18d32", null ],
     [ "hits", "class_lightbug_1_1_utilities_1_1_physics_component.html#aa9025949734749e0014691f08dc623cc", null ],
+    [ "ignoreCollisionMessages", "class_lightbug_1_1_utilities_1_1_physics_component.html#ab8000e351db4782cd1a90cd3b0429de1", null ],
+    [ "wasKinematic", "class_lightbug_1_1_utilities_1_1_physics_component.html#aa3c91ec6a582a318a8340339a263586a", null ],
     [ "CollisionLayerMask", "class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588", null ],
     [ "Contacts", "class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870", null ],
     [ "Triggers", "class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712", null ]

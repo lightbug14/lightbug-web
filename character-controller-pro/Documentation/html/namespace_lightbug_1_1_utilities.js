@@ -1,5 +1,7 @@
 var namespace_lightbug_1_1_utilities =
 [
+    [ "BoxColliderComponent2D", "class_lightbug_1_1_utilities_1_1_box_collider_component2_d.html", "class_lightbug_1_1_utilities_1_1_box_collider_component2_d" ],
+    [ "BoxColliderComponent3D", "class_lightbug_1_1_utilities_1_1_box_collider_component3_d.html", "class_lightbug_1_1_utilities_1_1_box_collider_component3_d" ],
     [ "CapsuleColliderComponent2D", "class_lightbug_1_1_utilities_1_1_capsule_collider_component2_d.html", "class_lightbug_1_1_utilities_1_1_capsule_collider_component2_d" ],
     [ "CapsuleColliderComponent3D", "class_lightbug_1_1_utilities_1_1_capsule_collider_component3_d.html", "class_lightbug_1_1_utilities_1_1_capsule_collider_component3_d" ],
     [ "ColliderComponent", "class_lightbug_1_1_utilities_1_1_collider_component.html", "class_lightbug_1_1_utilities_1_1_collider_component" ],

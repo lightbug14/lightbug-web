@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.6</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -134,9 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a5f2f187f2446f399f433b0944a8edf57">PreUpdateBehaviour</a> (float dt)</td></tr>
 <tr class="memdesc:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">This methods runs before the main Update method.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a5f2f187f2446f399f433b0944a8edf57">More...</a><br /></td></tr>
 <tr class="separator:a5f2f187f2446f399f433b0944a8edf57 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a6936cff990166d6af997f61c1d6e7733"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>PostCharacterUpdate</b> (float dt)</td></tr>
-<tr class="separator:a6936cff990166d6af997f61c1d6e7733 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82153e05ccfc32adf8edb427243d65c5 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a82153e05ccfc32adf8edb427243d65c5">PreCharacterSimulation</a> (float dt)</td></tr>
+<tr class="memdesc:a82153e05ccfc32adf8edb427243d65c5 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">This methods runs just before the character physics simulation.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a82153e05ccfc32adf8edb427243d65c5">More...</a><br /></td></tr>
+<tr class="separator:a82153e05ccfc32adf8edb427243d65c5 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1decba2757594508aa9b910a4beacd2 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="ac1decba2757594508aa9b910a4beacd2"></a>
 virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetInfo</b> ()</td></tr>
 <tr class="separator:ac1decba2757594508aa9b910a4beacd2 inherit pub_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,6 +166,19 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>wallClimbAcceleratio
 <tr class="memitem:a9643d9e46ac7df214918898ee85b7ad2 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a9643d9e46ac7df214918898ee85b7ad2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>OverrideAnimatorController</b> =&gt; overrideAnimatorController</td></tr>
 <tr class="separator:a9643d9e46ac7df214918898ee85b7ad2 inherit pub_attribs_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2b36a38ad3da984f84a7d64fefa6815d"><td class="memItemLeft" align="right" valign="top"><a id="a2b36a38ad3da984f84a7d64fefa6815d"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCenterRay</b> ()</td></tr>
+<tr class="separator:a2b36a38ad3da984f84a7d64fefa6815d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html">Lightbug.CharacterControllerPro.Implementation.CharacterState</a></td></tr>
+<tr class="memitem:a83e4a568d338f1623c07d16a9bf01cc5 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a83e4a568d338f1623c07d16a9bf01cc5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:a83e4a568d338f1623c07d16a9bf01cc5 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a1d779285b737d6e4d6f2ac85161e2086"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -219,13 +233,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsGrabbing</b> =&gt; 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html">Lightbug.CharacterControllerPro.Implementation.CharacterState</a></td></tr>
-<tr class="memitem:a83e4a568d338f1623c07d16a9bf01cc5 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a83e4a568d338f1623c07d16a9bf01cc5"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="separator:a83e4a568d338f1623c07d16a9bf01cc5 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top"><a id="a1d779285b737d6e4d6f2ac85161e2086"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="separator:a1d779285b737d6e4d6f2ac85161e2086 inherit pro_methods_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td colspan="2" onclick="javascript:toggleInherit('properties_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html">Lightbug.CharacterControllerPro.Implementation.CharacterState</a></td></tr>
 <tr class="memitem:acfe01446c0d5694dbea4dd542d4834e8 inherit properties_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#acfe01446c0d5694dbea4dd542d4834e8">StateNameHash</a><code> [get]</code></td></tr>
 <tr class="memdesc:acfe01446c0d5694dbea4dd542d4834e8 inherit properties_class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the hash value (Animator) associated with this state, based on its name.  <a href="class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#acfe01446c0d5694dbea4dd542d4834e8">More...</a><br /></td></tr>
@@ -471,7 +478,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Demo/Scripts/States/WallSlide.cs</li>
+<li>C:/Unity/Projects/character-controller-pro/Assets/Character Controller Pro/Demo/Scripts/States/WallSlide.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

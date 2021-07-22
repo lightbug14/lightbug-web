@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.6</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -89,9 +89,11 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_utilities_1_1_rigid
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="class_lightbug_1_1_utilities_1_1_rigidbody_component-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbug.Utilities.RigidbodyComponent Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -143,9 +145,9 @@ abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>AddForceToRi
 <tr class="memitem:aa93bdd231dce670096dc9ef81a335ea2"><td class="memItemLeft" align="right" valign="top"><a id="aa93bdd231dce670096dc9ef81a335ea2"></a>
 abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>AddExplosionForceToRigidbody</b> (float explosionForce, Vector3 explosionPosition, float explosionRadius, float upwardsModifier=0f)</td></tr>
 <tr class="separator:aa93bdd231dce670096dc9ef81a335ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0800340c46cea50fef30f41d79f58617"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a0800340c46cea50fef30f41d79f58617">AddForce</a> (Vector3 force, bool ignoreMass=false)</td></tr>
-<tr class="memdesc:a0800340c46cea50fef30f41d79f58617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a velocity vector to the rigidbody (simulating AddForce) calculated from a force value.  <a href="#a0800340c46cea50fef30f41d79f58617">More...</a><br /></td></tr>
-<tr class="separator:a0800340c46cea50fef30f41d79f58617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78f7eb51db0c3b619c8a9351d05f146"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ac78f7eb51db0c3b619c8a9351d05f146">AddForce</a> (Vector3 force, bool ignoreMass=false, bool useImpulse=false)</td></tr>
+<tr class="memdesc:ac78f7eb51db0c3b619c8a9351d05f146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a velocity vector to the rigidbody (simulating AddForce) calculated from a force value.  <a href="#ac78f7eb51db0c3b619c8a9351d05f146">More...</a><br /></td></tr>
+<tr class="separator:ac78f7eb51db0c3b619c8a9351d05f146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a783d2d43037d7324eef127517a8f7f09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a783d2d43037d7324eef127517a8f7f09">AddExplosionForce</a> (float explosionForce, Vector3 explosionPosition, float explosionRadius, float upwardsModifier=0f)</td></tr>
 <tr class="memdesc:a783d2d43037d7324eef127517a8f7f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a velocity vector to the rigidbody (simulating AddExplosionForce) calculated from a force value.  <a href="#a783d2d43037d7324eef127517a8f7f09">More...</a><br /></td></tr>
 <tr class="separator:a783d2d43037d7324eef127517a8f7f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,8 +155,17 @@ abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>AddExplosion
 <tr class="memdesc:a6e00b4ed4510211b5adc51a2096c366f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an angular velocity vector to the rigidbody (simulating AddTorque) calculated from a torque value.  <a href="#a6e00b4ed4510211b5adc51a2096c366f">More...</a><br /></td></tr>
 <tr class="separator:a6e00b4ed4510211b5adc51a2096c366f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:adab7dbd6eb006505d6e13939a04d204f"><td class="memItemLeft" align="right" valign="top"><a id="adab7dbd6eb006505d6e13939a04d204f"></a>
+static <a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html">RigidbodyComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInstance</b> (GameObject gameObject)</td></tr>
+<tr class="separator:adab7dbd6eb006505d6e13939a04d204f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a70cfdf885daf5eb995de123e1dab5277"><td class="memItemLeft" align="right" valign="top"><a id="a70cfdf885daf5eb995de123e1dab5277"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnBodyTypeChangeInternal</b> ()</td></tr>
+<tr class="separator:a70cfdf885daf5eb995de123e1dab5277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4459ff3e1028871fdc6fc6f779e98bb5"><td class="memItemLeft" align="right" valign="top"><a id="a4459ff3e1028871fdc6fc6f779e98bb5"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
 <tr class="separator:a4459ff3e1028871fdc6fc6f779e98bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +209,7 @@ abstract RigidbodyConstraints&#160;</td><td class="memItemRight" valign="bottom"
 abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingContinuousCollisionDetection</b><code> [get]</code></td></tr>
 <tr class="separator:a4835ae540e40bf3216728e34d61a0e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad6860adabaf4bc501a216fa40fccf6"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a1ad6860adabaf4bc501a216fa40fccf6">Up</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1ad6860adabaf4bc501a216fa40fccf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current up direction based on the rigidbody rotation (not necessarily transform.up).  <a href="#a1ad6860adabaf4bc501a216fa40fccf6">More...</a><br /></td></tr>
 <tr class="separator:a1ad6860adabaf4bc501a216fa40fccf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ec38ef4727c8b1a058a5a83b71f83cf"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a6ec38ef4727c8b1a058a5a83b71f83cf">Forward</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6ec38ef4727c8b1a058a5a83b71f83cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current forward direction based on the rigidbody rotation (not necessarily transform.forward).  <a href="#a6ec38ef4727c8b1a058a5a83b71f83cf">More...</a><br /></td></tr>
@@ -217,6 +229,12 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingConti
 <tr class="memitem:a2e7bf05fb59011e11e5a919a6be6d3bf"><td class="memItemLeft" align="right" valign="top">abstract Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a2e7bf05fb59011e11e5a919a6be6d3bf">AngularVelocity</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a2e7bf05fb59011e11e5a919a6be6d3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rigidbody angular velocity.  <a href="#a2e7bf05fb59011e11e5a919a6be6d3bf">More...</a><br /></td></tr>
 <tr class="separator:a2e7bf05fb59011e11e5a919a6be6d3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a5802e952d3fb8b93e706b2db686b0021"><td class="memItemLeft" align="right" valign="top"><a id="a5802e952d3fb8b93e706b2db686b0021"></a>
+System.Action&#160;</td><td class="memItemRight" valign="bottom"><b>OnBodyTypeChange</b></td></tr>
+<tr class="separator:a5802e952d3fb8b93e706b2db686b0021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This component is a wrapper for the Rigidbody and Rigidbody2D components, containing not only the most commonly used properties and methods, but also some extra features. </p>
@@ -271,8 +289,8 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingConti
 
 </div>
 </div>
-<a id="a0800340c46cea50fef30f41d79f58617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0800340c46cea50fef30f41d79f58617">&#9670;&nbsp;</a></span>AddForce()</h2>
+<a id="ac78f7eb51db0c3b619c8a9351d05f146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78f7eb51db0c3b619c8a9351d05f146">&#9670;&nbsp;</a></span>AddForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +308,13 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingConti
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>ignoreMass</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>ignoreMass</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useImpulse</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -767,7 +791,6 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingConti
 </table>
 </div><div class="memdoc">
 
-<p></p>
 <p>Gets the current up direction based on the rigidbody rotation (not necessarily transform.up). </p>
 
 </div>
@@ -797,7 +820,7 @@ abstract bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingConti
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Utilities/Scripts/RigidbodyComponent.cs</li>
+<li>C:/Unity/Projects/character-controller-pro/Assets/Character Controller Pro/Utilities/Scripts/RigidbodyComponent.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

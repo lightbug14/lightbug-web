@@ -7,6 +7,7 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash =
     [ "ExitBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a06f7e751fb08818d5095afc7db7abd9c", null ],
     [ "GetInfo", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#ad552e51bf5fa7a35129167a64ed4135c", null ],
     [ "PostUpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a8826cdba494eef04771552001dd0eb03", null ],
+    [ "ResetDash", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#aac36c57fd149d10ec9d584e54734f42d", null ],
     [ "UpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#ac316f9ef4c534f6ba9aee11fa176ca0c", null ],
     [ "airDashesLeft", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#acdc24d499bb2ff4864c594442af6f14f", null ],
     [ "availableNotGroundedDashes", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_dash.html#a1c48bc77da76a3860308bf8b70945255", null ],

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.6</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -91,7 +91,6 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbug.CharacterControllerPro.Demo.VerticalMovementParameters Class Reference</div>  </div>
@@ -110,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf46b92cfbaa319d733915ad5f212cbf"><td class="memItemLeft" align="right" valign="top"><a id="adf46b92cfbaa319d733915ad5f212cbf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateParameters</b> ()</td></tr>
 <tr class="separator:adf46b92cfbaa319d733915ad5f212cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7138eb0f62d7517eb4502020659aee9f"><td class="memItemLeft" align="right" valign="top"><a id="a7138eb0f62d7517eb4502020659aee9f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OnValidate</b> ()</td></tr>
+<tr class="separator:a7138eb0f62d7517eb4502020659aee9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -119,12 +121,21 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useGravity</b> = true
 <tr class="memitem:a5675861387eb9fc44328f6e57a4c4fb9"><td class="memItemLeft" align="right" valign="top"><a id="a5675861387eb9fc44328f6e57a4c4fb9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>canJump</b> = true</td></tr>
 <tr class="separator:a5675861387eb9fc44328f6e57a4c4fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc594a3f640571ba75a3fa3eae9aa41e"><td class="memItemLeft" align="right" valign="top"><a id="acc594a3f640571ba75a3fa3eae9aa41e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>autoCalculate</b> = true</td></tr>
+<tr class="separator:acc594a3f640571ba75a3fa3eae9aa41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b106fdfa37dad1c58c8934cfe39546"><td class="memItemLeft" align="right" valign="top"><a id="ac5b106fdfa37dad1c58c8934cfe39546"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexHeight</b> = 2.25f</td></tr>
 <tr class="separator:ac5b106fdfa37dad1c58c8934cfe39546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1667b6e81533857ce736a633c74ecfa7"><td class="memItemLeft" align="right" valign="top"><a id="a1667b6e81533857ce736a633c74ecfa7"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpApexDuration</b> = 0.5f</td></tr>
 <tr class="separator:a1667b6e81533857ce736a633c74ecfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a006c8a6c6f27c99a6d591b82ee7e41"><td class="memItemLeft" align="right" valign="top"><a id="a0a006c8a6c6f27c99a6d591b82ee7e41"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpSpeed</b> = 10f</td></tr>
+<tr class="separator:a0a006c8a6c6f27c99a6d591b82ee7e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28ec9a8d2fc59b392f85f22a97ec907"><td class="memItemLeft" align="right" valign="top"><a id="ac28ec9a8d2fc59b392f85f22a97ec907"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>gravity</b> = 10f</td></tr>
+<tr class="separator:ac28ec9a8d2fc59b392f85f22a97ec907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9d00ce353ea6f9352512388b94c05be"><td class="memItemLeft" align="right" valign="top"><a id="ae9d00ce353ea6f9352512388b94c05be"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>cancelJumpOnRelease</b> = true</td></tr>
 <tr class="separator:ae9d00ce353ea6f9352512388b94c05be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,18 +175,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpDownDistance</b>
 <tr class="memitem:ac862ad8df59129193af9d8460fd048ff"><td class="memItemLeft" align="right" valign="top"><a id="ac862ad8df59129193af9d8460fd048ff"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>jumpDownVerticalVelocity</b> = 0.5f</td></tr>
 <tr class="separator:ac862ad8df59129193af9d8460fd048ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a90ce442fb27cbd75c65ff5a2ff9b71ee"><td class="memItemLeft" align="right" valign="top"><a id="a90ce442fb27cbd75c65ff5a2ff9b71ee"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GravityMagnitude</b><code> [get]</code></td></tr>
-<tr class="separator:a90ce442fb27cbd75c65ff5a2ff9b71ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6bab8116111729d3642b58851e98edb"><td class="memItemLeft" align="right" valign="top"><a id="ab6bab8116111729d3642b58851e98edb"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>JumpSpeed</b><code> [get]</code></td></tr>
-<tr class="separator:ab6bab8116111729d3642b58851e98edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Unity/Projects/Character Controller Pro Released/Assets/Character Controller Pro/Demo/Scripts/States/NormalMovementExtras.cs</li>
+<li>C:/Unity/Projects/character-controller-pro/Assets/Character Controller Pro/Demo/Scripts/States/NormalMovementExtras.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

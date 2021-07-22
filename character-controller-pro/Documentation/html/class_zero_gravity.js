@@ -7,5 +7,6 @@ var class_zero_gravity =
     [ "baseSpeed", "class_zero_gravity.html#aa8bec9777360dbd70c72549830cb6d43", null ],
     [ "deceleration", "class_zero_gravity.html#a6f4bca728f63509f9c25d5950e326931", null ],
     [ "invertPitch", "class_zero_gravity.html#a717d2107e5dc433234dcb46c6d99ff16", null ],
-    [ "invertRoll", "class_zero_gravity.html#a3cb36be23e47ae1d866e119926cb955c", null ]
+    [ "invertRoll", "class_zero_gravity.html#a3cb36be23e47ae1d866e119926cb955c", null ],
+    [ "targetUp", "class_zero_gravity.html#ab27d482649bbf89935f1ce35dd8a4463", null ]
 ];
