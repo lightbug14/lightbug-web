@@ -30,6 +30,38 @@
         
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.3.7</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>New OneWayPlatform component. This component allows one way platforms to be fully dynamic. This means that characters should be properly detected by the collision algorithm.</li>
+                <li>SweepAndTeleport method (CharacterActor).</li>
+                <li>"maxUnstableUpwardsVelocity" public field (CharacterActor). This field limits the amount of vertical displacement when the obstacle isd unstable. This is very useful to prevent a character from climbing unstable slopes, especially when the acceleration (airborne) is too high.</li>
+                <li>(Demo) New PositionAndRotationModifier detector. This component replaces the old Teleporter and VerticalDirectionModifier components.</li>
+                <li>(Demo) NormalMovement's ReduceAirControl method. This allows you to reduce the air control (not grounded acceleration/deceleration) of the character for a certain duration. TIP: It is very useful for wall jumps.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>   
+                <li>Read only structs. HitInfo, HitInfoFilter and CollisionInfo have been re-declared as read only structs. This change was extremely important for performance reasons.</li>
+                <li>(Demo) Camera pitch limits are now asymmectric, meaning that you can specify different limits for positive/negative pitch.</li>
+                <li>(Demo) 2D Scene character uses now a high (almost instant) acceleration and deceleration.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>      
+                <li>The MaterialController component was throwing a null reference when the character was instantiated at runtime (e.g. using a "spawner").</li>  
+                <li>InputMovementReference was calculated every time the property was needed (getter). Now, the data is updated once before the state machine update.</li>        
+                <li>Actions were not resetting correctly after disabling the CharacterActor component.</li>
+                <li>There were issues associated with non-convex 2D collision detection (polygons, edges, tilemaps, etc).</li>
+                <li>The CharacterDetector component was performing its task multiple times, once for each collider involved in the collision. Now, this component does its job only once (per character).</li>
+                <li>The demo character was capable of climbing unstable slopes when the acceleration was too high (e.g. tight 2D platformer). The displacement is now reduced using the "maxUnstableUpwardsVelocity" field (CharacterActor).</li>
+                <li>(Demo) The WallSlide width parameter has been removed, this is because the width property should not change at runtime (the state depends on the wall contact).</li>
+            </ul>
+
+        </div>
+
         <button type = "button" class="release" id="safe">1.3.6</button>
         <div class="foldout-content">
 
