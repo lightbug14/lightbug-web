@@ -30,6 +30,32 @@
         
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.3.8</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>                
+            <ul>     
+                <li>Dynamic ground layer mask. Now it is possible to choose (via a layer mask) which object should be considered as a valid dynamic ground.</li>
+                <li>ForceState (CharacterStateController) method. You can call ForceState and the state machine will transition to any given state "without asking any questions".</li>
+                <li>preventUnstableClimbing (CharacterActor) field. This will automatically removed any planar velocity when trying to climb an unstable slope.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>   
+                <li>CharacterStateController has been "unsealed" (you can derive from it).</li>
+                <li>MaxUnstableUpwardsVelocity (CharacterActor) has been fully replaced with the preventUnstableClimbing field. Basically, this new field removes the trial and error component.</li>
+                <li>2D Scene has been changed.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>      
+                <li>GroundPosition and GroundRotation caused a null reference exception when the Rigidbody object was disable/destroyed.</li>
+                <li>Camera3D issue associated with a variable frame. The regular delta time (old) was replaced with a fixed delta time. </li>
+                <li>Small code improvements and an overall formatting.</li>
+            </ul>
+
+        </div>
+
         <button type = "button" class="release" id="safe">1.3.7</button>
         <div class="foldout-content">
 
