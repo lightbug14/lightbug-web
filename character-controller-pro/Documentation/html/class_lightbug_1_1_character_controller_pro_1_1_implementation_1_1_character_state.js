@@ -6,6 +6,7 @@ var class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character
     [ "EnterBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a48273208b1187cad8f303e9eda62be3d", null ],
     [ "ExitBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a0d7fcc089e0d3b25bdbf73cd885e9753", null ],
     [ "GetInfo", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#ac1decba2757594508aa9b910a4beacd2", null ],
+    [ "PostCharacterSimulation", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#af36f683cb36fb5a4a31b71ea0a205b29", null ],
     [ "PostUpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a713a3dc0bdfea551986bac4ba259885a", null ],
     [ "PreCharacterSimulation", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a82153e05ccfc32adf8edb427243d65c5", null ],
     [ "PreUpdateBehaviour", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state.html#a5f2f187f2446f399f433b0944a8edf57", null ],

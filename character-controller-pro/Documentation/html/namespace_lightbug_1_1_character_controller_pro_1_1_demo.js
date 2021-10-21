@@ -41,17 +41,16 @@ var namespace_lightbug_1_1_character_controller_pro_1_1_demo =
     [ "PlanarMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_planar_movement_parameters" ],
     [ "Platform", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform" ],
     [ "PlatformNode", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform_node.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_platform_node" ],
+    [ "PositionAndRotationModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_position_and_rotation_modifier.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_position_and_rotation_modifier" ],
     [ "RigidbodyModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rigidbody_modifier.html", null ],
     [ "Rope", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope" ],
     [ "RopeClimbing", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rope_climbing" ],
     [ "RotationAction", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rotation_action.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_rotation_action" ],
     [ "Surface", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface" ],
-    [ "SurfacePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface_physics_properties.html", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface_physics_properties" ],
     [ "VerticalDirectionModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier" ],
     [ "VerticalDirectionModifier2D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier2_d.html", null ],
     [ "VerticalDirectionModifier3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier3_d.html", null ],
     [ "VerticalMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters" ],
     [ "Volume", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume" ],
-    [ "VolumePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties.html", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties" ],
     [ "WallSlide", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide" ]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['inactivetime',['InactiveTime',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_bool_action.html#a1b479b528258fb57f5ee6bffec4b83b9',1,'Lightbug::CharacterControllerPro::Implementation::BoolAction']]],
-  ['inputmovementreference',['InputMovementReference',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a82ef0e42155007d972f9b6d8745e122c',1,'Lightbug::CharacterControllerPro::Implementation::CharacterStateController']]],
+  ['inputmovementreference',['InputMovementReference',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#abae056dbaeb87b69d6a517ee1e9f2e11',1,'Lightbug::CharacterControllerPro::Implementation::MovementReferenceParameters']]],
   ['inputvelocity',['InputVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a21d7f91ea48612386d851a7508521126',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
   ['interpolationfactor',['InterpolationFactor',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a5a0d62a524ad7fea4866ca6ceaab85f8',1,'Lightbug::CharacterControllerPro::Core::PhysicsActor']]],
   ['isai',['IsAI',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_brain.html#a5d0a888e86c6f942e30288f5f21208a9',1,'Lightbug::CharacterControllerPro::Implementation::CharacterBrain']]],

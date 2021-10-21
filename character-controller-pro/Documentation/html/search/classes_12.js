@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zerogravity',['ZeroGravity',['../class_zero_gravity.html',1,'']]]
+  ['wallslide',['WallSlide',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html',1,'Lightbug::CharacterControllerPro::Demo']]]
 ];

@@ -7,7 +7,7 @@ var hierarchy =
     [ "Lightbug.CharacterControllerPro.Core.CharacterCollisions", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_collisions.html", null ],
     [ "Lightbug.CharacterControllerPro.Core.CharacterConstants", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.CharacterReferenceObject", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_reference_object.html", null ],
-    [ "Lightbug.CharacterControllerPro.Core.CollisionInfo", "struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html", null ],
+    [ "Lightbug.CharacterControllerPro.Core.CollisionInfo", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html", null ],
     [ "Lightbug.Utilities.Contact", "struct_lightbug_1_1_utilities_1_1_contact.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.CrouchParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_crouch_parameters.html", null ],
     [ "Lightbug.CharacterControllerPro.Implementation.FloatAction", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_float_action.html", null ],
@@ -58,6 +58,7 @@ var hierarchy =
         [ "Lightbug.CharacterControllerPro.Core.CharacterGraphicsScaler", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_graphics_scaler.html", null ]
       ] ],
       [ "Lightbug.CharacterControllerPro.Core.CustomSimulatedObject", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_custom_simulated_object.html", null ],
+      [ "Lightbug.CharacterControllerPro.Core.OneWayPlatform", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_one_way_platform.html", null ],
       [ "Lightbug.CharacterControllerPro.Core.PhysicsActor", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html", [
         [ "Lightbug.CharacterControllerPro.Core.CharacterActor", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html", null ]
       ] ],
@@ -71,7 +72,8 @@ var hierarchy =
       [ "Lightbug.CharacterControllerPro.Demo.Camera3D", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_camera3_d.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.ChangeTargetFrameRate", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_change_target_frame_rate.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.CharacterDetector", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_detector.html", [
-        [ "Lightbug.CharacterControllerPro.Demo.JumpPad", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jump_pad.html", null ]
+        [ "Lightbug.CharacterControllerPro.Demo.JumpPad", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jump_pad.html", null ],
+        [ "Lightbug.CharacterControllerPro.Demo.PositionAndRotationModifier", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_position_and_rotation_modifier.html", null ]
       ] ],
       [ "Lightbug.CharacterControllerPro.Demo.CharacterParticles", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_particles.html", null ],
       [ "Lightbug.CharacterControllerPro.Demo.DemoSceneManager", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_demo_scene_manager.html", null ],
@@ -150,11 +152,9 @@ var hierarchy =
       [ "Lightbug.CharacterControllerPro.Implementation.CharacterActionsAsset", "class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_actions_asset.html", null ]
     ] ],
     [ "Lightbug.CharacterControllerPro.Demo.Surface", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface.html", null ],
-    [ "Lightbug.CharacterControllerPro.Demo.SurfacePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_surface_physics_properties.html", null ],
     [ "Lightbug.Utilities.Trigger", "struct_lightbug_1_1_utilities_1_1_trigger.html", null ],
     [ "Lightbug.CharacterControllerPro.Implementation.Vector2Action", "struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html", null ],
     [ "Lightbug.CharacterControllerPro.Core.VerticalAlignmentSettings", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_vertical_alignment_settings.html", null ],
     [ "Lightbug.CharacterControllerPro.Demo.VerticalMovementParameters", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters.html", null ],
-    [ "Lightbug.CharacterControllerPro.Demo.Volume", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html", null ],
-    [ "Lightbug.CharacterControllerPro.Demo.VolumePhysicsProperties", "struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties.html", null ]
+    [ "Lightbug.CharacterControllerPro.Demo.Volume", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html", null ]
 ];

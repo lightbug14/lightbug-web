@@ -9,6 +9,5 @@ var searchData=
   ['verticaldirectionmodifier3d',['VerticalDirectionModifier3D',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier3_d.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['verticalmovementparameters',['VerticalMovementParameters',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters.html',1,'Lightbug::CharacterControllerPro::Demo']]],
   ['verticalvelocity',['VerticalVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaefe204f3505f9c1491c04121a7abb99',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['volume',['Volume',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['volumephysicsproperties',['VolumePhysicsProperties',['../struct_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume_physics_properties.html',1,'Lightbug::CharacterControllerPro::Demo']]]
+  ['volume',['Volume',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html',1,'Lightbug::CharacterControllerPro::Demo']]]
 ];

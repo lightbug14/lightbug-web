@@ -6,7 +6,7 @@ var searchData=
   ['headcontactminangle',['HeadContactMinAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a6ba82a973aaa9f9e41c6986a2e9a99af',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
   ['headcontacts',['HeadContacts',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#afe70b54f3a467b2af1cf6716a41239c6',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
   ['helpboxattribute',['HelpBoxAttribute',['../class_lightbug_1_1_utilities_1_1_help_box_attribute.html',1,'Lightbug::Utilities']]],
-  ['hitinfo',['HitInfo',['../struct_lightbug_1_1_utilities_1_1_hit_info.html',1,'Lightbug::Utilities']]],
+  ['hitinfo',['HitInfo',['../struct_lightbug_1_1_utilities_1_1_hit_info.html',1,'Lightbug.Utilities.HitInfo'],['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html#ad097092220cfc25c7ca592e9ef22bcb2',1,'Lightbug.CharacterControllerPro.Core.CollisionInfo.hitInfo()']]],
   ['hitinfofilter',['HitInfoFilter',['../struct_lightbug_1_1_utilities_1_1_hit_info_filter.html',1,'Lightbug::Utilities']]],
   ['humaninputtype',['HumanInputType',['../namespace_lightbug_1_1_character_controller_pro_1_1_implementation.html#aa80b815132e90ad503638fa0f9963290',1,'Lightbug::CharacterControllerPro::Implementation']]]
 ];

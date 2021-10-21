@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.6</span>
+   &#160;<span id="projectnumber">1.3.8</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -102,7 +102,8 @@ Inheritance diagram for Lightbug.CharacterControllerPro.Demo.CharacterDetector:<
  <div class="center">
   <img src="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_detector.png" usemap="#Lightbug.CharacterControllerPro.Demo.CharacterDetector_map" alt=""/>
   <map id="Lightbug.CharacterControllerPro.Demo.CharacterDetector_map" name="Lightbug.CharacterControllerPro.Demo.CharacterDetector_map">
-<area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jump_pad.html" alt="Lightbug.CharacterControllerPro.Demo.JumpPad" shape="rect" coords="0,112,342,136"/>
+<area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_jump_pad.html" alt="Lightbug.CharacterControllerPro.Demo.JumpPad" shape="rect" coords="0,112,396,136"/>
+<area href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_position_and_rotation_modifier.html" alt="Lightbug.CharacterControllerPro.Demo.PositionAndRotationModifier" shape="rect" coords="406,112,802,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -120,16 +121,50 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessExitAc
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aefbee9dade6c48162c20f4a49accc115"><td class="memItemLeft" align="right" valign="top"><a id="aefbee9dade6c48162c20f4a49accc115"></a>
+<tr class="memitem:a4573317c5e71e5a0aee18000a5fcecc3"><td class="memItemLeft" align="right" valign="top"><a id="a4573317c5e71e5a0aee18000a5fcecc3"></a>
 Dictionary&lt; Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html">CharacterActor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>characters</b> = new Dictionary&lt;Transform, <a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html">CharacterActor</a>&gt;()</td></tr>
-<tr class="separator:aefbee9dade6c48162c20f4a49accc115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4573317c5e71e5a0aee18000a5fcecc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6b77a05122fad49f0bc9662219f704"><td class="memItemLeft" align="right" valign="top"><a id="a8b6b77a05122fad49f0bc9662219f704"></a>
+List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onEnterDirtyTransforms</b> = new List&lt;int&gt;()</td></tr>
+<tr class="separator:a8b6b77a05122fad49f0bc9662219f704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f05f294b7c5ba59f18907ebc2d80ca"><td class="memItemLeft" align="right" valign="top"><a id="a64f05f294b7c5ba59f18907ebc2d80ca"></a>
+List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onStayDirtyTransforms</b> = new List&lt;int&gt;()</td></tr>
+<tr class="separator:a64f05f294b7c5ba59f18907ebc2d80ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb85d7722ed8b59d36a47f0074aa3cc"><td class="memItemLeft" align="right" valign="top"><a id="a3fb85d7722ed8b59d36a47f0074aa3cc"></a>
+List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>onExitDirtyTransforms</b> = new List&lt;int&gt;()</td></tr>
+<tr class="separator:a3fb85d7722ed8b59d36a47f0074aa3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a1d2de8fa6816d28ab2fad88622ba44f9"><td class="memItemLeft" align="right" valign="top"><a id="a1d2de8fa6816d28ab2fad88622ba44f9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>CharactersNumber</b><code> [get]</code></td></tr>
+<tr class="memitem:a1d2de8fa6816d28ab2fad88622ba44f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_character_detector.html#a1d2de8fa6816d28ab2fad88622ba44f9">CharactersNumber</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1d2de8fa6816d28ab2fad88622ba44f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of characters (CharacterActor) currently inside this trigger.  <a href="#a1d2de8fa6816d28ab2fad88622ba44f9">More...</a><br /></td></tr>
 <tr class="separator:a1d2de8fa6816d28ab2fad88622ba44f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a1d2de8fa6816d28ab2fad88622ba44f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2de8fa6816d28ab2fad88622ba44f9">&#9670;&nbsp;</a></span>CharactersNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Lightbug.CharacterControllerPro.Demo.CharacterDetector.CharactersNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of characters (CharacterActor) currently inside this trigger. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Unity/Projects/character-controller-pro/Assets/Character Controller Pro/Core/Scripts/Utilities/CharacterDetector.cs</li>
 </ul>

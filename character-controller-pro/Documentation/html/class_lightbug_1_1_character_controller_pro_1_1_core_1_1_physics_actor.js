@@ -10,6 +10,7 @@ var class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor =
       [ "SetVerticalVelocity", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a28cd876bf8b1b8c4cf82d19e65d35b72abaeb50906a2421f9e814dee549a057d0", null ]
     ] ],
     [ "Awake", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a1329133d0ae48028fc5350908f974959", null ],
+    [ "InitializeAnimation", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a277779b2e20c2caef40c409b739ddd97", null ],
     [ "OnDisable", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#af6ec2de1f244d35151fd4981dbcd1bc0", null ],
     [ "OnEnable", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a66c64d304a6f6d9cf4c374aef8aec626", null ],
     [ "PostSimulationUpdate", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#af8261b9656a62240ccaea6321518dbf0", null ],
@@ -33,7 +34,8 @@ var class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor =
     [ "Animator", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b", null ],
     [ "InterpolationFactor", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a5a0d62a524ad7fea4866ca6ceaab85f8", null ],
     [ "RigidbodyComponent", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a7dc8747a0a581cf16d30a48cc29eccba", null ],
-    [ "OnAnimatorIKEvent", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a021ea949c129a340540c499e6cf92a75", null ],
-    [ "OnAnimatorMoveEvent", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a022a1efc8252766ea0a51e0b38c1dfc1", null ],
+    [ "OnAnimatorIKEvent", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#afa8cb4fea8e20625df52c6790420b7b1", null ],
+    [ "OnAnimatorMoveEvent", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a583ed18b23e86a2e2aa5f953950b1558", null ],
+    [ "OnPostSimulation", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a0e53e06331724df6e864f67c2383d08d", null ],
     [ "OnPreSimulation", "class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a6d256ecbb03441e838bc6ba6c959895f", null ]
 ];

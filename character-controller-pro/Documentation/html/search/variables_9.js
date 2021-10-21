@@ -7,5 +7,7 @@ var searchData=
   ['maxstepangle',['MaxStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad069af28c6ac892be12dd57c9c6d6297',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
   ['maxunstablegroundcontacttime',['MaxUnstableGroundContactTime',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad286f2304a2c2c0ef8a67df0042b6322',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
   ['minedgeangle',['MinEdgeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa9d22e0a5aa2ae180094d85a38976181',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
-  ['minstepangle',['MinStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a01deecfd762aa7fa2478cf95d0da000f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
+  ['minstepangle',['MinStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a01deecfd762aa7fa2478cf95d0da000f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['movementreferenceforward',['MovementReferenceForward',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af7996f17552d8ac73e33bc5f1e192368',1,'Lightbug::CharacterControllerPro::Implementation::CharacterStateController']]],
+  ['movementreferenceright',['MovementReferenceRight',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a6e679e588461dcfb9ffbfe6bc4926df4',1,'Lightbug::CharacterControllerPro::Implementation::CharacterStateController']]]
 ];

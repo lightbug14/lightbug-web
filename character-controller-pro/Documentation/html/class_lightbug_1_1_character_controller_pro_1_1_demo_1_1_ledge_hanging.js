@@ -21,7 +21,6 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging =
     [ "groundedDetection", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a6231bb650f9ee8f82c151d8f887e7ad4", null ],
     [ "layerMask", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a78ece731de293677ef451eb4f2b8a0e3", null ],
     [ "ledgeDetectionDistance", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#aaaf76ee8967d61a16f9c7dcdad5164ee", null ],
-    [ "ledgeHitInfoFilter", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a931818ebf43802b2e3bfcf43401184dc", null ],
     [ "ledgeJumpVelocity", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a83fa1995cbd81711f017ec011e02f13a", null ],
     [ "MaxLedgeVerticalAngle", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#af59330417c803e202d5d5e94422f3262", null ],
     [ "separationBetweenHands", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html#a75d668cea6dc3936b0b8c05e36ed01d4", null ],

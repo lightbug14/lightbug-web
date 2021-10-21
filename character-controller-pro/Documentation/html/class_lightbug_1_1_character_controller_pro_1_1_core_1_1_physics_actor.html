@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.6</span>
+   &#160;<span id="projectnumber">1.3.8</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_character_controlle
 </div><!--header-->
 <div class="contents">
 
-<p>A physics actor represents a custom 2D/3D interpolated rigidbody.  
+<p>A physics-based actor that represents a custom 2D/3D interpolated rigidbody.  
  <a href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Lightbug.CharacterControllerPro.Core.PhysicsActor:</div>
@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46657b2eab0ce0e71a5363a8abc5832c"><td class="memItemLeft" align="right" valign="top"><a id="a46657b2eab0ce0e71a5363a8abc5832c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SyncBody</b> ()</td></tr>
 <tr class="separator:a46657b2eab0ce0e71a5363a8abc5832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a277779b2e20c2caef40c409b739ddd97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a277779b2e20c2caef40c409b739ddd97">InitializeAnimation</a> (<a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b">Animator</a> animator)</td></tr>
+<tr class="memdesc:a277779b2e20c2caef40c409b739ddd97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures all the animation-related components based on a given Animator component. The Animator provides root motion data along  <a href="#a277779b2e20c2caef40c409b739ddd97">More...</a><br /></td></tr>
+<tr class="separator:a277779b2e20c2caef40c409b739ddd97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c31ab4bb119e1fccdb03a942ccd5fdb"><td class="memItemLeft" align="right" valign="top"><a id="a6c31ab4bb119e1fccdb03a942ccd5fdb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetIKWeights</b> ()</td></tr>
 <tr class="separator:a6c31ab4bb119e1fccdb03a942ccd5fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,15 +218,18 @@ Events</h2></td></tr>
 <tr class="memitem:a6d256ecbb03441e838bc6ba6c959895f"><td class="memItemLeft" align="right" valign="top">System.Action&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a6d256ecbb03441e838bc6ba6c959895f">OnPreSimulation</a></td></tr>
 <tr class="memdesc:a6d256ecbb03441e838bc6ba6c959895f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is called prior to the physics simulation.  <a href="#a6d256ecbb03441e838bc6ba6c959895f">More...</a><br /></td></tr>
 <tr class="separator:a6d256ecbb03441e838bc6ba6c959895f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a022a1efc8252766ea0a51e0b38c1dfc1"><td class="memItemLeft" align="right" valign="top"><a id="a022a1efc8252766ea0a51e0b38c1dfc1"></a>
+<tr class="memitem:a0e53e06331724df6e864f67c2383d08d"><td class="memItemLeft" align="right" valign="top">System.Action&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a0e53e06331724df6e864f67c2383d08d">OnPostSimulation</a></td></tr>
+<tr class="memdesc:a0e53e06331724df6e864f67c2383d08d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is called after the physics simulation.  <a href="#a0e53e06331724df6e864f67c2383d08d">More...</a><br /></td></tr>
+<tr class="separator:a0e53e06331724df6e864f67c2383d08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583ed18b23e86a2e2aa5f953950b1558"><td class="memItemLeft" align="right" valign="top"><a id="a583ed18b23e86a2e2aa5f953950b1558"></a>
 System.Action&lt; Vector3, Quaternion &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnAnimatorMoveEvent</b></td></tr>
-<tr class="separator:a022a1efc8252766ea0a51e0b38c1dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a021ea949c129a340540c499e6cf92a75"><td class="memItemLeft" align="right" valign="top"><a id="a021ea949c129a340540c499e6cf92a75"></a>
+<tr class="separator:a583ed18b23e86a2e2aa5f953950b1558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8cb4fea8e20625df52c6790420b7b1"><td class="memItemLeft" align="right" valign="top"><a id="afa8cb4fea8e20625df52c6790420b7b1"></a>
 System.Action&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnAnimatorIKEvent</b></td></tr>
-<tr class="separator:a021ea949c129a340540c499e6cf92a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:afa8cb4fea8e20625df52c6790420b7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A physics actor represents a custom 2D/3D interpolated rigidbody. </p>
+<div class="textblock"><p>A physics-based actor that represents a custom 2D/3D interpolated rigidbody. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af39e71556f090d66c3b2e4a81100c33e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af39e71556f090d66c3b2e4a81100c33e">&#9670;&nbsp;</a></span>RootMotionRotationType</h2>
@@ -284,6 +290,35 @@ System.Action&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 <tr><td class="fieldname"><a id="a28cd876bf8b1b8c4cf82d19e65d35b72abaeb50906a2421f9e814dee549a057d0"></a>SetVerticalVelocity&#160;</td><td class="fielddoc"><p>The root motion velocity will be applied as vertical velocity. </p>
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a277779b2e20c2caef40c409b739ddd97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a277779b2e20c2caef40c409b739ddd97">&#9670;&nbsp;</a></span>InitializeAnimation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lightbug.CharacterControllerPro.Core.PhysicsActor.InitializeAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2d03dded94061ad441c99cdfec53026b">Animator</a>&#160;</td>
+          <td class="paramname"><em>animator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configures all the animation-related components based on a given Animator component. The Animator provides root motion data along </p>
 
 </div>
 </div>
@@ -361,6 +396,22 @@ System.Action&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
+<a id="a0e53e06331724df6e864f67c2383d08d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e53e06331724df6e864f67c2383d08d">&#9670;&nbsp;</a></span>OnPostSimulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Action&lt;float&gt; Lightbug.CharacterControllerPro.Core.PhysicsActor.OnPostSimulation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This event is called after the physics simulation. </p>
+
+</div>
+</div>
 <a id="a6d256ecbb03441e838bc6ba6c959895f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d256ecbb03441e838bc6ba6c959895f">&#9670;&nbsp;</a></span>OnPreSimulation</h2>
 

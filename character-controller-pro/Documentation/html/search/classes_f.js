@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['uiinputhandler',['UIInputHandler',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_u_i_input_handler.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
-  ['unityinputhandler',['UnityInputHandler',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_unity_input_handler.html',1,'Lightbug::CharacterControllerPro::Implementation']]]
+  ['teleporter',['Teleporter',['../class_teleporter.html',1,'']]],
+  ['trigger',['Trigger',['../struct_lightbug_1_1_utilities_1_1_trigger.html',1,'Lightbug::Utilities']]]
 ];

@@ -1,15 +1,16 @@
 var struct_lightbug_1_1_utilities_1_1_contact =
 [
-    [ "Set", "struct_lightbug_1_1_utilities_1_1_contact.html#a7c3e9ded522c54612065e975952a0cd6", null ],
-    [ "Set", "struct_lightbug_1_1_utilities_1_1_contact.html#ac56b6b13a948d9cc4e42377036f6d526", null ],
-    [ "collider2D", "struct_lightbug_1_1_utilities_1_1_contact.html#a62520f4313e5369eb0f37fdfce08037e", null ],
-    [ "collider3D", "struct_lightbug_1_1_utilities_1_1_contact.html#aa3938dc6482cfe0d97dd9ef950376d2f", null ],
-    [ "firstContact", "struct_lightbug_1_1_utilities_1_1_contact.html#a9b43fa423f2ad50bca24c638e9bc2ba1", null ],
-    [ "gameObject", "struct_lightbug_1_1_utilities_1_1_contact.html#a8a83aba31c67cd7bc7fd896d48cd2107", null ],
-    [ "isKinematicRigidbody", "struct_lightbug_1_1_utilities_1_1_contact.html#abc2f93e6ab5fa2f8d67a8cefc503f173", null ],
-    [ "isRigidbody", "struct_lightbug_1_1_utilities_1_1_contact.html#abf42c406200de71062e4be995305b7db", null ],
-    [ "normal", "struct_lightbug_1_1_utilities_1_1_contact.html#a1d457694022b63c13ce7928b0988cdb2", null ],
-    [ "point", "struct_lightbug_1_1_utilities_1_1_contact.html#a649f1d694db8cd12ff21baa7544c13fe", null ],
-    [ "pointVelocity", "struct_lightbug_1_1_utilities_1_1_contact.html#a1252de3383213e55c636f9c9245b699b", null ],
-    [ "relativeVelocity", "struct_lightbug_1_1_utilities_1_1_contact.html#a249a28112f6ac3878c8c7cb158f8137f", null ]
+    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#a1853d4b28bebf13620ba813319026bf4", null ],
+    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#aa26c37c65babde75f654e962a4e7aa2c", null ],
+    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#af04ee1a9f06a63320fc5a0ffc2629da7", null ],
+    [ "collider2D", "struct_lightbug_1_1_utilities_1_1_contact.html#a4c5d29929ab84747aaa619fe6ba14e7d", null ],
+    [ "collider3D", "struct_lightbug_1_1_utilities_1_1_contact.html#a4894dc8b8d4fb5c0d033f5edc776c6c3", null ],
+    [ "firstContact", "struct_lightbug_1_1_utilities_1_1_contact.html#af78ae7a93b67d10c3bcd586b0f531550", null ],
+    [ "gameObject", "struct_lightbug_1_1_utilities_1_1_contact.html#a8e4c11bac61d2630cccb2cd5f46a4c7a", null ],
+    [ "isKinematicRigidbody", "struct_lightbug_1_1_utilities_1_1_contact.html#a6ff78392e0b64e7c6c36f484001640b6", null ],
+    [ "isRigidbody", "struct_lightbug_1_1_utilities_1_1_contact.html#a7617d9ce335dc5c71115a55701d49b6f", null ],
+    [ "normal", "struct_lightbug_1_1_utilities_1_1_contact.html#a03e9aa6ceb5443a7e0683b41de334ed4", null ],
+    [ "point", "struct_lightbug_1_1_utilities_1_1_contact.html#a3227faf50c82bb2d6c403c560173527a", null ],
+    [ "pointVelocity", "struct_lightbug_1_1_utilities_1_1_contact.html#a23d7568bf4e06c90d554835d3f243b05", null ],
+    [ "relativeVelocity", "struct_lightbug_1_1_utilities_1_1_contact.html#a7a0dd3761f8715abe7aa4b59c487c2e8", null ]
 ];

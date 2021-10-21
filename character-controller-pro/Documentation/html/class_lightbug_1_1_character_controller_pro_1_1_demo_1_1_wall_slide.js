@@ -27,6 +27,5 @@ var class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide =
     [ "wallClimbHorizontalSpeed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a9ac353b0b826dedd60928b25f3ab888a", null ],
     [ "wallClimbVerticalSpeed", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a8df65da45fe77d19137d5ac9bddaec8a", null ],
     [ "wallJump", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#a30fe68b08b1143259ca36713eb51babc", null ],
-    [ "wallTag", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#afb4e54a44e9db95ce578545efc239066", null ],
-    [ "width", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#aa470f17df33457b40ca73e37b31cfbdd", null ]
+    [ "wallTag", "class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_wall_slide.html#afb4e54a44e9db95ce578545efc239066", null ]
 ];

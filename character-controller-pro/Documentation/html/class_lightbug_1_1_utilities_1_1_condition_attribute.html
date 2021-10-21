@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.6</span>
+   &#160;<span id="projectnumber">1.3.8</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -112,7 +112,8 @@ Public Types</h2></td></tr>
 <b>IsEqualTo</b>, 
 <br />
 &#160;&#160;<b>IsLessThan</b>, 
-<b>HasReference</b>
+<b>IsNotNull</b>, 
+<b>IsNull</b>
 <br />
  }</td></tr>
 <tr class="separator:aa1231c9cce5ad91082c665cbf0f44f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,27 +127,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a864588f53c5708329767c3c15fb6ae08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_condition_attribute.html#a864588f53c5708329767c3c15fb6ae08">ConditionAttribute</a> (string conditionPropertyName, ConditionType conditionType, VisibilityType visibilityType=VisibilityType.Hidden, float conditionValue=0f)</td></tr>
 <tr class="memdesc:a864588f53c5708329767c3c15fb6ae08"><td class="mdescLeft">&#160;</td><td class="mdescRight">This attribute will determine the visibility of the target property based on some other property condition. Use this attribute if the target property depends on some other property inside the class.  <a href="#a864588f53c5708329767c3c15fb6ae08">More...</a><br /></td></tr>
 <tr class="separator:a864588f53c5708329767c3c15fb6ae08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7354801543b98d019cc476c221f1816"><td class="memItemLeft" align="right" valign="top"><a id="ad7354801543b98d019cc476c221f1816"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ConditionAttribute</b> (string conditionAPropertyName, string conditionBPropertyName, ConditionType conditionType, VisibilityType visibilityType=VisibilityType.Hidden, float conditionValue=0f)</td></tr>
-<tr class="separator:ad7354801543b98d019cc476c221f1816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8435879fb7688ab81155492878b056b"><td class="memItemLeft" align="right" valign="top"><a id="ad8435879fb7688ab81155492878b056b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ConditionAttribute</b> (string[] conditionPropertyNames, ConditionType[] conditionTypes, float[] conditionValues, VisibilityType visibilityType=VisibilityType.Hidden)</td></tr>
+<tr class="separator:ad8435879fb7688ab81155492878b056b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a80acae904f4edcc36bbabbf64ccf9bf1"><td class="memItemLeft" align="right" valign="top"><a id="a80acae904f4edcc36bbabbf64ccf9bf1"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>conditionAPropertyName</b> = null</td></tr>
-<tr class="separator:a80acae904f4edcc36bbabbf64ccf9bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ae5b25be06cee30cc448646331608b"><td class="memItemLeft" align="right" valign="top"><a id="a09ae5b25be06cee30cc448646331608b"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>conditionBPropertyName</b> = null</td></tr>
-<tr class="separator:a09ae5b25be06cee30cc448646331608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8e4fd15b840c6313adfe5b3fb7d4a5"><td class="memItemLeft" align="right" valign="top"><a id="a8c8e4fd15b840c6313adfe5b3fb7d4a5"></a>
-ConditionType&#160;</td><td class="memItemRight" valign="bottom"><b>conditionType</b></td></tr>
-<tr class="separator:a8c8e4fd15b840c6313adfe5b3fb7d4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9506d528ec5e971b527700d17cd5c8a"><td class="memItemLeft" align="right" valign="top"><a id="ac9506d528ec5e971b527700d17cd5c8a"></a>
+string []&#160;</td><td class="memItemRight" valign="bottom"><b>conditionPropertyNames</b></td></tr>
+<tr class="separator:ac9506d528ec5e971b527700d17cd5c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18329e741b54ec22e2143ebde27078f6"><td class="memItemLeft" align="right" valign="top"><a id="a18329e741b54ec22e2143ebde27078f6"></a>
+ConditionType []&#160;</td><td class="memItemRight" valign="bottom"><b>conditionTypes</b></td></tr>
+<tr class="separator:a18329e741b54ec22e2143ebde27078f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51482bd77df3261479f75978efd3123c"><td class="memItemLeft" align="right" valign="top"><a id="a51482bd77df3261479f75978efd3123c"></a>
+float []&#160;</td><td class="memItemRight" valign="bottom"><b>values</b></td></tr>
+<tr class="separator:a51482bd77df3261479f75978efd3123c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9a079a853a096df08e07f44ad302229"><td class="memItemLeft" align="right" valign="top"><a id="ab9a079a853a096df08e07f44ad302229"></a>
 VisibilityType&#160;</td><td class="memItemRight" valign="bottom"><b>visibilityType</b></td></tr>
 <tr class="separator:ab9a079a853a096df08e07f44ad302229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea6031eff0520781922f88d401bd784"><td class="memItemLeft" align="right" valign="top"><a id="abea6031eff0520781922f88d401bd784"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>value</b></td></tr>
-<tr class="separator:abea6031eff0520781922f88d401bd784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a864588f53c5708329767c3c15fb6ae08"></a>

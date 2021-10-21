@@ -28,7 +28,7 @@ var searchData=
   ['collidercomponent',['ColliderComponent',['../class_lightbug_1_1_utilities_1_1_collider_component.html',1,'Lightbug::Utilities']]],
   ['collidercomponent2d',['ColliderComponent2D',['../class_lightbug_1_1_utilities_1_1_collider_component2_d.html',1,'Lightbug::Utilities']]],
   ['collidercomponent3d',['ColliderComponent3D',['../class_lightbug_1_1_utilities_1_1_collider_component3_d.html',1,'Lightbug::Utilities']]],
-  ['collisioninfo',['CollisionInfo',['../struct_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html',1,'Lightbug::CharacterControllerPro::Core']]],
+  ['collisioninfo',['CollisionInfo',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html',1,'Lightbug::CharacterControllerPro::Core']]],
   ['conditionattribute',['ConditionAttribute',['../class_lightbug_1_1_utilities_1_1_condition_attribute.html',1,'Lightbug::Utilities']]],
   ['contact',['Contact',['../struct_lightbug_1_1_utilities_1_1_contact.html',1,'Lightbug::Utilities']]],
   ['conveyorbeltplatform',['ConveyorBeltPlatform',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_conveyor_belt_platform.html',1,'Lightbug::CharacterControllerPro::Demo']]],

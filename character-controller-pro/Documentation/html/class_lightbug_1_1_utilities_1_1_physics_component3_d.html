@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Character Controller Pro
-   &#160;<span id="projectnumber">1.3.6</span>
+   &#160;<span id="projectnumber">1.3.8</span>
    </div>
    <div id="projectbrief">A 2D/3D character controller asset for the Unity Engine.</div>
   </td>
@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_lightbug_1_1_utilities_1_1_physi
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_lightbug_1_1_utilities_1_1_physics_component3_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbug.Utilities.PhysicsComponent3D Class Reference</div>  </div>
@@ -110,33 +111,39 @@ Inheritance diagram for Lightbug.Utilities.PhysicsComponent3D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a74f49aa5f0dd61423a9ea702b0a8e8b5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a74f49aa5f0dd61423a9ea702b0a8e8b5">IgnoreCollision</a> (<a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, bool ignore)</td></tr>
-<tr class="memdesc:a74f49aa5f0dd61423a9ea702b0a8e8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignores the collision between this object and some other collider.  <a href="#a74f49aa5f0dd61423a9ea702b0a8e8b5">More...</a><br /></td></tr>
-<tr class="separator:a74f49aa5f0dd61423a9ea702b0a8e8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3998bbcf5b09a3896bb0471416c90fe9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a3998bbcf5b09a3896bb0471416c90fe9">IgnoreCollision</a> (in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, bool ignore)</td></tr>
+<tr class="memdesc:a3998bbcf5b09a3896bb0471416c90fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignores the collision between this object and some other collider.  <a href="#a3998bbcf5b09a3896bb0471416c90fe9">More...</a><br /></td></tr>
+<tr class="separator:a3998bbcf5b09a3896bb0471416c90fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e0339e3309cb928fd4bc60735f7e89"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a39e0339e3309cb928fd4bc60735f7e89">IgnoreLayerCollision</a> (int targetLayer, bool ignore)</td></tr>
 <tr class="memdesc:a39e0339e3309cb928fd4bc60735f7e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignores the collision between this object and a layer.  <a href="#a39e0339e3309cb928fd4bc60735f7e89">More...</a><br /></td></tr>
 <tr class="separator:a39e0339e3309cb928fd4bc60735f7e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad86dc25d3a508cd9bba230089befa2b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#aad86dc25d3a508cd9bba230089befa2b">IgnoreLayerMaskCollision</a> (LayerMask layerMask, bool ignore)</td></tr>
 <tr class="memdesc:aad86dc25d3a508cd9bba230089befa2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignores the collision between this object and a layer mask.  <a href="#aad86dc25d3a508cd9bba230089befa2b">More...</a><br /></td></tr>
 <tr class="separator:aad86dc25d3a508cd9bba230089befa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e930d77b173ab94d2370f5ffad7bcb"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a51e930d77b173ab94d2370f5ffad7bcb">Raycast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 origin, Vector3 castDisplacement, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:a51e930d77b173ab94d2370f5ffad7bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raycast wrapper for 2D/3D physics.  <a href="#a51e930d77b173ab94d2370f5ffad7bcb">More...</a><br /></td></tr>
-<tr class="separator:a51e930d77b173ab94d2370f5ffad7bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc8de8a46147743a706bedfc00631d2"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#aafc8de8a46147743a706bedfc00631d2">CapsuleCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 bottom, Vector3 top, float radius, Vector3 castDisplacement, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:aafc8de8a46147743a706bedfc00631d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">CapsuleCast wrapper for 2D/3D physics.  <a href="#aafc8de8a46147743a706bedfc00631d2">More...</a><br /></td></tr>
-<tr class="separator:aafc8de8a46147743a706bedfc00631d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9492bcf576a488a6909d693d2f54b3c"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#af9492bcf576a488a6909d693d2f54b3c">SphereCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 center, float radius, Vector3 castDisplacement, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:af9492bcf576a488a6909d693d2f54b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SphereCast wrapper for 2D/3D physics.  <a href="#af9492bcf576a488a6909d693d2f54b3c">More...</a><br /></td></tr>
-<tr class="separator:af9492bcf576a488a6909d693d2f54b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56e78b2ca8ae3decd587e265edc5d34c"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a56e78b2ca8ae3decd587e265edc5d34c">BoxCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 center, Vector3 size, Vector3 castDisplacement, Quaternion orientation, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:a56e78b2ca8ae3decd587e265edc5d34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">BoxCast wrapper for 2D/3D physics.  <a href="#a56e78b2ca8ae3decd587e265edc5d34c">More...</a><br /></td></tr>
-<tr class="separator:a56e78b2ca8ae3decd587e265edc5d34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25e0bb8054fd7d0247980d034f376bbc"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a25e0bb8054fd7d0247980d034f376bbc">OverlapSphere</a> (Vector3 center, float radius, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:a25e0bb8054fd7d0247980d034f376bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">OverlapSphere wrapper for 2D/3D physics.  <a href="#a25e0bb8054fd7d0247980d034f376bbc">More...</a><br /></td></tr>
-<tr class="separator:a25e0bb8054fd7d0247980d034f376bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe48a96e014e95723330efb4c0ccfa9"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#afbe48a96e014e95723330efb4c0ccfa9">OverlapCapsule</a> (Vector3 bottom, Vector3 top, float radius, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="memdesc:afbe48a96e014e95723330efb4c0ccfa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">OverlapCapsule wrapper for 2D/3D physics.  <a href="#afbe48a96e014e95723330efb4c0ccfa9">More...</a><br /></td></tr>
-<tr class="separator:afbe48a96e014e95723330efb4c0ccfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb40e38636c6c6cda0eb645680b2198"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a9bb40e38636c6c6cda0eb645680b2198">SimpleRaycast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 origin, Vector3 castDisplacement, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a9bb40e38636c6c6cda0eb645680b2198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raycast wrapper for 2D/3D physics.  <a href="#a9bb40e38636c6c6cda0eb645680b2198">More...</a><br /></td></tr>
+<tr class="separator:a9bb40e38636c6c6cda0eb645680b2198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f1763e8da40cff947342b491fdcf289"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a3f1763e8da40cff947342b491fdcf289">Raycast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 origin, Vector3 castDisplacement, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a3f1763e8da40cff947342b491fdcf289"><td class="mdescLeft">&#160;</td><td class="mdescRight">RaycastAll wrapper for 2D/3D physics.  <a href="#a3f1763e8da40cff947342b491fdcf289">More...</a><br /></td></tr>
+<tr class="separator:a3f1763e8da40cff947342b491fdcf289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5725ee5ecd1f2c42cdaa847b9413a084"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a5725ee5ecd1f2c42cdaa847b9413a084">CapsuleCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 bottom, Vector3 top, float radius, Vector3 castDisplacement, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a5725ee5ecd1f2c42cdaa847b9413a084"><td class="mdescLeft">&#160;</td><td class="mdescRight">CapsuleCastAll wrapper for 2D/3D physics.  <a href="#a5725ee5ecd1f2c42cdaa847b9413a084">More...</a><br /></td></tr>
+<tr class="separator:a5725ee5ecd1f2c42cdaa847b9413a084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fd1b228521ffa2278ffb8f37bf4b1c"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a42fd1b228521ffa2278ffb8f37bf4b1c">SphereCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 center, float radius, Vector3 castDisplacement, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a42fd1b228521ffa2278ffb8f37bf4b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SphereCastAll wrapper for 2D/3D physics.  <a href="#a42fd1b228521ffa2278ffb8f37bf4b1c">More...</a><br /></td></tr>
+<tr class="separator:a42fd1b228521ffa2278ffb8f37bf4b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a599203e65408369db4532343339391bb"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a599203e65408369db4532343339391bb">BoxCast</a> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 center, Vector3 size, Vector3 castDisplacement, Quaternion orientation, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a599203e65408369db4532343339391bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">BoxCastAll wrapper for 2D/3D physics. It returns (by reference) the closest hit.  <a href="#a599203e65408369db4532343339391bb">More...</a><br /></td></tr>
+<tr class="separator:a599203e65408369db4532343339391bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd443f75d93ec04b3b29c5f841771b99"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#acd443f75d93ec04b3b29c5f841771b99">BoxCast</a> (Vector3 center, Vector3 size, Vector3 castDisplacement, Quaternion orientation, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:acd443f75d93ec04b3b29c5f841771b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">BoxCastAll wrapper for 2D/3D physics. It doesn't return any particular hit, instead, it updates all the hits from the buffer (<a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> array). This buffer can be obtained via the HitsBuffer property.  <a href="#acd443f75d93ec04b3b29c5f841771b99">More...</a><br /></td></tr>
+<tr class="separator:acd443f75d93ec04b3b29c5f841771b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250a06085a304f9092cdbd91c9c89cba"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a250a06085a304f9092cdbd91c9c89cba">OverlapSphere</a> (Vector3 center, float radius, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a250a06085a304f9092cdbd91c9c89cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">OverlapSphere wrapper for 2D/3D physics.  <a href="#a250a06085a304f9092cdbd91c9c89cba">More...</a><br /></td></tr>
+<tr class="separator:a250a06085a304f9092cdbd91c9c89cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76de8e65992a73ee9e12e2f6340513a7"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a76de8e65992a73ee9e12e2f6340513a7">OverlapCapsule</a> (Vector3 bottom, Vector3 top, float radius, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="memdesc:a76de8e65992a73ee9e12e2f6340513a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">OverlapCapsule wrapper for 2D/3D physics.  <a href="#a76de8e65992a73ee9e12e2f6340513a7">More...</a><br /></td></tr>
+<tr class="separator:a76de8e65992a73ee9e12e2f6340513a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_lightbug_1_1_utilities_1_1_physics_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_lightbug_1_1_utilities_1_1_physics_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html">Lightbug.Utilities.PhysicsComponent</a></td></tr>
 <tr class="memitem:a00fd7280c7600020e8afd0c550f0804b inherit pub_methods_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top"><a id="a00fd7280c7600020e8afd0c550f0804b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearContacts</b> ()</td></tr>
@@ -156,9 +163,31 @@ override LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>GetColl
 <tr class="memitem:a3cf3244992aee6aa7a4a9927e110b3c4"><td class="memItemLeft" align="right" valign="top"><a id="a3cf3244992aee6aa7a4a9927e110b3c4"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>IgnoreOverlappedColliders</b> (LayerMask ignoredLayerMask)</td></tr>
 <tr class="separator:a3cf3244992aee6aa7a4a9927e110b3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86dfc9c3e548231bd998d6119900b6b6"><td class="memItemLeft" align="right" valign="top"><a id="a86dfc9c3e548231bd998d6119900b6b6"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>GetClosestHit</b> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 castDisplacement, <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
-<tr class="separator:a86dfc9c3e548231bd998d6119900b6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26e43699e20e1d44a24ec0679a3dfdb"><td class="memItemLeft" align="right" valign="top"><a id="ab26e43699e20e1d44a24ec0679a3dfdb"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>GetClosestHit</b> (out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> hitInfo, Vector3 castDisplacement, in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a> filter)</td></tr>
+<tr class="separator:ab26e43699e20e1d44a24ec0679a3dfdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a2a2d7e3af137f0e6e7fcbaecb2aff430"><td class="memItemLeft" align="right" valign="top">Rigidbody&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#a2a2d7e3af137f0e6e7fcbaecb2aff430">Rigidbody</a> = null<code> [get]</code></td></tr>
+<tr class="memdesc:a2a2d7e3af137f0e6e7fcbaecb2aff430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Rigidbody associated with this object.  <a href="#a2a2d7e3af137f0e6e7fcbaecb2aff430">More...</a><br /></td></tr>
+<tr class="separator:a2a2d7e3af137f0e6e7fcbaecb2aff430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33213cc931059f9794fdb01cba4350f"><td class="memItemLeft" align="right" valign="top">Collider []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component3_d.html#af33213cc931059f9794fdb01cba4350f">Colliders</a> = null<code> [get]</code></td></tr>
+<tr class="memdesc:af33213cc931059f9794fdb01cba4350f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an array with all the colliders associated with this object.  <a href="#af33213cc931059f9794fdb01cba4350f">More...</a><br /></td></tr>
+<tr class="separator:af33213cc931059f9794fdb01cba4350f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_lightbug_1_1_utilities_1_1_physics_component"><td colspan="2" onclick="javascript:toggleInherit('properties_class_lightbug_1_1_utilities_1_1_physics_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html">Lightbug.Utilities.PhysicsComponent</a></td></tr>
+<tr class="memitem:ab389089aae352a5f9d1d251de194790a inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top"><a id="ab389089aae352a5f9d1d251de194790a"></a>
+<a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>HitsBuffer</b> = new <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a>[20]<code> [get, protected set]</code></td></tr>
+<tr class="separator:ab389089aae352a5f9d1d251de194790a inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870">Contacts</a> = new List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&gt;(20)<code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list with all the current contacts.  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870">More...</a><br /></td></tr>
+<tr class="separator:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_trigger.html">Trigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712">Triggers</a> = new List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_trigger.html">Trigger</a>&gt;(20)<code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list with all the current triggers.  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712">More...</a><br /></td></tr>
+<tr class="separator:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588">CollisionLayerMask</a> = 0<code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a layer mask with all the valid collisions associated with the object, based on the collision matrix (physics settings).  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588">More...</a><br /></td></tr>
+<tr class="separator:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -176,22 +205,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreCollisionMessag
 <tr class="memitem:aa3c91ec6a582a318a8340339a263586a inherit pro_attribs_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top"><a id="aa3c91ec6a582a318a8340339a263586a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = false</td></tr>
 <tr class="separator:aa3c91ec6a582a318a8340339a263586a inherit pro_attribs_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_lightbug_1_1_utilities_1_1_physics_component"><td colspan="2" onclick="javascript:toggleInherit('properties_class_lightbug_1_1_utilities_1_1_physics_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html">Lightbug.Utilities.PhysicsComponent</a></td></tr>
-<tr class="memitem:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870">Contacts</a> = new List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_contact.html">Contact</a>&gt;(20)<code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list with all the current contacts.  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab458f074b179a0dedd4de26bad6b6870">More...</a><br /></td></tr>
-<tr class="separator:ab458f074b179a0dedd4de26bad6b6870 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_lightbug_1_1_utilities_1_1_trigger.html">Trigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712">Triggers</a> = new List&lt;<a class="el" href="struct_lightbug_1_1_utilities_1_1_trigger.html">Trigger</a>&gt;(20)<code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list with all the current triggers.  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#ac683ad75fbed43e9c4e3961797a2e712">More...</a><br /></td></tr>
-<tr class="separator:ac683ad75fbed43e9c4e3961797a2e712 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588">CollisionLayerMask</a> = 0<code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a layer mask with all the valid collisions associated with the object, based on the collision matrix (physics settings).  <a href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c17567555329f6fd1929321d2b80588">More...</a><br /></td></tr>
-<tr class="separator:a2c17567555329f6fd1929321d2b80588 inherit properties_class_lightbug_1_1_utilities_1_1_physics_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An implementation of a <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html" title="This component is an encapsulation of the Physics and Physics2D classes, that serves as a physcics ut...">PhysicsComponent</a> for 3D physics. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a56e78b2ca8ae3decd587e265edc5d34c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56e78b2ca8ae3decd587e265edc5d34c">&#9670;&nbsp;</a></span>BoxCast()</h2>
+<a id="a599203e65408369db4532343339391bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a599203e65408369db4532343339391bb">&#9670;&nbsp;</a></span>BoxCast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,7 +251,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -248,14 +267,72 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 </table>
 </div><div class="memdoc">
 
-<p>BoxCast wrapper for 2D/3D physics. </p>
+<p>BoxCastAll wrapper for 2D/3D physics. It returns (by reference) the closest hit. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ad927dbba13b912962c96588d7378033d">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a4b505e9087dd42ac1eb7f7a9fa48a739">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
-<a id="aafc8de8a46147743a706bedfc00631d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc8de8a46147743a706bedfc00631d2">&#9670;&nbsp;</a></span>CapsuleCast()</h2>
+<a id="acd443f75d93ec04b3b29c5f841771b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd443f75d93ec04b3b29c5f841771b99">&#9670;&nbsp;</a></span>BoxCast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override int Lightbug.Utilities.PhysicsComponent3D.BoxCast </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>castDisplacement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Quaternion&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramname"><em>filter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>BoxCastAll wrapper for 2D/3D physics. It doesn't return any particular hit, instead, it updates all the hits from the buffer (<a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a> array). This buffer can be obtained via the HitsBuffer property. </p>
+
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ab352d500e2091485f765fcb6e89e560a">Lightbug.Utilities.PhysicsComponent</a>.</p>
+
+</div>
+</div>
+<a id="a5725ee5ecd1f2c42cdaa847b9413a084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5725ee5ecd1f2c42cdaa847b9413a084">&#9670;&nbsp;</a></span>CapsuleCast()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +373,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -312,14 +389,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 </table>
 </div><div class="memdoc">
 
-<p>CapsuleCast wrapper for 2D/3D physics. </p>
+<p>CapsuleCastAll wrapper for 2D/3D physics. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a3b15aa88ab6bb955d8724eb0d72fde89">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a631585afda8eae8694a8f93821debfc1">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
-<a id="a74f49aa5f0dd61423a9ea702b0a8e8b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74f49aa5f0dd61423a9ea702b0a8e8b5">&#9670;&nbsp;</a></span>IgnoreCollision()</h2>
+<a id="a3998bbcf5b09a3896bb0471416c90fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3998bbcf5b09a3896bb0471416c90fe9">&#9670;&nbsp;</a></span>IgnoreCollision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +407,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="memname">override void Lightbug.Utilities.PhysicsComponent3D.IgnoreCollision </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a>&#160;</td>
           <td class="paramname"><em>hitInfo</em>, </td>
         </tr>
         <tr>
@@ -354,7 +431,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 
 <p>Ignores the collision between this object and some other collider. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ad5430a0fcb4ce39bd6b0553610d20a81">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a0627d1b3cd689cf849dc51eec0d159d9">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
@@ -438,8 +515,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 
 </div>
 </div>
-<a id="afbe48a96e014e95723330efb4c0ccfa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbe48a96e014e95723330efb4c0ccfa9">&#9670;&nbsp;</a></span>OverlapCapsule()</h2>
+<a id="a76de8e65992a73ee9e12e2f6340513a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76de8e65992a73ee9e12e2f6340513a7">&#9670;&nbsp;</a></span>OverlapCapsule()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +545,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -486,12 +563,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 
 <p>OverlapCapsule wrapper for 2D/3D physics. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#aaa0e160a2b62527fc545061599ea56a7">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#ae0900eaa1eb239ea14ad1dd90448e2c1">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
-<a id="a25e0bb8054fd7d0247980d034f376bbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25e0bb8054fd7d0247980d034f376bbc">&#9670;&nbsp;</a></span>OverlapSphere()</h2>
+<a id="a250a06085a304f9092cdbd91c9c89cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a250a06085a304f9092cdbd91c9c89cba">&#9670;&nbsp;</a></span>OverlapSphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +591,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -532,12 +609,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 
 <p>OverlapSphere wrapper for 2D/3D physics. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a6e2ae95acfaad2f57c9509f6317d5807">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a06f2ccf08f8c52788ab5e62c4f7ab7fa">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
-<a id="a51e930d77b173ab94d2370f5ffad7bcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51e930d77b173ab94d2370f5ffad7bcb">&#9670;&nbsp;</a></span>Raycast()</h2>
+<a id="a3f1763e8da40cff947342b491fdcf289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1763e8da40cff947342b491fdcf289">&#9670;&nbsp;</a></span>Raycast()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +643,59 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramname"><em>filter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RaycastAll wrapper for 2D/3D physics. </p>
+
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a2c4039bd59431d86c3e57c344b730166">Lightbug.Utilities.PhysicsComponent</a>.</p>
+
+</div>
+</div>
+<a id="a9bb40e38636c6c6cda0eb645680b2198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb40e38636c6c6cda0eb645680b2198">&#9670;&nbsp;</a></span>SimpleRaycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool Lightbug.Utilities.PhysicsComponent3D.SimpleRaycast </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info.html">HitInfo</a>&#160;</td>
+          <td class="paramname"><em>hitInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>origin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>castDisplacement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -584,12 +713,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 
 <p>Raycast wrapper for 2D/3D physics. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a8f5e0db658bd02990ebb0ceae540c4ec">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a41fba47604600561c12e9747545319f8">Lightbug.Utilities.PhysicsComponent</a>.</p>
 
 </div>
 </div>
-<a id="af9492bcf576a488a6909d693d2f54b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9492bcf576a488a6909d693d2f54b3c">&#9670;&nbsp;</a></span>SphereCast()</h2>
+<a id="a42fd1b228521ffa2278ffb8f37bf4b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42fd1b228521ffa2278ffb8f37bf4b1c">&#9670;&nbsp;</a></span>SphereCast()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -624,7 +753,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
+          <td class="paramtype">in <a class="el" href="struct_lightbug_1_1_utilities_1_1_hit_info_filter.html">HitInfoFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em>&#160;</td>
         </tr>
         <tr>
@@ -640,9 +769,58 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>wasKinematic</b> = fa
 </table>
 </div><div class="memdoc">
 
-<p>SphereCast wrapper for 2D/3D physics. </p>
+<p>SphereCastAll wrapper for 2D/3D physics. </p>
 
-<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#af27e8e693d6ec747205441440f736169">Lightbug.Utilities.PhysicsComponent</a>.</p>
+<p>Implements <a class="el" href="class_lightbug_1_1_utilities_1_1_physics_component.html#a228628a43bc56be23d59e82d8c94fa07">Lightbug.Utilities.PhysicsComponent</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="af33213cc931059f9794fdb01cba4350f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33213cc931059f9794fdb01cba4350f">&#9670;&nbsp;</a></span>Colliders</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider [] Lightbug.Utilities.PhysicsComponent3D.Colliders = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets an array with all the colliders associated with this object. </p>
+
+</div>
+</div>
+<a id="a2a2d7e3af137f0e6e7fcbaecb2aff430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2d7e3af137f0e6e7fcbaecb2aff430">&#9670;&nbsp;</a></span>Rigidbody</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody Lightbug.Utilities.PhysicsComponent3D.Rigidbody = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the Rigidbody associated with this object. </p>
 
 </div>
 </div>
