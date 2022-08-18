@@ -11,8 +11,6 @@
 
 <body>
 
-    
-
     <nav class = "navigationBar">
         <ul>
             <li><a href="description.html">Welcome</a></li>
@@ -22,13 +20,57 @@
             <li><a class="active" href="releases.html">Releases</a></li>
         </ul> 
     </nav>
-
     
     
     <div class = "navigationBody">
-        
-        
+                
         <h1>Releases</h1> 
+
+        <button type = "button" class="release" id="risk">1.4.0</button>
+        <div class="foldout-content">
+
+            <h3>Note: This update is not as "aggressive" as previous features updates and might be considered as a "low risk" update in general (with a few relevant changes). A very short upgrade guide has been included (<i>OPEN ME</i> folder) which contains some useful information about the new changes.</h3>
+
+            <h4>Added</h4>
+            <ul>     
+                <li><i>Apply weight</i> layer mask.</li>
+                <li>Character-vs-Character detection. Now it is possible to exclude characters from being detected as stable surfaces.</li>
+                <li>Rotation-based acceleration boost (NormalMovement). This allows you to control the amount of movement acceleration based on the angle between current direction and desired direction.</li>                
+                <li>New <i>SetBodySize, CheckBodySize</i> and <i>CheckAndSetBodySize</i> size-oriented methods.</li>
+                <li>New <i>SetRotation, RotateYaw, RotatePitch, RotateRoll, TurnAround, RotateAround</i> and <i>SetYaw</i> rotation-oriented methods.</li>
+                <li>New <i>HasBecomeGrounded, HasBecomeStable, HasBecomeNotGrounded</i> and <i>HasBecomeUnstable</i> properties for CharacterActor.</li>
+                <li><i>IsAnimatorValid</i> method from CharacterActor.</li>
+                <li><i>Mini Planet</i> scene</li>      
+                <li><i>SpriteRotator</i> component</li>
+                <li><i>StepLerper</i> and <i>RotationLerper</i> components (previously integrated within <i>Graphics Root Controller</i>)</li>
+
+            </ul>
+
+            <h4>Changed</h4>   
+                       
+            <ul>   
+                <li>Rotation for a 2D actor has been changed internally in order to fix some unpredictable behaviors. Before this change, a 2D character couldn't do yaw rotation at all since <i>transform.forward = Vector3.forward</i> always. With this new change, <i>forward</i> is directly represented by <i>transform.right</i>.</li>
+                <li>Size interpolation has been moved out from the CharacterActor component. Now the user is free to change this property however he/she wants. Some new functions added to the actor will make this transition easy for the user. 
+                    <br>The NormalMovement component now implements this functionality just like in previous versions (See Crouch and StandUp methods from NormalMovement).</li>
+                <li>Interpolation reset functionality. In previous versions, it was necessary to change the position/rotation value to the desired value <b>before</b> calling the reset. That way, the target will be updated properly with the current position/rotation. 
+                    <br>With this update there is no need to consider the order. A reset call will set an internal flag so that the interpolation target will match with the resulting <i>Position</i> and/or <i>Rotation</i>.</li>
+                <li><i>PreCharacterSimulation</i> and <i>PostCharacterSimulation</i> methods (<i>CharacterStateController</i>) don't check for the Animator component anymore. Now it is necessary to do a manual check (e.g. using <i>CharacterActor.IsAnimatorValid</i>) if the user want to get the same functionality as before.</li>
+                <li>The <i>Graphics Root Controller</i> component is now obsolete. It has been separated into two new components called <i>Step Lerper</i> and <i>Rotation Lerper</i>.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>      
+                <li>Landing on a fast moving platform caused the character character to project its own planar velocity onto it. This ended up adding an unnatural amount of velocity to the character. The planar velocity component is now compared at the moment of landing and removed in order to match the platform velocity.</li>
+                <li>When stepping out of a moving platform, the character wasn't affected by the platform velocity.</li>
+                <li>Character rotation in 2D wasn't working as expected, especially when performing 180 degrees rotation.</li>
+                <li>Character actions timers (e.g. <i>StartedElapsedTime</i>, <i>ActiveTime</i>, etc) weren't being updated properly.</li>
+                <li>A high velocity non-convex platform could hit the character really hard, causing it to fly away due to a powerful physics response.</li>
+                <li>Penetration issues after <i>PostSimulationUpdate</i> while being affected by moving plaforms. A de-penetration method is now involved.</li>
+                <li>The CharacterStateController state machine wasn't able to "wait" for the <i>initial state</i> to meet the required conditions (initial state active, enabled and not null). This meant that the FSM was capable of doing a only one successful start during the Start message. <br>From now on, the FSM will wait until the required conditions are correct.</li>
+                <li>Camera2D component rotation issues.</li>
+            </ul>
+
+        </div>
 
         <button type = "button" class="release" id="safe">1.3.8</button>
         <div class="foldout-content">
