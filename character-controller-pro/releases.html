@@ -55,7 +55,8 @@
                 <li>Interpolation reset functionality. In previous versions, it was necessary to change the position/rotation value to the desired value <b>before</b> calling the reset. That way, the target will be updated properly with the current position/rotation. 
                     <br>With this update there is no need to consider the order. A reset call will set an internal flag so that the interpolation target will match with the resulting <i>Position</i> and/or <i>Rotation</i>.</li>
                 <li><i>PreCharacterSimulation</i> and <i>PostCharacterSimulation</i> methods (<i>CharacterStateController</i>) don't check for the Animator component anymore. Now it is necessary to do a manual check (e.g. using <i>CharacterActor.IsAnimatorValid</i>) if the user want to get the same functionality as before.</li>
-                <li>The <i>Graphics Root Controller</i> component is now obsolete. It has been separated into two new components called <i>Step Lerper</i> and <i>Rotation Lerper</i>.</li>
+                <li>The <i>Graphics Root Controller</i> component is now obsolete. It has been properly separated into two new components called <i>Step Lerper</i> and <i>Rotation Lerper</i>.</li>
+                <li>The previous <i>OneWayPlatform</i> component (introduced in 1.3.7) has been renamed to <i>DynamicOneWayPlatform</i>.</li>
             </ul>
                                     
             <h4>Fixed</h4>                
