@@ -26,6 +26,30 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.1</button>
+        <div class="foldout-content">
+
+            <h4>Added</h4>
+            <ul>
+                <li><i>Reset velocity on teleport</i> (CharacterActor). In previous versions, after a teleport was called, the actor had to reset its velocity. Now it is possible to ignore this behaviour if needed. This is enabled by default for compatibility reasons.</li>
+                <li>New information (3D rotation) added to the upgrade guide.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>  
+                <li>The interpolation targets reset code has been changed in order to allow breaking interpolation during <i>Update</i>. In previous versions, triggering a reset was possible only during <i>FixedUpdate</i>. This change also allows you to Teleport an actor during Update, something that was not possible with previous versions.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>      
+                <li>AI behaviours caused the brain to stop working due to a null reference exception.</li>
+                <li>Enabling and disabling an interpolated actor caused the actor to jump to the last interpolation target.</li>
+                <li>Enabling and Disabling interpolation through the inspector caused the actor to jump to the last interpolation target.</li>
+                <li>Landing on a moving platform for just one frame (e.g. classic jump buffering mechanic) caused the actor to gain an extremely high velocity.</li>
+                <li>When landing on a one way platform, the planar velocity was reduced due to a projection error. This was noticeable when the actor was running.</li>
+            </ul>
+
+        </div>
         <button type = "button" class="release" id="risk">1.4.0</button>
         <div class="foldout-content">
 
