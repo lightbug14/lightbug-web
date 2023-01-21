@@ -25,6 +25,25 @@
     <div class = "navigationBody">
                 
         <h1>Releases</h1> 
+
+        <button type = "button" class="release" id="safe">1.4.3</button>
+        <div class="foldout-content">
+
+            
+            <h4>Changed</h4>                
+            <ul>  
+                <li>CharacterActor's <i>ToString</i> implementation has been removed. It would seem 3rd party assets (e.g. Playmaker) do call ToString a lot. Use <i>GetCharacterInfo</i> instead.</li>
+                <li>Inspector fields (CharacterActor) have been re-arranged in order to keep things a bit more clean and easy to find.</li>
+            </ul>
+                                    
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Overlaps tests (PhysicsComponent) weren't excluding the body from the results. This caused issues such as inter-penetration with obstacles, failed overlap tests, and probably more.</li>
+                <li>The character could phase through the ceiling while climbing up steps. In order to prevent this situation, "prevent bad steps" now performs an overlap test.</li>
+                <li>The recently modified Trigger struct was causing some warning messages on the console due to the IEquatable interface implementation.</li>
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.2</button>
         <div class="foldout-content">
 
@@ -545,7 +564,7 @@
             <h4>Fixed</h4>                
             <ul>
                 <li>Multiple characters under a same root: Multiple characters were not detecting its own components (states, brain, actions, etc) when being under a same root object (e.g. "CharacterA" and "CharacterB" as children of "Root")</li>
-                <li>Input manager handler: The old input system handler now catches any exception caused by not setting up the demo project (input not defined). If for some strange reason the user missed the readme file and/or welcome screen messages (it could happen), then a warning message should appear in the console.</li>
+                <li>Input manager handler: The old input system handler now catches any exception caused by not setting up the demo project (input not defined). If for some strange reason the user missed the readme file and/or welcome screen messages (it could happen), then a warning message should appear on the console.</li>
             </ul>
         </div>
         
@@ -580,7 +599,7 @@
 
             <h4>Fixed</h4>                
             <ul>
-                <li>External movement reference: A null external movement reference (CharacterStateController) was causing a null reference exception, with no warning mentioning the cause. Now it should at least print a warning in the console (without any null reference exception).</li>
+                <li>External movement reference: A null external movement reference (CharacterStateController) was causing a null reference exception, with no warning mentioning the cause. Now it should at least print a warning on the console (without any null reference exception).</li>
                 <li>Transitions: The state machine was skipping one element of the transition queue everytime (the "for" loop was replaced with a "while").</li>
             </ul>
         </div>
