@@ -149,7 +149,7 @@
             <h4>Fixed</h4>                
             <ul>      
                 <li>The <i>ExitBehaviour</i> method from <i>CharacterAIBehaviour</i> wasn't being called by the <i>CharacterBrain</i> component.</li>
-                <li>Landing on a fast moving platform caused the character character to project its own planar velocity onto it. This ended up adding an unnatural amount of velocity to the character. The planar velocity component is now compared at the moment of landing and removed in order to match the platform velocity.</li>
+                <li>Landing on a fast moving platform caused the character to project its own planar velocity onto it. This ended up adding an unnatural amount of velocity to the character. The planar velocity component is now compared at the moment of landing and removed in order to match the platform velocity.</li>
                 <li>When stepping out of a moving platform, the character velocity wasn't affected by the platform.</li>
                 <li>Character rotation in 2D wasn't working as expected, especially when performing 180 degrees rotation.</li>
                 <li>Character actions timers (e.g. <i>StartedElapsedTime</i>, <i>ActiveTime</i>, etc) weren't being updated properly.</li>
