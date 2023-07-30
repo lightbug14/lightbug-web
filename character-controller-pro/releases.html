@@ -26,6 +26,28 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.7</button>
+        <div class="foldout-content">
+            <h4>Added</h4>                
+            <ul>
+                <li>Update mode to the <i>CharacterBrain</i> component. Now, the brain supports actions that can be consumed either during <i>FixedUpdate</i> (default behaviour) or <i>Update</i>.</li>
+                <li>(Demo)Initialization public method to the Camera3D component.</li>
+            </ul>        
+            <h4>Changed</h4>                
+            <ul>
+                <li>Custom editors for <i>CharacterBrain</i> and <i>CharacterBody</i> have been removed in order to allow prefab changes to be visible in the inspector.</li>
+                <li>Most character flags, such as <i>IsStable</i>, <i>IsGrounded</i>, <i>HasBecomeGrounded</i>, and so on, have been re-worked in order to fix small issues and to improve performance.</li>
+                <li>The abstract class <i>CharacterCollisions</i>, previously a plain C# class, is now a <i>MonoBehaviour</i>.</li>
+                <li>(Demo) Dash's <i>CancelOnContact</i> now checks for the existence of wall contacts instead of comparing the <i>PointVelocity</i> magnitude of the contact with a threshold.</li>
+            </ul>    
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Small collision detection issues.</li>
+                <li>The local velocity value used by the OnGroundedStateEnter and OnStableStateEnter events wasn't correct.</li>
+                <li><i>CharacterActionsAssetEditor</i> could find and replace any file with the name <i>CharacterActions</i> by ignoring the file extension.</li>
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.6</button>
         <div class="foldout-content">
                                     
