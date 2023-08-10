@@ -26,6 +26,20 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.8</button>
+        <div class="foldout-content">
+            <h4>Added</h4>                
+            <ul>
+                <li><i>SetInputHandler</i> public method to <i>CharacterBrain</i>. This allows you to set any input handler at runtime.</li>
+            </ul>   
+            <h4>Fixed</h4>                
+            <ul>
+                <li>A compiler error in Unity 2023.1. This error was caused by a change made to the Animator update mode.</li>
+                <li>Warning messages, only visible in Unity 2023.1, caused by some API changes.</li>
+                <li>The character collision detection code was not considering colliders affected by the <i>IgnoreCollision</i> API (e.g. <i>Physics.IgnoreCollision</i>).</li>
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.7</button>
         <div class="foldout-content">
             <h4>Added</h4>                
