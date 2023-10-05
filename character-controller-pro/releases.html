@@ -26,11 +26,22 @@
                 
         <h1>Releases</h1> 
 
-        <button type = "button" class="release" id="safe">1.4.8</button>
+        <button type = "button" class="release" id="safe">1.4.9</button>
         
 
         <div class="foldout-content">
-            <h3>Note: If you are experiencing some errors when building the project, hit the <i>Re-Download</i> button in the package manager in order to get the latest uploaded package. This problem has been fixed only 10 minutes after the original upload, so it is highly probable that no one will be affected by this.</h3>
+                          
+            <h4>Fixed</h4>                
+            <ul>
+                <li>The character forward rotation produced by ground movement (<i>rotateForwardDirection</i>) was not working.</li>
+                <li>Characters detected penetration with children colliders while being on top of moving platforms.</li>
+            </ul>
+        </div>
+
+        <button type = "button" class="release" id="safe">1.4.8</button>
+        
+
+        <div class="foldout-content">            
             <h4>Added</h4>                
             <ul>
                 <li><i>SetInputHandler</i> public method to <i>CharacterBrain</i>. This allows you to set any input handler at runtime.</li>
