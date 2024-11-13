@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['helpboxattribute',['HelpBoxAttribute',['../class_lightbug_1_1_utilities_1_1_help_box_attribute.html',1,'Lightbug::Utilities']]],
-  ['hitinfo',['HitInfo',['../struct_lightbug_1_1_utilities_1_1_hit_info.html',1,'Lightbug::Utilities']]],
-  ['hitinfofilter',['HitInfoFilter',['../struct_lightbug_1_1_utilities_1_1_hit_info_filter.html',1,'Lightbug::Utilities']]]
+  ['floataction_0',['FloatAction',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_float_action.html',1,'Lightbug::CharacterControllerPro::Implementation']]]
 ];

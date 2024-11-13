@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['point',['point',['../struct_lightbug_1_1_utilities_1_1_contact.html#a3227faf50c82bb2d6c403c560173527a',1,'Lightbug::Utilities::Contact']]],
-  ['pointvelocity',['pointVelocity',['../struct_lightbug_1_1_utilities_1_1_contact.html#a23d7568bf4e06c90d554835d3f243b05',1,'Lightbug::Utilities::Contact']]]
+  ['skinwidth_0',['SkinWidth',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ac5c316cffb0f0418387258738dbb5a9b',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
 ];

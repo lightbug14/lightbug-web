@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['offsettedbottomcenter',['OffsettedBottomCenter',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a460c70bc59d4a617ec9c6c65573d8fbf',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['mass_0',['Mass',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html#a591fcad0de3115889fc258a6d35c48a8',1,'Lightbug::CharacterControllerPro::Core::CharacterBody']]],
+  ['movementreferenceforward_1',['MovementReferenceForward',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af7996f17552d8ac73e33bc5f1e192368',1,'Lightbug.CharacterControllerPro.Implementation.CharacterStateController.MovementReferenceForward()'],['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#a2232be4bca3b0b0b512ea14088c0627c',1,'Lightbug.CharacterControllerPro.Implementation.MovementReferenceParameters.MovementReferenceForward()']]],
+  ['movementreferenceright_2',['MovementReferenceRight',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a6e679e588461dcfb9ffbfe6bc4926df4',1,'Lightbug.CharacterControllerPro.Implementation.CharacterStateController.MovementReferenceRight()'],['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#a5d3ed88370025dc42bcf6e650724f594',1,'Lightbug.CharacterControllerPro.Implementation.MovementReferenceParameters.MovementReferenceRight()']]]
 ];

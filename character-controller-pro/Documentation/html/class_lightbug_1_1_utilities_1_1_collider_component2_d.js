@@ -1,9 +1,6 @@
 var class_lightbug_1_1_utilities_1_1_collider_component2_d =
 [
-    [ "Awake", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#a8105d1afe189dbadfb82b02a015c139d", null ],
-    [ "OnDisable", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#af8b111bce302fe616fc2ec934ad98ce0", null ],
-    [ "OnEnable", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#a4613d4a928f9c98e1235b3faaf37351c", null ],
-    [ "collider", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#aac9dd1e58b5a64bdaaeddeb5c4fe0d2e", null ],
-    [ "ContactOffset", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#ac3afd371da0ebe8b19af7577a82bebd9", null ],
-    [ "Material", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#a423d513dadab0d3ae31e16aaf5fea7ce", null ]
+    [ "ComputePenetration", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#acea1b0ac295ab1436ad1c0e93918f8e8", null ],
+    [ "ComputePenetrationVector", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#a66f497fa9c114ddc619759ba9908b9be", null ],
+    [ "OverlapBody", "class_lightbug_1_1_utilities_1_1_collider_component2_d.html#a4c35dd3886dd11b8b1131d6012642bc7", null ]
 ];

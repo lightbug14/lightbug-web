@@ -1,20 +1,16 @@
 var searchData=
 [
-  ['charactercontrollerpro',['CharacterControllerPro',['../namespace_lightbug_1_1_character_controller_pro.html',1,'Lightbug']]],
-  ['core',['Core',['../namespace_lightbug_1_1_character_controller_pro_1_1_core.html',1,'Lightbug::CharacterControllerPro']]],
-  ['demo',['Demo',['../namespace_lightbug_1_1_character_controller_pro_1_1_demo.html',1,'Lightbug::CharacterControllerPro']]],
-  ['implementation',['Implementation',['../namespace_lightbug_1_1_character_controller_pro_1_1_implementation.html',1,'Lightbug::CharacterControllerPro']]],
-  ['ladder',['Ladder',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['ladderclimbing',['LadderClimbing',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ladder_climbing.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['lastactivetime',['LastActiveTime',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_bool_action.html#aba3efa11bdf9ae5faac0894605c83073',1,'Lightbug::CharacterControllerPro::Implementation::BoolAction']]],
-  ['lastinactivetime',['LastInactiveTime',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_bool_action.html#a61aeffe202be78e9fea82a5d63b579d5',1,'Lightbug::CharacterControllerPro::Implementation::BoolAction']]],
-  ['ledgehanging',['LedgeHanging',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_ledge_hanging.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['left',['Left',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#a17aff4e590153a6ad1c2450c693a741f',1,'Lightbug::CharacterControllerPro::Implementation::Vector2Action']]],
-  ['lightbug',['Lightbug',['../namespace_lightbug.html',1,'']]],
-  ['linerendererutility',['LineRendererUtility',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_line_renderer_utility.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['localplanarvelocity',['LocalPlanarVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a47100b4e2e8fd1c29d01def89c44f9fe',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['localvelocity',['LocalVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a03463abdb16dcb6a59dc42c07f7dc02b',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['lookattarget',['LookAtTarget',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_look_at_target.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['lookingdirectionparameters',['LookingDirectionParameters',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_looking_direction_parameters.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['utilities',['Utilities',['../namespace_lightbug_1_1_utilities.html',1,'Lightbug']]]
+  ['mass_0',['Mass',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_body.html#a591fcad0de3115889fc258a6d35c48a8',1,'Lightbug::CharacterControllerPro::Core::CharacterBody']]],
+  ['maxedgeangle_1',['MaxEdgeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aefa672b624da2c280712034f3a225b3f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxpostsimulationslideiterations_2',['MaxPostSimulationSlideIterations',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#af8aea13ef52d90423ad7ccf6e91015e0',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxslideiterations_3',['MaxSlideIterations',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0ad6e610c50d72fef72c108ff71e7db9',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxstepangle_4',['MaxStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad069af28c6ac892be12dd57c9c6d6297',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxunstablegroundcontacttime_5',['MaxUnstableGroundContactTime',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad286f2304a2c2c0ef8a67df0042b6322',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['minedgeangle_6',['MinEdgeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa9d22e0a5aa2ae180094d85a38976181',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['minstepangle_7',['MinStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a01deecfd762aa7fa2478cf95d0da000f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['move_8',['Move',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a2128aacdc501322216ac9bacaa9e6555',1,'Lightbug.CharacterControllerPro.Core.PhysicsActor.Move()'],['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#ad926ec65a4a0c176c74cc6e00cb46b93',1,'Lightbug.Utilities.RigidbodyComponent.Move(Vector3 position)']]],
+  ['moveandrotate_9',['MoveAndRotate',['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#a452330580082f6f15a65de848ab48ac3',1,'Lightbug::Utilities::RigidbodyComponent']]],
+  ['movementreferenceforward_10',['MovementReferenceForward',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#af7996f17552d8ac73e33bc5f1e192368',1,'Lightbug.CharacterControllerPro.Implementation.CharacterStateController.MovementReferenceForward()'],['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#a2232be4bca3b0b0b512ea14088c0627c',1,'Lightbug.CharacterControllerPro.Implementation.MovementReferenceParameters.MovementReferenceForward()']]],
+  ['movementreferenceparameters_11',['MovementReferenceParameters',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
+  ['movementreferenceright_12',['MovementReferenceRight',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_state_controller.html#a6e679e588461dcfb9ffbfe6bc4926df4',1,'Lightbug.CharacterControllerPro.Implementation.CharacterStateController.MovementReferenceRight()'],['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#a5d3ed88370025dc42bcf6e650724f594',1,'Lightbug.CharacterControllerPro.Implementation.MovementReferenceParameters.MovementReferenceRight()']]]
 ];

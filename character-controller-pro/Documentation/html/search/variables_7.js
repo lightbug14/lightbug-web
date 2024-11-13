@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['headangle',['HeadAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a25be034f3f81c5ff68728602b463db51',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['headcollision',['HeadCollision',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aecd4b2d7ec027ed032165cd6fdc3359b',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['headcontact',['HeadContact',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a509fc104ebce700c5264fce76f4e2f4a',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['headcontactminangle',['HeadContactMinAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a6ba82a973aaa9f9e41c6986a2e9a99af',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
-  ['headcontacts',['HeadContacts',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#afe70b54f3a467b2af1cf6716a41239c6',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['hitinfo',['hitInfo',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html#ad097092220cfc25c7ca592e9ef22bcb2',1,'Lightbug::CharacterControllerPro::Core::CollisionInfo']]]
+  ['maxedgeangle_0',['MaxEdgeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aefa672b624da2c280712034f3a225b3f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxpostsimulationslideiterations_1',['MaxPostSimulationSlideIterations',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#af8aea13ef52d90423ad7ccf6e91015e0',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxslideiterations_2',['MaxSlideIterations',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a0ad6e610c50d72fef72c108ff71e7db9',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxstepangle_3',['MaxStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad069af28c6ac892be12dd57c9c6d6297',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['maxunstablegroundcontacttime_4',['MaxUnstableGroundContactTime',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad286f2304a2c2c0ef8a67df0042b6322',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['minedgeangle_5',['MinEdgeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa9d22e0a5aa2ae180094d85a38976181',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['minstepangle_6',['MinStepAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#a01deecfd762aa7fa2478cf95d0da000f',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]]
 ];

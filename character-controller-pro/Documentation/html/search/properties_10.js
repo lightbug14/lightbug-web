@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['velocity',['Velocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#adeaf9593395abd57769ec6a8c64e1e7c',1,'Lightbug.CharacterControllerPro.Core.CharacterActor.Velocity()'],['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f',1,'Lightbug.Utilities.RigidbodyComponent.Velocity()']]],
-  ['verticalvelocity',['VerticalVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaefe204f3505f9c1491c04121a7abb99',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['up_0',['Up',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a4657441c4451e8cfb541198c63200c08',1,'Lightbug.CharacterControllerPro.Core.PhysicsActor.Up()'],['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#aef6e536281510f13ed28f6e51a3485b7',1,'Lightbug.CharacterControllerPro.Implementation.Vector2Action.Up()']]]
 ];

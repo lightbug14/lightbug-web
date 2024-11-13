@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['value',['value',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_bool_action.html#ad07274fd3a95b10ec5589c1e3c2c263a',1,'Lightbug.CharacterControllerPro.Implementation.BoolAction.value()'],['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_float_action.html#a61f2df1eed39de871a981f16a676ccbc',1,'Lightbug.CharacterControllerPro.Implementation.FloatAction.value()'],['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html#ae39064a3af84c10ad540ffdcec162687',1,'Lightbug.CharacterControllerPro.Implementation.Vector2Action.value()']]],
-  ['vector2action',['Vector2Action',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_vector2_action.html',1,'Lightbug::CharacterControllerPro::Implementation']]],
-  ['velocity',['Velocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#adeaf9593395abd57769ec6a8c64e1e7c',1,'Lightbug.CharacterControllerPro.Core.CharacterActor.Velocity()'],['../class_lightbug_1_1_utilities_1_1_rigidbody_component.html#af987264a62e1899cdd58912941ea4b3f',1,'Lightbug.Utilities.RigidbodyComponent.Velocity()']]],
-  ['verticalalignmentsettings',['VerticalAlignmentSettings',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_vertical_alignment_settings.html',1,'Lightbug::CharacterControllerPro::Core']]],
-  ['verticaldirectionmodifier',['VerticalDirectionModifier',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['verticaldirectionmodifier2d',['VerticalDirectionModifier2D',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier2_d.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['verticaldirectionmodifier3d',['VerticalDirectionModifier3D',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_direction_modifier3_d.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['verticalmovementparameters',['VerticalMovementParameters',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_vertical_movement_parameters.html',1,'Lightbug::CharacterControllerPro::Demo']]],
-  ['verticalvelocity',['VerticalVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aaefe204f3505f9c1491c04121a7abb99',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['volume',['Volume',['../class_lightbug_1_1_character_controller_pro_1_1_demo_1_1_volume.html',1,'Lightbug::CharacterControllerPro::Demo']]]
+  ['wallangle_0',['WallAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#abc53ae37808188ded03a7131d49399db',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['wallcollision_1',['WallCollision',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acf691828cbdaf36a7423655caa9d7260',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['wallcontact_2',['WallContact',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b5bb5f16c394d609357580fba31c7d3',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['wallcontactangletolerance_3',['WallContactAngleTolerance',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#ad734a0ca9641985440a97e5ae7938281',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
+  ['wallcontacts_4',['WallContacts',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ae4c181dd64e1bd380c58f90b6292d75a',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['wasgrounded_5',['WasGrounded',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a144df98be92fb124131a54d01af51eac',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['wasstable_6',['WasStable',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af5b926f5b90d5ec380dd7dd7a2956c1f',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
 ];

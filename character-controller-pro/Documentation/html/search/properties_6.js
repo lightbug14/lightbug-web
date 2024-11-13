@@ -1,8 +1,21 @@
 var searchData=
 [
-  ['groundposition',['GroundPosition',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5b24d1b9a2f92a7eb1d9c344769a6390',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['groundprobingdisplacement',['GroundProbingDisplacement',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a052ee2e746ea4cc35a88a7fe676b77c6',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['groundrigidbodycomponent',['GroundRigidbodyComponent',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af5b0c7647eadd04bacf6dec194933aba',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['groundrotation',['GroundRotation',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ad5769d97454c8c7e510188d154530770',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['groundvelocity',['GroundVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['groundacceleration_0',['GroundAcceleration',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a02be07c3aa439f291ceb29ff4028bbb2',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundcollider2d_1',['GroundCollider2D',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8b0f34fddb20d7995a3b56aecbbd9307',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundcollider3d_2',['GroundCollider3D',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#acc62400549b670c4efa656c1f630fa53',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundcontactnormal_3',['GroundContactNormal',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a1f39c8bfe37f10fb03b5c525a082d504',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundcontactpoint_4',['GroundContactPoint',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a698468ad33d7ddad24bf3e12d882cee7',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundcontacts_5',['GroundContacts',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aeb3bbd4c7e24b72f928980147a7f21aa',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['grounddeltavelocity_6',['GroundDeltaVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a90c9733fcd728155039ef17cba02ab77',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundobject_7',['GroundObject',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a12986fa198d93f55e1132e48d784a5df',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundposition_8',['GroundPosition',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a3d437486cebb0d658d448701ba5bc707',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundprobingdisplacement_9',['GroundProbingDisplacement',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a052ee2e746ea4cc35a88a7fe676b77c6',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundrigidbody2d_10',['GroundRigidbody2D',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a6398cd2070f009bda0bbcfe8a3c41fe4',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundrigidbody3d_11',['GroundRigidbody3D',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aa8e33c48fdad9a3997bc4c661a7196a2',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundrigidbodycomponent_12',['GroundRigidbodyComponent',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#af5b0c7647eadd04bacf6dec194933aba',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundrotation_13',['GroundRotation',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a2d73acebbf2b00f1be8b9333ecf36fc4',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundslopeangle_14',['GroundSlopeAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ab0c31a6e6e99047dd2cf1a63ce130ec4',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundstablenormal_15',['GroundStableNormal',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a7c8d80946225929e766371a9c2e21dc0',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundtransform_16',['GroundTransform',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a8eac465099c6cf6a86b6446b09c9a571',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['groundvelocity_17',['GroundVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a9888f89f80fa10d69213da6d6cba4ac4',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
 ];

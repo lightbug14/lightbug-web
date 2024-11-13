@@ -1,8 +1,5 @@
 var struct_lightbug_1_1_utilities_1_1_contact =
 [
-    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#a1853d4b28bebf13620ba813319026bf4", null ],
-    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#aa26c37c65babde75f654e962a4e7aa2c", null ],
-    [ "Contact", "struct_lightbug_1_1_utilities_1_1_contact.html#af04ee1a9f06a63320fc5a0ffc2629da7", null ],
     [ "collider2D", "struct_lightbug_1_1_utilities_1_1_contact.html#a4c5d29929ab84747aaa619fe6ba14e7d", null ],
     [ "collider3D", "struct_lightbug_1_1_utilities_1_1_contact.html#a4894dc8b8d4fb5c0d033f5edc776c6c3", null ],
     [ "firstContact", "struct_lightbug_1_1_utilities_1_1_contact.html#af78ae7a93b67d10c3bcd586b0f531550", null ],

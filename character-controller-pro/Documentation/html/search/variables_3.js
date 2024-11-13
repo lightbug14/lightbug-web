@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['defaultbodysize',['DefaultBodySize',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aee7c5fc8935ef7eaf3a5c3bde2062d56',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['defaultgravity',['DefaultGravity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_constants.html#aa040c38b74808a41f35e2ae34647a916',1,'Lightbug::CharacterControllerPro::Core::CharacterConstants']]],
-  ['displacement',['displacement',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_collision_info.html#acfef9884055653933ad243221398c2c6',1,'Lightbug::CharacterControllerPro::Core::CollisionInfo']]]
+  ['firstcontact_0',['firstContact',['../struct_lightbug_1_1_utilities_1_1_contact.html#af78ae7a93b67d10c3bcd586b0f531550',1,'Lightbug.Utilities.Contact.firstContact()'],['../struct_lightbug_1_1_utilities_1_1_trigger.html#a471bee3a7b2e8fa0d33edbd9d82b5f0b',1,'Lightbug.Utilities.Trigger.firstContact()']]]
 ];

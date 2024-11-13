@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['inactivetime',['InactiveTime',['../struct_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_bool_action.html#a1b479b528258fb57f5ee6bffec4b83b9',1,'Lightbug::CharacterControllerPro::Implementation::BoolAction']]],
-  ['inputmovementreference',['InputMovementReference',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_movement_reference_parameters.html#abae056dbaeb87b69d6a517ee1e9f2e11',1,'Lightbug::CharacterControllerPro::Implementation::MovementReferenceParameters']]],
-  ['inputvelocity',['InputVelocity',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a21d7f91ea48612386d851a7508521126',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['interpolationfactor',['InterpolationFactor',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_physics_actor.html#a5a0d62a524ad7fea4866ca6ceaab85f8',1,'Lightbug::CharacterControllerPro::Core::PhysicsActor']]],
-  ['isai',['IsAI',['../class_lightbug_1_1_character_controller_pro_1_1_implementation_1_1_character_brain.html#a5d0a888e86c6f942e30288f5f21208a9',1,'Lightbug::CharacterControllerPro::Implementation::CharacterBrain']]],
-  ['isascending',['IsAscending',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#ae9ec41c8d124f97aaab8cbb56bffc096',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['isfalling',['IsFalling',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a99976020f1b9dab71cdb8426b4c617ea',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['isgroundakinematicrigidbody',['IsGroundAKinematicRigidbody',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a530a015c1fa27668604836f39507d34d',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['isgroundarigidbody',['IsGroundARigidbody',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a333d24592c950b14ea603ecf78370594',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
-  ['isstable',['IsStable',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a5a9d96fdb3bb273be790b5f3ca00f97f',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
+  ['hasbecomegrounded_0',['HasBecomeGrounded',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a73e13bfb24ebb071489361ee19d2ac41',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['hasbecomenotgrounded_1',['HasBecomeNotGrounded',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a715a0fc8889d08670bc80e817c92ad51',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['hasbecomestable_2',['HasBecomeStable',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a72e0c13c82b19a7468215817c0aaee14',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['hasbecomeunstable_3',['HasBecomeUnstable',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a3095343c029a587b5880d5dd36510527',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['headangle_4',['HeadAngle',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a25be034f3f81c5ff68728602b463db51',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['headcollision_5',['HeadCollision',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#aecd4b2d7ec027ed032165cd6fdc3359b',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['headcontact_6',['HeadContact',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#a509fc104ebce700c5264fce76f4e2f4a',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]],
+  ['headcontacts_7',['HeadContacts',['../class_lightbug_1_1_character_controller_pro_1_1_core_1_1_character_actor.html#afe70b54f3a467b2af1cf6716a41239c6',1,'Lightbug::CharacterControllerPro::Core::CharacterActor']]]
 ];
