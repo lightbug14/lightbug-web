@@ -47,7 +47,7 @@
                 <li>A message will appear if the simulation update mode is set to something different from FixedUpdate (only compatible mode).</li>
                 <li><i>CharacterStateController</i> was throwing a null reference when there wasn't a <i>CharacterBrain</i> present.</li>
                 <li><i>CharacterBrain</i> was throwing a null reference when the current AI behaviour was destroyed.</li>
-                <li>When disabling the CharacterBrain component, some flags weren't being property reset/initialized. This caused all kind of issues related to <i>StartedElapsedTime</i> and <i>CanceledElapsedTime</i>. <br>For example, after disabling the brain component, the (demo) character was able to jump over and over again when touching the ground.</li>
+                <li>When disabling the CharacterBrain component, some flags weren't being property reset/initialized. This caused all kind of issues related to <i>StartedElapsedTime</i> and <i>CanceledElapsedTime</i>.</li>
                 <li>The "welcome" screen didn't show up if the asset content was located somewhere different than the default location (e.g. <i>"Assets/Third party/Character Controller Pro"</i>).</li>
                 <li>(Demo) It was possible for the character to perform a "coyote time" jump by mistake while sliding down a steep (unstable) slope.</li>
             </ul>
