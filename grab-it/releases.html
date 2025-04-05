@@ -24,23 +24,28 @@
         
         <h1>Releases</h1> 
 
-        <!-- <div class="contentBox">
+        <div class="contentBox">
             <h2 >2.0.0</h2>
 
             <h4>Added</h4>
             <ul>
-                <li>New input system full support.</li>
-                <li>Assembly Definition: Now the entire asset is wrapped inside an assembly definition (file: <strong>com.lightbug.grab-it</strong>).</li>  
-                <li>InputActions were added to the FreeCamera component and GrabIt component. You can configure your own bindings (Mouse, Keyboard, Gamepad, etc).</li>
+                <li><b>Unity 6</b> support.</li>
+                <li><b>Unity's (new) input system</b> support.</li>
+                <li>Assembly Definition: Now the entire asset is contained within an assembly definition.</li>  
+                <li>Mass vs velocity influence curves for grabbing, rotating and throwing objects.</li>
+                <li>Events for <i>OnGrabStart</i>, <i>OnGrabEnd</i>, <i>OnRotationStart</i>, and so on.</li>
+                <li>New demo scene.</li>
             </ul>
 
             <h4>Changed</h4>                
             <ul>
-                <li>The old input system has been deprecated, the new input system is the default system instead</li> 
+                <li>The old input system (Input Manager) has been deprecated. From now on, the new input system package must be installed.</li> 
+                <li>The <i>Grabit</i> is now responsible for grabbing objects and nothing else. Any extra logic/mechanic involved must be implemented separately.</li>
+                <li>Most settings have been renamed and rearranged.</li>
             </ul>
 
             
-        </div> -->
+        </div>
 
         <div class="contentBox">
             <h2 >1.0.0</h2>
