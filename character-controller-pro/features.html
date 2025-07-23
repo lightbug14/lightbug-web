@@ -26,46 +26,42 @@
         <hr></hr>
         <span style="display:block; height:25px;"></span>
         
+           
+        
         <div class="contentBox">
             <h3>Core</h3>
 
-            <ul>            
-                <li>Rigidbody based (dynamic rigidbody).
-                <li>Precise control (like a kinematic rigidbody).
-                <li>Capsule body.
-                <li>2D & 3D physics.
-                <li>2D & 3D movement.
-                <li>Smooth step up and step down (a.k.a ground snapping).
-                <li>The character can walk over any slope (you can set the "slope limit" angle).
-                <li>The character can be resized at runtime.
-                <li>Moving/Rotating kinematic platforms support.
-                <li>Moving/Rotating dynamic platforms support.
-                <li>Collision information (ground normal, slope angle, edge detection, wall angle, etc.).
-                <li>Collision events.
-                <li>The character can be rotated in any direction.
-            </ul> 
+            <ul>
+                <li>(Dynamic) rigid body velocity-based character  controller.</li>
+                <li>Capsule body shape.</li>
+                <li>2D & 3D physics.</li>
+                <li>2D & 3D movement.</li>
+                <li>Smooth step up and step down (a.k.a ground snapping).</li>
+                <li>The character can walk over any valid slope (you can set the "slope limit" angle).</li>
+                <li>Moving/Rotating platform support (dynamic, kinematic or animated).</li>
+                <li>The character can be resized at runtime.</li>
+                <li>Collision information (ground normal, slope angle, edge detection, wall angle, etc.).</li>
+                <li>Collision events.</li>
+                <li>The character can be rotated in any direction.</li>
+                <li>Root motion support.</li>                
+                </ul>
         </div>
 
 
         <div class="contentBox">
             <h3>Implementation</h3>
 
-            <ul>
-                <li>State controller implemented as a finite state machine (FSM).
-                <li>Create your custom states for your character.             
-                <li>Action-based movement (for the Human and the AI), not tied to any input system.
-                
+            <ul>                
+                <li>State controller implemented as a finite state machine (FSM).</li>
+                <li>Brain component resposible for performing actions (Player/NPC modes)</li>
                 <li>Input detection for:</li>
-                    <ul>
-                        <li>Desktop (using the Unity's Input manager).
-                        <li>Mobile (using the Unity's UI system).
-                        <li>Custom solution (to be implemented by you).
-                    </ul>
+                <li>Desktop (using the Unity's Input manager).</li>
+                <li>Mobile (using the Unity's UI system).</li>
+                <li>Custom solution (to be implemented by you).</li>
                 <li>Create your custom AI behaviour components for your AI character.</li>
-                <li>Animation support for each state (optional).
-                <li>Root motion support.
-            </ul>
+                </ul>
     </div> 
+    
 
     <div class="contentBox">
         <h3>Demo</h3>

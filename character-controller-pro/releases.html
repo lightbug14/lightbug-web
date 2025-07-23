@@ -26,6 +26,21 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.13</button>   
+        <div class="foldout-content">                  
+            
+            <h4>Changed</h4>                
+            <ul>
+                <li>(Demo/NormalMovement) All the jump-related code has been changed/simplified.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Characters on top of moving platforms weren't able to filtering collisions properly (collision matrix).</li>       
+                <li>(Demo/NormalMovement) Because of the way the <i>pre grounded jumps</i> (a.k.a jump input buffering) were implemented in the past, it was possible to trigger multiple of them one after the other without requiring multiple <i>started</i> actions (e.g. pressing the jump key down). This undesired behaviour was noticeable when colliding with a low height ceiling right after making a jump.</li>  
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.12</button>   
         <div class="foldout-content">                  
             
