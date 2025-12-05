@@ -26,6 +26,32 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.14</button>   
+        <div class="foldout-content">                  
+            
+            <h4>Added</h4>                
+            <ul>
+                <li>PhysicsActor's <i>SetPitch</i> method.</li>
+                <li>CharacterActor's <i>IsColliderEnabled</i> property.</li>
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>
+                <li>Minimum editor version required is <b>2022.3.62f3</b>.</li>
+                <li>CharacterBody's <i>BodySize</i> now represents the current size value instead of the default/initial one.</li>
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>
+                <li>Characters were able to collide with obstacles even when the body collider component was disabled.</li>
+                <li>Step up distance didn't get validated at runtime causing grounding issues whenever the actor increased its width too much.</li>
+                <li>Ground trigger didn't modify its own width.</li>
+                <li>CharacterActor's <i>CheckAndInterpolateHeight</i> method was using the default/initial width as reference instead of the current width value.</li>       
+                <li>HelpBox attribute could cause a "You can only call GUI functions from inside OnGUI" warning message.</li>  
+                <li>Setting the pitch and yaw could sometimes cause some jittery results.</li>  
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.13</button>   
         <div class="foldout-content">                  
             
