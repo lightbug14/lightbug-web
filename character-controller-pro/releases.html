@@ -26,6 +26,25 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="safe">1.4.16</button>   
+        <div class="foldout-content">                  
+            <h4>Added</h4>                
+            <ul>
+                <li><i>multiplier</i> parameter to <i>SetYaw</i> and <i>SetPitch</i> methods (<i>PhysicsActor</i>). This factor determines the "amount" of rotation, between 0 and 1, applied to the body. By default this value is 1 (instant change).</li>  
+            </ul>
+
+            <h4>Changed</h4>                
+            <ul>
+                <li>The <i>PhysicsComponent</i> component now updates the character collision mask every frame. This can be useful if, for example, a character needs to ignore other objects at runtime.</li>  
+            </ul>
+
+            <h4>Fixed</h4>                
+            <ul>                
+                <li><i>CharacterDetector</i> code has been re-written in order to fix a small issue and also to avoid relying on the <i>GetInstanceID</i> method since it has become obsolete (Unity 6.5+).</li>  
+                <li>The "Tab to show" UI functionality wasn't working as expected in the <i>Character Scene</i> demo scene.</li>
+            </ul>
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.15</button>   
         <div class="foldout-content">                  
             
