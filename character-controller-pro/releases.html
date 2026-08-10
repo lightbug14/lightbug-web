@@ -26,6 +26,48 @@
                 
         <h1>Releases</h1> 
 
+        <button type = "button" class="release" id="risk">1.5.0</button>
+        <div class="foldout-content">
+
+            <h3>IMPORTANT: Importing the asset without deleting the asset folder before should work fine. However, <b>since this is a minor (risky) update, it is ALWAYS recommended to delete the entire <i>Character Controller Pro</i> folder before importing the package</b></h3>
+
+            <h3>The main goal with this release was to remove some of the initial friction users have reported when importing the asset. No initial setup is required now.</h3>
+
+            <h3><u>Inputs:</u> The most relevant change is that the (new) input system is the default input backend now. Compatibility with the (legacy) input manager remains intact, although all legacy-based components have been marked as obsolote.</h3>
+
+            <h3><u>Tags/Layers:</u> Components that previously relied on user-defined layers (e.g. "one way platforms" layer) and tags (e.g. "water", "ice", etc) have been modified. The goal was to replace this approach with better alternatives.</h3>
+            
+
+            <h4>Added</h4>
+            <ul>     
+                <li><code>InputSystemHandler</code> input handler based on the (new) input system.</li>
+                <li><code>CharacterActions</code> and <code>CameraActions</code> input action assets.</li>
+                <li><code>OneWayPlatform</code> component. This component can be used, in addition to the object layer, to identify one way platforms.</li>
+            </ul>
+
+            <h4>Changed</h4>                          
+            <ul>   
+                <li>All scenes have been adapted to work with the (new) input system. </li>
+                <li><code>HumanInputType</code> enum has been removed, and because of that, the <code>CharacterBrain</code> component only exposes an <code>InputHandlerSettings</code> field instead of a list of predefined handlers.<br>
+                The <code>InputHandlerSettings</code> field hasn't been removed <b>mainly for compatibility reasons</b></li>
+                <li>Materials (demo) do not rely on tags definition anymore. Now, each material is defined using components (<code>SurfaceBehaviour</code> and <code>VolumeBehaviour</code>) in combination with ScriptableObject assets (<code>SurfaceData</code> and <code>VolumeData)</code>.</li>
+                <li><code>MovementAction</code> and <code>RotationAction</code> (moving platforms) have been renamed to <code>PlatformMovementAction</code> and <code>PlatformRotationAction</code> respectively.</li>
+                <li><code>CustomUtilities.Multiply</code> is no longer being used by any scripts. This helps improve readability of the code overall.</li>
+            </ul>
+            
+            <h4>Fixed</h4>                
+            <ul>      
+                <li>Console warnings in Unity 6.4+.</li>
+                <li>Small prefab-related errors.</li>
+            </ul>
+
+            <h4>Removed</h4>                
+            <ul>      
+                <li>Baked lightmaps from demo scenes.</li>
+            </ul>
+
+        </div>
+
         <button type = "button" class="release" id="safe">1.4.16</button>   
         <div class="foldout-content">                  
             <h4>Added</h4>                
